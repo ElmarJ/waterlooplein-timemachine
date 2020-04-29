@@ -3,6 +3,10 @@
 
 Waterloo 3D is een reconstructie van het stratenpatroon van de Waterloopleinbuurt (destijds beter bekend als de _Joodenbuurt_) van rond 1870-1890. Het programma is bedoeld voor die mensen die (net als ik) altijd wat moeite hebben om zich voor te stellen hoe de buurt er nou ongeveer uit heeft gezien. Verwacht geen perfecte reconstructie, het belangrijkste doel is om een beetje een beeld te krijgen van waar nou de straten liepen en hoe de buurt in elkaar stak. Zo kun je over het Valkenburgereiland rondlopen, en dan via het Markenplein de Rapenburgerstraat uitlopen tot het Rapenburgerplein - allemaal plekken die nu niet meer bestaan of anders liggen. Wat je ziet is een gemodelleerde stad waarin het stratenpatroon en de locatie van de gebouwen echt is, maar de gevels en gebouwhoogten willekeurig gegenereerd. Verwacht dus niet je eigen huis in detail terug te vinden: waarschijnlijk staat er een gebouw met de juiste omvang maar de verkeerde gevel.
 
+## Wie?
+
+Dit is een privé-projectje van Elmar Jansen (twitter.com/elmarj). Omdat ik dacht dat er mogelijk meer geïnteresseerden zijn, heb ik het nu online gezet en de code beschikbaar gemaakt.
+
 ## Hoe werkt het?
 
 ### Installeren:
