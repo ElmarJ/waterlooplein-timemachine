@@ -9,6 +9,7 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
   version: 24
+  projectContext: 0
   mGraphInstanceData:
   - graphLabel: Brick_Wall
     prototypeName: Brick_Wall

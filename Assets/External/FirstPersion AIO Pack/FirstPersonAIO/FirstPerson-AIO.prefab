@@ -300,9 +300,8 @@ MonoBehaviour:
   enableCameraMovement: 1
   verticalRotationRange: 170
   mouseSensitivity: 10
-  mouseSensitivityInternal: 0
+  mouseSensitivityInternal: 10
   fOVToMouseSensitivity: 1
-  FOVToMouseInternal: 1
   cameraSmoothing: 5
   lockAndHideCursor: 1
   playerCamera: {fileID: 20724644957976244}
@@ -315,7 +314,7 @@ MonoBehaviour:
   walkByDefault: 1
   walkSpeed: 4
   sprintSpeed: 8
-  jumpPower: 5
+  jumpPower: 10
   canJump: 1
   canHoldJump: 0
   useStamina: 1
@@ -325,6 +324,7 @@ MonoBehaviour:
   staminaInternal: 0
   _crouchModifiers:
     useCrouch: 1
+    toggleCrouch: 0
     crouchKey: 306
     crouchWalkSpeedMultiplier: 0.5
     crouchJumpPowerMultiplier: 0
@@ -381,12 +381,11 @@ MonoBehaviour:
   dynamicFootstep:
     woodPhysMat: {fileID: 0}
     metalAndGlassPhysMat: {fileID: 0}
-    grassPhysMat: {fileID: 13400000, guid: 48bbde3049f29b247a56af17d2b0381f, type: 2}
+    grassPhysMat: {fileID: 0}
     dirtAndGravelPhysMat: {fileID: 0}
-    rockAndConcretePhysMat: {fileID: 13400000, guid: 8b2bc5d65b8a23249ac65e6a71b72204,
-      type: 2}
+    rockAndConcretePhysMat: {fileID: 0}
     mudPhysMat: {fileID: 0}
-    customPhysMat: {fileID: 13400000, guid: 607312263e6edad4293a3fd7bb6602cf, type: 2}
+    customPhysMat: {fileID: 0}
     currentClipSet: []
     woodClipSet: []
     metalAndGlassClipSet: []
