@@ -20,7 +20,8 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elma
 Een WebGL-versie die het direct doet in de browser is beschikbaar op https://waterlooplein3d.web.app/. Houd er rekening mee dat deze versie minder goed werkt dan de gedownloade versie, en nog steeds inhoudt dat je browser achter de schermen een bestand van 250mb downloadt.
 
 #### Mac
-Ik heb zelf niet de mogelijkheid een mac-versie te testen, maar zal er op korte termijn één beschikbaar maken (hopelijk werkt die dan).
+- Mac-versie is hier te downloaden: https://github.com/ElmarJ/Waterlooplein3D/releases/download/v0.1.0/mac.app.zip
+- Ik heb geen idee of het werkt, want ik heb zelf geen mac, maar wie weet!
 
 ### Besturen:
 - Rondlopen met A, S, D en W -toetsen.
