@@ -54,8 +54,8 @@ De structuur van de buurt komt uit gedigitaliseerde kaarten. Het werk aan deze (
 
 ### Programmeren (C# / Unity)
 De achterliggende code bestaat uit twee losse projecten, beide beschikbaar als open source:
-    - [Een project voor een Unity-plugin](https://github.com/ElmarJ/GeoJsonCityBuilder), waarmee automatisch objecten kunnen worden geplaatst en gecreëerd op basis van GeoJSON-data
-    - Dit Github-project voor de specifieke 3D reconstructie van de Waterloopleinbuurt / Amsterdam.
+- [Een project voor een Unity-plugin](https://github.com/ElmarJ/GeoJsonCityBuilder), waarmee automatisch objecten kunnen worden geplaatst en gecreëerd op basis van GeoJSON-data
+- Dit Github-project voor de specifieke 3D reconstructie van de Waterloopleinbuurt / Amsterdam.
 
 Code is nu nog wat ongestructureerd en weinig gedocumenteerd (typisch eenpersoonsproject). Mochten er mensen zin hebben om mee te doen dan ga ik graag even aan de slag met het opschonen en documenteren van de code!
 
