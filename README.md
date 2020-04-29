@@ -1,4 +1,5 @@
 # Waterlooplein 3D
+
 ![Screenshot Jodenbreestraat](https://github.com/ElmarJ/Waterlooplein3D/blob/master/Jodenbreestraat.png "Screenshot Jodenbreestraat")
 
 ## Wat is het?
@@ -11,19 +12,24 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elma
 
 ## Hoe werkt het?
 
-### Installeren:
-#### Windows (64 bits):
+### Installeren
+
+#### Windows (64 bits)
+
 - [Download het zip-bestand hier](https://github.com/ElmarJ/Waterlooplein3D/releases/download/v0.1.0/winx64.zip) (plm. 250 Mb) en pak het uit (bijvoorbeeld door er rechts op te klikken en te kiezen voor Alles uitpakken / Extract all).
 - Open de uitgepakte map en start het programma (Waterloo3D.exe).
 
 #### Mac
+
 - Mac-versie is hier te downloaden: https://github.com/ElmarJ/Waterlooplein3D/releases/download/v0.1.0/mac.app.zip
 - Ik heb geen idee of het werkt, want ik heb zelf geen mac, maar wie weet!
 
 #### Web (niet ideaal)
+
 Een WebGL-versie die het direct doet in de browser is beschikbaar op https://waterlooplein3d.web.app/. Houd er rekening mee dat deze versie minder goed werkt dan de gedownloade versie, en nog steeds inhoudt dat je browser achter de schermen een bestand van 250mb downloadt.
 
-### Besturen:
+### Besturen
+
 - Rondlopen met A, S, D en W -toetsen.
 - Rondkijken met muis
 - Afsluiten met ESC.
@@ -31,13 +37,6 @@ Een WebGL-versie die het direct doet in de browser is beschikbaar op https://wat
 ## Waarom?
 
 De Waterloopleinbuurt is de plek waar ik ben opgegroeid en waar ik nog altijd woon. Ik houd van deze plek, maar het is toch ook vooral een rare buurt. Op foto's is te zien wat een levendige en bijzondere buurt het tot de jaren '40 moet zijn geweest. Maar de moord op bijna al haar inwoners in de jaren 1940 gevolgd door de sloop van bijna alle woonblokken en de aanleg van verkeersaders en Stopera, hebben de buurt vervormd tot een raar lidteken in de stad. Zo lang ik me kan herinneren heb ik me afgevraagd hoe deze buurt er uit heeft gezien. Waar lag dat Markenplein? Hoe was het om door de Jodenhouttuinen te lopen? Waar liepen de straten op de plek waar nu de Stopera staat? Hoe zijn het Jonas Daniël Meijerplein en het Waterlooplein als er een gracht overheen loopt? Om m'n voorstellingsvermogen een handje te helpen heb ik een tijd terug een eenvoudig 3d-model van de buurt gemaakt, zodat ik zelf door de buurt kon lopen. Voor wie ook nieuwsgierig is, is hier het project te downloaden.
-
-## Vergelijkbare projecten
-Er zijn op dit moment meerdere organisaties bezig met vergelijkbare of verwante projecten. Hopelijk komen daar ofwel veel mooiere (en vrij beschikbare) simulaties uit of komt het werk van deze projecten beschikbaar zodat het op een later tijdstip verwerkt kan worden in dit project. Interessant zijn in ieder geval:
-
-- Het [4D Research Lab](http://4dresearchlab.nl/) van de Universiteit van Amsterdam. Ik heb begrepen dat ze op dit moment zelf bezig zijn met een (veel gedetailleerdere) 3D-reconstructie van de oude Jodenbuurt / Waterloopleinbuurt, in samenwerking met oa het Joods Historisch Museum. Mogelijk komen de achterliggende data en modellen op een later tijdstip open beschikbaar.
-- [Amsterdam Time Machine](https://amsterdamtimemachine.nl/) ([Github repo](https://github.com/CLARIAH/ATM)). Bezig met het beschikbaar maken van historische vectorkaarten, rasterkaarten en daarnaast ook met gedetailleerde, lokale 3D-reconstructies. Vooral de gevectoriseerde kadasterdata (van HisGis) biedt kansen - in ieder geval de mogelijkheid om snel een simpele reconstructie te maken van de hele 19e-eeuwse stad. [Volgens de website](https://amsterdamtimemachine.nl/hisgis/) wordt deze data binnenkort openbaar toegankelijk. Verder een project om een 3D-reconstructie te maken van de hele stad: [ziet er veelbelovend uit](https://amsterdamtimemachine.nl/historical-amsterdam-in-3d/).
-- [HisGIS](https://hisgis.nl/projecten/amsterdam/) voert een groot aantal historische GIS-projecten uit, waaronder een paar digitaliseringen van historisch Amsterdam.
   
 ## Toekomst
 
@@ -55,9 +54,11 @@ Ik hoor het graag als er animo is om bij te dragen, dan zet ik meer vaart achter
 Hulp is meer dan welkom!
 
 ### Uitbreiden en detailleren van de onderliggende kaarten 
+
 De structuur van de buurt komt uit gedigitaliseerde kaarten. Het werk aan deze (onder het 3D-model liggende) kaarten heb ik ondergebracht in een [apart open source project](https://github.com/ElmarJ/Amsterdam.1892.GeoJSON). Het bewerken kan redelijk eenvoudig in het open source GIS-programma QGIS.
 
 ### Programmeren (C# / Unity)
+
 De achterliggende code bestaat uit twee losse projecten, beide beschikbaar als open source:
 - [Een project voor een Unity-plugin](https://github.com/ElmarJ/GeoJsonCityBuilder), waarmee automatisch objecten kunnen worden geplaatst en gecreëerd op basis van GeoJSON-data
 - Dit Github-project voor de specifieke 3D reconstructie van de Waterloopleinbuurt / Amsterdam.
@@ -65,4 +66,13 @@ De achterliggende code bestaat uit twee losse projecten, beide beschikbaar als o
 Code is nu nog wat ongestructureerd en weinig gedocumenteerd (typisch eenpersoonsproject). Mochten er mensen zin hebben om mee te doen dan ga ik graag even aan de slag met het opschonen en documenteren van de code!
 
 ### 3D-modellen
+
 Op de lange termijn zou het mooi zijn als meer bijzondere gebouwen eigen, gedetailleerde 3D-modellen (met fotorealistische PBR-textures) krijgen. Daarnaast is er veel ander 3D-werk te doen, bijvoorbeeld het maken van lantaarnpalen en bruggen, het ontwikkelen van meer accurate PBR-textures voor bakstenen en bestrating en werk aan meer modulaire 3D-gevels.
+
+## Vergelijkbare projecten
+
+Er zijn op dit moment meerdere organisaties bezig met vergelijkbare of verwante projecten. Hopelijk komen daar ofwel veel mooiere (en vrij beschikbare) simulaties uit of komt het werk van deze projecten beschikbaar zodat het op een later tijdstip verwerkt kan worden in dit project. Interessant zijn in ieder geval:
+
+- Het [4D Research Lab](http://4dresearchlab.nl/) van de Universiteit van Amsterdam. Ik heb begrepen dat ze op dit moment zelf bezig zijn met een (veel gedetailleerdere) 3D-reconstructie van de oude Jodenbuurt / Waterloopleinbuurt, in samenwerking met oa het Joods Historisch Museum. Mogelijk komen de achterliggende data en modellen op een later tijdstip open beschikbaar.
+- [Amsterdam Time Machine](https://amsterdamtimemachine.nl/) ([Github repo](https://github.com/CLARIAH/ATM)). Bezig met het beschikbaar maken van historische vectorkaarten, rasterkaarten en daarnaast ook met gedetailleerde, lokale 3D-reconstructies. Vooral de gevectoriseerde kadasterdata (van HisGis) biedt kansen - in ieder geval de mogelijkheid om snel een simpele reconstructie te maken van de hele 19e-eeuwse stad. [Volgens de website](https://amsterdamtimemachine.nl/hisgis/) wordt deze data binnenkort openbaar toegankelijk. Verder een project om een 3D-reconstructie te maken van de hele stad: [ziet er veelbelovend uit](https://amsterdamtimemachine.nl/historical-amsterdam-in-3d/).
+- [HisGIS](https://hisgis.nl/projecten/amsterdam/) voert een groot aantal historische GIS-projecten uit, waaronder een paar digitaliseringen van historisch Amsterdam.
