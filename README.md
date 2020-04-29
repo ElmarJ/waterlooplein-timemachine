@@ -11,7 +11,7 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj). Omda
 
 ### Installeren:
 Windows (64 bits):
-- [Download het zip-bestand hier](https://1drv.ms/u/s!Agg6rZWS9FjjsbRPd7LtwCkorZpMRw?e=bFy2uw) (plm. 250 Mb) en pak het uit (bijvoorbeeld door er rechts op te klikken en te kiezen voor Alles uitpakken / Extract all).
+- [Download het zip-bestand hier](https://github.com/ElmarJ/Waterlooplein3D/releases/download/v0.1.0/winx64.zip) (plm. 250 Mb) en pak het uit (bijvoorbeeld door er rechts op te klikken en te kiezen voor Alles uitpakken / Extract all).
 - Open de uitgepakte map en start het programma (Waterloo3D.exe).
 
 Andere versies (mac / website) volgen.
