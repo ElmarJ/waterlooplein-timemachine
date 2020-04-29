@@ -51,7 +51,7 @@ Ik hoor het graag als er animo is om bij te dragen, dan zet ik meer vaart achter
 
 ## Meehelpen
 
-Bijdragen zijn meer dan welkom!
+Bijdragen zijn meer dan welkom! Bugs rapporteren en nieuwe functies suggereren, doe je op [de "issues" pagina](https://github.com/ElmarJ/Waterlooplein3D/issues) van dit project.
 
 ### Uitbreiden en detailleren van de onderliggende kaarten 
 
