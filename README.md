@@ -7,7 +7,7 @@ Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterlooplei
 
 ## Wie?
 
-Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj). Omdat ik dacht dat er mogelijk meer geïnteresseerden zijn, heb ik het nu online gezet en de code beschikbaar gemaakt.
+Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elmar@elmarjansen.nl). Omdat ik dacht dat er mogelijk meer geïnteresseerden zijn, heb ik het nu online gezet en de code beschikbaar gemaakt.
 
 ## Hoe werkt het?
 
