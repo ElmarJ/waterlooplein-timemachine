@@ -33,6 +33,17 @@ Er zijn op dit moment meerdere organisaties bezig met vergelijkbare of verwante 
 - Het [4D Research Lab](http://4dresearchlab.nl/) van de Universiteit van Amsterdam. Ik heb begrepen dat ze op dit moment zelf bezig zijn met een (veel gedetailleerdere) 3D-reconstructie van de oude Jodenbuurt / Waterloopleinbuurt, in samenwerking met oa het Joods Historisch Museum. Mogelijk komen de achterliggende data en modellen op een later tijdstip open beschikbaar.
 - [Amsterdam Time Machine](https://amsterdamtimemachine.nl/). Bezig met het beschikbaar maken van historische vectorkaarten, rasterkaarten en daarnaast ook met gedetailleerde, lokale 3D-reconstructies. Vooral de gevectoriseerde kadasterdata (van HisGis) biedt kansen - in ieder geval de mogelijkheid om snel een simpele reconstructie te maken van de hele 19e-eeuwse stad. [Volgens de website](https://amsterdamtimemachine.nl/hisgis/) wordt deze data binnenkort openbaar toegankelijk.
 - [HisGIS](https://hisgis.nl/projecten/amsterdam/) voert een groot aantal historische GIS-projecten uit, waaronder een paar digitaliseringen van historisch Amsterdam.
+  
+## Toekomst
+
+Ik heb nog altijd een vaag plan om, als ik weer eens wat meer tijd heb, verder te werken aan dit project. In grote lijnen zou ik aan vier zaken willen werken:
+
+1.  Het project meer geschikt maken voor gezamenlijk _open-source-project_-werk, zodat geïnteresseerden makkelijk bij kunnen dragen. Dit betekent vooral: het opschonen en documenteren van de C#-code, en het verder opsplitsen in meer losse bestanden van de GeoJSON-kaarten.
+2.  _Realisme_, zodat de ervaring van rondlopen dichter komt te liggen bij wat rondlopen in de Waterloopleinbuurt moet zijn geweest. Dat betekent bijvoorbeeld toevoegen van details, betere reconstructie van gevels, betere "PBR materialen", meer "props" en eventueel voorbijgangers en verkeer en meer gedetailleerde modellen van de belangrijkste gebouwen.
+3.  _Uitbreiden in ruimte_: met relatief weinig moeite (aanpassen de onderliggende kaarten) zou het nagebouwde gebied kunnen worden uitgebreid. Hulp is hierbij meer dan welkom!
+4. _Uitbreiden in tijd_: graag zou ik ook een model maken van de periode voor 1862 (?), toen de grachten over het waterlooplein gedempt werden. Uiteindelijk zou het helemaal mooi zijn om completen reconstructies van Amsterdam op verschillende momenten te kunnen maken.
+
+Ik hoor het graag als er animo is om bij te dragen, dan zet ik meer vaart achter het open-sourcen.
 
 ## Meehelpen
 
@@ -50,14 +61,3 @@ Code is nu nog wat ongestructureerd en weinig gedocumenteerd (typisch eenpersoon
 
 ### 3D-modellen
 Op de lange termijn zou het mooi zijn als meer bijzondere gebouwen eigen, gedetailleerde 3D-modellen (met fotorealistische PBR-textures) krijgen. Daarnaast is er veel ander 3D-werk te doen, bijvoorbeeld het maken van lantaarnpalen en bruggen, het ontwikkelen van meer accurate PBR-textures voor bakstenen en bestrating en werk aan meer modulaire 3D-gevels.
-    
-## Toekomst
-
-Ik heb nog altijd een vaag plan om, als ik weer eens wat meer tijd heb, verder te werken aan dit project. In grote lijnen zou ik aan vier zaken willen werken:
-
-1.  Het project meer geschikt maken voor gezamenlijk _open-source-project_-werk, zodat geïnteresseerden makkelijk bij kunnen dragen. Dit betekent vooral: het opschonen en documenteren van de C#-code, en het verder opsplitsen in meer losse bestanden van de GeoJSON-kaarten.
-2.  _Realisme_, zodat de ervaring van rondlopen dichter komt te liggen bij wat rondlopen in de Waterloopleinbuurt moet zijn geweest. Dat betekent bijvoorbeeld toevoegen van details, betere reconstructie van gevels, betere "PBR materialen", meer "props" en eventueel voorbijgangers en verkeer en meer gedetailleerde modellen van de belangrijkste gebouwen.
-3.  _Uitbreiden in ruimte_: met relatief weinig moeite (aanpassen de onderliggende kaarten) zou het nagebouwde gebied kunnen worden uitgebreid. Hulp is hierbij meer dan welkom!
-4. _Uitbreiden in tijd_: graag zou ik ook een model maken van de periode voor 1862 (?), toen de grachten over het waterlooplein gedempt werden. Uiteindelijk zou het helemaal mooi zijn om completen reconstructies van Amsterdam op verschillende momenten te kunnen maken.
-
-Ik hoor het graag als er animo is om bij te dragen, dan zet ik meer vaart achter het open-sourcen.
