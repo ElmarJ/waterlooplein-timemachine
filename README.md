@@ -16,12 +16,12 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elma
 - [Download het zip-bestand hier](https://github.com/ElmarJ/Waterlooplein3D/releases/download/v0.1.0/winx64.zip) (plm. 250 Mb) en pak het uit (bijvoorbeeld door er rechts op te klikken en te kiezen voor Alles uitpakken / Extract all).
 - Open de uitgepakte map en start het programma (Waterloo3D.exe).
 
-#### Web (niet ideaal)
-Een WebGL-versie die het direct doet in de browser is beschikbaar op https://waterlooplein3d.web.app/. Houd er rekening mee dat deze versie minder goed werkt dan de gedownloade versie, en nog steeds inhoudt dat je browser achter de schermen een bestand van 250mb downloadt.
-
 #### Mac
 - Mac-versie is hier te downloaden: https://github.com/ElmarJ/Waterlooplein3D/releases/download/v0.1.0/mac.app.zip
 - Ik heb geen idee of het werkt, want ik heb zelf geen mac, maar wie weet!
+
+#### Web (niet ideaal)
+Een WebGL-versie die het direct doet in de browser is beschikbaar op https://waterlooplein3d.web.app/. Houd er rekening mee dat deze versie minder goed werkt dan de gedownloade versie, en nog steeds inhoudt dat je browser achter de schermen een bestand van 250mb downloadt.
 
 ### Besturen:
 - Rondlopen met A, S, D en W -toetsen.
