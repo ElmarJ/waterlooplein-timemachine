@@ -1,4 +1,4 @@
-# Waterloo 3D
+# Waterlooplein 3D
 ![Screenshot Jodenbreestraat](https://github.com/ElmarJ/Waterlooplein3D/blob/master/Jodenbreestraat.png "Screenshot Jodenbreestraat")
 
 ## Wat is het?
