@@ -30,7 +30,7 @@ Een WebGL-versie die het direct doet in de browser is beschikbaar op https://wat
 
 ### Besturen
 
-- Rondlopen met A, S, D en W -toetsen.
+- Rondlopen met A, S, D en W -toetsen. Springen (heel hoog!) met spatie.
 - Rondkijken met muis
 - Afsluiten met ESC.
 
