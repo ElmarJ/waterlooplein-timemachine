@@ -51,7 +51,7 @@ Ik hoor het graag als er animo is om bij te dragen, dan zet ik meer vaart achter
 
 ## Meehelpen
 
-Hulp is meer dan welkom!
+Bijdragen zijn meer dan welkom!
 
 ### Uitbreiden en detailleren van de onderliggende kaarten 
 
