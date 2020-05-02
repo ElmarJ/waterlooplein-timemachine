@@ -25,6 +25,7 @@ public class GameMenuController : MonoBehaviour
         this.canvas.enabled = false;
         this.fpCharacter.enableCameraMovement = true;
         this.fpCharacter.lockAndHideCursor = true;
+        Cursor.lockState = CursorLockMode.Locked; Cursor.visible = false;
         this.fpCharacter.playerCanMove = true;
         this.fpCharacter.playerCanMove = true;
     }
@@ -34,6 +35,7 @@ public class GameMenuController : MonoBehaviour
         this.canvas.enabled = true;
         this.fpCharacter.enableCameraMovement = false;
         this.fpCharacter.lockAndHideCursor = false;
+        Cursor.lockState = CursorLockMode.None; Cursor.visible = true;
         this.fpCharacter.playerCanMove = false;
         this.fpCharacter.playerCanMove = false;
     }
