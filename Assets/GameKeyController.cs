@@ -5,11 +5,18 @@ using System.Collections;
  
 public class GameKeyController : MonoBehaviour
 {
+    private GameMenuController gameMenu;
+    void Start()
+    {
+        this.gameMenu = GameObject.Find("GameMenu").GetComponent<GameMenuController>();
+    }
+
     void Update()
     {
         if (Input.GetKey("escape"))
         {
-            Application.Quit();
+            // Application.Quit();
+            gameMenu.ActivateMenu();
         }
     }
 }
