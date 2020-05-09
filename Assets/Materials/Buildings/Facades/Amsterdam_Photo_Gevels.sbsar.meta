@@ -16,8 +16,7 @@ ScriptedImporter:
     graphDescIndex: 0
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_1\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"595088294\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_1\" label=\"\" >\n </sbspreset>\n"
     shaderName: Standard
     materialProperties:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
@@ -87,7 +86,7 @@ ScriptedImporter:
       - name: _OcclusionStrength
         float: 1
       - name: _Parallax
-        float: 0.02
+        float: 0.0238
       - name: _SmoothnessTextureChannel
         float: 0
       - name: _SpecularHighlights
@@ -238,8 +237,7 @@ ScriptedImporter:
     graphDescIndex: 1
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_2\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3127968284\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_2\" label=\"\" >\n </sbspreset>\n"
     shaderName: Standard
     materialProperties:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
@@ -309,7 +307,7 @@ ScriptedImporter:
       - name: _OcclusionStrength
         float: 1
       - name: _Parallax
-        float: 0.02
+        float: 0.0313
       - name: _SmoothnessTextureChannel
         float: 0
       - name: _SpecularHighlights
@@ -460,8 +458,7 @@ ScriptedImporter:
     graphDescIndex: 2
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_3\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3447075466\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_3\" label=\"\" >\n </sbspreset>\n"
     shaderName: Standard
     materialProperties:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
@@ -532,7 +529,7 @@ ScriptedImporter:
       - name: _OcclusionStrength
         float: 1
       - name: _Parallax
-        float: 0.02
+        float: 0.0426
       - name: _SmoothnessTextureChannel
         float: 0
       - name: _SpecularHighlights
@@ -701,8 +698,7 @@ ScriptedImporter:
     graphDescIndex: 3
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_4\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"1393731369\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_4\" label=\"\" >\n </sbspreset>\n"
     shaderName: Standard
     materialProperties:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
@@ -773,7 +769,7 @@ ScriptedImporter:
       - name: _OcclusionStrength
         float: 1
       - name: _Parallax
-        float: 0.02
+        float: 0.037
       - name: _SmoothnessTextureChannel
         float: 0
       - name: _SpecularHighlights
@@ -942,8 +938,7 @@ ScriptedImporter:
     graphDescIndex: 4
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_5\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"605394879\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_5\" label=\"\" >\n </sbspreset>\n"
     shaderName: Standard
     materialProperties:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
@@ -1164,8 +1159,7 @@ ScriptedImporter:
     graphDescIndex: 5
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_6\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3172779525\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_6\" label=\"\" >\n </sbspreset>\n"
     shaderName: Standard
     materialProperties:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
@@ -1236,7 +1230,7 @@ ScriptedImporter:
       - name: _OcclusionStrength
         float: 1
       - name: _Parallax
-        float: 0.02
+        float: 0.0213
       - name: _SmoothnessTextureChannel
         float: 0
       - name: _SpecularHighlights
@@ -1405,8 +1399,7 @@ ScriptedImporter:
     graphDescIndex: 6
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_7\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3390830227\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_7\" label=\"\" >\n </sbspreset>\n"
     shaderName: Standard
     materialProperties:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
