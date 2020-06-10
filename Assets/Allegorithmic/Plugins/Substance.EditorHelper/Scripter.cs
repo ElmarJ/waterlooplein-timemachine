@@ -21,12 +21,13 @@ namespace Substance.EditorHelper
 #endif
         }
 
-        // NOTE: The following functions will be re-assessed when adding URP context...
-
-        public static bool IsInstallingHDRP()
+        public static class UnityPipeline
         {
+            // The active project context is in the 'Edit->Project Settings->Graphics->Scriptable Render Pipeline Settings' field.
+            public static bool IsHDRP()
+            {
 #if UNITY_2019_3_OR_NEWER
-            bool bInstalled = false;
+            bool bActive = false;
 
             UnityEngine.Rendering.RenderPipelineAsset asset;
             asset = UnityEngine.Rendering.GraphicsSettings.renderPipelineAsset;
@@ -34,25 +35,34 @@ namespace Substance.EditorHelper
             if ((asset != null) &&
                 (asset.GetType().ToString().EndsWith(".HDRenderPipelineAsset")))
             {
-                bInstalled = true;
+                    bActive = true;
             }
 
-            return bInstalled;
+            return bActive;
 #else
-            return false;
+                return false;
 #endif
-        }
+            }
 
-        public static bool IsHDRP()
-        {
-            bool bHDRP = false;
-
+            public static bool IsURP()
+            {
 #if UNITY_2019_3_OR_NEWER
-            if (IsInstallingHDRP())
-                bHDRP = true;
-#endif
+            bool bActive = false;
 
-            return bHDRP;
+            UnityEngine.Rendering.RenderPipelineAsset asset;
+            asset = UnityEngine.Rendering.GraphicsSettings.renderPipelineAsset;
+
+            if ((asset != null) &&
+                (asset.GetType().ToString().EndsWith(".UniversalRenderPipelineAsset")))
+            {
+                bActive = true;
+            }
+
+            return bActive;
+#else
+                return false;
+#endif
+            }
         }
     }
 }

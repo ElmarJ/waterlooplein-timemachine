@@ -1,33 +1,29 @@
 fileFormatVersion: 2
 guid: d72158caf5b24d34cafa834da0ab121c
 ModelImporter:
-  serializedVersion: 19300
+  serializedVersion: 19301
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Cable
-    second: {fileID: -741235592913766832, guid: 3f52fb38e6ac4fb4ea9d78fb7dd57eb3,
-      type: 3}
+    second: {fileID: 2100000, guid: df431fb2e7b2f854f9fc4ae0c2b24356, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Planks
-    second: {fileID: -4029802412322414241, guid: 5cc06932d9977634d879a1791a7df0c8,
-      type: 3}
+    second: {fileID: 2100000, guid: 9314ce569376caf40b728d9ad3f575c8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wood Painted White
-    second: {fileID: -4024018278599069126, guid: 32b5d563e68425942987f320bc39d12c,
-      type: 3}
+    second: {fileID: 2100000, guid: b064ce4020cdcd14f9823a699d29cac4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wood Wall Slits Variation 3
-    second: {fileID: -4029802412322414241, guid: 5cc06932d9977634d879a1791a7df0c8,
-      type: 3}
+    second: {fileID: 2100000, guid: 5fd3ca35c3cbcc044befc859680d86df, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -67,6 +63,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
