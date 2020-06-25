@@ -8,7 +8,7 @@ public class GameKeyController : MonoBehaviour
     private GameMenuController gameMenu;
     void Start()
     {
-        this.gameMenu = GameObject.Find("GameMenu").GetComponent<GameMenuController>();
+        this.gameMenu = GameObject.Find("MainMenu").GetComponent<GameMenuController>();
     }
 
     void Update()

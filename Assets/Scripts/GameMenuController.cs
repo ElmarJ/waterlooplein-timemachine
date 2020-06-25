@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class GameMenuController : MonoBehaviour
 {
-    private Canvas canvas;
+    private Canvas mainMenuCanvas;
+    private Canvas settingsMenuCanvas;
     private FirstPersonAIO fpCharacter;
 
     // Start is called before the first frame update
     void Start()
     {
-        this.canvas = gameObject.GetComponent<Canvas>();
+        this.mainMenuCanvas = GameObject.Find("MainMenu").GetComponent<Canvas>();
+        this.settingsMenuCanvas = GameObject.Find("SettingsMenu").GetComponent<Canvas>();
         this.fpCharacter = GameObject.Find("CharacterController").GetComponent<FirstPersonAIO>();
+        
+        this.mainMenuCanvas.enabled = true;
+        this.settingsMenuCanvas.enabled = false;
     }
 
     // Update is called once per frame
@@ -22,7 +27,8 @@ public class GameMenuController : MonoBehaviour
 
     public void ResumeGame()
     {
-        this.canvas.enabled = false;
+        this.mainMenuCanvas.enabled = false;
+        this.settingsMenuCanvas.enabled = false;
         this.fpCharacter.enableCameraMovement = true;
         this.fpCharacter.lockAndHideCursor = true;
         Cursor.lockState = CursorLockMode.Locked; Cursor.visible = false;
@@ -32,12 +38,26 @@ public class GameMenuController : MonoBehaviour
 
     public void ActivateMenu()
     {   
-        this.canvas.enabled = true;
+        this.mainMenuCanvas.enabled = true;
+        this.settingsMenuCanvas.enabled = false;
         this.fpCharacter.enableCameraMovement = false;
         this.fpCharacter.lockAndHideCursor = false;
         Cursor.lockState = CursorLockMode.None; Cursor.visible = true;
         this.fpCharacter.playerCanMove = false;
         this.fpCharacter.playerCanMove = false;
+    }
+
+    public void ShowSettingsMenu()
+    {
+        this.mainMenuCanvas.enabled = false;
+        this.settingsMenuCanvas.enabled = true;
+
+    }
+
+    public void ShowMainMenu()
+    {
+        this.mainMenuCanvas.enabled = true;
+        this.settingsMenuCanvas.enabled = false;
     }
 
     public void Exit()

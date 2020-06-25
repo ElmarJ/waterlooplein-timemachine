@@ -7,7 +7,7 @@
         {
             "name": "Unity Editor",
             "type": "unity",
-            "path": "/c:/Users/elmar/source/repos/GeoJsonWalker/Library/EditorInstance.json",
+            "path": "/c:/Users/elmar/repos/Waterlooplein3D/Library/EditorInstance.json",
             "request": "launch"
         },
         {
@@ -32,6 +32,21 @@
         },
         {
             "name": "Android Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "Xbox One Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "PS4 Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "SwitchPlayer",
             "type": "unity",
             "request": "launch"
         }
