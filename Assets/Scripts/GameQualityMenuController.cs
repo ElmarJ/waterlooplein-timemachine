@@ -21,6 +21,7 @@ public class GameQualityMenuController : MonoBehaviour
 
         // Set current value:
         this.dropdown.SetValueWithoutNotify(QualitySettings.GetQualityLevel());
+        this.dropdown.RefreshShownValue();
     }
 
     public void OnQualityChange()
