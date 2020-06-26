@@ -1,9 +1,21 @@
 fileFormatVersion: 2
 guid: cec47eeacaef54c4f97d54c6304f3a22
 ModelImporter:
-  serializedVersion: 19300
+  serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red Brick Wall V1
+    second: {fileID: 9180892828007318148, guid: e0d820ce2877d334ab1c83964307e81e,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone paving
+    second: {fileID: -3817463451643363444, guid: cbffaeab7a6c97a40941d8baa87c2741,
+      type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -36,13 +48,14 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
