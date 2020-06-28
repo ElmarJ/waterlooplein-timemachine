@@ -20,8 +20,8 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elma
 
 #### Mac
 
-- Mac-versie is [hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_mac.zip) (250 mb) te downloaden.
-- Ik heb geen idee of het werkt, want ik heb zelf geen mac, maar wie weet!
+- [Download zip-file hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_mac.zip) (250 mb) te downloaden.
+- *Let op*: Ik heb zelf geen Mac, dus kan dit niet testen - maar het zou moeten werken.
 
 #### Web (niet ideaal)
 
