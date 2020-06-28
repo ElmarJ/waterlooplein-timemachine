@@ -14,10 +14,9 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elma
 
 ### Installeren
 
-#### Windows (64 bits)
+#### Windows
 
-- [Download het zip-bestand hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/win64.zip) (250 mb) en pak het uit (bijvoorbeeld door er rechts op te klikken en te kiezen voor Alles uitpakken / Extract all).
-- Open de uitgepakte map en start het programma (Waterlooplein 3D.exe).
+- [Download het setup-bestand hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_win32_setup.exe) (164 mb).
 
 #### Mac
 
