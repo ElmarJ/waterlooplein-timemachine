@@ -23,10 +23,6 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elma
 - [Download zip-file hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_mac.zip) (250 mb) te downloaden.
 - *Let op*: Ik heb zelf geen Mac, dus kan dit niet testen - maar het zou moeten werken.
 
-#### Web (niet ideaal)
-
-Een WebGL-versie die het direct doet in de browser is beschikbaar op https://waterlooplein3d.web.app/. Houd er rekening mee dat deze versie minder goed werkt dan de gedownloade versie, en nog steeds inhoudt dat je browser achter de schermen een bestand van 250mb downloadt.
-
 ### Besturen
 
 - Rondlopen met A, S, D en W -toetsen.
