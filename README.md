@@ -1,6 +1,6 @@
 # Waterlooplein 3D
 
-![Screenshot Jodenbreestraat](https://github.com/ElmarJ/Waterlooplein3D/blob/master/Jodenbreestraat.png "Screenshot Jodenbreestraat")
+![Screenshot](https://media.githubusercontent.com/media/ElmarJ/Waterlooplein3D/master/Assets/Images/Luchtfoto.png "Luchtfoto in Waterlooplein 3D")
 
 ## Wat is het?
 
