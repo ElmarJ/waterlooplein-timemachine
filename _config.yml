@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: Waterlooplein 3D
+description: Eenvoudige 3D reconstructie van stratenpatroon Waterloopleinbuurt rond 1880. 
+logo: Assets/Images/waterlooplein3d_icon.png
+show_downloads: true
