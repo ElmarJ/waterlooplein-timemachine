@@ -25,7 +25,7 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elma
 
 ### Besturen
 
-- Rondlopen met A, S, D en W -toetsen.
+- Rondlopen met A, S, D en W -toetsen (+ shift = rennen).
 - Rondkijken met muis
 - Springen (heel hoog!) met spatie.
 - Afsluiten met ESC.
