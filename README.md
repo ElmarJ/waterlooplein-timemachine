@@ -1,6 +1,6 @@
 # Waterlooplein 3D
 
-![Screenshot Jodenbreestraat](https://github.com/ElmarJ/Waterlooplein3D/blob/master/Jodenbreestraat.png "Screenshot Jodenbreestraat")
+![Screenshot](https://media.githubusercontent.com/media/ElmarJ/Waterlooplein3D/master/Assets/Images/Luchtfoto.png "Luchtfoto in Waterlooplein 3D")
 
 ## Wat is het?
 
@@ -20,16 +20,12 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elma
 
 #### Mac
 
-- Mac-versie is [hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/mac.app.zip) (250 mb) te downloaden.
-- Ik heb geen idee of het werkt, want ik heb zelf geen mac, maar wie weet!
-
-#### Web (niet ideaal)
-
-Een WebGL-versie die het direct doet in de browser is beschikbaar op https://waterlooplein3d.web.app/. Houd er rekening mee dat deze versie minder goed werkt dan de gedownloade versie, en nog steeds inhoudt dat je browser achter de schermen een bestand van 250mb downloadt.
+- [Download zip-file hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_mac.zip) (250 mb) te downloaden.
+- *Let op*: Ik heb zelf geen Mac, dus kan dit niet testen - maar het zou moeten werken.
 
 ### Besturen
 
-- Rondlopen met A, S, D en W -toetsen.
+- Rondlopen met A, S, D en W -toetsen (+ shift = rennen).
 - Rondkijken met muis
 - Springen (heel hoog!) met spatie.
 - Afsluiten met ESC.
