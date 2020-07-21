@@ -31,3 +31,28 @@ Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterlooplei
 
 - [Download zip-file hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_mac.zip) (250 mb) te downloaden.
 - *Let op*: Ik heb zelf geen Mac, dus kan dit niet testen - maar het zou moeten werken.
+
+## Open Source Projecten
+
+Waterlooplein 3D maakt gebruik van de volgende open source software en bibliotheken:
+
+### Direct aan dit project gerelateerd
+
+ - [Waterlooplein 3D project](https://github.com/ElmarJ/Waterlooplein3D): De source code van dit project.
+ - [GeoJsonCityBuilder](https://github.com/elmarj/geojsoncitybuilder): Unity Package dat het mogelijk maakt een 3D-reconstructie te maken van een stad op basis van GeoJSON-data.
+ - [Amsterdam.1892.GeoJSON](https://github.com/ElmarJ/Amsterdam.1892.GeoJSON): De achterliggende GeoJSON die de kaart van Amsterdam in 1880 beschrijft.
+
+### 3D-materialen, modellen en shaders
+
+ - [#NVJOB Simple Water Shaders by Nicholas Veselov](https://nvjob.github.io/unity/nvjob-water-shader)
+ - [Procedural Grass by Vincent Gault](https://share.substance3d.com/libraries/64)
+ - [Cobble Stone Pavement by soi](https://share.substance3d.com/libraries/3721)
+ - [Bricks by Wes McDermott](https://share.substance3d.com/libraries/2041)
+ - [SpeedTree: Sample Broadleaf tree](https://speedtree.com/)
+ 
+### Ontwikkeltools
+
+ - [Unity](https://unity.com/)
+ - [Visual Studio Code](https://code.visualstudio.com/)
+ - [Blender](https://www.blender.org/)
+ - [QGis](https://www.qgis.org/)
