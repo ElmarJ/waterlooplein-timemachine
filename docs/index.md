@@ -11,10 +11,7 @@ nav_order: 1
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/elmarj/waterlooplein3d)
 ![GitHub issues](https://img.shields.io/github/issues/elmarj/waterlooplein3d)
 ![GitHub](https://img.shields.io/github/license/elmarj/waterlooplein3d)
-
-
 ![GitHub stars](https://img.shields.io/github/stars/elmarj/waterlooplein3d?style=social)
-
 ![Twitter Follow](https://img.shields.io/twitter/follow/elmarj?style=social)
 
 <a href='//www.microsoft.com/store/apps/9PFFX4W0P498?cid=storebadge&ocid=badge'><img src='https://github.com/ElmarJ/Waterlooplein3D/blob/master/WindowsStoreBadge.png?raw=true' alt='English badge' style='width: 142px; height: 52px;'/></a>
