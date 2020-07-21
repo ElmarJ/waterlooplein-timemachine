@@ -15,8 +15,8 @@ Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elma
 ### Installeren
 
 #### Windows
-
-- [Download het setup-bestand hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_win32_setup.exe) (164 mb).
+- Het makkelijkst is via de Microsoft Store: [![Microsoft Store Badge](./WindowsStoreBadge.png)](www.microsoft.com/store/apps/9PFFX4W0P498?cid=storebadge&ocid=badge)
+- Maar je kunt zelf ook een installer downloaden. Je zult dan wel zelf naar deze pagina terug moeten komen voor updates. [Download het setup-bestand hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_win32_setup.exe) (164 mb).
 
 #### Mac
 
