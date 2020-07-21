@@ -1,3 +1,9 @@
+---
+layout: default
+title: Waterlooplein 3D
+nav_order: 1
+---
+
 # Waterlooplein 3D
 
 ![Screenshot](https://media.githubusercontent.com/media/ElmarJ/Waterlooplein3D/master/Assets/Images/Luchtfoto.png "Luchtfoto in Waterlooplein 3D")

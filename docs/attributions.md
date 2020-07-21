@@ -1,3 +1,9 @@
+---
+layout: default
+title: Andere projecten
+nav_order: 6
+---
+
 # Andere projecten
 
 ## Vergelijkbare en gerelateerde projecten

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Over het project
+nav_order: 3
+---
+
 # Over het project
 
 ## Wat is het?

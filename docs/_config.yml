@@ -1,5 +1,23 @@
 remote_theme: pmarsceill/just-the-docs
+logo: "https://raw.githubusercontent.com/ElmarJ/Waterlooplein3D/master/source/Waterlooplein3D/Assets/Images/Luchtfoto.png"
+search_enabled: false
+aux_links:
+  "Source Code van Waterlooplein 3D op Github":
+    - "//github.com/elmarj/waterlooplein3d"
 title: Waterlooplein 3D
 description: Eenvoudige 3D reconstructie van stratenpatroon Waterloopleinbuurt rond 1880. 
-logo: https://media.githubusercontent.com/media/ElmarJ/Waterlooplein3D/master/Assets/Images/Logos/LargeTile.scale-400.png
-show_downloads: false
+footer_content: "Copyright &copy; Elmar Jansen. Distributed by an <a href=\"https://github.com/ElmarJ/Waterlooplein3D/blob/master/COPYING\">GNU GPL 3.0 license.</a>"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/elmarj/waterlooplein3d" # the github URL for your repo
+gh_edit_branch: "master" # the branch that your docs is served from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark

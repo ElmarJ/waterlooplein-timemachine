@@ -1,3 +1,9 @@
+---
+layout: default
+title: Installatie
+nav_order: 2
+---
+
 # Installeren
 
 ## Windows

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Toekomstplannen
+nav_order: 5
+---
+
 # Toekomst
 
 Ik heb nog altijd een vaag plan om, als ik weer eens wat meer tijd heb, verder te werken aan dit project. In grote lijnen zou ik aan vier zaken willen werken:
