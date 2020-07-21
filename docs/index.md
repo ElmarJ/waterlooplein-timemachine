@@ -27,7 +27,7 @@ Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterlooplei
 ## Installeren
 
 ### Windows
-- Het makkelijkst is via de Microsoft Store: <a href='//www.microsoft.com/store/apps/9PFFX4W0P498?cid=storebadge&ocid=badge'><img src='WindowsStoreBadge.png' alt='English badge' style='width: 142px; height: 52px;'/></a>
+- Het makkelijkst is via de <a href='//www.microsoft.com/store/apps/9PFFX4W0P498'>vermelding in de Microsoft Store</a>.
 - Maar je kunt zelf ook een installer downloaden. Je zult dan wel zelf naar deze pagina terug moeten komen voor updates. [Download het setup-bestand hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_win32_setup.exe) (164 mb).
 
 ### Mac
