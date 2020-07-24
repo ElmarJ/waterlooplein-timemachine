@@ -16,7 +16,7 @@ Contributions (correcting underlying maps, programming or reporting bugs or requ
 
  - You can report bugs and requests on the [issues page](https://github.com/elmarj/waterlooplein3d/issues).
  - Modifications to the underlying map material (in GeoJSON) can be done in a seperate Github project: [Amsterdam.1892.GeoJSON](https://github.com/ElmarJ/Amsterdam.1892.GeoJSON).
- - Contributions to the software, 3D-models and PBR-materials are also more than welcome! For more information about my future plans, see the [issues pagina](https://github.com/elmarj/waterlooplein3d/issues) and the [roadmap (in Dutch)](./docs/roadmap.md) in the docs folder. The software is based on the Unity engine. The code that translates Geojson into Unity-buildings has been housed in another Github project, but can also be edited directly from this repo (as git submodule).
+ - Contributions to the software, 3D-models and PBR-materials are also more than welcome! For more information about my future plans, see the [issues pagina](https://github.com/elmarj/waterlooplein3d/issues) and the [roadmap (in Dutch)](./docs/roadmap.md) in the docs folder. The software is based on the Unity engine. The code that translates Geojson into Unity-buildings has been housed in [another Github project](https://github.com/ElmarJ/GeoJsonCityBuilder), but can also be edited directly from this repo (as git submodule).
 
 ## Setup your dev environment
  1. Install [Unity](https://store.unity.com/#plans-individual)
