@@ -39,8 +39,11 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_SplashScreenLogos:
+  - logo: {fileID: 0}
+    duration: 2
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 181bb0ed0817d594581d9b98414c6f8e,
+    type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -111,10 +114,13 @@ PlayerSettings:
   switchNVNShaderPoolsGranularity: 33554432
   switchNVNDefaultPoolsGranularity: 16777216
   switchNVNOtherPoolsGranularity: 16777216
+  switchNVNMaxPublicTextureIDCount: 0
+  switchNVNMaxPublicSamplerIDCount: 0
   stadiaPresentMode: 0
   stadiaTargetFramerate: 0
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
+  vulkanEnableLateAcquireNextImage: 0
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 1
@@ -609,7 +615,12 @@ PlayerSettings:
   metroCertificateNotAfter: 008e0098fb45d701
   metroApplicationDescription: Simple reconstruction of Waterlooplein neighborhood
     (Amsterdam, Netherlands) around 1880
-  wsaImages: {}
+  wsaImages:
+    131172: Assets/Images/Logos/SplashScreen.scale-100.png
+    131197: Assets/Images/Logos/SplashScreen.scale-125.png
+    131222: Assets/Images/Logos/SplashScreen.scale-150.png
+    131272: Assets/Images/Logos/SplashScreen.scale-200.png
+    131472: Assets/Images/Logos/SplashScreen.scale-400.png
   metroTileShortName: Waterlooplein 3D
   metroTileShowName: 0
   metroMediumTileShowName: 1
