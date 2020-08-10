@@ -10,7 +10,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{2265F9EC-6712-4D95-8C62-C28B15566ECA}
+AppId={{06E56523-0DE9-447F-BA18-2E31717BA8D8}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -23,8 +23,8 @@ DisableProgramGroupPage=yes
 LicenseFile=C:\Users\elmar\repos\Waterlooplein3D\COPYING
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
-OutputBaseFilename=waterlooplein3d_win32_setup
-OutputDir=C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86
+OutputBaseFilename=waterlooplein3d_win64_setup
+OutputDir=C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x64
 SetupIconFile=C:\Users\elmar\repos\Waterlooplein3D\source\Waterlooplein3D\Assets\Images\Waterlooplein3D_icon.ico
 Compression=lzma
 SolidCompression=yes
@@ -37,11 +37,11 @@ Name: "dutch"; MessagesFile: "compiler:Languages\Dutch.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\Waterlooplein 3D.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\UnityCrashHandler32.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\UnityPlayer.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\MonoBleedingEdge\*"; DestDir: "{app}\MonoBleedingEdge"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\Waterlooplein 3D_Data\*"; DestDir: "{app}\Waterlooplein 3D_Data"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x64\Waterlooplein 3D.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x64\UnityCrashHandler64.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x64\UnityPlayer.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x64\MonoBleedingEdge\*"; DestDir: "{app}\MonoBleedingEdge"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x64\Waterlooplein 3D_Data\*"; DestDir: "{app}\Waterlooplein 3D_Data"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
