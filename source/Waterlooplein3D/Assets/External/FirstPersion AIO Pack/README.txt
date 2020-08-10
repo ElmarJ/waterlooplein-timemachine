@@ -8,8 +8,6 @@ This Package currently includes features such as:
 - Built in Stamina system
 - And much more to play around with, and even more to come!
 
-For best Demo Scene visuals, install the Post Processing Stack (https://assetstore.unity.com/packages/essentials/post-processing-stack-83912) and allow the lighting to bake. However, this is not required. 
-
 NOTICE:
     - If something isn't working right away, I encourage you to look through all the documentation, if this doesn't solve your issue please feel free to contact me at 'support@.aedangraves.info'
     - The Demo Scene included in the package contains audio assets not created or owned by me, and thus are not to be used for commercial applications.
