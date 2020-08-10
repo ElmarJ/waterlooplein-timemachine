@@ -10,7 +10,7 @@ Bijdragen zijn meer dan welkom! Bugs rapporteren en nieuwe functies suggereren, 
 
 ## Donatie
 
-Dit is een hobbyprojectje en ik hoef er natuurlijk geen geld mee te verdienen. Wel heb ik kleine kosten: vanwege de omvang van de bestanden kost het hosten op Github me 5 euro per maand. Als je dit project leuk vindt zou het heel fijn zijn als je zin hebt om iets bij te dragen - dat kan hier: [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y521CCD).
+Dit is een hobbyprojectje en ik hoef er natuurlijk geen geld mee te verdienen. Wel heb ik kleine kosten: vanwege de omvang van de bestanden kost het hosten op Github 5 euro per maand. Als je dit project leuk vindt zou het heel fijn zijn als je zin hebt om iets bij te dragen - dat kan hier: [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y521CCD).
 
 ## Uitbreiden en detailleren van de onderliggende kaarten 
 
