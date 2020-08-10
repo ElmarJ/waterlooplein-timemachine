@@ -8,7 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
-  version: 25
+  version: 29
   projectContext: 0
   mGraphInstanceData:
   - graphLabel: Grass Generator
@@ -26,6 +26,9 @@ ScriptedImporter:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
       shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: 2177846933001073497, guid: f9ef868883fe1e643a55af92d22c5795,
@@ -228,6 +231,9 @@ ScriptedImporter:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
       shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: 7028437523054426047, guid: f9ef868883fe1e643a55af92d22c5795,

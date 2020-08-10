@@ -8,7 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
-  version: 25
+  version: 29
   projectContext: 0
   mGraphInstanceData:
   - graphLabel: Mozes_en_Aaron_-_verf
@@ -24,6 +24,9 @@ ScriptedImporter:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
       shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: 3820966173276105781, guid: 9891b2f1ad356b743a30d2ea735248cd,
@@ -247,6 +250,9 @@ ScriptedImporter:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
       shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: -1728492810317908136, guid: 9891b2f1ad356b743a30d2ea735248cd,
@@ -470,6 +476,9 @@ ScriptedImporter:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
       shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: -3215745745063243426, guid: 9891b2f1ad356b743a30d2ea735248cd,

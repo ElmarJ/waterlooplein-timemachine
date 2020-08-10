@@ -8,7 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
-  version: 25
+  version: 29
   projectContext: 0
   mGraphInstanceData:
   - graphLabel: Gevel_1
@@ -22,6 +22,9 @@ ScriptedImporter:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
       shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: 3708066375153785157, guid: dd150803b1b96df4a9957bd3e202769c,
@@ -243,6 +246,9 @@ ScriptedImporter:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
       shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: -258805671633201258, guid: dd150803b1b96df4a9957bd3e202769c,
@@ -465,6 +471,9 @@ ScriptedImporter:
       shaderKeywords: _ALPHATEST_ON _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP
         _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: 963741200487821515, guid: dd150803b1b96df4a9957bd3e202769c,
@@ -705,6 +714,9 @@ ScriptedImporter:
       shaderKeywords: _ALPHATEST_ON _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP
         _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: 9094074513841095096, guid: dd150803b1b96df4a9957bd3e202769c,
@@ -944,6 +956,9 @@ ScriptedImporter:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
       shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: -6069472248742220168, guid: dd150803b1b96df4a9957bd3e202769c,
@@ -1166,6 +1181,9 @@ ScriptedImporter:
       shaderKeywords: _ALPHATEST_ON _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP
         _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: -6099024697980994378, guid: dd150803b1b96df4a9957bd3e202769c,
@@ -1405,6 +1423,9 @@ ScriptedImporter:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
       shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
       lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
       texEnvs:
       - name: _BumpMap
         texture: {fileID: 4090919410122335017, guid: dd150803b1b96df4a9957bd3e202769c,
