@@ -8,6 +8,10 @@ nav_order: 4
 
 Bijdragen zijn meer dan welkom! Bugs rapporteren en nieuwe functies suggereren, doe je op [de "issues" pagina](https://github.com/ElmarJ/Waterlooplein3D/issues) van dit project, maar je kunt ook op andere manieren bijdragen:
 
+## Donatie
+
+Dit is een hobbyprojectje en ik hoef er natuurlijk geen geld mee te verdienen. Wel heb ik kleine kosten: vanwege de omvang van de bestanden kost het hosten op Github me 5 euro per maand. Als je dit project leuk vindt zou het heel fijn zijn als je zin hebt om iets bij te dragen - dat kan hier: [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y521CCD).
+
 ## Uitbreiden en detailleren van de onderliggende kaarten 
 
 De structuur van de buurt komt uit gedigitaliseerde kaarten. Het werk aan deze (onder het 3D-model liggende) kaarten heb ik ondergebracht in een [apart open source project](https://github.com/ElmarJ/Amsterdam.1892.GeoJSON). Het bewerken kan redelijk eenvoudig in het open source GIS-programma QGIS.
