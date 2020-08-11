@@ -38,7 +38,7 @@ Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterlooplei
 
 - [Download zip-file hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/linux_x86_64.zip) (109 MB) te downloaden.
 - Pak het zip-bestand uit
-- Geef eventueel _execution_-rechten aan Waterlooplein_3D_linux64.x86_64 ```chmod +x Waterlooplein_3D_linux64.x86_64```
+- Geef _execution_-rechten aan Waterlooplein_3D_linux64.x86_64 ```chmod +x Waterlooplein_3D_linux64.x86_64```
 - Start ```./Waterlooplein_3D_linux64.x86_64```
 
 ## Open Source Projecten
