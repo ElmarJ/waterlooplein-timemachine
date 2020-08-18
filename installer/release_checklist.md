@@ -6,6 +6,8 @@
 
 ## Finalize code
  - [ ] Under Player Settings, update version number
+ - [ ] In installer\win32_setup_script.iss update version number (MyAppVersion variable)
+ - [ ] In installer\win64_setup_script.iss update version number (MyAppVersion variable)
  - [ ] All code changes are committed and pushed to master on Github.
 
 ## Create Windows installers
@@ -16,12 +18,10 @@
 
 ### Packaging 32-bit version
  - [ ] Open installer\win32_setup_script.iss in Inno Setup
- - [ ] Update version number (MyAppVersion variable)
  - [ ] Run script
 
 ### Packaging 64-bit version
  - [ ] Open installer\win64_setup_script.iss in Inno Setup
- - [ ] Update version number (MyAppVersion variable)
  - [ ] Run script
 
 ## Create and upload Windows Store App:
@@ -58,9 +58,6 @@ extern "C"
   - [ ] Right click Waterlooplein 3D project, and select "Properties".
   - [ ] Under C/C++ -> Command Line -> Additional Options, add "-d2FH4-".
   - [ ] Under Linker -> Command Line -> Additional Options, add "-d2:-FH4-".
-- [ ] Remove Substance dll's from Unity Data project:
-  - [ ] Right click Substance.Engine.dll and select "Exclude from project"
-  - [ ] Right click substance_sse2_blend.dll and select "Exclude from project"
 - [ ] Test by running on local machine
 - [ ] Create App Package:
   - Right click Waterlooplein 3D project -> Publish -> Create App Packages
