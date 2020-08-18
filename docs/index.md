@@ -21,7 +21,9 @@ nav_order: 1
 
 ## Wat is het?
 
-Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterloopleinbuurt van rond 1870-1890. Het programma is bedoeld voor die mensen die (net als ik) moeite hebben zich voor te stellen hoe de buurt er ongeveer uit heeft gezien, voordat - door stadsvernieuwing en metrobouw - de buurt in de jaren '60 en '70 grotendeels is gesloopt. Verwacht geen perfecte reconstructie, het belangrijkste doel is om een beeld te geven van waar straten liepen en hoe de buurt in elkaar stak. Wat je ziet is een gemodelleerde stad waarin het stratenpatroon en de locatie van de gebouwen echt is, maar de gevels en gebouwhoogten willekeurig gegenereerd. Verwacht dus niet je eigen huis in detail terug te vinden: waarschijnlijk staat er een gebouw met de juiste omvang maar de verkeerde gevel.
+Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterloopleinbuurt van rond 1870-1890. Het programma is bedoeld voor die mensen die (net als ik) moeite hebben zich voor te stellen hoe de buurt er ongeveer uit heeft gezien, voordat - door stadsvernieuwing en metrobouw - de buurt in de jaren '60 en '70 grotendeels is gesloopt. 
+
+Verwacht geen perfecte reconstructie, het belangrijkste doel is om een beeld te geven van waar straten liepen en hoe de buurt in elkaar stak. Wat je ziet is een gemodelleerde stad waarin het stratenpatroon en de locatie van de gebouwen echt is, maar de gevels en gebouwhoogten willekeurig gegenereerd. Verwacht dus niet je eigen huis in detail terug te vinden: waarschijnlijk staat er een gebouw met de juiste omvang maar de verkeerde gevel.
 
 Overigens zijn de straten van het hele Centrum te bewandelen, maar ontbreken buiten de Waterloopleinbuurt alle details zoals bomen, bruggen en individuele panden.
 
