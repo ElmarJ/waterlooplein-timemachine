@@ -16,13 +16,13 @@ ScriptedImporter:
     graphDescIndex: 0
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_1\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"595088294\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
-    shaderName: HDRP/LitTessellation
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_1\" label=\"\" >\n </sbspreset>\n"
+    shaderName: HDRP/Lit
     materialProperties:
-      shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
+      shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
       shaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP _NORMALMAP
-        _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        _NORMALMAP_TANGENT_SPACE _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE
+        _TESSELLATION_PHONG
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
@@ -171,7 +171,7 @@ ScriptedImporter:
       - name: _DisplacementLockTilingScale
         float: 1
       - name: _DisplacementMode
-        float: 3
+        float: 2
       - name: _DistortionBlendMode
         float: 0
       - name: _DistortionBlurBlendMode
@@ -223,19 +223,19 @@ ScriptedImporter:
       - name: _EnergyConservingSpecularColor
         float: 1
       - name: _HeightAmplitude
-        float: 0.02
+        float: 0.01
       - name: _HeightCenter
-        float: 0.5
+        float: 1
       - name: _HeightMapParametrization
         float: 0
       - name: _HeightMax
-        float: 1
+        float: 3
       - name: _HeightMin
-        float: -1
+        float: -3
       - name: _HeightOffset
         float: 0
       - name: _HeightPoMAmplitude
-        float: 2
+        float: 1
       - name: _HeightTessAmplitude
         float: 1
       - name: _HeightTessCenter
@@ -314,27 +314,11 @@ ScriptedImporter:
         float: 1
       - name: _SurfaceType
         float: 0
-      - name: _TessellationBackFaceCullEpsilon
-        float: -0.25
-      - name: _TessellationFactor
-        float: 7.7
-      - name: _TessellationFactorMaxDistance
-        float: 50
-      - name: _TessellationFactorMinDistance
-        float: 20
-      - name: _TessellationFactorTriangleSize
-        float: 100
-      - name: _TessellationMode
-        float: 0
-      - name: _TessellationShapeFactor
-        float: 0.75
       - name: _TexWorldScale
         float: 1
       - name: _TexWorldScaleEmissive
         float: 1
       - name: _Thickness
-        float: 1
-      - name: _ThicknessMultiplier
         float: 1
       - name: _TransmissionEnable
         float: 1
@@ -566,17 +550,17 @@ ScriptedImporter:
     graphDescIndex: 1
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_2\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3127968284\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
-    shaderName: HDRP/LitTessellation
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_2\" label=\"\" >\n </sbspreset>\n"
+    shaderName: HDRP/Lit
     materialProperties:
-      shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
+      shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
       shaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP _NORMALMAP
-        _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _TESSELLATION_PHONG _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        _NORMALMAP_TANGENT_SPACE _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE
+        _TESSELLATION_PHONG
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
-      customRenderQueue: -1
+      customRenderQueue: 2000
       texEnvs:
       - name: _AnisotropyMap
         texture: {instanceID: 0}
@@ -721,7 +705,7 @@ ScriptedImporter:
       - name: _DisplacementLockTilingScale
         float: 1
       - name: _DisplacementMode
-        float: 3
+        float: 2
       - name: _DistortionBlendMode
         float: 0
       - name: _DistortionBlurBlendMode
@@ -775,13 +759,13 @@ ScriptedImporter:
       - name: _HeightAmplitude
         float: 0.02
       - name: _HeightCenter
-        float: 0.5
+        float: 1
       - name: _HeightMapParametrization
         float: 0
       - name: _HeightMax
-        float: 1
+        float: 3
       - name: _HeightMin
-        float: -1
+        float: -3
       - name: _HeightOffset
         float: 0
       - name: _HeightPoMAmplitude
@@ -864,27 +848,11 @@ ScriptedImporter:
         float: 1
       - name: _SurfaceType
         float: 0
-      - name: _TessellationBackFaceCullEpsilon
-        float: -0.25
-      - name: _TessellationFactor
-        float: 22.1
-      - name: _TessellationFactorMaxDistance
-        float: 50
-      - name: _TessellationFactorMinDistance
-        float: 20
-      - name: _TessellationFactorTriangleSize
-        float: 100
-      - name: _TessellationMode
-        float: 1
-      - name: _TessellationShapeFactor
-        float: 0.75
       - name: _TexWorldScale
         float: 1
       - name: _TexWorldScaleEmissive
         float: 1
       - name: _Thickness
-        float: 1
-      - name: _ThicknessMultiplier
         float: 1
       - name: _TransmissionEnable
         float: 1
@@ -1116,16 +1084,15 @@ ScriptedImporter:
     graphDescIndex: 2
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_3\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3447075466\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
-    shaderName: HDRP/LitTessellation
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_3\" label=\"\" >\n </sbspreset>\n"
+    shaderName: HDRP/Lit
     materialProperties:
-      shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
-      shaderKeywords: _ALPHATEST_ON _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP
-        _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+      shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+      shaderKeywords: _ALPHATEST_ON _DOUBLESIDED_ON _HEIGHTMAP _MASKMAP _NORMALMAP
+        _NORMALMAP_TANGENT_SPACE _TESSELLATION_PHONG
       lightmapFlags: 4
       enableInstancingVariants: 0
-      doubleSidedGI: 0
+      doubleSidedGI: 1
       customRenderQueue: 2450
       texEnvs:
       - name: _AnisotropyMap
@@ -1249,13 +1216,13 @@ ScriptedImporter:
       - name: _CoatMask
         float: 0
       - name: _CullMode
-        float: 2
+        float: 0
       - name: _CullModeForward
-        float: 2
+        float: 0
       - name: _Cutoff
         float: 0.5
       - name: _DepthOffsetEnable
-        float: 0
+        float: 1
       - name: _DetailAlbedoScale
         float: 1
       - name: _DetailNormalScale
@@ -1271,7 +1238,7 @@ ScriptedImporter:
       - name: _DisplacementLockTilingScale
         float: 1
       - name: _DisplacementMode
-        float: 3
+        float: 0
       - name: _DistortionBlendMode
         float: 0
       - name: _DistortionBlurBlendMode
@@ -1301,7 +1268,7 @@ ScriptedImporter:
       - name: _DistortionVectorScale
         float: 2
       - name: _DoubleSidedEnable
-        float: 0
+        float: 1
       - name: _DoubleSidedNormalMode
         float: 1
       - name: _DstBlend
@@ -1323,19 +1290,19 @@ ScriptedImporter:
       - name: _EnergyConservingSpecularColor
         float: 1
       - name: _HeightAmplitude
-        float: 0.02
+        float: 0.06
       - name: _HeightCenter
         float: 0.5
       - name: _HeightMapParametrization
         float: 0
       - name: _HeightMax
-        float: 1
+        float: 3
       - name: _HeightMin
-        float: -1
+        float: -3
       - name: _HeightOffset
         float: 0
       - name: _HeightPoMAmplitude
-        float: 2
+        float: 1
       - name: _HeightTessAmplitude
         float: 2
       - name: _HeightTessCenter
@@ -1363,7 +1330,7 @@ ScriptedImporter:
       - name: _PPDMaxSamples
         float: 15
       - name: _PPDMinSamples
-        float: 5
+        float: 1
       - name: _PPDPrimitiveLength
         float: 1
       - name: _PPDPrimitiveWidth
@@ -1414,27 +1381,11 @@ ScriptedImporter:
         float: 1
       - name: _SurfaceType
         float: 0
-      - name: _TessellationBackFaceCullEpsilon
-        float: -0.25
-      - name: _TessellationFactor
-        float: 37.7
-      - name: _TessellationFactorMaxDistance
-        float: 50
-      - name: _TessellationFactorMinDistance
-        float: 20
-      - name: _TessellationFactorTriangleSize
-        float: 100
-      - name: _TessellationMode
-        float: 0
-      - name: _TessellationShapeFactor
-        float: 0.75
       - name: _TexWorldScale
         float: 1
       - name: _TexWorldScaleEmissive
         float: 1
       - name: _Thickness
-        float: 1
-      - name: _ThicknessMultiplier
         float: 1
       - name: _TransmissionEnable
         float: 1
@@ -1684,13 +1635,12 @@ ScriptedImporter:
     graphDescIndex: 3
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_4\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"1393731369\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
-    shaderName: HDRP/LitTessellation
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_4\" label=\"\" >\n </sbspreset>\n"
+    shaderName: HDRP/Lit
     materialProperties:
-      shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
-      shaderKeywords: _ALPHATEST_ON _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP
-        _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+      shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+      shaderKeywords: _ALPHATEST_ON _HEIGHTMAP _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        _TESSELLATION_PHONG
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
@@ -1839,7 +1789,7 @@ ScriptedImporter:
       - name: _DisplacementLockTilingScale
         float: 1
       - name: _DisplacementMode
-        float: 3
+        float: 0
       - name: _DistortionBlendMode
         float: 0
       - name: _DistortionBlurBlendMode
@@ -1891,19 +1841,19 @@ ScriptedImporter:
       - name: _EnergyConservingSpecularColor
         float: 1
       - name: _HeightAmplitude
-        float: 0.02
+        float: 0.06
       - name: _HeightCenter
         float: 0.5
       - name: _HeightMapParametrization
         float: 0
       - name: _HeightMax
-        float: 1
+        float: 3
       - name: _HeightMin
-        float: -1
+        float: -3
       - name: _HeightOffset
         float: 0
       - name: _HeightPoMAmplitude
-        float: 2
+        float: 1
       - name: _HeightTessAmplitude
         float: 2
       - name: _HeightTessCenter
@@ -1982,27 +1932,11 @@ ScriptedImporter:
         float: 1
       - name: _SurfaceType
         float: 0
-      - name: _TessellationBackFaceCullEpsilon
-        float: -0.25
-      - name: _TessellationFactor
-        float: 4
-      - name: _TessellationFactorMaxDistance
-        float: 50
-      - name: _TessellationFactorMinDistance
-        float: 20
-      - name: _TessellationFactorTriangleSize
-        float: 100
-      - name: _TessellationMode
-        float: 0
-      - name: _TessellationShapeFactor
-        float: 0.75
       - name: _TexWorldScale
         float: 1
       - name: _TexWorldScaleEmissive
         float: 1
       - name: _Thickness
-        float: 1
-      - name: _ThicknessMultiplier
         float: 1
       - name: _TransmissionEnable
         float: 1
@@ -2252,17 +2186,16 @@ ScriptedImporter:
     graphDescIndex: 4
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_5\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"605394879\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
-    shaderName: HDRP/LitTessellation
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_5\" label=\"\" >\n </sbspreset>\n"
+    shaderName: HDRP/Lit
     materialProperties:
-      shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
+      shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
       shaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP _NORMALMAP
-        _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        _NORMALMAP_TANGENT_SPACE _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
-      customRenderQueue: -1
+      customRenderQueue: 2000
       texEnvs:
       - name: _AnisotropyMap
         texture: {instanceID: 0}
@@ -2407,7 +2340,7 @@ ScriptedImporter:
       - name: _DisplacementLockTilingScale
         float: 1
       - name: _DisplacementMode
-        float: 3
+        float: 2
       - name: _DistortionBlendMode
         float: 0
       - name: _DistortionBlurBlendMode
@@ -2459,19 +2392,19 @@ ScriptedImporter:
       - name: _EnergyConservingSpecularColor
         float: 1
       - name: _HeightAmplitude
-        float: 0.02
+        float: 0.01
       - name: _HeightCenter
-        float: 0.5
+        float: 1
       - name: _HeightMapParametrization
         float: 0
       - name: _HeightMax
-        float: 1
+        float: 3
       - name: _HeightMin
-        float: -1
+        float: -3
       - name: _HeightOffset
         float: 0
       - name: _HeightPoMAmplitude
-        float: 2
+        float: 1
       - name: _HeightTessAmplitude
         float: 2
       - name: _HeightTessCenter
@@ -2550,27 +2483,11 @@ ScriptedImporter:
         float: 1
       - name: _SurfaceType
         float: 0
-      - name: _TessellationBackFaceCullEpsilon
-        float: -0.25
-      - name: _TessellationFactor
-        float: 4
-      - name: _TessellationFactorMaxDistance
-        float: 50
-      - name: _TessellationFactorMinDistance
-        float: 20
-      - name: _TessellationFactorTriangleSize
-        float: 100
-      - name: _TessellationMode
-        float: 0
-      - name: _TessellationShapeFactor
-        float: 0.75
       - name: _TexWorldScale
         float: 1
       - name: _TexWorldScaleEmissive
         float: 1
       - name: _Thickness
-        float: 1
-      - name: _ThicknessMultiplier
         float: 1
       - name: _TransmissionEnable
         float: 1
@@ -2802,13 +2719,12 @@ ScriptedImporter:
     graphDescIndex: 5
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_6\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3172779525\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
-    shaderName: HDRP/LitTessellation
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_6\" label=\"\" >\n </sbspreset>\n"
+    shaderName: HDRP/Lit
     materialProperties:
-      shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
-      shaderKeywords: _ALPHATEST_ON _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP
-        _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+      shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+      shaderKeywords: _ALPHATEST_ON _HEIGHTMAP _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        _TESSELLATION_PHONG
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
@@ -2957,7 +2873,7 @@ ScriptedImporter:
       - name: _DisplacementLockTilingScale
         float: 1
       - name: _DisplacementMode
-        float: 3
+        float: 0
       - name: _DistortionBlendMode
         float: 0
       - name: _DistortionBlurBlendMode
@@ -3009,19 +2925,19 @@ ScriptedImporter:
       - name: _EnergyConservingSpecularColor
         float: 1
       - name: _HeightAmplitude
-        float: 0.02
+        float: 0.06
       - name: _HeightCenter
         float: 0.5
       - name: _HeightMapParametrization
         float: 0
       - name: _HeightMax
-        float: 1
+        float: 3
       - name: _HeightMin
-        float: -1
+        float: -3
       - name: _HeightOffset
         float: 0
       - name: _HeightPoMAmplitude
-        float: 2
+        float: 1
       - name: _HeightTessAmplitude
         float: 2
       - name: _HeightTessCenter
@@ -3100,27 +3016,11 @@ ScriptedImporter:
         float: 1
       - name: _SurfaceType
         float: 0
-      - name: _TessellationBackFaceCullEpsilon
-        float: -0.25
-      - name: _TessellationFactor
-        float: 4
-      - name: _TessellationFactorMaxDistance
-        float: 50
-      - name: _TessellationFactorMinDistance
-        float: 20
-      - name: _TessellationFactorTriangleSize
-        float: 100
-      - name: _TessellationMode
-        float: 0
-      - name: _TessellationShapeFactor
-        float: 0.75
       - name: _TexWorldScale
         float: 1
       - name: _TexWorldScaleEmissive
         float: 1
       - name: _Thickness
-        float: 1
-      - name: _ThicknessMultiplier
         float: 1
       - name: _TransmissionEnable
         float: 1
@@ -3370,17 +3270,17 @@ ScriptedImporter:
     graphDescIndex: 6
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Gevel_7\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3390830227\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
-    shaderName: HDRP/LitTessellation
+    preset: " <sbspreset pkgurl=\"pkg://Gevel_7\" label=\"\" >\n </sbspreset>\n"
+    shaderName: HDRP/Lit
     materialProperties:
-      shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
+      shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
       shaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP _NORMALMAP
-        _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        _NORMALMAP_TANGENT_SPACE _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE
+        _TESSELLATION_PHONG
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
-      customRenderQueue: -1
+      customRenderQueue: 2000
       texEnvs:
       - name: _AnisotropyMap
         texture: {instanceID: 0}
@@ -3525,7 +3425,7 @@ ScriptedImporter:
       - name: _DisplacementLockTilingScale
         float: 1
       - name: _DisplacementMode
-        float: 3
+        float: 2
       - name: _DistortionBlendMode
         float: 0
       - name: _DistortionBlurBlendMode
@@ -3579,13 +3479,13 @@ ScriptedImporter:
       - name: _HeightAmplitude
         float: 0.02
       - name: _HeightCenter
-        float: 0.5
+        float: 1
       - name: _HeightMapParametrization
         float: 0
       - name: _HeightMax
-        float: 1
+        float: 2
       - name: _HeightMin
-        float: -1
+        float: -2
       - name: _HeightOffset
         float: 0
       - name: _HeightPoMAmplitude
@@ -3668,27 +3568,11 @@ ScriptedImporter:
         float: 1
       - name: _SurfaceType
         float: 0
-      - name: _TessellationBackFaceCullEpsilon
-        float: -0.25
-      - name: _TessellationFactor
-        float: 4
-      - name: _TessellationFactorMaxDistance
-        float: 50
-      - name: _TessellationFactorMinDistance
-        float: 20
-      - name: _TessellationFactorTriangleSize
-        float: 100
-      - name: _TessellationMode
-        float: 0
-      - name: _TessellationShapeFactor
-        float: 0.75
       - name: _TexWorldScale
         float: 1
       - name: _TexWorldScaleEmissive
         float: 1
       - name: _Thickness
-        float: 1
-      - name: _ThicknessMultiplier
         float: 1
       - name: _TransmissionEnable
         float: 1
