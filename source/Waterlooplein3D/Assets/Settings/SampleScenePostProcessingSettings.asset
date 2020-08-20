@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   m_AdvancedMode: 0
+  quality:
+    m_OverrideState: 0
+    m_Value: 1
   spectralLut:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -22,7 +25,7 @@ MonoBehaviour:
     m_Value: 0.05
     min: 0
     max: 1
-  maxSamples:
+  m_MaxSamples:
     m_OverrideState: 0
     m_Value: 8
     min: 3
@@ -60,7 +63,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   temperature:
     m_OverrideState: 1
-    m_Value: 20
+    m_Value: 19
     min: -100
     max: 100
   tint:
