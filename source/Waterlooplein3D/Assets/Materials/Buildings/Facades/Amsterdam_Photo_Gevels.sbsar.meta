@@ -1088,11 +1088,11 @@ ScriptedImporter:
     shaderName: HDRP/Lit
     materialProperties:
       shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
-      shaderKeywords: _ALPHATEST_ON _DOUBLESIDED_ON _HEIGHTMAP _MASKMAP _NORMALMAP
-        _NORMALMAP_TANGENT_SPACE _TESSELLATION_PHONG
+      shaderKeywords: _ALPHATEST_ON _HEIGHTMAP _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        _TESSELLATION_PHONG
       lightmapFlags: 4
       enableInstancingVariants: 0
-      doubleSidedGI: 1
+      doubleSidedGI: 0
       customRenderQueue: 2450
       texEnvs:
       - name: _AnisotropyMap
@@ -1216,9 +1216,9 @@ ScriptedImporter:
       - name: _CoatMask
         float: 0
       - name: _CullMode
-        float: 0
+        float: 2
       - name: _CullModeForward
-        float: 0
+        float: 2
       - name: _Cutoff
         float: 0.5
       - name: _DepthOffsetEnable
@@ -1268,7 +1268,7 @@ ScriptedImporter:
       - name: _DistortionVectorScale
         float: 2
       - name: _DoubleSidedEnable
-        float: 1
+        float: 0
       - name: _DoubleSidedNormalMode
         float: 1
       - name: _DstBlend

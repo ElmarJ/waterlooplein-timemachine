@@ -16,13 +16,25 @@ ScriptedImporter:
     graphDescIndex: 0
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://VG_Grass\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3724270064\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://VG_Grass\" label=\"\" >\n  <presetinput identifier=\"Grass_Amount\"
+      uid=\"2943873116\" type=\"4\" value=\"492\" />\n  <presetinput identifier=\"GrassLength\"
+      uid=\"2943872884\" type=\"0\" value=\"0.545\" />\n  <presetinput identifier=\"GrassThickness\"
+      uid=\"2943872883\" type=\"0\" value=\"0.079\" />\n  <presetinput identifier=\"Grass_depth_Position\"
+      uid=\"2943872692\" type=\"0\" value=\"0.804\" />\n  <presetinput identifier=\"GrassColor_Hue\"
+      uid=\"2943872322\" type=\"0\" value=\"0.483\" />\n  <presetinput identifier=\"GrassColor_Saturation\"
+      uid=\"2943872324\" type=\"0\" value=\"0.698\" />\n  <presetinput identifier=\"GrassColor_Lightness\"
+      uid=\"2943872326\" type=\"0\" value=\"0.548\" />\n  <presetinput identifier=\"DryGrassThickness\"
+      uid=\"2920741546\" type=\"0\" value=\"0.056\" />\n  <presetinput identifier=\"DryGrassLength\"
+      uid=\"2920741518\" type=\"0\" value=\"0.383\" />\n  <presetinput identifier=\"DryGrassOpacity_Level_In_Mid\"
+      uid=\"2943874528\" type=\"0\" value=\"0.611\" />\n  <presetinput identifier=\"DryGrassColor_Saturation\"
+      uid=\"2943872501\" type=\"0\" value=\"0.587\" />\n  <presetinput identifier=\"DryGrassColor_Lightness\"
+      uid=\"2943872503\" type=\"0\" value=\"0.438\" />\n  <presetinput identifier=\"DryGrassSoilDistance\"
+      uid=\"2920742146\" type=\"0\" value=\"0.698\" />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
-      shaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP _NORMALMAP
-        _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+      shaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MAPPING_TRIPLANAR
+        _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
@@ -177,7 +189,7 @@ ScriptedImporter:
       - name: _DistortionBlurBlendMode
         float: 0
       - name: _DistortionBlurDstBlend
-        float: 0
+        float: 1
       - name: _DistortionBlurRemapMax
         float: 1
       - name: _DistortionBlurRemapMin
@@ -185,17 +197,17 @@ ScriptedImporter:
       - name: _DistortionBlurScale
         float: 1
       - name: _DistortionBlurSrcBlend
-        float: 0
+        float: 1
       - name: _DistortionDepthTest
         float: 1
       - name: _DistortionDstBlend
-        float: 0
+        float: 1
       - name: _DistortionEnable
         float: 0
       - name: _DistortionScale
         float: 1
       - name: _DistortionSrcBlend
-        float: 0
+        float: 1
       - name: _DistortionVectorBias
         float: -1
       - name: _DistortionVectorScale
@@ -223,15 +235,15 @@ ScriptedImporter:
       - name: _EnergyConservingSpecularColor
         float: 1
       - name: _HeightAmplitude
-        float: 0.02
+        float: 0.06
       - name: _HeightCenter
         float: 0.5
       - name: _HeightMapParametrization
         float: 0
       - name: _HeightMax
-        float: 1
+        float: 3
       - name: _HeightMin
-        float: -1
+        float: -3
       - name: _HeightOffset
         float: 0
       - name: _HeightPoMAmplitude
@@ -291,23 +303,23 @@ ScriptedImporter:
       - name: _StencilRef
         float: 0
       - name: _StencilRefDepth
-        float: 0
+        float: 8
       - name: _StencilRefDistortionVec
-        float: 2
+        float: 4
       - name: _StencilRefGBuffer
-        float: 2
+        float: 10
       - name: _StencilRefMV
-        float: 32
+        float: 40
       - name: _StencilWriteMask
-        float: 3
+        float: 6
       - name: _StencilWriteMaskDepth
         float: 8
       - name: _StencilWriteMaskDistortionVec
-        float: 2
+        float: 4
       - name: _StencilWriteMaskGBuffer
-        float: 3
+        float: 14
       - name: _StencilWriteMaskMV
-        float: 32
+        float: 40
       - name: _SubsurfaceMask
         float: 1
       - name: _SupportDecals
@@ -353,7 +365,7 @@ ScriptedImporter:
       - name: _TransparentZWrite
         float: 0
       - name: _UVBase
-        float: 0
+        float: 5
       - name: _UVDetail
         float: 0
       - name: _UVEmissive
@@ -363,11 +375,11 @@ ScriptedImporter:
       - name: _UseShadowThreshold
         float: 0
       - name: _ZTestDepthEqualForOpaque
-        float: 4
+        float: 3
       - name: _ZTestGBuffer
         float: 4
       - name: _ZTestModeDistortion
-        float: 8
+        float: 4
       - name: _ZTestTransparent
         float: 4
       - name: _ZWrite
@@ -402,7 +414,7 @@ ScriptedImporter:
       - name: _UVDetailsMappingMask
         color: {r: 1, g: 0, b: 0, a: 0}
       - name: _UVMappingMask
-        color: {r: 1, g: 0, b: 0, a: 0}
+        color: {r: 0, g: 0, b: 0, a: 0}
       - name: _UVMappingMaskEmissive
         color: {r: 1, g: 0, b: 0, a: 0}
     outputDescList:
