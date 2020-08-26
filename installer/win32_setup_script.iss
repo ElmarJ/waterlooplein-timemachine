@@ -20,12 +20,12 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\elmar\repos\Waterlooplein3D\COPYING
+LicenseFile={#SourcePath}\..\COPYING
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
 OutputBaseFilename=waterlooplein3d_win32_setup
-OutputDir=C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86
-SetupIconFile=C:\Users\elmar\repos\Waterlooplein3D\source\Waterlooplein3D\Assets\Images\Waterlooplein3D_icon.ico
+OutputDir={#SourcePath}\..\builds\win_x86
+SetupIconFile={#SourcePath}\..\source\Waterlooplein3D\Assets\Images\Waterlooplein3D_icon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -37,11 +37,11 @@ Name: "dutch"; MessagesFile: "compiler:Languages\Dutch.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\Waterlooplein 3D.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\UnityCrashHandler32.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\UnityPlayer.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\MonoBleedingEdge\*"; DestDir: "{app}\MonoBleedingEdge"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\elmar\repos\Waterlooplein3D\Builds\win_x86\Waterlooplein 3D_Data\*"; DestDir: "{app}\Waterlooplein 3D_Data"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourcePath}\..\builds\win_x86\Waterlooplein 3D.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}\..\builds\win_x86\UnityCrashHandler32.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}\..\builds\win_x86\UnityPlayer.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}\..\builds\win_x86\MonoBleedingEdge\*"; DestDir: "{app}\MonoBleedingEdge"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourcePath}\..\builds\win_x86\Waterlooplein 3D_Data\*"; DestDir: "{app}\Waterlooplein 3D_Data"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
