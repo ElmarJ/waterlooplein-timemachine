@@ -1,3 +1,6 @@
 [submodule "source/Waterlooplein3D/Packages/nl.elmarjansen.geojsoncitybuilder"]
 	path = source/Waterlooplein3D/Packages/nl.elmarjansen.geojsoncitybuilder
 	url = https://github.com/ElmarJ/GeoJsonCityBuilder.git
+[submodule "source/Waterlooplein3D/Assets/External/UnityHDRPSimpleWater"]
+	path = source/Waterlooplein3D/Assets/External/UnityHDRPSimpleWater
+	url = https://github.com/flamacore/UnityHDRPSimpleWater.git

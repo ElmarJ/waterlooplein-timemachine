@@ -30,11 +30,49 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.render-pipelines.core": {
+      "version": "7.4.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.render-pipelines.high-definition": {
+      "version": "7.4.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "7.4.3",
+        "com.unity.shadergraph": "7.4.3",
+        "com.unity.visualeffectgraph": "7.4.3",
+        "com.unity.render-pipelines.high-definition-config": "7.4.3"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.render-pipelines.high-definition-config": {
+      "version": "file:../LocalPackages/com.unity.render-pipelines.high-definition-config",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "7.3.1"
+      }
+    },
     "com.unity.settings-manager": {
       "version": "1.0.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.shadergraph": {
+      "version": "7.4.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "7.4.3"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
@@ -53,6 +91,15 @@
       "dependencies": {
         "com.unity.modules.ui": "1.0.0"
       }
+    },
+    "com.unity.visualeffectgraph": {
+      "version": "7.4.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.shadergraph": "7.4.3"
+      },
+      "url": "https://packages.unity.com"
     },
     "nl.elmarjansen.geojsoncitybuilder": {
       "version": "file:nl.elmarjansen.geojsoncitybuilder",

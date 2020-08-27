@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: c496c40fce2378446826f2263655e09c
 SpeedTreeImporter:
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Broadleaf_Desktop_Field_LOD0
+    second: {fileID: 2100000, guid: 0e1a7a47212c7de4e9a739475113576e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Broadleaf_Desktop_Field_LOD1
+    second: {fileID: 2100000, guid: 0e1a7a47212c7de4e9a739475113576e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Broadleaf_Desktop_Field_LOD2
+    second: {fileID: 2100000, guid: 0e1a7a47212c7de4e9a739475113576e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main_Bark_LOD0
+    second: {fileID: 2100000, guid: 600f77b02b2b2b14392ed6000601f735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main_Bark_LOD1
+    second: {fileID: 2100000, guid: 600f77b02b2b2b14392ed6000601f735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main_Bark_LOD2
+    second: {fileID: 2100000, guid: 600f77b02b2b2b14392ed6000601f735, type: 2}
   serializedVersion: 6
   mainColor: {r: 1, g: 1, b: 1, a: 1}
   hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
@@ -43,7 +73,7 @@ SpeedTreeImporter:
   scaleFactor: 0.3048
   materialVersion: 3
   materialLocation: 1
-  fileIDType: 1
+  fileIDType: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
