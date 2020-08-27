@@ -34,8 +34,19 @@ Contributions (correcting underlying maps, programming or reporting bugs or requ
  6. Optionally, setup VS Code as the default editor (Edit > Preferences > External Tools > External Script Editor).
  7. Open MainScene.unity in /Waterlooplein3D/Assets/Scenes (File > Open Scene)
 
+## Additional remarks
+
+### Checkout Branches
 Please remember to cleanup any ignored unity cache files whenever switching branches (```git checkout```), using the following command:
 ```
 git clean -X -f -d
 ```
 Failing to do so might result in a crashing Unity editor. 
+
+### Meta files in HDRP Water Submodule
+
+.meta-files are not ignored in the .gitignore on the remote repo for the HDRP-water submodule. If you want to prevent the submodule from getting "dirty" because of .met-file generation, it is recommended to add the following line to ```/.git/modules/source/Waterlooplein3D/Assets/External/UnityHDRPSimpleWater/info```:
+
+```
+*.meta
+```
