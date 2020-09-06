@@ -45,7 +45,7 @@ Failing to do so might result in a crashing Unity editor.
 
 ### Meta files in HDRP Water Submodule
 
-.meta-files are not ignored in the .gitignore on the remote repo for the HDRP-water submodule. If you want to prevent the submodule from getting "dirty" because of .met-file generation, it is recommended to add the following line to ```/.git/modules/source/Waterlooplein3D/Assets/External/UnityHDRPSimpleWater/info```:
+.meta-files are not ignored in the .gitignore on the remote repo for the HDRP-water submodule. If you want to prevent the submodule from getting "dirty" because of .met-file generation, it is recommended to add the following line to ```/.git/modules/source/Waterlooplein3D/Assets/External/UnityHDRPSimpleWater/info/exclude```:
 
 ```
 *.meta
