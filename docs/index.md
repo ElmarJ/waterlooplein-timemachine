@@ -27,7 +27,7 @@ Verwacht geen perfecte reconstructie, het belangrijkste doel is om een beeld te 
 
 Overigens zijn de straten van het hele Centrum te bewandelen, maar ontbreken buiten de Waterloopleinbuurt alle details zoals bomen, bruggen en individuele panden.
 
-Als je een moderne webbrowser hebt, kun je de reconstructie bekijken op https://play.unity.com/mg/other/waterlooplein-3d. Als je een goede computer hebt is het echter beter om te downloaden en installeren,
+Als je een moderne webbrowser hebt, kun je de reconstructie bekijken op [Unity Play](https://play.unity.com/mg/other/waterlooplein-3d). Als je een goede computer hebt is het echter beter om te downloaden en installeren,
 
 ## Installeren
 
