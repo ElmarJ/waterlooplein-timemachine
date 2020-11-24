@@ -17,7 +17,7 @@ ScriptedImporter:
     generateAllOutputs: 0
     generateMipMaps: 1
     preset: " <sbspreset pkgurl=\"pkg://VG_Grass\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"3724270064\" type=\"8\" value=\"11,11\" />\n  <presetinput identifier=\"Grass_Amount\"
+      uid=\"3724270064\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"Grass_Amount\"
       uid=\"2943873116\" type=\"4\" value=\"288\" />\n  <presetinput identifier=\"GrassLength\"
       uid=\"2943872884\" type=\"0\" value=\"0.121\" />\n  <presetinput identifier=\"GrassThickness\"
       uid=\"2943872883\" type=\"0\" value=\"0.138\" />\n </sbspreset>\n"
@@ -207,8 +207,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 2048
-      textureHeight: 2048
+      textureWidth: 512
+      textureHeight: 512
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1

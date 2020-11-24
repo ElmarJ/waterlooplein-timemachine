@@ -222,8 +222,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 256
+      textureHeight: 256
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1
@@ -446,8 +446,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 256
+      textureHeight: 256
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1
@@ -473,7 +473,7 @@ ScriptedImporter:
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
-      customRenderQueue: -1
+      customRenderQueue: 2450
       texEnvs:
       - name: _BumpMap
         texture: {fileID: 963741200487821515, guid: dd150803b1b96df4a9957bd3e202769c,
@@ -689,8 +689,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 256
+      textureHeight: 256
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1
@@ -716,7 +716,7 @@ ScriptedImporter:
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
-      customRenderQueue: -1
+      customRenderQueue: 2450
       texEnvs:
       - name: _BumpMap
         texture: {fileID: 9094074513841095096, guid: dd150803b1b96df4a9957bd3e202769c,
@@ -932,8 +932,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 256
+      textureHeight: 256
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1
@@ -1156,8 +1156,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 256
+      textureHeight: 256
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1
@@ -1183,7 +1183,7 @@ ScriptedImporter:
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
-      customRenderQueue: -1
+      customRenderQueue: 2450
       texEnvs:
       - name: _BumpMap
         texture: {fileID: -6099024697980994378, guid: dd150803b1b96df4a9957bd3e202769c,
@@ -1399,8 +1399,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 256
+      textureHeight: 256
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1
@@ -1623,8 +1623,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 256
+      textureHeight: 256
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1

@@ -17,14 +17,13 @@ ScriptedImporter:
     generateAllOutputs: 0
     generateMipMaps: 1
     preset: " <sbspreset pkgurl=\"pkg://Brick_Wall\" label=\"\" >\n  <presetinput
-      identifier=\"$outputsize\" uid=\"1160043161\" type=\"8\" value=\"9,9\" />\n 
-      <presetinput identifier=\"Brick_Wear\" uid=\"909746407\" type=\"0\" value=\"0.201\"
-      />\n  <presetinput identifier=\"Small_Chipping\" uid=\"909921407\" type=\"0\"
-      value=\"0.124\" />\n  <presetinput identifier=\"Medium_Chipping\" uid=\"908566246\"
-      type=\"0\" value=\"0.287\" />\n  <presetinput identifier=\"Large_Chipping\"
-      uid=\"910066962\" type=\"0\" value=\"0.243\" />\n  <presetinput identifier=\"cracks\"
-      uid=\"908398471\" type=\"0\" value=\"0.209\" />\n  <presetinput identifier=\"brick_dirt\"
-      uid=\"907097867\" type=\"0\" value=\"0.116\" />\n  <presetinput identifier=\"Mortar_Height\"
+      identifier=\"Brick_Wear\" uid=\"909746407\" type=\"0\" value=\"0.201\" />\n 
+      <presetinput identifier=\"Small_Chipping\" uid=\"909921407\" type=\"0\" value=\"0.124\"
+      />\n  <presetinput identifier=\"Medium_Chipping\" uid=\"908566246\" type=\"0\"
+      value=\"0.287\" />\n  <presetinput identifier=\"Large_Chipping\" uid=\"910066962\"
+      type=\"0\" value=\"0.243\" />\n  <presetinput identifier=\"cracks\" uid=\"908398471\"
+      type=\"0\" value=\"0.209\" />\n  <presetinput identifier=\"brick_dirt\" uid=\"907097867\"
+      type=\"0\" value=\"0.116\" />\n  <presetinput identifier=\"Mortar_Height\"
       uid=\"909668547\" type=\"0\" value=\"0.39\" />\n  <presetinput identifier=\"Mortar_Bumps\"
       uid=\"909656599\" type=\"0\" value=\"0.152\" />\n  <presetinput identifier=\"Mortar_Divots\"
       uid=\"909656092\" type=\"0\" value=\"0.005\" />\n  <presetinput identifier=\"Mortar_Saturation\"
@@ -217,8 +216,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 256
+      textureHeight: 256
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1
