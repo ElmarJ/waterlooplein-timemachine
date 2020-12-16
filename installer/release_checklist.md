@@ -1,17 +1,20 @@
 # Publishing a new version of Waterlooplein3D
 
+## Prerequisites:
+ - [ ] [Inno Setup](https://jrsoftware.org/isdl.php) installed?
+ - [ ] Unity Build Components (Windows mono, Mac mono, Linux mono, Windows Store App) installed?
 ## Checks
  - [ ] No overlapping buildings? (check Mozes and Aaron!)
  - [ ] Project converted to latest version of Unity? 
 
 ## Finalize code
- - [ ] Under Player Settings, update version number
- - [ ] In installer\win32_setup_script.iss update version number (MyAppVersion variable)
- - [ ] In installer\win64_setup_script.iss update version number (MyAppVersion variable)
- - [ ] All code changes are committed and pushed to master on Github.
+ - [ ] In Unity, under Player Settings, update version number
+ - [ ] In [installer/win32_setup_script.iss](./win32_setup_script.iss) update version number (MyAppVersion variable)
+ - [ ] In [installer/win64_setup_script.iss](./win64_setup_script.iss) update version number (MyAppVersion variable)
+ - [ ] Make sure all code changes are committed and pushed to master on Github.
 
 ## Build
- - [ ] Makes sure that the \builds\ folder is empty or non-existant
+ - [ ] Makes sure that the \builds\ folder is empty or non-existent
  - [ ] Build for all platforms (Unity Menu: Waterlooplein 3D -> Build and Package -> Build All)
 
 ## Github release
