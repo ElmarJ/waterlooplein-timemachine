@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf1dab834d4ec34195b920ea7bbf9ec, type: 3}
-  m_Name: HDRenderPipelineAsset
+  m_Name: HDRP_PC_High
   m_EditorClassIdentifier: 
   m_Version: 14
   m_ObsoleteFrameSettings:
@@ -151,12 +151,12 @@ MonoBehaviour:
   m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
     type: 2}
   m_RenderPipelineRayTracingResources: {fileID: 0}
-  m_DefaultVolumeProfile: {fileID: 11400000, guid: 6c0763bdcc4650d45bc43b4c57d4767b,
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: 582adbd84082fdb4faf7cd4beb1ccd14,
     type: 2}
   m_DefaultLookDevProfile: {fileID: 0}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 70297877217101
+      data1: 70297877217117
       data2: 4539628425463136256
     lodBias: 1
     lodBiasMode: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
     bitDatas:
-      data1: 64942043591501
+      data1: 69373911135005
       data2: 4539628424389459968
     lodBias: 1
     lodBiasMode: 0
@@ -178,8 +178,8 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderingPathDefaultRealtimeReflectionFrameSettings:
     bitDatas:
-      data1: 69554681159501
-      data2: 4539628424657895424
+      data1: 69622750778125
+      data2: 4539628424389459968
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -220,13 +220,13 @@ MonoBehaviour:
     supportTerrainHole: 0
     supportRayTracing: 0
     lightLoopSettings:
-      cookieAtlasSize: 2048
+      cookieAtlasSize: 512
       cookieFormat: 74
       pointCookieSize: 128
       cubeCookieTexArraySize: 16
       cookieAtlasLastValidMip: 0
-      cookieTexArraySize: 1
-      planarReflectionAtlasSize: 1024
+      cookieTexArraySize: 16
+      planarReflectionAtlasSize: 4096
       reflectionProbeCacheSize: 64
       reflectionCubemapSize: 256
       reflectionCacheCompressed: 0
@@ -244,15 +244,15 @@ MonoBehaviour:
       maxPlanarReflectionOnScreen: 16
     hdShadowInitParams:
       maxShadowRequests: 128
-      directionalShadowsDepthBits: 32
+      directionalShadowsDepthBits: 16
       shadowFilteringQuality: 1
       punctualLightShadowAtlas:
         shadowAtlasResolution: 4096
-        shadowAtlasDepthBits: 32
+        shadowAtlasDepthBits: 16
         useDynamicViewportRescale: 1
       areaLightShadowAtlas:
         shadowAtlasResolution: 4096
-        shadowAtlasDepthBits: 32
+        shadowAtlasDepthBits: 16
         useDynamicViewportRescale: 1
       shadowResolutionDirectional:
         m_Values: 00010000000200000004000000080000
@@ -316,7 +316,7 @@ MonoBehaviour:
       ChromaticAberrationMaxSamples: 03000000060000000c000000
     lightSettings:
       useContactShadow:
-        m_Values: 000000
+        m_Values: 000101
         m_SchemaId:
           m_Id: 
     maximumLODLevel:
@@ -345,8 +345,8 @@ MonoBehaviour:
   m_DefaultMaterialQualityLevel: 4
   diffusionProfileSettings: {fileID: 0}
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: ab7cd5abb7dbbb841b709ddc1ab988e4, type: 2}
-  - {fileID: 11400000, guid: a6b764da9a65a81418a2e208afc093e6, type: 2}
+  - {fileID: 11400000, guid: 26bdddf49760c61438938733f07fa2a2, type: 2}
+  - {fileID: 11400000, guid: 78322c7f82657514ebe48203160e3f39, type: 2}
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
   afterPostProcessCustomPostProcesses: []
