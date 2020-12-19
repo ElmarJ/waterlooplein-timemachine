@@ -15,7 +15,6 @@ public class GameKeyController : MonoBehaviour
     {
         if (Input.GetKey("escape"))
         {
-            // Application.Quit();
             gameMenu.ActivateMenu();
         }
     }
