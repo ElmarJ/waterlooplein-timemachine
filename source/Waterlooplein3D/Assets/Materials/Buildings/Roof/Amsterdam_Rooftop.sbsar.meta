@@ -551,8 +551,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 256
+      textureHeight: 256
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1
