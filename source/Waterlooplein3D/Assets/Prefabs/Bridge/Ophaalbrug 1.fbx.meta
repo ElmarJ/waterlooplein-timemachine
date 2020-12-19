@@ -3,17 +3,7 @@ guid: dbaa03a02c1d97a44a19fce9b039d946
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cable
-    second: {fileID: 2100000, guid: df431fb2e7b2f854f9fc4ae0c2b24356, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Planks
-    second: {fileID: 2100000, guid: 9314ce569376caf40b728d9ad3f575c8, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
