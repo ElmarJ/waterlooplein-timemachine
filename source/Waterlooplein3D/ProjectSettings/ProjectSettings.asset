@@ -655,11 +655,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Template_HD
   metroPackageVersion: 
-  metroCertificatePath: 
+  metroCertificatePath: C:\Users\elmar\repos\Waterlooplein3D\source\Waterlooplein3D\Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: Elmar Jansen
+  metroCertificateIssuer: Elmar Jansen
+  metroCertificateNotAfter: 008e0098fb45d701
   metroApplicationDescription: Template_HD
   wsaImages: {}
   metroTileShortName: 

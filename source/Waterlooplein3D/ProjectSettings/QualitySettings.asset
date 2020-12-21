@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 1
+  m_CurrentQuality: 2
   m_QualitySettings:
   - serializedVersion: 2
     name: PC Low
@@ -119,3 +119,4 @@ QualitySettings:
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Standalone: 1
+    Windows Store Apps: 0

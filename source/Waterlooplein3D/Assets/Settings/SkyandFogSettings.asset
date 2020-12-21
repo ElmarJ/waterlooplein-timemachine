@@ -63,8 +63,8 @@ MonoBehaviour:
     m_Value: 0
     min: 0
   includeSunInBaking:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   earthPreset:
     m_OverrideState: 0
     m_Value: 1
@@ -132,7 +132,7 @@ MonoBehaviour:
     min: 1
     max: 10
   groundTint:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 0.31132078, g: 0.29649818, b: 0.2863564, a: 1}
     hdr: 0
     showAlpha: 0
@@ -210,7 +210,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 4
   skyAmbientMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   fogType:
     m_OverrideState: 1
@@ -242,7 +242,7 @@ MonoBehaviour:
     showAlpha: 0
     showEyeDropper: 1
   tint:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
     hdr: 1
     showAlpha: 0
@@ -277,14 +277,14 @@ MonoBehaviour:
     showAlpha: 1
     showEyeDropper: 1
   meanFreePath:
-    m_OverrideState: 1
-    m_Value: 1000
+    m_OverrideState: 0
+    m_Value: 500
     min: 1
   enableVolumetricFog:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   anisotropy:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.517
     min: -1
     max: 1

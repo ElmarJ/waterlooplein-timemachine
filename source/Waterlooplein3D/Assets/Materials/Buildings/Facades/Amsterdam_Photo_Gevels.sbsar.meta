@@ -24,7 +24,7 @@ ScriptedImporter:
         _NORMALMAP_TANGENT_SPACE _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE
         _TESSELLATION_PHONG
       lightmapFlags: 4
-      enableInstancingVariants: 0
+      enableInstancingVariants: 1
       doubleSidedGI: 0
       customRenderQueue: 2000
       texEnvs:
@@ -558,7 +558,7 @@ ScriptedImporter:
         _NORMALMAP_TANGENT_SPACE _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE
         _TESSELLATION_PHONG
       lightmapFlags: 4
-      enableInstancingVariants: 0
+      enableInstancingVariants: 1
       doubleSidedGI: 0
       customRenderQueue: 2000
       texEnvs:
@@ -1091,7 +1091,7 @@ ScriptedImporter:
       shaderKeywords: _ALPHATEST_ON _HEIGHTMAP _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
         _TESSELLATION_PHONG
       lightmapFlags: 4
-      enableInstancingVariants: 0
+      enableInstancingVariants: 1
       doubleSidedGI: 0
       customRenderQueue: 2450
       texEnvs:
@@ -1532,7 +1532,7 @@ ScriptedImporter:
     texturePackingList:
     - targetName: baseColor
       components:
-      - sourceName: opacity
+      - sourceName: baseColor
         from: 0
         to: 3
     - targetName: normal
@@ -1642,7 +1642,7 @@ ScriptedImporter:
       shaderKeywords: _ALPHATEST_ON _HEIGHTMAP _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
         _TESSELLATION_PHONG
       lightmapFlags: 4
-      enableInstancingVariants: 0
+      enableInstancingVariants: 1
       doubleSidedGI: 0
       customRenderQueue: 2450
       texEnvs:
@@ -2193,7 +2193,7 @@ ScriptedImporter:
       shaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP _NORMALMAP
         _NORMALMAP_TANGENT_SPACE _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE
       lightmapFlags: 4
-      enableInstancingVariants: 0
+      enableInstancingVariants: 1
       doubleSidedGI: 0
       customRenderQueue: 2000
       texEnvs:
@@ -2726,7 +2726,7 @@ ScriptedImporter:
       shaderKeywords: _ALPHATEST_ON _HEIGHTMAP _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
         _TESSELLATION_PHONG
       lightmapFlags: 4
-      enableInstancingVariants: 0
+      enableInstancingVariants: 1
       doubleSidedGI: 0
       customRenderQueue: 2450
       texEnvs:
@@ -3167,7 +3167,7 @@ ScriptedImporter:
     texturePackingList:
     - targetName: baseColor
       components:
-      - sourceName: opacity
+      - sourceName: baseColor
         from: 0
         to: 3
     - targetName: normal
@@ -3278,7 +3278,7 @@ ScriptedImporter:
         _NORMALMAP_TANGENT_SPACE _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE
         _TESSELLATION_PHONG
       lightmapFlags: 4
-      enableInstancingVariants: 0
+      enableInstancingVariants: 1
       doubleSidedGI: 0
       customRenderQueue: 2000
       texEnvs:
