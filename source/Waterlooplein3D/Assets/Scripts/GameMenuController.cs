@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class GameMenuController : MonoBehaviour
 {
@@ -21,6 +23,7 @@ public class GameMenuController : MonoBehaviour
         
         this.mainMenuCanvas.enabled = true;
         this.settingsMenuCanvas.enabled = false;
+        this.fpCharacter.controllerPauseState = true;
     }
 
     // Update is called once per frame
@@ -34,14 +37,11 @@ public class GameMenuController : MonoBehaviour
         this.mainMenuCanvas.enabled = false;
         this.mainMenu.SetActive(false);
 
-        this.settingsMenuCanvas.enabled = false;
-        this.settingsMenu.SetActive(false);
-
-        this.fpCharacter.enableCameraMovement = true;
         this.fpCharacter.lockAndHideCursor = true;
-        Cursor.lockState = CursorLockMode.Locked; Cursor.visible = false;
-        this.fpCharacter.playerCanMove = true;
-        this.fpCharacter.playerCanMove = true;
+        Cursor.lockState = CursorLockMode.Locked; 
+        Cursor.visible = false;
+        this.fpCharacter.controllerPauseState = false;
+
     }
 
     public void ActivateMenu()
@@ -49,14 +49,10 @@ public class GameMenuController : MonoBehaviour
         this.mainMenuCanvas.enabled = true;
         this.mainMenu.SetActive(true);
 
-        this.settingsMenuCanvas.enabled = false;
-        this.settingsMenu.SetActive(false);
-
-        this.fpCharacter.enableCameraMovement = false;
         this.fpCharacter.lockAndHideCursor = false;
-        Cursor.lockState = CursorLockMode.None; Cursor.visible = true;
-        this.fpCharacter.playerCanMove = false;
-        this.fpCharacter.playerCanMove = false;
+        Cursor.lockState = CursorLockMode.None; 
+        Cursor.visible = true;
+        this.fpCharacter.controllerPauseState = true;
     }
 
     public void ShowSettingsMenu()
