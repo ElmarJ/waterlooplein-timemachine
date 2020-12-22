@@ -16,6 +16,7 @@ This is the source code of the Waterlooplein 3D project. Waterlooplein 3D is a 3
 
 Contributions (correcting underlying maps, programming or reporting bugs or requests) [are more than welcome (page in Dutch)](./docs/contribute.md)!
 
+ - Comments of any sort can be left at the [discussions page](https://github.com/ElmarJ/Waterlooplein3D/discussions)
  - You can report bugs and requests on the [issues page](https://github.com/elmarj/waterlooplein3d/issues).
  - Modifications to the underlying map material (in GeoJSON) can be done in a seperate Github project: [Amsterdam.1892.GeoJSON](https://github.com/ElmarJ/Amsterdam.1892.GeoJSON).
  - Contributions to the software, 3D-models and PBR-materials are also more than welcome! For more information about my future plans, see the [issues pagina](https://github.com/elmarj/waterlooplein3d/issues) and the [roadmap (in Dutch)](./docs/roadmap.md) in the docs folder. The software is based on the Unity engine. The code that translates Geojson into Unity-buildings has been housed in [another Github project](https://github.com/ElmarJ/GeoJsonCityBuilder), but can also be edited directly from this repo (as git submodule).
