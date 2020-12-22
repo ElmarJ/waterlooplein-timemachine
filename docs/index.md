@@ -21,13 +21,13 @@ nav_order: 1
 
 ## Wat is het?
 
-Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterloopleinbuurt van rond 1870-1890. Het programma is bedoeld voor die mensen die (net als ik) moeite hebben zich voor te stellen hoe de buurt er ongeveer uit heeft gezien, voordat - door stadsvernieuwing en metrobouw - de buurt in de jaren '60 en '70 grotendeels is gesloopt. 
+Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterloopleinbuurt van tussen 1800 en 1950. Het programma is bedoeld voor die mensen die (net als ik) moeite hebben zich voor te stellen hoe de buurt er ongeveer uit heeft gezien, voordat - door stadsvernieuwing en metrobouw - de buurt in de jaren '60 en '70 grotendeels is gesloopt. 
 
-Verwacht geen perfecte reconstructie, het belangrijkste doel is om een beeld te geven van waar straten liepen en hoe de buurt in elkaar stak. Wat je ziet is een gemodelleerde stad waarin het stratenpatroon en de locatie van de gebouwen echt is, maar de gevels en gebouwhoogten willekeurig gegenereerd. Verwacht dus niet je eigen huis in detail terug te vinden: waarschijnlijk staat er een gebouw met de juiste omvang maar de verkeerde gevel.
+Met een schuifje kun je bepalen in welk jaar je precies rond wilt lopen (sinds versie 2.0). Verwacht geen perfecte reconstructie, het belangrijkste doel is om een beeld te geven van waar straten liepen en hoe de buurt in elkaar stak. Wat je ziet is een gemodelleerde stad waarin het stratenpatroon en de locatie van de gebouwen echt is, maar de gevels en gebouwhoogten willekeurig gegenereerd. Verwacht dus niet je eigen huis in detail terug te vinden: waarschijnlijk staat er een gebouw met de juiste omvang maar de verkeerde gevel.
 
 Overigens zijn de straten van het hele Centrum te bewandelen, maar ontbreken buiten de Waterloopleinbuurt alle details zoals bomen, bruggen en individuele panden.
 
-Als je een moderne webbrowser hebt, kun je de reconstructie bekijken op [Unity Play](https://play.unity.com/mg/other/waterlooplein-3d). Als je een goede computer hebt is het echter beter om te downloaden en installeren.
+Als je een moderne webbrowser hebt, kun je een beperkte versie (versie 1.0) van de reconstructie bekijken op [Unity Play](https://play.unity.com/mg/other/waterlooplein-3d). Als je een goede computer hebt, ziet het er veel beter uit als je het programma downloadt en installeren.
 
 ## Installeren
 
@@ -46,6 +46,15 @@ Als je een moderne webbrowser hebt, kun je de reconstructie bekijken op [Unity P
 - Pak het zip-bestand uit
 - Geef _execution_-rechten aan Waterlooplein_3D_linux64.x86_64 ```chmod +x Waterlooplein_3D_linux64.x86_64```
 - Start ```./Waterlooplein_3D_linux64.x86_64```
+
+## Versiegeschiedenis
+
+ - Versie v1.0.0 (18 augustus 2020)
+    - Eerste publieke relaese
+    - 3D-reconstructie van Waterloopleinbuurt rond 1880.
+ - Versie v2.0.0 (22 december 2020)
+    - Tijdschuifje: je kunt nu zelf het jaar bepalen waarin je rondloopt
+    - Nieuwe grafische techniek (HDRP), daardoor veel gedetailleerder en overtuigender beeld
 
 ## Open Source Projecten
 
