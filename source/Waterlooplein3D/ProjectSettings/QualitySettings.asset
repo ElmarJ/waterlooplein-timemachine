@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 2
+  m_CurrentQuality: 0
   m_QualitySettings:
   - serializedVersion: 2
     name: PC Low
@@ -25,7 +25,7 @@ QualitySettings:
     softParticles: 0
     softVegetation: 1
     realtimeReflectionProbes: 0
-    billboardsFaceCameraPosition: 1
+    billboardsFaceCameraPosition: 0
     vSyncCount: 0
     lodBias: 1
     maximumLODLevel: 0
@@ -39,7 +39,7 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
-    resolutionScalingFixedDPIFactor: 1
+    resolutionScalingFixedDPIFactor: 0.5
     customRenderPipeline: {fileID: 11400000, guid: e1712cdf22fbc2440b7dc694c3318bb2,
       type: 2}
     excludedTargetPlatforms: []
@@ -76,7 +76,7 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
-    resolutionScalingFixedDPIFactor: 1
+    resolutionScalingFixedDPIFactor: 0.75
     customRenderPipeline: {fileID: 11400000, guid: e8c425baf46fedd4b9795fb1538db201,
       type: 2}
     excludedTargetPlatforms: []
@@ -118,5 +118,5 @@ QualitySettings:
       type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Standalone: 1
+    Standalone: 0
     Windows Store Apps: 0
