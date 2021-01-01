@@ -36,7 +36,7 @@ Contributions (correcting underlying maps, programming or reporting bugs or requ
  7. Optionally, setup VS Code as the default editor (Edit > Preferences > External Tools > External Script Editor).
  8. Open MainScene.unity in /Waterlooplein3D/Assets/Scenes (File > Open Scene)
 
-Please remember to cleanup any ignored unity cache files whenever switching branches (```git checkout```), using the following command:
+When switching between version branches (particularly v1.0-branch and v2.0-branch), always cleanup any ignored unity cache files whenever switching branches (```git checkout```), using the following command:
 ```
 git clean -X -f -d
 ```
