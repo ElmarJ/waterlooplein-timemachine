@@ -1,7 +1,14 @@
 name: build-action
 on:
-  pull_request: {}
-  push: { branches: [master] }
+  pull_request:
+    paths:
+    - 'source/**'
+    - '.github/workflows/**'
+  push:
+    branches: [master]
+    paths-ignore:
+    - 'source/**'
+    - '.github/workflows/**'
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 jobs:
