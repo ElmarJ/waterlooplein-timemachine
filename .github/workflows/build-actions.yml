@@ -10,7 +10,9 @@ on:
     - 'source/**'
     - '.github/workflows/**'
 env:
-  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+    UNITY_EMAIL: elmar@elmarjansen.nl
+    UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+    UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
 jobs:
   buildAndTestForSomePlatforms:
     name: Build for ${{ matrix.targetPlatform }}
