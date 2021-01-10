@@ -3,12 +3,10 @@ on:
   pull_request:
     paths:
     - 'source/**'
-    - '.github/workflows/**'
   push:
     branches: [master]
     paths-ignore:
     - 'source/**'
-    - '.github/workflows/**'
 env:
     UNITY_EMAIL: elmar@elmarjansen.nl
     UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
