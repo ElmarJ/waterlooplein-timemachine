@@ -30,6 +30,7 @@ jobs:
         with:
           projectPath: ${{ matrix.projectPath }}
           targetPlatform: ${{ matrix.targetPlatform }}
+          version: auto
       - uses: actions/upload-artifact@v1
         with:
           name: Build
