@@ -19,7 +19,7 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - source/Waterlooplein 3D
+          - source/Waterlooplein3D
         targetPlatform:
           - StandaloneWindows64 # Build a Windows 64-bit standalone.
     steps:
