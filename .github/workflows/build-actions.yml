@@ -1,6 +1,7 @@
 name: build-action
 on:
-  push: { }
+  pull_request: {}
+  push: { branches: [master] }
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 jobs:
