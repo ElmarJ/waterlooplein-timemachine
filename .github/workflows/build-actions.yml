@@ -21,7 +21,7 @@ jobs:
         projectPath:
           - source/Waterlooplein3D
         targetPlatform:
-          - StandaloneWindows64 # Build a Windows 64-bit standalone.
+          - StandaloneLinux64 # Build a Windows 64-bit standalone.
     steps:
       - uses: actions/checkout@v2
         with:
@@ -38,7 +38,7 @@ jobs:
         with:
           projectPath: ${{ matrix.projectPath }}
           targetPlatform: ${{ matrix.targetPlatform }}
-          unityVersion: 2020.1.1f1
+          unityVersion: 2019.4.9f1
       - uses: actions/upload-artifact@v1
         with:
           name: Build
