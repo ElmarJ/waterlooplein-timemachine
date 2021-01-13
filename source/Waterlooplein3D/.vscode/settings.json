@@ -1,4 +1,4 @@
-﻿{
+{
     "files.exclude":
     {
         "**/.DS_Store":true,
@@ -43,6 +43,8 @@
         "**/*.meta":true,
         "**/*.prefab":true,
         "**/*.unity":true,
+        "**/*.csproj":true,
+        "**/*.sln":true,
         "build/":true,
         "Build/":true,
         "Library/":true,
@@ -52,5 +54,6 @@
         "ProjectSettings/":true,
         "temp/":true,
         "Temp/":true
-    }
+    },
+    "omnisharp.disableMSBuildDiagnosticWarning": true
 }
