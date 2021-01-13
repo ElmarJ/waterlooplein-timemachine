@@ -4,4 +4,4 @@
 	branch = master
 [submodule "source/Waterlooplein3D/Assets/External/UnityHDRPSimpleWater"]
 	path = source/Waterlooplein3D/Assets/External/UnityHDRPSimpleWater
-	url = https://github.com/flamacore/UnityHDRPSimpleWater.git
+	url = https://github.com/ElmarJ/UnityHDRPSimpleWater.git
