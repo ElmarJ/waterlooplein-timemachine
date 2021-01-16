@@ -156,7 +156,7 @@ MonoBehaviour:
     max: 10
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.41509432, g: 0.32243735, b: 0.2721609, a: 1}
+    m_Value: {r: 0.4716981, g: 0.46785495, b: 0.46502313, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
