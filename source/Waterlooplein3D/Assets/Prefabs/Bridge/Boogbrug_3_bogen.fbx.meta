@@ -8,14 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Red Brick Wall V1
-    second: {fileID: -7414089727441291947, guid: 7af2f72d75763ee47a8e8b7cd09b3443,
-      type: 3}
+    second: {fileID: 2100000, guid: 479d2a7cf569a3548b1f01ea2a7fa6ed, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: paving
-    second: {fileID: -3817463451643363444, guid: cbffaeab7a6c97a40941d8baa87c2741,
-      type: 3}
+    second: {fileID: 2100000, guid: 4cc4d54817f1e5042a347e242a9740cc, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
