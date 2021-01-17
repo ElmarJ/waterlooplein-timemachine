@@ -1,7 +1,11 @@
 name: 'unity-cloud-build'
 on: # rebuild any PRs and main branch changes
   pull_request:
+    paths:
+     - 'source/**'
   push:
+    paths:
+     - 'source/**'
     branches:
       - master
       - 'releases/*'
@@ -11,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: elmarj/unity-cloud-build-action@v1.1
+      - uses: elmarj/unity-cloud-build-action@v1.2
         with:
           orgid: 9070997178214
           projectid: 92d51031-4fe2-4e34-8c02-d41460f587fa
