@@ -1,45 +1,45 @@
-name: build-action
-on:
-  pull_request:
-    paths:
-    - 'source/**'
-  push:
-    branches: [master]
-    paths-ignore:
-    - 'source/**'
-env:
-    UNITY_EMAIL: elmar@elmarjansen.nl
-    UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-    UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
-jobs:
-  buildAndTestForSomePlatforms:
-    name: Build for ${{ matrix.targetPlatform }}
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        projectPath:
-          - source/Waterlooplein3D
-        targetPlatform:
-          - StandaloneLinux64 # Build a Windows 64-bit standalone.
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          lfs: true
-          submodules: recursive
-      - uses: actions/cache@v1.1.0
-        with:
-          path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}
-          restore-keys: |
-            Library-${{ matrix.projectPath }}-
-            Library-
-      - uses: webbertakken/unity-builder@v0.10
-        with:
-          projectPath: ${{ matrix.projectPath }}
-          targetPlatform: ${{ matrix.targetPlatform }}
-          unityVersion: 2019.4.9f1
-      - uses: actions/upload-artifact@v1
-        with:
-          name: Build
-          path: build
+# name: build-action
+# on:
+#   pull_request:
+#     paths:
+#     - 'source/**'
+#   push:
+#     branches: [master]
+#     paths-ignore:
+#     - 'source/**'
+# env:
+#     UNITY_EMAIL: elmar@elmarjansen.nl
+#     UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+#     UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+# jobs:
+#   buildAndTestForSomePlatforms:
+#     name: Build for ${{ matrix.targetPlatform }}
+#     runs-on: ubuntu-latest
+#     strategy:
+#       fail-fast: false
+#       matrix:
+#         projectPath:
+#           - source/Waterlooplein3D
+#         targetPlatform:
+#           - StandaloneLinux64 # Build a Windows 64-bit standalone.
+#     steps:
+#       - uses: actions/checkout@v2
+#         with:
+#           lfs: true
+#           submodules: recursive
+#       - uses: actions/cache@v1.1.0
+#         with:
+#           path: ${{ matrix.projectPath }}/Library
+#           key: Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}
+#           restore-keys: |
+#             Library-${{ matrix.projectPath }}-
+#             Library-
+#       - uses: webbertakken/unity-builder@v0.10
+#         with:
+#           projectPath: ${{ matrix.projectPath }}
+#           targetPlatform: ${{ matrix.targetPlatform }}
+#           unityVersion: 2019.4.9f1
+#       - uses: actions/upload-artifact@v1
+#         with:
+#           name: Build
+#           path: build
