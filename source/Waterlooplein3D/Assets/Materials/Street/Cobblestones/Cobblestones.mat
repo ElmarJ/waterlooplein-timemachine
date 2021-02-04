@@ -14,7 +14,7 @@ Material:
     _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3 _TESSELLATION_DISPLACEMENT
     _TESSELLATION_PHONG _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap: {}
@@ -468,7 +468,7 @@ Material:
     - _SmoothnessRemapMax1: 1
     - _SmoothnessRemapMax2: 1
     - _SmoothnessRemapMax3: 1
-    - _SmoothnessRemapMin: 0
+    - _SmoothnessRemapMin: 0.2836879
     - _SmoothnessRemapMin0: 0
     - _SmoothnessRemapMin1: 0
     - _SmoothnessRemapMin2: 0
@@ -496,8 +496,8 @@ Material:
     - _SurfaceType: 0
     - _TessellationBackFaceCullEpsilon: -0.25
     - _TessellationFactor: 4
-    - _TessellationFactorMaxDistance: 50
-    - _TessellationFactorMinDistance: 20
+    - _TessellationFactorMaxDistance: 15
+    - _TessellationFactorMinDistance: 10
     - _TessellationFactorTriangleSize: 100
     - _TessellationMode: 1
     - _TessellationShapeFactor: 0.75

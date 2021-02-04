@@ -6,7 +6,6 @@
 ## Checks
  - [ ] No overlapping buildings? (check Mozes and Aaron!)
  - [ ] Project converted to latest version of Unity?
- - [ ] Substance binaries excluded from runtime? Make sure to only select "Editor" for all binaries in Substance folder.
 
 ## Finalize code
  - [ ] In Unity, under Player Settings, update version number

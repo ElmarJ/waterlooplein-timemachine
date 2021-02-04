@@ -1,6 +1,6 @@
 {
     "TestSuite": "",
-    "Date": 1610816773279,
+    "Date": 1612455409667,
     "Player": {
         "Development": false,
         "ScreenWidth": 0,
@@ -33,10 +33,10 @@
         "SystemMemorySizeMB": 0
     },
     "Editor": {
-        "Version": "2019.4.17f1",
+        "Version": "2019.4.19f1",
         "Branch": "2019.4/staging",
-        "Changeset": "667c8606c536",
-        "Date": 1608008131
+        "Changeset": "ca5b14067cec",
+        "Date": 1611121986
     },
     "Dependencies": [
         "com.unity.ide.visualstudio@1.0.11",
