@@ -15,31 +15,8 @@ MonoBehaviour:
   components:
   - {fileID: 3912485203739470195}
   - {fileID: 5321722785694334585}
-  - {fileID: 4823669948079406245}
---- !u!114 &3912485203739470195
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d7593b3a9277ac4696b20006c21dde2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  skyType:
-    m_OverrideState: 1
-    m_Value: 4
-  skyAmbientMode:
-    m_OverrideState: 1
-    m_Value: 0
-  fogType:
-    m_OverrideState: 1
-    m_Value: 3
---- !u!114 &4823669948079406245
+  - {fileID: 3777503238088625814}
+--- !u!114 &3777503238088625814
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,10 +63,10 @@ MonoBehaviour:
     m_Value: 0
     min: 0
   includeSunInBaking:
-    m_OverrideState: 0
-    m_Value: 0
-  earthPreset:
     m_OverrideState: 1
+    m_Value: 1
+  earthPreset:
+    m_OverrideState: 0
     m_Value: 1
   sphericalMode:
     m_OverrideState: 0
@@ -156,7 +133,7 @@ MonoBehaviour:
     max: 10
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+    m_Value: {r: 0.31132078, g: 0.29649818, b: 0.2863564, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
@@ -215,6 +192,29 @@ MonoBehaviour:
     m_Value: 0
     min: -1
     max: 1
+--- !u!114 &3912485203739470195
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7593b3a9277ac4696b20006c21dde2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  skyType:
+    m_OverrideState: 1
+    m_Value: 4
+  skyAmbientMode:
+    m_OverrideState: 1
+    m_Value: 0
+  fogType:
+    m_OverrideState: 1
+    m_Value: 3
 --- !u!114 &5321722785694334585
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -265,11 +265,11 @@ MonoBehaviour:
     m_Value: 1000
     min: 0
   baseHeight:
-    m_OverrideState: 1
-    m_Value: 200
+    m_OverrideState: 0
+    m_Value: 0
   maximumHeight:
-    m_OverrideState: 1
-    m_Value: 3000
+    m_OverrideState: 0
+    m_Value: 50
   albedo:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -277,14 +277,14 @@ MonoBehaviour:
     showAlpha: 1
     showEyeDropper: 1
   meanFreePath:
-    m_OverrideState: 1
-    m_Value: 1400
+    m_OverrideState: 0
+    m_Value: 500
     min: 1
   enableVolumetricFog:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   anisotropy:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.517
     min: -1
     max: 1
