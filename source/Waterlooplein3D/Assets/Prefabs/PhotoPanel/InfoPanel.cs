@@ -36,18 +36,13 @@ culpa qui officia deserunt mollit anim id est laborum.";
     public GameObject[] OtherSubObjects;
     public NineSliceRenderer PanelObject;
     public GameObject Root;
-    public string CameraName = "FirstPersonCharacter";
-
-
-
-    private Camera TargetCamera;
+    
     private Vector3 m_BaseForward;
 
 	// Use this for initialization
 	void Start ()
     {
         m_BaseForward = transform.forward;
-        TargetCamera = GameObject.Find(CameraName).GetComponent<Camera>();
 		Layout();
 	}
 	
@@ -58,16 +53,6 @@ culpa qui officia deserunt mollit anim id est laborum.";
         {
             Layout();
             return;
-        }
-
-        if(TargetCamera != null)
-        {
-            Vector3 fwd = Vector3.Normalize(transform.position-TargetCamera.transform.position);
-
-            if (Vector3.Dot(fwd, m_BaseForward) > 0)
-                transform.forward = m_BaseForward;
-            else
-                transform.forward = -m_BaseForward;
         }
 	}
 
