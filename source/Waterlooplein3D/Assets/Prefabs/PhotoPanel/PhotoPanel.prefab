@@ -27,11 +27,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017673621415692}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.02}
+  m_LocalPosition: {x: 0.55625, y: 0, z: 0.02}
   m_LocalScale: {x: 2.67, y: 1.29, z: 0}
   m_Children: []
   m_Father: {fileID: 4934694493658952}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23693448199426728
 MeshRenderer:
@@ -227,7 +227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200352001170412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.096, y: -0.115, z: 0}
+  m_LocalPosition: {x: 0.723, y: -1.145, z: -0}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children: []
   m_Father: {fileID: 4934694493658952}
@@ -280,7 +280,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200352001170412}
-  m_Text: Where ?
+  m_Text: Cats, J. (Jacob, 1741-1799)
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 0.8
@@ -304,7 +304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4934694493658952}
   m_Layer: 0
-  m_Name: InfoPanel_Root
+  m_Name: PhotoPanel_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -319,10 +319,9 @@ Transform:
   m_GameObject: {fileID: 1236697131502036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.335, y: 1.29, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.83656, y: 1, z: 1}
   m_Children:
   - {fileID: 4346561512585840}
-  - {fileID: 4218449063605166}
   - {fileID: 4548826606254294}
   - {fileID: 4637596352319496}
   m_Father: {fileID: 4356750490412182}
@@ -339,7 +338,7 @@ GameObject:
   - component: {fileID: 4464946166966086}
   - component: {fileID: 114635683624970020}
   m_Layer: 0
-  m_Name: InfoPoint
+  m_Name: InfoIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -493,7 +492,7 @@ GameObject:
   - component: {fileID: 4356750490412182}
   - component: {fileID: 114081857914595652}
   m_Layer: 0
-  m_Name: InfoPanel_Generic
+  m_Name: PhotoPanel_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -526,7 +525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2367e1d00e4734aa7d35c67776adf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: Where ?
+  Title: Cats, J. (Jacob, 1741-1799)
   Body: "Travelling to various locations to photograph \nobjects takes time, as well
     as the deployment \nof the\r various capture devices. It is necessary \nto carefully
     plan the shooting trip to minimize \nthe amount of\r travel and prevent wasted
@@ -539,110 +538,11 @@ MonoBehaviour:
   Align: 1
   Size: {x: 2.67, y: 1.29}
   TitleObject: {fileID: 102746375958817218}
-  BodyObject: {fileID: 102977723237018058}
   OtherSubObjects:
   - {fileID: 1929977276886156}
   PanelObject: {fileID: 114096468620436928}
   Root: {fileID: 1236697131502036}
   CameraName: FirstPersonCharacter
---- !u!1 &1638300318699058
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4218449063605166}
-  - component: {fileID: 23678603426697298}
-  - component: {fileID: 102977723237018058}
-  m_Layer: 0
-  m_Name: Body
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4218449063605166
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1638300318699058}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.136, y: -0.425, z: -0}
-  m_LocalScale: {x: 0.011575797, y: 0.021293733, z: 0.02}
-  m_Children: []
-  m_Father: {fileID: 4934694493658952}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23678603426697298
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1638300318699058}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!102 &102977723237018058
-TextMesh:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1638300318699058}
-  m_Text: "Travelling to various locations to photograph \nobjects takes time, as
-    well as the deployment \nof the\r various capture devices. It is necessary \nto
-    carefully plan the shooting trip to minimize \nthe amount of\r travel and prevent
-    wasted time. \nGood areas are where the maximum number of \nassets can be captured\r
-    at the same location. If \nyou are capturing environmental geography, \nGoogle
-    Earth can be a great help in\r finding the \nright location."
-  m_OffsetZ: 0
-  m_CharacterSize: 1
-  m_LineSpacing: 0.8
-  m_Anchor: 0
-  m_Alignment: 0
-  m_TabSize: 4
-  m_FontSize: 32
-  m_FontStyle: 0
-  m_RichText: 1
-  m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-  m_Color:
-    serializedVersion: 2
-    rgba: 3439329279
 --- !u!1 &1714869694335832
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,7 +588,7 @@ GameObject:
   - component: {fileID: 64666214437399646}
   - component: {fileID: 23849606476314578}
   m_Layer: 0
-  m_Name: Image-Test
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -702,8 +602,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865585880901034}
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 1.768, y: -0.627, z: -0.031}
-  m_LocalScale: {x: 0.16, y: 0.11249674, z: 0.1}
+  m_LocalPosition: {x: 1.812, y: -0.627, z: -0.031}
+  m_LocalScale: {x: 0.22859266, y: 0.11249674, z: 0.1}
   m_Children: []
   m_Father: {fileID: 4637596352319496}
   m_RootOrder: 0
@@ -793,10 +693,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929977276886156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.091963, y: 0.097, z: 0.00000030499}
+  m_LocalScale: {x: 1.1007, y: 1.0895, z: 1}
   m_Children:
   - {fileID: 4562303190130032}
   m_Father: {fileID: 4934694493658952}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

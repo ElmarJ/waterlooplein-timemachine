@@ -32,7 +32,7 @@ culpa qui officia deserunt mollit anim id est laborum.";
 
     [Header("Links (Do not touch)")]
     public TextMesh TitleObject;
-    public TextMesh BodyObject;
+    // public TextMesh BodyObject;
     public GameObject[] OtherSubObjects;
     public NineSliceRenderer PanelObject;
     public GameObject Root;
@@ -74,13 +74,13 @@ culpa qui officia deserunt mollit anim id est laborum.";
     public void Layout()
     {
         TitleObject.text = Title;
-        BodyObject.text = Body;
+        // BodyObject.text = Body;
 
         PanelObject.transform.localScale = new Vector2(Mathf.Max(PanelObject.MinWidth,Size.x),Mathf.Max(PanelObject.MinHeight,Size.y));
         PanelObject.PanelColor = PanelColor;
 
         TitleObject.color = TitleColor;
-        BodyObject.color = BodyColor;
+        // BodyObject.color = BodyColor;
 
         switch(Align)
         {
