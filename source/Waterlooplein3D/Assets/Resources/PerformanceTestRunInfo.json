@@ -1,6 +1,6 @@
 {
     "TestSuite": "",
-    "Date": 1614434573638,
+    "Date": 1627127623786,
     "Player": {
         "Development": false,
         "ScreenWidth": 0,
@@ -33,19 +33,19 @@
         "SystemMemorySizeMB": 0
     },
     "Editor": {
-        "Version": "2019.4.19f1",
+        "Version": "2019.4.28f1",
         "Branch": "2019.4/staging",
-        "Changeset": "ca5b14067cec",
-        "Date": 1611121986
+        "Changeset": "1381962e9d08",
+        "Date": 1622256818
     },
     "Dependencies": [
-        "com.unity.ide.visualstudio@1.0.11",
+        "com.unity.ide.visualstudio@2.0.8",
         "com.unity.ide.vscode@1.2.3",
         "com.unity.postprocessing@3.0.1",
         "com.unity.render-pipelines.high-definition@7.5.2",
         "com.unity.render-pipelines.high-definition-config@7.5.2",
         "com.unity.test-framework.performance@2.5.1-preview",
-        "com.unity.textmeshpro@2.1.0",
+        "com.unity.textmeshpro@2.1.4",
         "com.unity.ugui@1.0.0",
         "com.unity.modules.ai@1.0.0",
         "com.unity.modules.androidjni@1.0.0",
