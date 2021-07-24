@@ -14,7 +14,7 @@
 
 This is the source code of the Waterlooplein 3D project. Waterlooplein 3D is a 3D reconstruction of the street pattern in the Amsterdam Waterlooplein neighborhood around 1870-1890. See the official website for more information (in Dutch) https://waterlooplein3d.nl.
 
-Contributions (correcting underlying maps, programming or reporting bugs or requests) [are more than welcome (page in Dutch)](./docs/contribute.md)!
+Contributions (correcting underlying maps, programming or reporting bugs or requests) [are more than welcome (page in Dutch)](./docs/contributing.md)!
 
  - Comments of any sort can be left at the [discussions page](https://github.com/ElmarJ/Waterlooplein3D/discussions)
  - You can report bugs and requests on the [issues page](https://github.com/elmarj/waterlooplein3d/issues).
