@@ -243,6 +243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JBS_Wilhelmina_1878
       objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -457,6 +461,10 @@ PrefabInstance:
     - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Name
       value: JBS_1880_1890
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_RootOrder

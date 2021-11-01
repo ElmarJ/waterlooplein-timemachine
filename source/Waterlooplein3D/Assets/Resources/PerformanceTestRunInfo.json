@@ -1,6 +1,6 @@
 {
     "TestSuite": "",
-    "Date": 1627127623786,
+    "Date": 1635807978938,
     "Player": {
         "Development": false,
         "ScreenWidth": 0,
@@ -33,19 +33,19 @@
         "SystemMemorySizeMB": 0
     },
     "Editor": {
-        "Version": "2019.4.28f1",
-        "Branch": "2019.4/staging",
-        "Changeset": "1381962e9d08",
-        "Date": 1622256818
+        "Version": "2020.3.21f1",
+        "Branch": "2020.3/staging",
+        "Changeset": "a38c86f6690f",
+        "Date": 1634115358
     },
     "Dependencies": [
-        "com.unity.ide.visualstudio@2.0.8",
-        "com.unity.ide.vscode@1.2.3",
+        "com.unity.ide.visualstudio@2.0.11",
+        "com.unity.ide.vscode@1.2.4",
         "com.unity.postprocessing@3.0.1",
-        "com.unity.render-pipelines.high-definition@7.5.2",
-        "com.unity.render-pipelines.high-definition-config@7.5.2",
+        "com.unity.render-pipelines.high-definition@10.6.0",
+        "com.unity.render-pipelines.high-definition-config@10.6.0",
         "com.unity.test-framework.performance@2.5.1-preview",
-        "com.unity.textmeshpro@2.1.4",
+        "com.unity.textmeshpro@3.0.6",
         "com.unity.ugui@1.0.0",
         "com.unity.modules.ai@1.0.0",
         "com.unity.modules.androidjni@1.0.0",
@@ -78,7 +78,7 @@
         "com.unity.modules.vr@1.0.0",
         "com.unity.modules.wind@1.0.0",
         "com.unity.modules.xr@1.0.0",
-        "nl.elmarjansen.geojsoncitybuilder@0.3.2"
+        "nl.elmarjansen.geojsoncitybuilder@0.3.3"
     ],
     "Results": []
 }
