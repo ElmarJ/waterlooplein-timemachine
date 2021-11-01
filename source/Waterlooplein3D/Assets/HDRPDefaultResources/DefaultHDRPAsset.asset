@@ -200,7 +200,7 @@ MonoBehaviour:
     sssCustomSampleBudget: 20
     materialQuality: 0
   m_RenderPipelineSettings:
-    supportShadowMask: 0
+    supportShadowMask: 1
     supportSSR: 0
     supportSSRTransparent: 0
     supportSSAO: 1
@@ -211,7 +211,7 @@ MonoBehaviour:
       m_SchemaId:
         m_Id: With3Levels
     supportVolumetrics: 1
-    supportLightLayers: 1
+    supportLightLayers: 0
     lightLayerName0: Light LayerDefault
     lightLayerName1: InteriorOnly
     lightLayerName2: ExteriorOnly

@@ -125,7 +125,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
-  m_ShadowAngle: 2.5
+  m_ShadowAngle: 0.5
 --- !u!114 &3743959639737277973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_AreaLightShadowCone: 120
   m_UseScreenSpaceShadows: 0
   m_InteractsWithSky: 1
-  m_AngularDiameter: 2.5
+  m_AngularDiameter: 0.5
   m_FlareSize: 2
   m_FlareTint: {r: 1, g: 1, b: 1, a: 1}
   m_FlareFalloff: 4
@@ -244,7 +244,7 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 1
   featuresFoldout: 1
-  showAdditionalSettings: 0
+  showAdditionalSettings: 8
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
   m_AreaLightEmissiveMeshLayer: -1
