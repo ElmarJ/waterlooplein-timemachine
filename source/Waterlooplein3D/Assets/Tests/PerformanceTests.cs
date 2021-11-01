@@ -34,8 +34,15 @@ namespace Tests
             }
 
             // Measure the execution time of all frames
+            string[] markers =
+            {
+                "Instantiate",
+                "Instantiate.Copy",
+                "Instantiate.Produce",
+                "Instantiate.Awake"
+            };
 
-            using (Measure.ProfilerMarkers())
+            using (Measure.ProfilerMarkers(markers))
             {
                 for (var i = 0; i < 60; i++)
                 {
