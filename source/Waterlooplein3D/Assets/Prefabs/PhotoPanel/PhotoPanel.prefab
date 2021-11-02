@@ -1,102 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1017673621415692
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4548826606254294}
-  - component: {fileID: 23693448199426728}
-  - component: {fileID: 33634375832021118}
-  - component: {fileID: 114096468620436928}
-  m_Layer: 0
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &4548826606254294
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017673621415692}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.55625, y: 0, z: 0.02}
-  m_LocalScale: {x: 2.67, y: 1.29, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4934694493658952}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23693448199426728
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017673621415692}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 7bc2db9bd7363ea45bcef25405a19d4f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &33634375832021118
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017673621415692}
-  m_Mesh: {fileID: 0}
---- !u!114 &114096468620436928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017673621415692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 103cf43d6792ac648b5ae03c95f7e648, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NineSlices: {x: 0.4, y: 0.4, z: 0.4, w: 0.4}
-  Border: {x: 0.1, y: 0.1, z: 0.1, w: 0.1}
-  PanelColor: {r: 0.102941155, g: 0.102941155, b: 0.102941155, a: 0.993}
 --- !u!1 &1110902053023428
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +231,6 @@ Transform:
   m_LocalScale: {x: 0.83656, y: 1, z: 1}
   m_Children:
   - {fileID: 4346561512585840}
-  - {fileID: 4548826606254294}
   - {fileID: 4637596352319496}
   - {fileID: 4305940635264790285}
   m_Father: {fileID: 4356750490412182}
@@ -533,12 +435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Cats, J. (Jacob, 1741-1799)
-  Body: "Travelling to various locations to photograph \nobjects takes time, as well
-    as the deployment \nof the\r various capture devices. It is necessary \nto carefully
-    plan the shooting trip to minimize \nthe amount of\r travel and prevent wasted
-    time. \nGood areas are where the maximum number of \nassets can be captured\r
-    at the same location. If \nyou are capturing environmental geography, \nGoogle
-    Earth can be a great help in\r finding the \nright location."
+  Body: <<body>>
   PanelColor: {r: 0.102941155, g: 0.102941155, b: 0.102941155, a: 0.993}
   TitleColor: {r: 1, g: 1, b: 1, a: 1}
   BodyColor: {r: 1, g: 1, b: 1, a: 0.8}
@@ -548,8 +445,9 @@ MonoBehaviour:
   BodyObject: {fileID: 297681480226229492}
   OtherSubObjects:
   - {fileID: 1929977276886156}
-  PanelObject: {fileID: 114096468620436928}
   Root: {fileID: 1236697131502036}
+  Picture: {fileID: 2800000, guid: b42460d6a5e7af94d9dbb48dbf257450, type: 3}
+  PictureRenderer: {fileID: 23849606476314578}
 --- !u!1 &1714869694335832
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,7 +490,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4562303190130032}
   - component: {fileID: 33248154212406434}
-  - component: {fileID: 64666214437399646}
   - component: {fileID: 23849606476314578}
   m_Layer: 0
   m_Name: Image
@@ -623,20 +520,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865585880901034}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64666214437399646
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865585880901034}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &23849606476314578
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -656,7 +539,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bcd0b15c992eb4f469621cb898b09697, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -707,7 +590,7 @@ Transform:
   m_Children:
   - {fileID: 4562303190130032}
   m_Father: {fileID: 4934694493658952}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8441955779372789394
 GameObject:
@@ -739,7 +622,7 @@ Transform:
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children: []
   m_Father: {fileID: 4934694493658952}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &8060596907445332985
 MeshRenderer:
@@ -790,7 +673,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8441955779372789394}
-  m_Text: Cats, J. (Jacob, 1741-1799)
+  m_Text: <<body>>
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 0.8
@@ -803,4 +686,4 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 3439329279

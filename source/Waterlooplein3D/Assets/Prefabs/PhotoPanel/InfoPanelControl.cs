@@ -15,6 +15,7 @@ public class InfoPanelControl : MonoBehaviour
     public Gradient TextColorAnimation;
 
     public InfoPanel Panel;
+    public Camera TargetCamera;
 
     private float m_Visibility;
     private Vector2 m_DefaultSize;
@@ -23,9 +24,7 @@ public class InfoPanelControl : MonoBehaviour
     private Color m_DefaultBodyColor;
 
     // private VirtualCameraManager VirtualCameraManger;
-    private GameObject CameraGameObject;
 
-    private Camera TargetCamera;
     private Vector3 m_BaseForward;
 
     static private AnimationCurve DefaultAnimationCurve()
@@ -51,10 +50,7 @@ public class InfoPanelControl : MonoBehaviour
         m_DefaultPanelColor = Panel.PanelColor;
         m_DefaultTitleColor = Panel.TitleColor;
         m_DefaultBodyColor = Panel.BodyColor;
-        // VirtualCameraManger = Manager.Get<VirtualCameraManager>();
-        CameraGameObject = GameObject.Find("Player Camera");
         m_BaseForward = transform.forward;
-        TargetCamera = CameraGameObject.GetComponent<Camera>();
     }
 
     void Update()
@@ -78,7 +74,7 @@ public class InfoPanelControl : MonoBehaviour
         //     return;
         // }
 
-        if(Vector3.Distance(CameraGameObject.transform.position, transform.position) < ShowDistance)
+        if(Vector3.Distance(TargetCamera.gameObject.transform.position, transform.position) < ShowDistance)
             m_Visibility += Time.deltaTime / ShowDuration;
         else
             m_Visibility -= Time.deltaTime / HideDuration;

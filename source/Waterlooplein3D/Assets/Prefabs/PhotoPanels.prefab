@@ -96,7 +96,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 51ef02e3df9436f4abeee657b4f0d8d8, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 33634375832021118, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Mesh
@@ -122,6 +122,11 @@ PrefabInstance:
       propertyPath: Title
       value: 1915
       objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 5116a5dd9b2607c48838991fb452ec89, type: 3}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
@@ -315,7 +320,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4b00e3c6992cec541b10b96c4f875dc9, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 33634375832021118, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Mesh
@@ -341,6 +346,11 @@ PrefabInstance:
       propertyPath: Title
       value: Inhuldiging Konining Wilhelmina (1878)
       objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 5b8b2819e5b814741ac8cb9222fa957c, type: 3}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
@@ -468,6 +478,16 @@ PrefabInstance:
       propertyPath: Title
       value: 1926
       objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: b498a2f121d036a478e9e086bf7f5ca8, type: 3}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
 --- !u!1 &2069892385860995814 stripped
@@ -559,7 +579,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 96fffca0b08de284bbc1354aac4deb2b, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 33634375832021118, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Mesh
@@ -585,6 +605,11 @@ PrefabInstance:
       propertyPath: Title
       value: plm. 1880-1890
       objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: eb3c5c343007ae541bf88666c38cd3aa, type: 3}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
@@ -715,10 +740,10 @@ PrefabInstance:
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: Body
-      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
-        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
-        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
-        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
+      value: "Links de Deventer Houtmarkt met de \nHoogduitse Synagoge op Jonas Dani\xEBl
+        Meijerplein 2 \nen, verscholen achter de bomen, de Nieuwe Synagoge \nop nummer
+        4. Rechts de Portugees-Isra\xEBlitische \nSynagoge op nummer 5-9 en de aangrenzende
+        huizen \n11-25. Op de achtergrond in het midden het Oudezijds \nHuiszittenhuis,
         Waterlooplein 67 (na 1983 nummer 211)."
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
@@ -726,13 +751,18 @@ PrefabInstance:
       propertyPath: Title
       value: Cats, J. (Jacob, 1741-1799)
       objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 71533b619051fc74c99ec1b65f59b514, type: 3}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
-        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
-        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
-        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
+      value: "Links de Deventer Houtmarkt met de \nHoogduitse Synagoge op Jonas Dani\xEBl
+        Meijerplein 2 \nen, verscholen achter de bomen, de Nieuwe Synagoge \nop nummer
+        4. Rechts de Portugees-Isra\xEBlitische \nSynagoge op nummer 5-9 en de aangrenzende
+        huizen \n11-25. Op de achtergrond in het midden het Oudezijds \nHuiszittenhuis,
         Waterlooplein 67 (na 1983 nummer 211)."
       objectReference: {fileID: 0}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
@@ -807,7 +837,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fae6dd3028e024146b2543af401a44d9, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 33634375832021118, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Mesh
@@ -833,6 +863,11 @@ PrefabInstance:
       propertyPath: Title
       value: Markenplein 1928
       objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 59401d0cd8ae02542a1d0fdb47f0d1ac, type: 3}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text

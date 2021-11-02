@@ -34,8 +34,11 @@ culpa qui officia deserunt mollit anim id est laborum.";
     public TextMesh TitleObject;
     public TextMesh BodyObject;
     public GameObject[] OtherSubObjects;
-    public NineSliceRenderer PanelObject;
     public GameObject Root;
+
+    public Texture Picture;
+
+    public Renderer PictureRenderer;
     
     private Vector3 m_BaseForward;
 
@@ -44,6 +47,12 @@ culpa qui officia deserunt mollit anim id est laborum.";
     {
         m_BaseForward = transform.forward;
 		Layout();
+        
+        if(Application.isPlaying)
+        {
+            PictureRenderer.material.color = Color.white;
+            PictureRenderer.material.mainTexture = Picture;
+        }
 	}
 	
 	// Update is called once per frame
@@ -52,7 +61,6 @@ culpa qui officia deserunt mollit anim id est laborum.";
         if(!Application.isPlaying)
         {
             Layout();
-            return;
         }
 	}
 
@@ -60,9 +68,6 @@ culpa qui officia deserunt mollit anim id est laborum.";
     {
         TitleObject.text = Title;
         BodyObject.text = Body;
-
-        PanelObject.transform.localScale = new Vector2(Mathf.Max(PanelObject.MinWidth,Size.x),Mathf.Max(PanelObject.MinHeight,Size.y));
-        PanelObject.PanelColor = PanelColor;
 
         TitleObject.color = TitleColor;
         BodyObject.color = BodyColor;
