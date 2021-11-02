@@ -18,6 +18,7 @@ Er zijn op dit moment meerdere organisaties bezig met vergelijkbare of verwante 
 - [3DAmsterdam](https://3d.amsterdam.nl) De Gemeente Amsterdam werkt aan een 3D-model van de stad in een [open source project](https://github.com/Amsterdam/3DAmsterdam). Technisch heel vergelijkbaar met dit project (ook gebruik Unity), maar dan van het huidige Amsterdam.
 - [Joods Amsterdam](https://www.joodsamsterdam.nl/): Joodse Sporen in Amsterdam en Omgeving. Online verzameling van Joods Amsterdams erfgoed.
 - [Joods Monument](https://www.joodsmonument.nl/) Het Joods Monument is een online monument voor de meer dan 104.000 mensen die in Nederland als joden werden vervolgd en de Holocaust niet overleefden. Het grootste deel van de mensen die de Waterloopleinbuurt tot aan de oorlog bewoonden, behoort tot deze groep en is, vaak met achtergrondinformatie (familierelaties, beroep), terug te vinden op deze website. De site is ook op straatnaam doorzoekbaar.
+- [Todd van Hulzen: 3D-modellen van verdwenen Amsterdamse gebouwen](https://www.vanhulzen.com/2019/01/06/3d-models-from-disappeared-amsterdam-buildings/)
 
 ## Meer over geschiedenis van de buurt
 
