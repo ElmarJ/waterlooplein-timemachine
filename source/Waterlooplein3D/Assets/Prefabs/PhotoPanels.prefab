@@ -114,8 +114,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
+      propertyPath: Body
+      value: Jonas Daniel Meijerplein in 1915
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
       propertyPath: Title
       value: 1915
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Text
+      value: Jonas Daniel Meijerplein in 1915
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 3439329279
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
@@ -197,6 +212,11 @@ PrefabInstance:
     - target: {fileID: 33836756615577888, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
@@ -313,8 +333,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
+      propertyPath: Body
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
       propertyPath: Title
       value: Inhuldiging Konining Wilhelmina (1878)
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 3439329279
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
@@ -422,6 +457,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: 1926
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -537,8 +577,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
+      propertyPath: Body
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
       propertyPath: Title
       value: plm. 1880-1890
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 3439329279
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
@@ -627,7 +682,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     - target: {fileID: 23678603426697298, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -670,6 +725,20 @@ PrefabInstance:
         type: 3}
       propertyPath: Title
       value: Cats, J. (Jacob, 1741-1799)
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Text
+      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
+        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
+        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
+        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
+        Waterlooplein 67 (na 1983 nummer 211)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 3439329279
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
@@ -756,8 +825,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
+      propertyPath: Body
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
       propertyPath: Title
       value: Markenplein 1928
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 3439329279
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
