@@ -32,9 +32,8 @@ Contributions (correcting underlying maps, programming or reporting bugs or requ
  ```
  
  5. In Unity, open the folder "./source/Waterlooplein3D" (from the cloned repo).
- 6. Install the [Substance Plugin from the Asset Store](https://assetstore.unity.com/packages/tools/utilities/substance-in-unity-110555) 
- 7. Optionally, setup VS Code as the default editor (Edit > Preferences > External Tools > External Script Editor).
- 8. Open MainScene.unity in /Waterlooplein3D/Assets/Scenes (File > Open Scene)
+ 6. Optionally, setup VS Code as the default editor (Edit > Preferences > External Tools > External Script Editor).
+ 7. Open MainScene.unity in /Waterlooplein3D/Assets/Scenes (File > Open Scene)
 
 When switching between version branches (particularly v1.0-branch and v2.0-branch), always cleanup any ignored unity cache files whenever switching branches (```git checkout```), using the following command:
 ```
