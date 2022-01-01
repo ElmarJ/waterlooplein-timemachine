@@ -13,7 +13,7 @@ public class GameKeyController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey("escape"))
+        if (Input.GetKey(KeyCode.Escape))
         {
             gameMenu.ActivateMenu();
         }

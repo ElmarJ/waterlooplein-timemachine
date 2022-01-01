@@ -16,20 +16,14 @@ public class GameMenuController : MonoBehaviour
     void Start()
     {
         this.mainMenu = GameObject.Find("MainMenu");
-        this.mainMenuCanvas = mainMenu?.GetComponent<Canvas>();
+        this.mainMenuCanvas = mainMenu != null ? mainMenu.GetComponent<Canvas>() : null;
         this.settingsMenu = GameObject.Find("SettingsMenu");
-        this.settingsMenuCanvas = this.settingsMenu?.GetComponent<Canvas>();
+        this.settingsMenuCanvas = this.settingsMenu != null ? this.settingsMenu.GetComponent<Canvas>() : null;
         this.fpCharacter = GameObject.Find("CharacterController").GetComponent<FirstPersonAIO>();
         
         this.mainMenuCanvas.enabled = true;
         this.settingsMenuCanvas.enabled = false;
         this.fpCharacter.controllerPauseState = true;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void ResumeGame()

@@ -32,12 +32,8 @@ public class PhotoPanel : MonoBehaviour
 
     public Renderer PictureRenderer;
     
-    private Vector3 m_BaseForward;
-
-	// Use this for initialization
 	void Start ()
     {
-        m_BaseForward = Generic.transform.forward;
 		Layout();
         
         if(Application.isPlaying)
