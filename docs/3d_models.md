@@ -17,7 +17,6 @@
 - Mozes en Aaronkerk
   - I made a very rough model, can try to improve it myself in Blender.
 - Duitse Synagoge (JHM)
-  - 
 - Casino
 - Stopera
   - [https://3dwarehouse.sketchup.com/model/5995fd7a0e7fa47d99c802e874695f6b/Stadhuis-City-hall]
