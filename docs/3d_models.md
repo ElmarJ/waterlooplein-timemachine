@@ -15,11 +15,14 @@
 - Academie van Bouwkunst
 - Scheikundig Laboratorium
 - Mozes en Aaronkerk
+  - I made a very rough model, can try to improve it myself in Blender.
 - Duitse Synagoge (JHM)
+  - 
 - Casino
 - Stopera
   - [https://3dwarehouse.sketchup.com/model/5995fd7a0e7fa47d99c802e874695f6b/Stadhuis-City-hall]
 - Maupoleum
+  - I've seen a model somewhere a while ago, but cannot find it anymore 😞
 - Halve Wereld
   - [https://3dwarehouse.sketchup.com/model/895fae3a2d5d8e1afe73b669c89c3c06/De-Halve-Wereld-Amsterdam]
 - Weesperflat
