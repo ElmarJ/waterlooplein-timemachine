@@ -20,6 +20,8 @@
 - Stopera
   - [https://3dwarehouse.sketchup.com/model/5995fd7a0e7fa47d99c802e874695f6b/Stadhuis-City-hall]
 - Maupoleum
+- Halve Wereld
+  - [https://3dwarehouse.sketchup.com/model/895fae3a2d5d8e1afe73b669c89c3c06/De-Halve-Wereld-Amsterdam]
 - Weesperflat
   - [https://3dwarehouse.sketchup.com/model/c20ea6879dcf330e9705643f32d8aeb/Weesperflat-Amsterdam-Nederland]
 - Synagoge Waterlooplein: Talmud Synagoge (17e eeuw)
