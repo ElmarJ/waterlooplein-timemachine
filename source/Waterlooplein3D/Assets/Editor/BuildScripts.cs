@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using System.IO;
 using System.IO.Compression;
+using UnityEditor.Compilation;
 
 public static class BuildScripts
 {
@@ -79,6 +80,7 @@ public static class BuildScripts
         Debug.Log($"Starting {platform} build to: {buildPath}");
         try
         {
+            CompilationPipeline.codeOptimization = CodeOptimization.Release;
             BuildPipeline.BuildPlayer(scenes, buildPath, platform, BuildOptions.None);
         }
         catch (Exception ex)
