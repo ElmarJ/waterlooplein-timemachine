@@ -78,7 +78,7 @@ public class PhotoPanelControl : MonoBehaviour
         //     return;
         // }
 
-        if(Vector3.Distance(TargetCamera.gameObject.transform.position, transform.position) < ShowDistance)
+        if(Input.GetKey(KeyCode.Q) || Vector3.Distance(TargetCamera.gameObject.transform.position, transform.position) < ShowDistance)
             m_Visibility += Time.deltaTime / ShowDuration;
         else
             m_Visibility -= Time.deltaTime / HideDuration;
@@ -107,6 +107,14 @@ public class PhotoPanelControl : MonoBehaviour
             }
         }
 
+        if(m_Visibility == 1 && Input.GetKeyDown(KeyCode.I) && Panel.URL != null)
+        {
+            // Wanting to be 100% sure this is a safe URL: OpenURL can run random commands on some systems.
+            var uri = new System.Uri(Panel.URL);
+            if (uri.Host == "archief.amsterdam"){
+                Application.OpenURL(uri.AbsoluteUri);
+            }
+        }
     }
 
     void OnDrawGizmos()

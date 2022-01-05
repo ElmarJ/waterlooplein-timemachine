@@ -110,7 +110,8 @@ PrefabInstance:
     - target: {fileID: 102746375958817218, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: << Title >>
+      value: "Jonas Dani\xEBl Meijerplein 2-10 (links, v.r.n.l.), gezien in noordwestelijke
+        richting. Op de achtergrond nummers 61-65 (v.l.n.r.) "
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -136,6 +137,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.rgba
       value: 3439329279
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/7aa5d32b-30d3-d086-f9b7-85c877af270b
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' 1915 ca.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: "Jonas Dani\xEBl Meijerplein 2-10 (links, v.r.n.l.), gezien in noordwestelijke
+        richting. Op de achtergrond nummers 61-65 (v.l.n.r.) "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: August Vogt
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -224,6 +246,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 102746375958817218, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Waterlooplein 31 (ged.) t/m 65 (v.l.n.r.) '
+      objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: Body
@@ -234,6 +261,12 @@ PrefabInstance:
       propertyPath: Title
       value: 1891
       objectReference: {fileID: 0}
+    - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Text
+      value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes
+        en A\xE4ronkerk.\r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: existencePeriodEnd
@@ -243,6 +276,32 @@ PrefabInstance:
         type: 3}
       propertyPath: existencePeriodStart
       value: 1881
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/ff2d3607-0576-4b32-f9c7-25e89db885a8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes
+        en A\xE4ronkerk.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: '1891 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Waterlooplein 31 (ged.) t/m 65 (v.l.n.r.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Jacob Olie
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -354,7 +413,7 @@ PrefabInstance:
     - target: {fileID: 102746375958817218, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: << Title >>
+      value: 'De inhuldiging van koningin Wilhelmina in september 1898 '
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -374,12 +433,41 @@ PrefabInstance:
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: 
+      value: "Decoraties en versiering in de Jodenbreestraat 1-103 (v.r.n.l.) gezien
+        in westelijke richting. Links het Psysisch en Chemisch Laboratorium aan de
+        Rapenburgerstraat.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Color.rgba
       value: 3439329279
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/38c55949-d55e-f66e-d359-8d4c73cd7d3d
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: "Decoraties en versiering in de Jodenbreestraat 1-103 (v.r.n.l.) gezien
+        in westelijke richting. Links het Psysisch en Chemisch Laboratorium aan de
+        Rapenburgerstraat.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: september 1898
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'De inhuldiging van koningin Wilhelmina in september 1898 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Onbekend
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -525,6 +613,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/b47d6377-d29b-3aab-dcdb-0ba3d483b1af
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: "Gezien richting Zwanenburgwal. Rechts Mozes en A\xE4ronkerk litt. Amsterdamse
+        Gids december 1926\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: december 1926 ca.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Waterlooplein 177-207 (v.l.n.r.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Onbekend
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: b498a2f121d036a478e9e086bf7f5ca8, type: 3}
@@ -633,7 +747,8 @@ PrefabInstance:
     - target: {fileID: 102746375958817218, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: << Title >>
+      value: 'Jodenbreestraat. Gezien in noordelijke richting met in het verschiet
+        de Zuiderkerkstoren '
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -653,12 +768,44 @@ PrefabInstance:
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: 
+      value: 'Gezien in zuidelijke richting met in het verschiet de Zuiderkerkstoren.
+        Afmetingen: opzetvel 263 x 231 mm, voorstelling 210 x 282 mm.
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Color.rgba
       value: 3439329279
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/0db4c747-d73c-1f6c-5aa6-ec936628fecd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'Gezien in zuidelijke richting met in het verschiet de Zuiderkerkstoren.
+        Afmetingen: opzetvel 263 x 231 mm, voorstelling 210 x 282 mm.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 1880 ca. t/m 1890 ca.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Jodenbreestraat. Gezien in noordelijke richting met in het verschiet
+        de Zuiderkerkstoren '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Henri de Louw
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -779,7 +926,7 @@ PrefabInstance:
     - target: {fileID: 102746375958817218, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: IJspret
+      value: "IJspret op de bevroren Muidergracht, nu het Jonas Dani\xEBl Meijerplein "
       objectReference: {fileID: 0}
     - target: {fileID: 102977723237018058, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -812,7 +959,11 @@ PrefabInstance:
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: 
+      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
+        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
+        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
+        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
+        Waterlooplein 67 (na 1983 nummer 211).\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -821,8 +972,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/9cecd265-dc55-ae1d-a7e7-7690f3e26018
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
+        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
+        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
+        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
+        Waterlooplein 67 (na 1983 nummer 211).\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
       propertyPath: Title
-      value: IJspret
+      value: "IJspret op de bevroren Muidergracht, nu het Jonas Dani\xEBl Meijerplein "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Jacob Catz
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -915,7 +1085,7 @@ PrefabInstance:
     - target: {fileID: 102746375958817218, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: << Title >>
+      value: 'Markenplein 1-3-5 (rechts, v.l.n.r.) en 2-2A (ged) (links, v.r.n.l.) '
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -935,12 +1105,35 @@ PrefabInstance:
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Text
-      value: 
+      value: 'Verbranden van chomets; links ingang Joden Houttuinen; links van het
+        midden, doorkijkje naar Houtkopersburgwal. (chomets: Jiddisch voor gegist
+        deeg?)
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Color.rgba
       value: 3439329279
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/a759b918-850a-4d23-6ca0-87236323ddbd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'Verbranden van chomets; links ingang Joden Houttuinen; links van het
+        midden, doorkijkje naar Houtkopersburgwal. (chomets: Jiddisch voor gegist
+        deeg?)
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Markenplein 1-3-5 (rechts, v.l.n.r.) en 2-2A (ged) (links, v.r.n.l.) '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
