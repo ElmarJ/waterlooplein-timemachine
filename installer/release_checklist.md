@@ -15,6 +15,7 @@
 
 ## Build
  - [ ] Makes sure that the \builds\ folder is empty or non-existent
+ - [ ] Make sure the editor Code Optimization Mode is set to Release Mode (and not Debug Mode)
  - [ ] Build for all platforms (Unity Menu: Waterlooplein 3D -> Build and Package -> Build All)
 
 ## Github release
