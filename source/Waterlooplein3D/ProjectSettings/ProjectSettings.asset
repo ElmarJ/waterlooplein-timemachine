@@ -680,11 +680,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Waterlooplein3D
   metroPackageVersion: 2.0.1.0
-  metroCertificatePath: Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: Elmar Jansen
   metroCertificateIssuer: Elmar Jansen
-  metroCertificateNotAfter: 008e0098fb45d701
+  metroCertificateNotAfter: 00097d567721d901
   metroApplicationDescription: Waterlooplein 3D
   wsaImages: {}
   metroTileShortName: Waterlooplein 3D
@@ -702,7 +702,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
-      CodeGeneration: False
+      EnterpriseAuthentication: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -736,10 +736,10 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      Proximity: False
       InternetClient: False
+      CodeGeneration: False
       BackgroundMediaPlayback: False
-      EnterpriseAuthentication: False
+      Proximity: False
   metroTargetDeviceFamilies:
     Desktop: True
     Holographic: False

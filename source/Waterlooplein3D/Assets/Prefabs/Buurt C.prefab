@@ -48240,7 +48240,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!4 &5100440451404429520
 Transform:
@@ -53854,7 +53854,7 @@ MonoBehaviour:
     type: 3}
   bottomMaterial: {fileID: 3461270598504973446, guid: ab024e6c1cc44874891f935e359b666f,
     type: 3}
-  sideMaterial: {fileID: 2100000, guid: f062171f65a0ee341a6d1218caf97f83, type: 2}
+  sideMaterial: {fileID: 2100000, guid: 6c216264288e6c74a9cd28edfe21e25e, type: 2}
   height: 68
   pointedRoof: 0
   pointedRoofHeight: 3
@@ -53890,7 +53890,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 0}
-  - {fileID: 2100000, guid: f062171f65a0ee341a6d1218caf97f83, type: 2}
+  - {fileID: 2100000, guid: 6c216264288e6c74a9cd28edfe21e25e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
