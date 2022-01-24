@@ -20,6 +20,7 @@ Er zijn op dit moment meerdere organisaties bezig met vergelijkbare of verwante 
 - [Joods Monument](https://www.joodsmonument.nl/) Het Joods Monument is een online monument voor de meer dan 104.000 mensen die in Nederland als joden werden vervolgd en de Holocaust niet overleefden. Het grootste deel van de mensen die de Waterloopleinbuurt tot aan de oorlog bewoonden, behoort tot deze groep en is, vaak met achtergrondinformatie (familierelaties, beroep), terug te vinden op deze website. De site is ook op straatnaam doorzoekbaar.
 - [Todd van Hulzen: 3D-modellen van verdwenen Amsterdamse gebouwen](https://www.vanhulzen.com/2019/01/06/3d-models-from-disappeared-amsterdam-buildings/)
 - [3D BAG](https://www.3dbag.nl/) Project van TU Delft om alle gebouwen van heel Nederland in basis-3D-model beschikbaar te maken.
+- [Amsterdam op de kaart](https://amsterdamopdekaart.nl/): "Aan de hand van beschrijvingen van ruim 4000 bouwwerken poogt deze site een beeld te geven van de ontwikkeling en cultuurgeschiedenis van Amsterdam in een aantal periodes."
 
 ## Meer over geschiedenis van de buurt
 
