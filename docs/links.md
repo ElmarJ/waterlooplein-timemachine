@@ -23,6 +23,8 @@ Er zijn op dit moment meerdere organisaties bezig met vergelijkbare of verwante 
   - [Amsterdam Monumentenstad](https://www.amsterdam-monumentenstad.nl/database/grachtenboek_zoek.php?uitgebreid=1&searchtype=1&flag_afb=on). Via website toegankelijke database van Amsterdamse monumenten. Verzameld en bijgehouden door [Walther Schoonenberg](https://twitter.com/WSchoonenberg).
   - [Amsterdam Addressbook 1907](https://addressbooks.amsterdamtimemachine.nl/)
   - [Google Re](https://re.city/?year=1940#15.59/52.372639/4.896998). Een soort historische Google Maps: kaart ook met tijdsdimensie. Data is "crowd sourced" met open commons licentie. Kritische beschouwing [hier](https://medium.com/@think_katrina/an-open-letter-to-google-re-livable-cities-1f6c8e146974). Zie ook [stuk van Amsterdam Time Machine](https://www.amsterdamtimemachine.nl/an-interns-look-at-googles-re-city/).
+  - [Amsterdam op de Kaart](https://amsterdamopdekaart.nl/)
+  - [Jacob Olie-app](https://020apps.nl/olie/nl)
 - 3D-modellen
   - Het [4D Research Lab](http://4dresearchlab.nl/) van de Universiteit van Amsterdam. Onder meer de makers van [de meer historisch accurate 3D-reconstructie van de oude Jodenbuurt / Waterloopleinbuurt](https://www.uva.nl/shared-content/faculteiten/nl/faculteit-der-geesteswetenschappen/nieuws/2020/10/tentoonstelling-waterlooplein-de-buurt-binnenstebuiten.html?origin=v9CVoymxQImwOMSZ6e5HWA&utm_source=twitter&utm_medium=social&utm_campaign=fgw&cb), in samenwerking met oa het Joods Historisch Museum. Mogelijk komen de achterliggende data en modellen op een later tijdstip open beschikbaar.
   - [Todd van Hulzen: 3D-modellen van verdwenen Amsterdamse gebouwen](https://www.vanhulzen.com/2019/01/06/3d-models-from-disappeared-amsterdam-buildings/)
