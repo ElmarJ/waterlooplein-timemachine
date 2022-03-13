@@ -23,6 +23,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "2.0.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.postprocessing": {
       "version": "3.1.1",
       "depth": 0,
@@ -172,13 +179,24 @@
       },
       "url": "https://packages.unity.com"
     },
-    "nl.elmarjansen.geojsoncitybuilder": {
-      "version": "file:nl.elmarjansen.geojsoncitybuilder",
-      "depth": 0,
-      "source": "embedded",
+    "com.virgis.geojson.net": {
+      "version": "1.2.17",
+      "depth": 1,
+      "source": "registry",
       "dependencies": {
-        "com.unity.probuilder": "4.5.2"
-      }
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "nl.elmarjansen.geojsoncitybuilder": {
+      "version": "0.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.probuilder": "4.5.2",
+        "com.virgis.geojson.net": "1.2.17"
+      },
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
