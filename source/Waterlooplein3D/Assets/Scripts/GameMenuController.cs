@@ -3,27 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 public class GameMenuController : MonoBehaviour
 {
-    private GameObject mainMenu;
-    private GameObject settingsMenu;
+    public GameObject mainMenu;
+    public GameObject settingsMenu;
+    public GameObject player;
+    private PlayerInput playerInput;
     private Canvas mainMenuCanvas;
     private Canvas settingsMenuCanvas;
-    private FirstPersonAIO fpCharacter;
 
-    // Start is called before the first frame update
     void Start()
     {
-        this.mainMenu = GameObject.Find("MainMenu");
-        this.mainMenuCanvas = mainMenu != null ? mainMenu.GetComponent<Canvas>() : null;
-        this.settingsMenu = GameObject.Find("SettingsMenu");
-        this.settingsMenuCanvas = this.settingsMenu != null ? this.settingsMenu.GetComponent<Canvas>() : null;
-        this.fpCharacter = GameObject.Find("CharacterController").GetComponent<FirstPersonAIO>();
-        
-        this.mainMenuCanvas.enabled = true;
-        this.settingsMenuCanvas.enabled = false;
-        this.fpCharacter.controllerPauseState = true;
+        this.playerInput = player.GetComponent<PlayerInput>();
+
+        mainMenuCanvas = mainMenu.GetComponent<Canvas>();
+        settingsMenuCanvas = settingsMenu.GetComponent<Canvas>();
+
+        this.ActivateMenu();        
+        this.ShowMainMenu();
     }
 
     public void ResumeGame()
@@ -31,10 +30,10 @@ public class GameMenuController : MonoBehaviour
         this.mainMenuCanvas.enabled = false;
         this.mainMenu.SetActive(false);
 
-        this.fpCharacter.lockAndHideCursor = true;
         Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;
-        this.fpCharacter.controllerPauseState = false;
+        this.playerInput.actions.Enable();
+        this.player.GetComponent<FirstPersonDrifter>().enabled = true;
 
     }
 
@@ -43,10 +42,10 @@ public class GameMenuController : MonoBehaviour
         this.mainMenuCanvas.enabled = true;
         this.mainMenu.SetActive(true);
 
-        this.fpCharacter.lockAndHideCursor = false;
         Cursor.lockState = CursorLockMode.None; 
         Cursor.visible = true;
-        this.fpCharacter.controllerPauseState = true;
+        this.playerInput.actions.Disable();
+        this.player.GetComponent<FirstPersonDrifter>().enabled = false;
     }
 
     public void ShowSettingsMenu()
@@ -70,5 +69,13 @@ public class GameMenuController : MonoBehaviour
     public void Exit()
     {
         Application.Quit();
+    }
+
+    public void OnShowMenuClicked(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            this.ActivateMenu();
+        }
     }
 }

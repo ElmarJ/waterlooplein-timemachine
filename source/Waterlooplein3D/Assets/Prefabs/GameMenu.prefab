@@ -226,7 +226,6 @@ GameObject:
   - component: {fileID: 99684550473289008}
   - component: {fileID: 99684550473289011}
   - component: {fileID: 99684550473289010}
-  - component: {fileID: 99684550473289013}
   m_Layer: 5
   m_Name: SettingsMenu
   m_TagString: Untagged
@@ -320,18 +319,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &99684550473289013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99684550473289015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e10c4bcb04218524393eeea9f561af74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &99684550478688552
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,7 +648,6 @@ GameObject:
   - component: {fileID: 99684550570379357}
   - component: {fileID: 99684550570379356}
   - component: {fileID: 99684550570379359}
-  - component: {fileID: 99684550570379354}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -771,8 +757,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 99684551525340066}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1245708409}
+        m_TargetAssemblyTypeName: GameMenuController, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
@@ -783,18 +769,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &99684550570379354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99684550570379345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e10c4bcb04218524393eeea9f561af74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &99684550577453701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,7 +1003,6 @@ GameObject:
   - component: {fileID: 99684550638686616}
   - component: {fileID: 99684550638686619}
   - component: {fileID: 99684550638686618}
-  - component: {fileID: 99684550638686621}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -1139,8 +1112,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 99684550473289013}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1245708409}
+        m_TargetAssemblyTypeName: GameMenuController, Assembly-CSharp
         m_MethodName: ShowMainMenu
         m_Mode: 1
         m_Arguments:
@@ -1151,18 +1124,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &99684550638686621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99684550638686623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e10c4bcb04218524393eeea9f561af74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &99684550748710939
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,7 +2063,6 @@ GameObject:
   - component: {fileID: 99684551525340068}
   - component: {fileID: 99684551525340071}
   - component: {fileID: 99684551525340070}
-  - component: {fileID: 99684551525340066}
   - component: {fileID: 99684551525340246}
   m_Layer: 5
   m_Name: MainMenu
@@ -2200,18 +2160,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &99684551525340066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99684551525340249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e10c4bcb04218524393eeea9f561af74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!225 &99684551525340246
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2792,6 +2740,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 99684551858071688}
+  - component: {fileID: 1245708409}
+  - component: {fileID: 1245708410}
   m_Layer: 0
   m_Name: GameMenu
   m_TagString: Untagged
@@ -2815,6 +2765,88 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1245708409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99684551858071691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10c4bcb04218524393eeea9f561af74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenu: {fileID: 99684551525340249}
+  settingsMenu: {fileID: 99684550473289015}
+  player: {fileID: 0}
+--- !u!114 &1245708410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99684551858071691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 6483e1ab22ba6ad4fbb3312fec592ad0,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c50faa0a-50c1-4c88-a504-4d9bf647c7ee
+    m_ActionName: PlayerControl/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/d,/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c26586d4-009f-46d7-b7b6-5037478a2bc4
+    m_ActionName: PlayerControl/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 23103261-8b8a-4b71-9a93-79a5806d1f39
+    m_ActionName: PlayerControl/Look[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1245708409}
+        m_TargetAssemblyTypeName: GameMenuController, Assembly-CSharp
+        m_MethodName: OnShowMenuClicked
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 4ec22335-03e6-4eb9-a200-aaafc9545b38
+    m_ActionName: ApplicationControl/SwitchMenu[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 93b19b04-ad55-48a4-8de0-969d3dc2b12a
+    m_ActionName: PlayerControl/Run[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3a4f5748-370e-4041-9137-a7ce326dc191
+    m_ActionName: PlayerControl/OpenInBrowser[/Keyboard/i]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: ApplicationControl
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &99684551897695958
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,8 +3623,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 99684551525340066}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1245708409}
+        m_TargetAssemblyTypeName: GameMenuController, Assembly-CSharp
         m_MethodName: ShowSettingsMenu
         m_Mode: 1
         m_Arguments:
@@ -3799,8 +3831,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 99684551525340066}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1245708409}
+        m_TargetAssemblyTypeName: GameMenuController, Assembly-CSharp
         m_MethodName: ResumeGame
         m_Mode: 1
         m_Arguments:
@@ -3810,7 +3842,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!1 &99684552241550207
 GameObject:
   m_ObjectHideFlags: 0
