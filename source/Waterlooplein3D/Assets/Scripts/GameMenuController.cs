@@ -10,6 +10,9 @@ public class GameMenuController : MonoBehaviour
     public GameObject mainMenu;
     public GameObject settingsMenu;
     public GameObject player;
+    public Button selectedButtonMainMenu;
+    public Button selectedButtonSettingsMenu;
+
     private PlayerInput playerInput;
     private Canvas mainMenuCanvas;
     private Canvas settingsMenuCanvas;
@@ -55,6 +58,8 @@ public class GameMenuController : MonoBehaviour
 
         this.settingsMenuCanvas.enabled = true;
         this.settingsMenu.SetActive(true);
+
+        selectedButtonSettingsMenu.Select();
     }
 
     public void ShowMainMenu()
@@ -64,6 +69,8 @@ public class GameMenuController : MonoBehaviour
 
         this.settingsMenuCanvas.enabled = false;
         this.settingsMenu.SetActive(false);
+
+        selectedButtonMainMenu.Select();
     }
 
     public void Exit()
