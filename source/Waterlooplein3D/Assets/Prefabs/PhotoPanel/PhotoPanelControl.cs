@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class PhotoPanelControl : MonoBehaviour
 {
@@ -78,7 +80,7 @@ public class PhotoPanelControl : MonoBehaviour
         //     return;
         // }
 
-        if(Input.GetKey(KeyCode.Q) || Vector3.Distance(TargetCamera.gameObject.transform.position, transform.position) < ShowDistance)
+        if( /* Input.GetKey(KeyCode.Q) ||  */ Vector3.Distance(TargetCamera.gameObject.transform.position, transform.position) < ShowDistance)
             m_Visibility += Time.deltaTime / ShowDuration;
         else
             m_Visibility -= Time.deltaTime / HideDuration;
@@ -106,15 +108,6 @@ public class PhotoPanelControl : MonoBehaviour
                 //if (m_Visibility < 1 && obj.activeSelf) obj.SetActive(false);
             }
         }
-
-        if(m_Visibility == 1 && Input.GetKeyDown(KeyCode.I) && Panel.URL != null)
-        {
-            // Wanting to be 100% sure this is a safe URL: OpenURL can run random commands on some systems.
-            var uri = new System.Uri(Panel.URL);
-            if (uri.Host == "archief.amsterdam"){
-                Application.OpenURL(uri.AbsoluteUri);
-            }
-        }
     }
 
     void OnDrawGizmos()
@@ -127,5 +120,17 @@ public class PhotoPanelControl : MonoBehaviour
     {
         Gizmos.color = new Color(1,0.3f,0,0.5f);
         Gizmos.DrawSphere(transform.position, ShowDistance);
+    }
+
+    public void OnOpenInBrowserKey(InputAction.CallbackContext ctx)
+    {
+        if(ctx.performed && m_Visibility == 1 && Panel.URL != null)
+        {
+            // Want to be 100% sure this is a safe URL: OpenURL can run random commands on some systems.
+            var uri = new System.Uri(Panel.URL);
+            if (uri.Host == "archief.amsterdam"){
+                Application.OpenURL(uri.AbsoluteUri);
+            }
+        }
     }
 }
