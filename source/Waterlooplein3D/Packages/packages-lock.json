@@ -209,14 +209,14 @@
       "url": "https://package.openupm.com"
     },
     "nl.elmarjansen.geojsoncitybuilder": {
-      "version": "0.4.0",
+      "version": "https://github.com/ElmarJ/GeoJsonCityBuilder.git",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
         "com.unity.probuilder": "4.5.2",
         "com.virgis.geojson.net": "1.2.17"
       },
-      "url": "https://package.openupm.com"
+      "hash": "8a483ba51b7865a038a1221d85ce2a65e30ba345"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
