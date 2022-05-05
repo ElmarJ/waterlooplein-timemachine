@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 [ExecuteInEditMode]
@@ -24,8 +25,8 @@ public class PhotoPanel : MonoBehaviour
     public Vector2 Size = new Vector2(1.0f, 1.0f);
 
     [Header("Object-links (Do not touch)")]
-    public TextMesh TitleObject;
-    public TextMesh BodyObject;
+    public TextMeshPro TitleObject;
+    public TextMeshPro BodyObject;
     public GameObject[] OtherSubObjects;
     public GameObject Root;
     public GameObject Generic;
