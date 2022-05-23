@@ -8,10 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cobblestones
-  m_Shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP
-    _MAPPING_TRIPLANAR _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT
-    _TESSELLATION_PHONG _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+    _MAPPING_TRIPLANAR _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE _PIXEL_DISPLACEMENT
+    _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _TESSELLATION_PHONG
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -348,7 +348,7 @@ Material:
     - _DiffusionProfileHash3: 0
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
-    - _DisplacementMode: 3
+    - _DisplacementMode: 2
     - _DistortionBlendMode: 0
     - _DistortionBlurBlendMode: 0
     - _DistortionBlurDstBlend: 1
@@ -374,12 +374,12 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
-    - _HeightAmplitude: 0.02
+    - _HeightAmplitude: 0.005
     - _HeightAmplitude0: 0.02
     - _HeightAmplitude1: 0.02
     - _HeightAmplitude2: 0.02
     - _HeightAmplitude3: 0.02
-    - _HeightCenter: 0.5
+    - _HeightCenter: 1
     - _HeightCenter0: 0.5
     - _HeightCenter1: 0.5
     - _HeightCenter2: 0.5
@@ -404,7 +404,7 @@ Material:
     - _HeightOffset1: 0
     - _HeightOffset2: 0
     - _HeightOffset3: 0
-    - _HeightPoMAmplitude: 2
+    - _HeightPoMAmplitude: 0.5
     - _HeightPoMAmplitude0: 2
     - _HeightPoMAmplitude1: 2
     - _HeightPoMAmplitude2: 2
@@ -513,13 +513,13 @@ Material:
     - _SubsurfaceMask3: 1
     - _SupportDecals: 1
     - _SurfaceType: 0
-    - _TessellationBackFaceCullEpsilon: -0.25
-    - _TessellationFactor: 10
+    - _TessellationBackFaceCullEpsilon: -0.304
+    - _TessellationFactor: 50.4
     - _TessellationFactorMaxDistance: 15
     - _TessellationFactorMinDistance: 10
-    - _TessellationFactorTriangleSize: 100
+    - _TessellationFactorTriangleSize: 0.01
     - _TessellationMode: 1
-    - _TessellationShapeFactor: 0.75
+    - _TessellationShapeFactor: 0.889
     - _TexWorldScale: 1
     - _TexWorldScale0: 1
     - _TexWorldScale1: 1
