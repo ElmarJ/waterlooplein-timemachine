@@ -46,6 +46,15 @@ Transform:
   - {fileID: 4234626361763262}
   - {fileID: 4234626263917081}
   - {fileID: 4234626785788200}
+  - {fileID: 4999286327599820589}
+  - {fileID: 8761189239330858943}
+  - {fileID: 6750976649504991096}
+  - {fileID: 5060792837841617861}
+  - {fileID: 212364913564248293}
+  - {fileID: 1274842025597930158}
+  - {fileID: 8725286055968392720}
+  - {fileID: 7602434575377275252}
+  - {fileID: 5181327773174201701}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -566,6 +575,11 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: existencePeriodEnd
@@ -575,6 +589,11 @@ PrefabInstance:
         type: 3}
       propertyPath: existencePeriodStart
       value: 1845
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: '1867 ca. '
       objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -586,10 +605,23 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Rechts Zwanenburgwal 9-17 en in rechts op de achtergrond het nog steeds
+        bestaande pandje Joden Houttuinen 1 en geheel rechts de brug over de Houtgracht.
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: TargetCamera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Zwanenburgwal gezien naar de Oudeschans '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -624,6 +656,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 6fb59476640acfb4d9efda704a95519c, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Rooswinkel, Andreas Theodorus (1838-1909), Kunsthandel Gebr. Douwes
+      objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_CastShadows
@@ -662,7 +699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalPosition.z
@@ -701,6 +738,11 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: existencePeriodEnd
@@ -710,6 +752,11 @@ PrefabInstance:
         type: 3}
       propertyPath: existencePeriodStart
       value: 1883
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 1883 ca.
       objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -721,10 +768,23 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: "Het Waterlooplein met op de voorgrond het nieuwe plantsoen op de plaats
+        van de gedempte Leprozengracht, gezien in noordoostelijke richting naar de
+        rooms-katholieke Mozes en A\xE4ronkerk en de ingang van de Lazarussteeg.
+        Rechts het Oudezijds Huiszittenhuis, Waterlooplein 67.\r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: TargetCamera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Waterlooplein 53-67 '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -759,6 +819,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 4602f7553492c16439cd76ce7b36578c, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Kunsthandel Gebr. Douwes
+      objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_CastShadows
@@ -973,6 +1038,11 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: existencePeriodEnd
@@ -982,6 +1052,11 @@ PrefabInstance:
         type: 3}
       propertyPath: existencePeriodStart
       value: 1910
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: '1930 ca. '
       objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -993,10 +1068,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: "Op de achtergrond Waterlooplein 55-57 en de rooms-katholieke Mozes
+        en A\xE4ronkerk, Waterlooplein 59 (thans 207)\r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: TargetCamera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Huisvuil aangeboden langs de stoeprand voor Waterlooplein 64-86 (v.r.n.l.) '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -1101,6 +1187,11 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: existencePeriodEnd
@@ -1110,6 +1201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: existencePeriodStart
       value: 1845
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 1867 ca.
       objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -1121,10 +1217,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: "Houtgracht, gezien van Mozes-en A\xE4ronkerk naar brug tussen de Vlooienburgersteeg
+        (later: Houtkopersdwarsstraat) en de Korte Houtstraat. Oorspronkelijke kabinetfoto
+        uitgegeven door A. Jager. Foto 166 uit het album van W.J.R. Dreesmann\r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: TargetCamera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'De voormalige Houtkopersgracht (sic), thans Gedempt, nu het Waterlooplein '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -1512,6 +1620,11 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: existencePeriodEnd
@@ -1521,6 +1634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: existencePeriodStart
       value: 1890
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: september 1898
       objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -1532,10 +1650,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: "Versiering t.g.v. de inhuldiging van H.M. Koningin Wilhelmina.\r\n\t"
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: TargetCamera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Versiering t.g.v. de inhuldiging van H.M. Koningin Wilhelmina. Nieuwe
+        Amstelstraat '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -1568,6 +1697,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 547b6eefdd6f13848ac47e4c50378247, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Olie, Jacob (1834-1905)
+      objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_CastShadows
@@ -1645,6 +1779,11 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: existencePeriodEnd
@@ -1654,6 +1793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: existencePeriodStart
       value: 1900
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 10 mei 1902
       objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -1665,10 +1809,23 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Gezien naar de Hoogduitse Synagoge en r.k. Mozes en Aaronkerk (ged.),Waterlooplein
+        59. Op de achtergrond midden: Politiebureau hoek Lazarussteeg
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: TargetCamera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Meyerplein (Jonas Daniel) 2 t/m 16 (v.r.n.l.) '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -1708,6 +1865,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Olie, Jacob (1834-1905)
+      objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_CastShadows
@@ -1720,6 +1882,285 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 1906509537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &215455477273751665
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WPL_1958
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.272491
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 47.93177
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.86602545
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 26 augustus 1958
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Met de ingang van de Zwanenburgerstraat. Links Zwanenburgerstraat 28-24
+        enz. Rechts Zwanenburgerstraat 63.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: TargetCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Waterlooplein (na 104) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/db1a6da5-e8ab-f523-b83b-fa4fc2da413b
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'Met de ingang van de Zwanenburgerstraat. Links Zwanenburgerstraat 28-24
+        enz. Rechts Zwanenburgerstraat 63.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 26 augustus 1958
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Waterlooplein (na 104) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Arsath Ro'is, J.M.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9a28773c3e030924b867b74dffe1673e, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Arsath Ro'is, J.M.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &212364913564248293 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 215455477273751665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1278509163970925114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: ZBS_1968
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -99.90578
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 101.70875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8660254
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1975
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1955
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 1968
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Gesloopt in 1968
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: TargetCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Zwanenburgerstraat 53-61 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/d2859e84-c824-bca0-2d8d-74104c3746c4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'Gesloopt in 1968
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 1968
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Zwanenburgerstraat 53-61 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Stam, Jan (1918-1980)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Stam, Jan (1918-1980)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &1274842025597930158 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 1278509163970925114}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2071562928682764315
 PrefabInstance:
@@ -1836,6 +2277,11 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1900
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' 1915 ca.'
+      objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_text
@@ -1868,6 +2314,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 5116a5dd9b2607c48838991fb452ec89, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: August Vogt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
 --- !u!4 &2067329099978870927 stripped
@@ -1939,7 +2390,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 509d727805c83cf4193f4a7b580eefe4, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 33634375832021118, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Mesh
@@ -1981,6 +2432,22 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1881
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: '1891 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes
+        en A\xE4ronkerk.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Waterlooplein 31 (ged.) t/m 65 (v.l.n.r.) '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: URL
@@ -2012,6 +2479,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: b42460d6a5e7af94d9dbb48dbf257450, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Jacob Olie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
 --- !u!4 &2067329099428148033 stripped
@@ -2301,7 +2773,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6f764784f114fe74887b2baac4d1a756, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 33634375832021118, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Mesh
@@ -2347,6 +2819,22 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1920
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: december 1926 ca.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: "Gezien richting Zwanenburgwal. Rechts Mozes en A\xE4ronkerk litt. Amsterdamse
+        Gids december 1926\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Waterlooplein 177-207 (v.l.n.r.) '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: URL
@@ -2378,6 +2866,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: b498a2f121d036a478e9e086bf7f5ca8, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Onbekend
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
 --- !u!4 &2067329098809661738 stripped
@@ -2687,6 +3180,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 33634375832021118, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_Mesh
@@ -2754,6 +3252,20 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1760
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
+        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
+        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
+        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
+        Waterlooplein 67 (na 1983 nummer 211).\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: "IJspret op de bevroren Muidergracht, nu het Jonas Dani\xEBl Meijerplein "
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: URL
@@ -2788,6 +3300,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 71533b619051fc74c99ec1b65f59b514, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Jacob Catz
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
 --- !u!4 &2067329097985451385 stripped
@@ -2914,6 +3431,20 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1920
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Verbranden van chomets; links ingang Joden Houttuinen; links van het
+        midden, doorkijkje naar Houtkopersburgwal. (chomets: Jiddisch voor gegist
+        deeg?)
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Markenplein 1-3-5 (rechts, v.l.n.r.) en 2-2A (ged) (links, v.r.n.l.) '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: URL
@@ -2945,4 +3476,988 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 2644056121185296669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5002939755900270521
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: ZBS_1871
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -148.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 135.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.8870108
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.4617488
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 305
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1880
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1860
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 1871
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Links Zwanenburgerstraat 17-19, rechts van de door brand getroffen
+        panden de huisnummers 27-29 tot de Korte Houtstraat. In het verschiet de
+        Leprozengracht (Waterlooplein).
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Bluswerkzaamheden bij een brand in de percelen Zwanenburgerstraat 21-25 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/3656efb9-3625-9602-9924-4df7ae204cb9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'Links Zwanenburgerstraat 17-19, rechts van de door brand getroffen
+        panden de huisnummers 27-29 tot de Korte Houtstraat. In het verschiet de
+        Leprozengracht (Waterlooplein).
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 1871
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Bluswerkzaamheden bij een brand in de percelen Zwanenburgerstraat 21-25 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 320446eb10c026e42b6705f1409fd173, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &4999286327599820589 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 5002939755900270521}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5058816832106175313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: ZBW_1958
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -230.59755
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 201.53403
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9063077
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.42261845
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 310
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 26 augustus 1958
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Midden op de foto de ingang van de Zwanenburgerstraat.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: TargetCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Zwanenburgwal 49 (gedeeltelijk)- 51 (afgebroken) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/05f8cc9d-6c5f-f7fb-9d9f-d9d90781d792
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'Midden op de foto de ingang van de Zwanenburgerstraat.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 26 augustus 1958
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Zwanenburgwal 49 (gedeeltelijk)- 51 (afgebroken) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Arsath Ro'is, J.M.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9e77f5783bf67214da83e464d62ff4ab, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Arsath Ro'is, J.M.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &5060792837841617861 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 5058816832106175313}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5181617280546072049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WLP_18xx
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.5771027
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 43.109974
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7933533
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.60876155
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1900
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1850
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Links: Amstel, rechts ingang Zwanenburgerstraat.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: TargetCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Waterlooplein '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/549050e5-1d64-8ae8-16a1-6f5ca652bb4f
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'Links: Amstel, rechts ingang Zwanenburgerstraat.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Waterlooplein '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 50960e900c4d749469e632e4414f38aa, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &5181327773174201701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 5181617280546072049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6755190673040949228
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: ZBW_1959
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -206.10579
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 175.10875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 3 april 1959
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Op de voorgrond de brug voor de Zwanenburgerstraat.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: TargetCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Zwanenburgwal 51-49 enz. (v.r.n.l.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/ab9b6a5c-bc81-a769-197c-24a53637a2b4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'Op de voorgrond de brug voor de Zwanenburgerstraat.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 3 april 1959
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Zwanenburgwal 51-49 enz. (v.r.n.l.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Arsath Ro'is, J.M.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9e77f5783bf67214da83e464d62ff4ab, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Arsath Ro'is, J.M.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &6750976649504991096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 6755190673040949228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7606103310404288992
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WLP_1954
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.705795
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 55.308746
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.86602545
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'november 1954 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Hoek Zwanenburgerstraat. Met (v.l.n.r.) koffiehuis, groothandel in
+        metalen en lompen, in- en verkoop van tweedehands- en militaire kleding en
+        autokerkhof Jack. Maandag. op de voorgrond: markt.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: TargetCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Waterlooplein 100-104 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/0e27e388-a413-96d8-6ce1-4569cf930e0d
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'Hoek Zwanenburgerstraat. Met (v.l.n.r.) koffiehuis, groothandel in
+        metalen en lompen, in- en verkoop van tweedehands- en militaire kleding en
+        autokerkhof Jack. Maandag. op de voorgrond: markt.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 'november 1954 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Waterlooplein 100-104 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 4aafc5e157f060143b43ba7a68e2fc28, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &7602434575377275252 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 7606103310404288992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8726140093304856196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: ZBS_1963
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -100.205795
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 101.70875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.08715588
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9961947
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1966
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 1963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: TargetCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Zwanenburgerstraat 29 (ged.) - 37 (ged.), links Korte Houtstraat 38
+        (ged.) - 40 v.r.n.l '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/bb05f780-5ef7-07f7-4721-b3dca8fe5a36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 1963
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Zwanenburgerstraat 29 (ged.) - 37 (ged.), links Korte Houtstraat 38
+        (ged.) - 40 v.r.n.l '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Schaap, C.P.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: cefcf6e6108f10c48a6d42c57f447179, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Schaap, C.P.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &8725286055968392720 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 8726140093304856196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8762584783459647275
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: ZBS_1785
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -141.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 131.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.53729963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8433915
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1815
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1770
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 1785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'De Zwanenburgerstraat, gezien naar de brug voor de Staalstraat. Links
+        het Diaconie Weeshuis, Zwanenburgerstraat 2 / Amstel 1. Rechts Zwanenburgerstraat
+        1, 3, 5 en 7 (v.l.n.r.).
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: TargetCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Het Diakonieweeshuis '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/ecf7064e-c4f8-db66-d139-b5533dcc16f4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 'De Zwanenburgerstraat, gezien naar de brug voor de Staalstraat. Links
+        het Diaconie Weeshuis, Zwanenburgerstraat 2 / Amstel 1. Rechts Zwanenburgerstraat
+        1, 3, 5 en 7 (v.l.n.r.).
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 1785
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Het Diakonieweeshuis '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Schouten, H. P. (Herman; 1747-1822)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 599875fbb751a744ea08ee4b66efcb51, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Schouten, H. P. (Herman; 1747-1822)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &8761189239330858943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 8762584783459647275}
   m_PrefabAsset: {fileID: 0}
