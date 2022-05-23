@@ -27,20 +27,23 @@ public class PhotoPanel : MonoBehaviour
     [Header("Object-links (Do not touch)")]
     public TextMeshPro TitleObject;
     public TextMeshPro BodyObject;
+    public TextMeshPro DateObject;
+    public TextMeshPro AuthorObject;
     public GameObject[] OtherSubObjects;
     public GameObject Root;
     public GameObject Generic;
-
     public Renderer PictureRenderer;
     
 	void Start ()
     {
 		Layout();
-        
-        if(Application.isPlaying)
+        if (PictureRenderer != null && PictureRenderer.sharedMaterial != null)
         {
-            PictureRenderer.material.color = Color.white;
-            PictureRenderer.material.mainTexture = Picture;
+            PictureRenderer.sharedMaterial = new Material(PictureRenderer.sharedMaterial)
+            {
+                color = Color.white,
+                mainTexture = Picture
+            };
         }
 	}
 	
@@ -57,6 +60,8 @@ public class PhotoPanel : MonoBehaviour
     {
         TitleObject.text = Title;
         BodyObject.text = Body;
+        DateObject.text = Date;
+        AuthorObject.text = Author;
 
         TitleObject.color = TitleColor;
         BodyObject.color = BodyColor;
