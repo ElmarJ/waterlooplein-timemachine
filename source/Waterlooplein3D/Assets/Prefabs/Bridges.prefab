@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -304.28308, y: -2, z: -146.6277}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7195576727113631412}
   m_RootOrder: 0
@@ -56,6 +57,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9061744444443878471}
   - {fileID: 2783618358159412934}
@@ -31024,12 +31026,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbaa03a02c1d97a44a19fce9b039d946, type: 3}
---- !u!4 &3219810179784751427 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: dbaa03a02c1d97a44a19fce9b039d946,
-    type: 3}
-  m_PrefabInstance: {fileID: 7626182422741652057}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1942258241284557648 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: dbaa03a02c1d97a44a19fce9b039d946,
@@ -31050,6 +31046,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   existencePeriodStart: -9999
   existencePeriodEnd: 1882
+--- !u!4 &3219810179784751427 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: dbaa03a02c1d97a44a19fce9b039d946,
+    type: 3}
+  m_PrefabInstance: {fileID: 7626182422741652057}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7626182423014440557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31140,12 +31142,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7626182423014440557}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &3219810180107851127 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: cec47eeacaef54c4f97d54c6304f3a22,
-    type: 3}
-  m_PrefabInstance: {fileID: 7626182423014440557}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &7626182424092446179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31160,6 +31156,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   existencePeriodStart: -9999
   existencePeriodEnd: 1882
+--- !u!4 &3219810180107851127 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: cec47eeacaef54c4f97d54c6304f3a22,
+    type: 3}
+  m_PrefabInstance: {fileID: 7626182423014440557}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7626182423490718268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31250,12 +31252,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7626182423490718268}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &3219810180583932198 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: cec47eeacaef54c4f97d54c6304f3a22,
-    type: 3}
-  m_PrefabInstance: {fileID: 7626182423490718268}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &7626182422356076884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31270,6 +31266,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   existencePeriodStart: -9999
   existencePeriodEnd: 1882
+--- !u!4 &3219810180583932198 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: cec47eeacaef54c4f97d54c6304f3a22,
+    type: 3}
+  m_PrefabInstance: {fileID: 7626182423490718268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7626182423548063508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32644,12 +32646,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbaa03a02c1d97a44a19fce9b039d946, type: 3}
---- !u!4 &3219810180593173518 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: dbaa03a02c1d97a44a19fce9b039d946,
-    type: 3}
-  m_PrefabInstance: {fileID: 7626182423548063508}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1942258239943456285 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: dbaa03a02c1d97a44a19fce9b039d946,
@@ -32670,3 +32666,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   existencePeriodStart: -9999
   existencePeriodEnd: 1882
+--- !u!4 &3219810180593173518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: dbaa03a02c1d97a44a19fce9b039d946,
+    type: 3}
+  m_PrefabInstance: {fileID: 7626182423548063508}
+  m_PrefabAsset: {fileID: 0}
