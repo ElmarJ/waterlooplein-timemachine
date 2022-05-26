@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Waterlooplein 3D"
-#define MyAppVersion "2.1.0"
+#define MyAppVersion "2.2.0"
 #define MyAppPublisher "Elmar Jansen"
 #define MyAppURL "https://waterlooplein3d.nl"
 #define MyAppExeName "Waterlooplein 3D.exe"
