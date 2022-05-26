@@ -27,11 +27,11 @@ MonoBehaviour:
     supportVolumetricClouds: 1
     supportLightLayers: 0
     supportDistortion: 1
-    supportTransparentBackface: 1
-    supportTransparentDepthPrepass: 1
-    supportTransparentDepthPostpass: 1
+    supportTransparentBackface: 0
+    supportTransparentDepthPrepass: 0
+    supportTransparentDepthPostpass: 0
     colorBufferFormat: 74
-    supportCustomPass: 1
+    supportCustomPass: 0
     customBufferFormat: 12
     supportedLitShaderMode: 3
     planarReflectionResolution:
@@ -44,8 +44,8 @@ MonoBehaviour:
     decalNormalBufferHP: 0
     msaaSampleCount: 4
     supportMotionVectors: 1
-    supportRuntimeAOVAPI: 0
-    supportDitheringCrossFade: 1
+    supportRuntimeAOVAPI: 1
+    supportDitheringCrossFade: 0
     supportTerrainHole: 0
     supportProbeVolume: 0
     probeVolumeMemoryBudget: 1024
@@ -118,10 +118,10 @@ MonoBehaviour:
       lutFormat: 48
       bufferFormat: 74
     dynamicResolutionSettings:
-      enabled: 0
-      useMipBias: 0
-      enableDLSS: 0
-      DLSSPerfQualitySetting: 0
+      enabled: 1
+      useMipBias: 1
+      enableDLSS: 1
+      DLSSPerfQualitySetting: 1
       DLSSUseOptimalSettings: 1
       DLSSSharpness: 0.5
       maxPercentage: 100
@@ -162,7 +162,7 @@ MonoBehaviour:
       ChromaticAberrationMaxSamples: 03000000060000000c000000
     lightSettings:
       useContactShadow:
-        m_Values: 000101
+        m_Values: 010101
         m_SchemaId:
           m_Id: With3Levels
     maximumLODLevel:
@@ -171,9 +171,9 @@ MonoBehaviour:
         m_Id: With3Levels
     lodBias:
       m_Values:
-      - 1
-      - 1
-      - 1
+      - 2
+      - 2
+      - 2
       m_SchemaId:
         m_Id: With3Levels
     lightingQualitySettings:
