@@ -6,7 +6,7 @@ nav_order: 1
 
 # Waterlooplein 3D
 
-![Screenshot](images%5CHG_sun.png "Screenshot van Houtgracht (tegen de zon in)")
+![Screenshot](images/HG_sun.png "Screenshot van Houtgracht (tegen de zon in)")
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/elmarj/waterlooplein3d)](https://github.com/elmarj/waterlooplein3d/releases)
 [![GitHub issues](https://img.shields.io/github/issues/elmarj/waterlooplein3d)](https://github.com/elmarj/waterlooplein3d/issues)
@@ -28,7 +28,7 @@ Overigens zijn de straten van het hele Centrum te bewandelen, maar ontbreken bui
 
 Als je een moderne webbrowser hebt, kun je een beperkte versie (versie 1.0) van de reconstructie bekijken op [Unity Play](https://play.unity.com/mg/other/waterlooplein-3d). Als je een goede computer hebt, ziet het er veel beter uit als je het programma downloadt en installeren.
 
-![Houtgracht met foto uit Stadsarchief](images%5CHG_photo_1864.png)
+![Houtgracht met foto uit Stadsarchief](images/HG_photo_1864.png)
 
 ## Installeren
 
