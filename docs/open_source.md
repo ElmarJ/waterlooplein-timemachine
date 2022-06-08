@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Open Source-Projecten
+title: Open Source
 nav_order: 7
 ---
 # Open Source Projecten
 
-Waterlooplein 3D maakt gebruik van de volgende open source software en bibliotheken:
+Waterlooplein 3D is volledig open source op basis van de [GNU General Public License v3.0](https://github.com/ElmarJ/Waterlooplein3D/blob/main/COPYING). De software maakt gebruik van de volgende software:
 
-## Github-pagina's bij dit project
+## Projecten direct gerelateerd aan dit project
 
-- [Waterlooplein 3D project](https://github.com/ElmarJ/Waterlooplein3D): De source code van dit project.
+- [Waterlooplein 3D project](https://github.com/ElmarJ/Waterlooplein3D): De source code van Waterlooplein 3D.
 - [GeoJsonCityBuilder](https://github.com/elmarj/geojsoncitybuilder): Unity Package dat het mogelijk maakt een 3D-reconstructie te maken van een stad op basis van GeoJSON-data.
-- [Amsterdam.1892.GeoJSON](https://github.com/ElmarJ/Amsterdam.1892.GeoJSON): De achterliggende GeoJSON die de kaart van Amsterdam in 1880 beschrijft.
+- [Amsterdam.1892.GeoJSON](https://github.com/ElmarJ/Amsterdam.1892.GeoJSON): De GIS-data van de historische kaarten die de buurten beschrijven (in GeoJSON-formaat).
 
 ## Unity packages, 3D-materialen, modellen, shaders etc
 
