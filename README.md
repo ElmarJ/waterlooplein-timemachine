@@ -1,6 +1,5 @@
 # Waterlooplein 3D
-
-![Screenshot](https://raw.githubusercontent.com/ElmarJ/Waterlooplein3D/master/source/Waterlooplein3D/Assets/Images/Luchtfoto.png "Luchtfoto in Waterlooplein 3D")
+![Screenshot](docs%5Cimages%5CHG_sun.png "Luchtfoto in Waterlooplein 3D")
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/elmarj/waterlooplein3d)
 ![GitHub issues](https://img.shields.io/github/issues/elmarj/waterlooplein3d)
