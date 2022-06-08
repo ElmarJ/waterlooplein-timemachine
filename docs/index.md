@@ -16,9 +16,12 @@ nav_order: 1
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y521CCD)
 
-<a href='//www.microsoft.com/store/apps/9PFFX4W0P498?cid=storebadge&ocid=badge'><img src='https://github.com/ElmarJ/Waterlooplein3D/blob/master/WindowsStoreBadge.png?raw=true' alt='English badge' style='width: 142px; height: 52px;'/></a>
+<script type="module" src="https://getbadgecdn.azureedge.net/ms-store-badge.bundled.js"></script>
+<ms-store-badge productid="9PFFX4W0P498" size="small"></ms-store-badge>
 
 ## Wat is het?
+
+![Houtgracht met foto uit Stadsarchief](images/HG_photo_1864.png)
 
 Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterloopleinbuurt van tussen 1800 en 1950. Het programma is bedoeld voor die mensen die (net als ik) moeite hebben zich voor te stellen hoe de buurt er ongeveer uit heeft gezien, voordat - door stadsvernieuwing en metrobouw - de buurt in de jaren '60 en '70 grotendeels is gesloopt.
 
@@ -27,8 +30,6 @@ Met een schuifje kun je bepalen in welk jaar je precies rond wilt lopen (sinds v
 Overigens zijn de straten van het hele Centrum te bewandelen, maar ontbreken buiten de Waterloopleinbuurt alle details zoals bomen, bruggen en individuele panden.
 
 Als je een moderne webbrowser hebt, kun je een beperkte versie (versie 1.0) van de reconstructie bekijken op [Unity Play](https://play.unity.com/mg/other/waterlooplein-3d). Als je een goede computer hebt, ziet het er veel beter uit als je het programma downloadt en installeren.
-
-![Houtgracht met foto uit Stadsarchief](images/HG_photo_1864.png)
 
 ## Installeren
 
