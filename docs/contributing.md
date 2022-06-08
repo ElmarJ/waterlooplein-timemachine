@@ -6,7 +6,7 @@ nav_order: 4
 
 # Meehelpen
 
-Bijdragen zijn meer dan welkom! Bugs rapporteren en nieuwe functies suggereren, doe je op [de "issues" pagina](https://github.com/ElmarJ/Waterlooplein3D/issues) van dit project, maar je kunt ook op andere manieren bijdragen:
+Bijdragen zijn meer dan welkom! Bugs rapporteren en nieuwe functies suggereren, doe je op [het forum](https://github.com/ElmarJ/Waterlooplein3D/discussions) van dit project, maar je kunt ook op andere manieren bijdragen:
 
 ## Donatie
 
