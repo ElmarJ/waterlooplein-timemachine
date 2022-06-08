@@ -27,16 +27,6 @@
 
 ### Modify and build in Visual Studio
 - [ ] Open *\Builds\winstore_source_x64\Waterlooplein 3D.sln* in Visual Studio.
-- [ ] Add the following lines [(to make sure that dedicated GPU is used)](https://forum.unity.com/threads/how-to-make-windows-build-to-use-dedicated-graphic-on-optimus-laptop.391194/) to Waterlooplein 3D\App.cpp (right under the "using" declarations):
-```cpp
-extern "C" {
-    _declspec(dllexport) DWORD NvOptimusEnablement = 0x00000001;
-}
-extern "C"
-{
-    __declspec(dllexport) int AmdPowerXpressRequestHighPerformance = 1;
-}
-```
 - [ ] Associate with store app:
   - Right click Waterlooplein 3D project, and select Publish -> Associate with Microsoft Store App
   - Login with my Microsoft Account
