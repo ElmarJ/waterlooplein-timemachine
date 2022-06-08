@@ -13,8 +13,9 @@ nav_order: 1
 [![GitHub](https://img.shields.io/github/license/elmarj/waterlooplein3d)](https://github.com/ElmarJ/Waterlooplein3D/blob/master/COPYING)
 [![GitHub stars](https://img.shields.io/github/stars/elmarj/waterlooplein3d?style=social)](https://github.com/elmarj/waterlooplein3d)
 [![Twitter Follow](https://img.shields.io/twitter/follow/elmarj?style=social)](https://twitter.com/elmarj)
-
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y521CCD)
+<script type="module" src="https://getbadgecdn.azureedge.net/ms-store-badge.bundled.js"></script>
+<ms-store-badge productid="9PFFX4W0P498" size="small"></ms-store-badge>
 
 ## Wat is het?
 
