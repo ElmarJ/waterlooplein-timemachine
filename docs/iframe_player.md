@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Browser-versie
-nav_order: 7
+nav_order: 9
 ---
 
 # Waterlooplein 3D in de browser

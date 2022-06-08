@@ -16,9 +16,6 @@ nav_order: 1
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y521CCD)
 
-<script type="module" src="https://getbadgecdn.azureedge.net/ms-store-badge.bundled.js"></script>
-<ms-store-badge productid="9PFFX4W0P498" size="small"></ms-store-badge>
-
 ## Wat is het?
 
 ![Houtgracht met foto uit Stadsarchief](images/HG_photo_1864.png)
@@ -27,60 +24,26 @@ Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterlooplei
 
 Met een schuifje kun je bepalen in welk jaar je precies rond wilt lopen (sinds versie 2.0). Verwacht geen perfecte reconstructie, het belangrijkste doel is om een beeld te geven van waar straten liepen en hoe de buurt in elkaar stak. Wat je ziet is een gemodelleerde stad waarin het stratenpatroon en de locatie van de gebouwen echt is, maar de gevels en gebouwhoogten willekeurig gegenereerd. Verwacht dus niet je eigen huis in detail terug te vinden: waarschijnlijk staat er een gebouw met de juiste omvang maar de verkeerde gevel.
 
+Tijdens het rondwandelen zul je af en toe een icoontje van een fotocamera tegenkomen. Op deze plek verschijnt een foto uit de Beeldbank van het [Stadsarchief Amsterdam](https://www.amsterdam.nl/stadsarchief) als je voldoende dichtbij komt. Let op: ook dit hangt af van het jaar waarin je loopt, dus af en toe schuiven. Er worden regelmatig foto's toegevoegd, dus kom af en toe terug om naar nieuwe foto's te speuren!
+
 Overigens zijn de straten van het hele Centrum te bewandelen, maar ontbreken buiten de Waterloopleinbuurt alle details zoals bomen, bruggen en individuele panden.
 
 Als je een moderne webbrowser hebt, kun je een beperkte versie (versie 1.0) van de reconstructie bekijken op [Unity Play](https://play.unity.com/mg/other/waterlooplein-3d). Als je een goede computer hebt, ziet het er veel beter uit als je het programma downloadt en installeren.
 
-## Installeren
+## Aan de slag!
 
-### Windows
+ - Zie [de installatie-instructies](installation.md) op deze website.
+ - De source-code [staat op Github](https://github.com/elmarj/waterlooplein3d). Hier vind je ook [de volledige versie-geschiedenis](https://github.com/elmarj/waterlooplein3d/releases), met beschrijvingen van de laatste functies.
 
-- Het makkelijkst is via de <a href='//www.microsoft.com/store/apps/9PFFX4W0P498'>vermelding in de Microsoft Store</a>.
-- Maar je kunt zelf ook een installer downloaden. Je zult dan wel zelf naar deze pagina terug moeten komen voor updates. [Download 32-bits versie hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_win32_setup.exe) (109 mb) of [Download 64-bits versie hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_win64_setup.exe) (111 mb)
+## Feedback en meedoen
 
-### Mac
+Heb je opmerkingen, suggesties of complimenten? Laat het vooral weten op [het forum](https://github.com/ElmarJ/Waterlooplein3D/discussions/51). Dit hele project draait op werk in vrije tijd. Op [de meehelp-pagina](contributing.md) lees je meer over hoe je zelf kunt bijdragen aan het project.
 
-- [Download zip-file hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_mac.zip) (114 MB) te downloaden.
-- *Let op*: Ik heb zelf geen Mac, dus kan dit niet testen - maar het zou moeten werken.
+## Screenshots Tijdmachine
 
-### Linux (64 bit)
+Hieronder vier screenshots van dezelfde plek op het Waterlooplein op vier verschillende momenten in de tijd:
 
-- [Download zip-file hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/linux_x86_64.zip) (109 MB) te downloaden.
-- Pak het zip-bestand uit
-- Geef *execution*-rechten aan Waterlooplein_3D_linux64.x86_64 ```chmod +x Waterlooplein_3D_linux64.x86_64```
-- Start ```./Waterlooplein_3D_linux64.x86_64```
-
-## Versiegeschiedenis
-
-- Versie v1.0.0 (18 augustus 2020)
-  - Eerste publieke relaese
-  - 3D-reconstructie van Waterloopleinbuurt rond 1880.
-- Versie v2.0.0 (22 december 2020)
-  - Tijdschuifje: je kunt nu zelf het jaar bepalen waarin je rondloopt
-  - Nieuwe grafische techniek (HDRP), daardoor veel gedetailleerder en overtuigender beeld
-
-## Open Source Projecten
-
-Waterlooplein 3D maakt gebruik van de volgende open source software en bibliotheken:
-
-### Github-pagina's bij dit project
-
-- [Waterlooplein 3D project](https://github.com/ElmarJ/Waterlooplein3D): De source code van dit project.
-- [GeoJsonCityBuilder](https://github.com/elmarj/geojsoncitybuilder): Unity Package dat het mogelijk maakt een 3D-reconstructie te maken van een stad op basis van GeoJSON-data.
-- [Amsterdam.1892.GeoJSON](https://github.com/ElmarJ/Amsterdam.1892.GeoJSON): De achterliggende GeoJSON die de kaart van Amsterdam in 1880 beschrijft.
-
-### Unity packages, 3D-materialen, modellen, shaders etc
-
-- [First Person All In One by Aedan Graves](https://assetstore.unity.com/packages/tools/input-management/first-person-all-in-one-135316)
-- [#NVJOB Simple Water Shaders by Nicholas Veselov](https://nvjob.github.io/unity/nvjob-water-shader)
-- [Procedural Grass by Vincent Gault](https://share.substance3d.com/libraries/64)
-- [Cobble Stone Pavement by soi](https://share.substance3d.com/libraries/3721)
-- [Bricks by Wes McDermott](https://share.substance3d.com/libraries/2041)
-- [SpeedTree: Sample Broadleaf tree](https://speedtree.com/)
-
-### Ontwikkeltools
-
-- [Unity](https://unity.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Blender](https://www.blender.org/)
-- [QGis](https://www.qgis.org/)
+![Screenshot Waterlooplein 1875](images/WLP_timetravel_1875.png)
+![Screenshot Waterlooplein 1904](images/WLP_timetravel_1904.png)
+![Screenshot Waterlooplein 1977](images/WLP_timetravel_1977.png)
+![Screenshot Waterlooplein 1995](images/WLP_timetravel_1995.png)
