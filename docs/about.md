@@ -6,6 +6,7 @@ nav_order: 3
 
 # Over het project
 
+![Leprozengracht in 1873 met foto uit Stadsarchief](images/LG_photo_1873.png)
 ## Wie?
 
 Dit is een privé-projectje van [Elmar Jansen](https://twitter.com/elmarj) (elmar@elmarjansen.nl). Omdat ik dacht dat er mogelijk meer geïnteresseerden zijn, heb ik het nu online gezet en de code beschikbaar gemaakt. Als je het leuk vindt om hier aan verder te gaan of mee te helpen om het allemaal wat mooier te maken: wees welkom (zie hieronder bij "meehelpen").
