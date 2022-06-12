@@ -1,6 +1,6 @@
 {
     "TestSuite": "",
-    "Date": 1653654423897,
+    "Date": 1654726439861,
     "Player": {
         "Development": false,
         "ScreenWidth": 0,
@@ -20,7 +20,7 @@
         "ScriptingBackend": "Mono2x",
         "AndroidTargetSdkVersion": "AndroidApiLevelAuto",
         "AndroidBuildSystem": "Gradle",
-        "BuildTarget": "StandaloneOSX",
+        "BuildTarget": "StandaloneWindows64",
         "StereoRenderingPath": "MultiPass"
     },
     "Hardware": {
