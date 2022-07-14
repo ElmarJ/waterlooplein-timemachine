@@ -14,6 +14,9 @@ nav_order: 1
 [![GitHub stars](https://img.shields.io/github/stars/elmarj/waterlooplein3d?style=social)](https://github.com/elmarj/waterlooplein3d)
 [![Twitter Follow](https://img.shields.io/twitter/follow/elmarj?style=social)](https://twitter.com/elmarj)
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y521CCD)
+
+<iframe frameborder="0" src="https://itch.io/embed/1338959?dark=true" width="552" height="167"><a href="https://elmarjansen.itch.io/waterlooplein-3d">Waterlooplein 3D by Elmar Jansen</a></iframe>
+
 <script type="module" src="https://getbadgecdn.azureedge.net/ms-store-badge.bundled.js"></script>
 <ms-store-badge productid="9PFFX4W0P498" size="small"></ms-store-badge>
 
