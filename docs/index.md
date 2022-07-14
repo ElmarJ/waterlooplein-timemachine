@@ -17,9 +17,6 @@ nav_order: 1
 
 <iframe frameborder="0" src="https://itch.io/embed/1338959?dark=true" width="552" height="167"><a href="https://elmarjansen.itch.io/waterlooplein-3d">Waterlooplein 3D by Elmar Jansen</a></iframe>
 
-<script type="module" src="https://getbadgecdn.azureedge.net/ms-store-badge.bundled.js"></script>
-<ms-store-badge productid="9PFFX4W0P498" size="small"></ms-store-badge>
-
 ## Wat is het?
 
 ![Houtgracht met foto uit Stadsarchief](images/HG_photo_1864.png)
