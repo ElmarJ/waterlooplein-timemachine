@@ -10,8 +10,6 @@ nav_order: 1
 
 ## Wat is het?
 
-![Houtgracht met foto uit Stadsarchief](images/HG_photo_1864.png)
-
 Waterlooplein 3D is een reconstructie van het stratenpatroon van de Waterloopleinbuurt van tussen 1800 en 1950. Het programma is bedoeld voor die mensen die (net als ik) moeite hebben zich voor te stellen hoe de buurt er ongeveer uit heeft gezien, voordat - door stadsvernieuwing en metrobouw - de buurt in de jaren '60 en '70 grotendeels is gesloopt.
 
 Met een schuifje kun je bepalen in welk jaar je precies rond wilt lopen (sinds versie 2.0). Verwacht geen perfecte reconstructie, het belangrijkste doel is om een beeld te geven van waar straten liepen en hoe de buurt in elkaar stak. Wat je ziet is een gemodelleerde stad waarin het stratenpatroon en de locatie van de gebouwen echt is, maar de gevels en gebouwhoogten willekeurig gegenereerd. Verwacht dus niet je eigen huis in detail terug te vinden: waarschijnlijk staat er een gebouw met de juiste omvang maar de verkeerde gevel.
@@ -30,6 +28,8 @@ Als je een moderne webbrowser hebt, kun je een beperkte versie (versie 1.0) van 
  - Voor wie ook mee wil doen met programmeren of wil zien hoe het is gemaakt [staat de source-code op Github](https://github.com/elmarj/waterlooplein3d). Hier vind je ook [de volledige versie-geschiedenis](https://github.com/elmarj/waterlooplein3d/releases), met beschrijvingen van de laatste functies.
 
 ## Feedback en meedoen
+
+![Houtgracht met foto uit Stadsarchief](images/HG_photo_1864.png)
 
 Heb je opmerkingen, suggesties of complimenten? Laat het vooral weten op [het forum](https://github.com/ElmarJ/Waterlooplein3D/discussions/51). Dit hele project draait op werk in vrije tijd. Op [de meehelp-pagina](contributing.md) lees je meer over hoe je zelf kunt bijdragen aan het project.
 
