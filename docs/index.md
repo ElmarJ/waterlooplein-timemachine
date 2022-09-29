@@ -33,8 +33,8 @@ Als je een moderne webbrowser hebt, kun je een beperkte versie (versie 1.0) van 
 
 ## Aan de slag!
 
- - Zie [de installatie-instructies](installation.md) op deze website.
- - De source-code [staat op Github](https://github.com/elmarj/waterlooplein3d). Hier vind je ook [de volledige versie-geschiedenis](https://github.com/elmarj/waterlooplein3d/releases), met beschrijvingen van de laatste functies.
+ - Voor wie gewoon zelf wil rondlopen in Waterlooplein 3D: zie [de installatie-instructies](installation.md) op deze website.
+ - Voor wie ook mee wil doen met programmeren of wil zien hoe het is gemaakt [staat de source-code op Github](https://github.com/elmarj/waterlooplein3d). Hier vind je ook [de volledige versie-geschiedenis](https://github.com/elmarj/waterlooplein3d/releases), met beschrijvingen van de laatste functies.
 
 ## Feedback en meedoen
 
