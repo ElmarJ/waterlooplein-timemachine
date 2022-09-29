@@ -6,6 +6,10 @@ nav_order: 2
 
 # Installatie
 
+Waterlooplein 3D is beschikbaar voor Windows, Mac en Linux en werkt het beste op een computer met een redelijke grafische kaart. Hoe soepel het programma loopt hangt daarbij sterk af van de kwaliteitsinstelling die je kiest.
+
+Zie hieronder de installatieinstructies voor jouw platform:
+
 ## Windows
 
 - Het makkelijkst is via de <a href='//www.microsoft.com/store/apps/9PFFX4W0P498'>vermelding in de Microsoft Store</a>.
