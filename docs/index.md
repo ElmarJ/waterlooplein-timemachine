@@ -6,16 +6,7 @@ nav_order: 1
 
 # Waterlooplein 3D
 
-![Screenshot](images/HG_sun.png "Screenshot van Houtgracht (tegen de zon in)")
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elmarj/waterlooplein3d)](https://github.com/elmarj/waterlooplein3d/releases)
-[![GitHub issues](https://img.shields.io/github/issues/elmarj/waterlooplein3d)](https://github.com/elmarj/waterlooplein3d/issues)
-[![GitHub](https://img.shields.io/github/license/elmarj/waterlooplein3d)](https://github.com/ElmarJ/Waterlooplein3D/blob/master/COPYING)
-[![GitHub stars](https://img.shields.io/github/stars/elmarj/waterlooplein3d?style=social)](https://github.com/elmarj/waterlooplein3d)
-[![Twitter Follow](https://img.shields.io/twitter/follow/elmarj?style=social)](https://twitter.com/elmarj)
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y521CCD)
-
-<iframe frameborder="0" src="https://itch.io/embed/1338959?dark=true" width="552" height="167"><a href="https://elmarjansen.itch.io/waterlooplein-3d">Waterlooplein 3D by Elmar Jansen</a></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YhV40liBmOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Wat is het?
 
@@ -33,7 +24,9 @@ Als je een moderne webbrowser hebt, kun je een beperkte versie (versie 1.0) van 
 
 ## Aan de slag!
 
- - Voor wie gewoon zelf wil rondlopen in Waterlooplein 3D: zie [de installatie-instructies](installation.md) op deze website.
+![Screenshot](images/HG_sun.png "Screenshot van Houtgracht (tegen de zon in)")
+
+- Voor wie gewoon zelf wil rondlopen in Waterlooplein 3D: zie [de installatie-instructies](installation.md) op deze website.
  - Voor wie ook mee wil doen met programmeren of wil zien hoe het is gemaakt [staat de source-code op Github](https://github.com/elmarj/waterlooplein3d). Hier vind je ook [de volledige versie-geschiedenis](https://github.com/elmarj/waterlooplein3d/releases), met beschrijvingen van de laatste functies.
 
 ## Feedback en meedoen
@@ -48,3 +41,15 @@ Hieronder vier screenshots van dezelfde plek op het Waterlooplein op vier versch
 ![Screenshot Waterlooplein 1904](images/WLP_timetravel_1904.png)
 ![Screenshot Waterlooplein 1977](images/WLP_timetravel_1977.png)
 ![Screenshot Waterlooplein 1995](images/WLP_timetravel_1995.png)
+
+## Linkjes
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elmarj/waterlooplein3d)](https://github.com/elmarj/waterlooplein3d/releases)
+[![GitHub issues](https://img.shields.io/github/issues/elmarj/waterlooplein3d)](https://github.com/elmarj/waterlooplein3d/issues)
+[![GitHub](https://img.shields.io/github/license/elmarj/waterlooplein3d)](https://github.com/ElmarJ/Waterlooplein3D/blob/master/COPYING)
+[![GitHub stars](https://img.shields.io/github/stars/elmarj/waterlooplein3d?style=social)](https://github.com/elmarj/waterlooplein3d)
+[![Twitter Follow](https://img.shields.io/twitter/follow/elmarj?style=social)](https://twitter.com/elmarj)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y521CCD)
+
+<iframe frameborder="0" src="https://itch.io/embed/1338959?dark=true" width="552" height="167"><a href="https://elmarjansen.itch.io/waterlooplein-3d">Waterlooplein 3D by Elmar Jansen</a></iframe>
+
