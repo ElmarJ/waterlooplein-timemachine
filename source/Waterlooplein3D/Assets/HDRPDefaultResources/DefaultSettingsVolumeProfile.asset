@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8294490264905900563
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7ff42a8c5be6646ad3975f3a54c1eb, type: 3}
+  m_Name: DiffusionProfileList
+  m_EditorClassIdentifier: 
+  active: 1
+  diffusionProfiles:
+    m_OverrideState: 1
+    m_Value:
+    - {fileID: 11400000, guid: 78322c7f82657514ebe48203160e3f39, type: 2}
+    - {fileID: 11400000, guid: 26bdddf49760c61438938733f07fa2a2, type: 2}
+    - {fileID: 11400000, guid: 2b7005ba3a4d8474b8cdc34141ad766e, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,6 +35,7 @@ MonoBehaviour:
   - {fileID: 7686318427622180703}
   - {fileID: 7502528774814404555}
   - {fileID: 5315503232242033309}
+  - {fileID: -8294490264905900563}
 --- !u!114 &5315503232242033309
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -212,6 +232,9 @@ MonoBehaviour:
     m_Value:
       serializedVersion: 2
       m_Bits: 4294967295
+  specularOcclusion:
+    m_OverrideState: 0
+    m_Value: 0.5
   occluderMotionRejection:
     m_OverrideState: 0
     m_Value: 1
