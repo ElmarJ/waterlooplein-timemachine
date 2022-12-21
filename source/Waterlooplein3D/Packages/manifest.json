@@ -44,17 +44,19 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "ca.andydbc.unity-texture-packer": "0.0.1"
   },
   "scopedRegistries": [
     {
       "name": "package.openupm.com",
       "url": "https://package.openupm.com",
       "scopes": [
+        "ca.andydbc.unity-texture-packer",
         "com.openupm",
         "com.virgis.geojson.net",
-        "nl.elmarjansen.geojsoncitybuilder",
-        "io.igaryhe.firstpersondrifter"
+        "io.igaryhe.firstpersondrifter",
+        "nl.elmarjansen.geojsoncitybuilder"
       ]
     }
   ]

@@ -125,8 +125,8 @@ MonoBehaviour:
       m_OverrideState: 1
       m_Value: -6.34
     distortionMode:
-      m_OverrideState: 1
-      m_Value: 0
+      m_OverrideState: 0
+      m_Value: 1
     scrollOrientation:
       m_OverrideState: 0
       m_Value:
@@ -135,9 +135,9 @@ MonoBehaviour:
         additiveValue: 0
         multiplyValue: 1
     scrollSpeed:
-      m_OverrideState: 0
+      m_OverrideState: 1
       m_Value:
-        mode: 1
+        mode: 0
         customValue: 100
         additiveValue: 0
         multiplyValue: 1
@@ -145,8 +145,8 @@ MonoBehaviour:
       m_OverrideState: 0
       m_Value: {fileID: 0}
     lighting:
-      m_OverrideState: 0
-      m_Value: 0
+      m_OverrideState: 1
+      m_Value: 1
     steps:
       m_OverrideState: 0
       m_Value: 4
@@ -158,10 +158,10 @@ MonoBehaviour:
       m_Value: 1
   layerB:
     cloudMap:
-      m_OverrideState: 0
+      m_OverrideState: 1
       m_Value: {fileID: 2800000, guid: 57a33fc2476a01644865bfde5f06e2f4, type: 3}
     opacityR:
-      m_OverrideState: 0
+      m_OverrideState: 1
       m_Value: 1
     opacityG:
       m_OverrideState: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
     m_Value: 55261.973
   aerosolDensity:
     m_OverrideState: 0
-    m_Value: 0.01192826
+    m_Value: 0.5
   aerosolTint:
     m_OverrideState: 0
     m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
@@ -303,7 +303,7 @@ MonoBehaviour:
     m_Value: 8
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.745283, g: 0.72067463, b: 0.72067463, a: 1}
+    m_Value: {r: 0.5471698, g: 0.49071065, b: 0.45683515, a: 1}
   groundColorTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -370,10 +370,10 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   windOrientation:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   windSpeed:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 100
   fogType:
     m_OverrideState: 1
@@ -405,7 +405,7 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 0
-    m_Value: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
   maxFogDistance:
     m_OverrideState: 0
     m_Value: 5000
@@ -419,25 +419,25 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1000
   baseHeight:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -2
   maximumHeight:
     m_OverrideState: 0
     m_Value: 50
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 300
+    m_Value: 400
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.3584906, g: 0.34276435, b: 0.3060698, a: 1}
   globalLightProbeDimmer:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0.933
   depthExtent:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 64
   denoisingMode:
     m_OverrideState: 0
@@ -487,7 +487,7 @@ MonoBehaviour:
     m_Value: 0
   earthCurvature:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   cloudTiling:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1}
@@ -498,7 +498,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1000
   cloudThickness:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 8000
   fadeInMode:
     m_OverrideState: 0
@@ -518,9 +518,11 @@ MonoBehaviour:
   cloudMap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+    dimension: 2
   cloudLut:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+    dimension: 2
   cloudControl:
     m_OverrideState: 1
     m_Value: 0
@@ -530,24 +532,28 @@ MonoBehaviour:
   cumulusMap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+    dimension: 2
   cumulusMapMultiplier:
     m_OverrideState: 0
     m_Value: 1
   altoStratusMap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+    dimension: 2
   altoStratusMapMultiplier:
     m_OverrideState: 0
     m_Value: 1
   cumulonimbusMap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+    dimension: 2
   cumulonimbusMapMultiplier:
     m_OverrideState: 0
     m_Value: 1
   rainMap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+    dimension: 2
   cloudMapResolution:
     m_OverrideState: 0
     m_Value: 64
@@ -723,16 +729,16 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.1
   globalWindSpeed:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
-      mode: 1
-      customValue: 100
+      mode: 0
+      customValue: 500
       additiveValue: 0
       multiplyValue: 1
   orientation:
     m_OverrideState: 0
     m_Value:
-      mode: 1
+      mode: 0
       customValue: 0
       additiveValue: 0
       multiplyValue: 1
@@ -760,9 +766,12 @@ MonoBehaviour:
   ghostingReduction:
     m_OverrideState: 0
     m_Value: 0
-  shadows:
+  perceptualBlending:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
+  shadows:
+    m_OverrideState: 1
+    m_Value: 1
   shadowResolution:
     m_OverrideState: 0
     m_Value: 256

@@ -71,6 +71,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WLP_Tekening_1870
       objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -228,6 +232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JDM_Erepoort_1874
       objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -380,6 +388,10 @@ PrefabInstance:
     - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Name
       value: Blauwbrug_1882
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_RootOrder
@@ -1303,6 +1315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WLP_1870
       objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -1437,6 +1453,10 @@ PrefabInstance:
     - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Name
       value: WLP_MAK_1873
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_RootOrder
@@ -3532,6 +3552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZBS_1871
       objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -3812,6 +3836,10 @@ PrefabInstance:
     - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Name
       value: WLP_18xx
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_RootOrder

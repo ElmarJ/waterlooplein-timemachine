@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: CanalWater
   m_Shader: {fileID: 4800000, guid: 13ac76e5d4eb0094d89a054ea444d02a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _DISABLE_DECALS
   - _DISABLE_SSR_TRANSPARENT
@@ -22,14 +24,15 @@ Material:
   disabledShaderPasses:
   - TransparentBackface
   - TransparentDepthPostpass
-  - TransparentDepthPrepass
   - RayTracingPrepass
+  - TransparentDepthPrepass
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_511A200E:
         m_Texture: {fileID: 2800000, guid: 7122fdc5adb97d64f8d5e895d327f5ac, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.5, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - Texture2D_5BBFEAAD:
         m_Texture: {fileID: 2800000, guid: 8e34454a458313a44b4ebf0f2daea16c, type: 3}
@@ -37,7 +40,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - Texture2D_90D40B6D:
         m_Texture: {fileID: 2800000, guid: 23341d624d5dfbc4fa7fb21315d387cb, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.8, y: 0.8}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap0:
         m_Texture: {fileID: 0}
@@ -306,7 +309,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Vector1_10BE3CD8: 0.09923
-    - Vector1_2DCE38F4: 0.03
+    - Vector1_2DCE38F4: 0.05
     - Vector1_3034A0E7: 0.22
     - Vector1_35CC0B3F: 0.0401
     - Vector1_3894EE55: 0
@@ -320,7 +323,7 @@ Material:
     - Vector1_8DAAF4DB: 0.139
     - Vector1_9BC3A5CD: 0
     - Vector1_A8100DE7: 0
-    - Vector1_D7555F9C: 1
+    - Vector1_D7555F9C: 0.7
     - Vector1_D958705D: 0.34
     - Vector1_DFD3567: 0.002
     - Vector1_E5C822F8: 0.955
@@ -540,6 +543,9 @@ Material:
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
     - _Stiffness: 1
+    - _Strength1: 0.5
+    - _Strength2: 0.5
+    - _Strength3: 0.3
     - _SubsurfaceMask0: 1
     - _SubsurfaceMask1: 1
     - _SubsurfaceMask2: 1
@@ -603,10 +609,10 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - Color_8DF95E1F: {r: 0.16981131, g: 0.16981131, b: 0.109736554, a: 1}
+    - Color_8DF95E1F: {r: 0.13207549, g: 0.10895687, b: 0.0031149874, a: 1}
     - Color_A0995202: {r: 0, g: 0, b: 0, a: 1}
     - Color_DD167ECF: {r: 0.9433962, g: 0, b: 0, a: 1}
-    - Color_F4D2E00B: {r: 0.13333334, g: 0.10916898, b: 0.03529411, a: 1}
+    - Color_F4D2E00B: {r: 0.3207547, g: 0, b: 0, a: 1}
     - Vector2_6E1E59F4: {r: 1500, g: 1500, b: 0, a: 0}
     - _BaseColor0: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor1: {r: 1, g: 1, b: 1, a: 1}

@@ -18,18 +18,18 @@ MonoBehaviour:
     type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 140666621263709
-      data2: 4539628436200587288
+      data1: 140666621394780
+      data2: 4539628437274329112
     lodBias: 1
     lodBiasMode: 0
-    lodBiasQualityLevel: 0
+    lodBiasQualityLevel: 1
     maximumLODLevel: 0
     maximumLODLevelMode: 0
-    maximumLODLevelQualityLevel: 0
+    maximumLODLevelQualityLevel: 1
     sssQualityMode: 0
-    sssQualityLevel: 0
+    sssQualityLevel: 1
     sssCustomSampleBudget: 20
-    msaaMode: 1
+    msaaMode: 2
     materialQuality: 0
   m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
     bitDatas:
@@ -63,7 +63,8 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
     type: 2}
-  m_RenderPipelineRayTracingResources: {fileID: 0}
+  m_RenderPipelineRayTracingResources: {fileID: 11400000, guid: ba6e7f30e5cffc249a8bf7ee5756c196,
+    type: 2}
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
   afterPostProcessBlursCustomPostProcesses: []
@@ -87,6 +88,7 @@ MonoBehaviour:
   decalLayerName7: Decal Layer 7
   shaderVariantLogLevel: 0
   lensAttenuationMode: 0
+  colorGradingSpace: 0
   diffusionProfileSettingsList:
   - {fileID: 11400000, guid: 78322c7f82657514ebe48203160e3f39, type: 2}
   - {fileID: 11400000, guid: 26bdddf49760c61438938733f07fa2a2, type: 2}

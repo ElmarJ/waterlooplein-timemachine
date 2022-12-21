@@ -15,7 +15,7 @@ MonoBehaviour:
   m_RenderPipelineSettings:
     supportShadowMask: 1
     supportSSR: 1
-    supportSSRTransparent: 0
+    supportSSRTransparent: 1
     supportSSAO: 1
     supportSSGI: 1
     supportSubsurfaceScattering: 1
@@ -25,10 +25,10 @@ MonoBehaviour:
         m_Id: With3Levels
     supportVolumetrics: 1
     supportVolumetricClouds: 1
-    supportLightLayers: 0
+    supportLightLayers: 1
     supportDistortion: 1
     supportTransparentBackface: 0
-    supportTransparentDepthPrepass: 0
+    supportTransparentDepthPrepass: 1
     supportTransparentDepthPostpass: 0
     colorBufferFormat: 74
     supportCustomPass: 0
@@ -49,8 +49,9 @@ MonoBehaviour:
     supportTerrainHole: 0
     supportProbeVolume: 0
     probeVolumeMemoryBudget: 1024
+    supportProbeVolumeStreaming: 0
     probeVolumeSHBands: 1
-    supportRayTracing: 0
+    supportRayTracing: 1
     supportedRayTracingMode: 3
     lightLoopSettings:
       cookieAtlasSize: 2048
@@ -90,6 +91,7 @@ MonoBehaviour:
         useDynamicViewportRescale: 1
       cachedPunctualLightShadowAtlas: 2048
       cachedAreaLightShadowAtlas: 1024
+      allowDirectionalMixedCachedShadows: 0
       shadowResolutionDirectional:
         m_Values: 00010000000200000004000000080000
         m_SchemaId:
@@ -118,9 +120,9 @@ MonoBehaviour:
       lutFormat: 48
       bufferFormat: 74
     dynamicResolutionSettings:
-      enabled: 1
+      enabled: 0
       useMipBias: 1
-      enableDLSS: 1
+      enableDLSS: 0
       DLSSPerfQualitySetting: 1
       DLSSUseOptimalSettings: 1
       DLSSSharpness: 0.5
