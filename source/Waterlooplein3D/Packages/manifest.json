@@ -8,7 +8,7 @@
     "com.unity.probuilder": "5.0.6",
     "com.unity.render-pipelines.high-definition": "14.0.7",
     "com.unity.render-pipelines.high-definition-config": "14.0.7",
-    "com.unity.test-framework.performance": "2.8.1-preview",
+    "com.unity.test-framework.performance": "3.0.0-pre.2",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.4",
     "com.unity.ugui": "1.0.0",
