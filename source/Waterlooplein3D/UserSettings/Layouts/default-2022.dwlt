@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 49
+  controlID: 112
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 383.5
     height: 940
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 332
     height: 574.5
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -360,23 +360,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs/Street_Props
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs/Street_Props
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\elmar\repos\Waterlooplein3D\source\Waterlooplein3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: ec840200
-    m_LastClickedID: 165100
-    m_ExpandedIDs: 00000000f4840200f6840200f8840200fa840200fc84020022b11d0000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 199}
+    m_SelectedIDs: 4e7b0200
+    m_LastClickedID: 162638
+    m_ExpandedIDs: 00000000d4790200d6790200d8790200da790200dc790200de7902002e7b020000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,7 +404,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec840200ee840200f0840200f2840200f4840200f6840200f8840200fa840200fc840200
+    m_ExpandedIDs: 00000000d4790200d6790200d8790200da790200dc790200de790200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 394
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -546,9 +546,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 107de2ff
-      m_LastClickedID: -1934064
-      m_ExpandedIDs: 94a3e2ffbea4e2ff56efe3fff831e5ff2433e5ffde7de6ffe847e9ff904ae9ff1495eaffe2d7ebff8edaebff4825edff1619ffffce1afffff84effff5a7bffff8e7effffb693ffffc8a1ffffccfaffff18c92c0004bc390010ee3900
+      m_SelectedIDs: e8baffff
+      m_LastClickedID: -17688
+      m_ExpandedIDs: 0ebbffff5ed6fffff4faffff1adc00009afe0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -611,7 +611,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -163, y: -26}
+      snapOffset: {x: -226.5, y: -26}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -663,7 +663,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -944,6 +944,19 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-spline-inspector
+      index: 10
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
@@ -955,9 +968,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 82.72119, y: 485.44727, z: -76.14282}
+    m_Target: {x: -101.95301, y: 85.17735, z: 68.98334}
     speed: 2
-    m_Value: {x: 82.72119, y: 485.44727, z: -76.14282}
+    m_Value: {x: -101.95301, y: 85.17735, z: 68.98334}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1003,13 +1016,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.118956216, y: 0.74079865, z: -0.13617164, w: -0.6469544}
+    m_Target: {x: 0.22369826, y: 0.14813359, z: -0.03445205, w: 0.9627344}
     speed: 2
-    m_Value: {x: -0.11798416, y: 0.74099255, z: -0.13505852, w: -0.64712375}
+    m_Value: {x: 0.22519061, y: 0.14663588, z: -0.03433598, w: 0.96260494}
   m_Size:
-    m_Target: 1639.3475
+    m_Target: 20.109545
     speed: 2
-    m_Value: 1639.3475
+    m_Value: 20.109545
   m_Ortho:
     m_Target: 0
     speed: 2
