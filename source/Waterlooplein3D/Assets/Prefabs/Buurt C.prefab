@@ -37209,6 +37209,8 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
+  timeStartYearField: 
+  timeEndYearField: 
 --- !u!1 &5100440451640045021
 GameObject:
   m_ObjectHideFlags: 0
