@@ -18,8 +18,8 @@ MonoBehaviour:
     type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 140666621263709
-      data2: 4539628470560325656
+      data1: 140666621259613
+      data2: 4539628461569179672
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0

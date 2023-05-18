@@ -33,7 +33,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
   useFullACES:
     m_OverrideState: 0
     m_Value: 0
@@ -359,13 +359,13 @@ MonoBehaviour:
     m_Value: 1
   m_Resolution:
     m_OverrideState: 0
-    m_Value: 4
+    m_Value: 2
   m_HighQualityPrefiltering:
     m_OverrideState: 0
     m_Value: 0
   m_HighQualityFiltering:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
 --- !u!114 &7139355495815615186
 MonoBehaviour:
   m_ObjectHideFlags: 3
