@@ -15,8 +15,9 @@ Zie hieronder de installatieinstructies voor jouw platform:
 - Het makkelijkst is via de <a href='//www.microsoft.com/store/apps/9PFFX4W0P498'>vermelding in de Microsoft Store</a>.
 - Maar je kunt zelf ook een installer downloaden. Je zult dan wel zelf naar deze pagina terug moeten komen voor updates. [Download 32-bits versie hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_win32_setup.exe) (109 mb) of [Download 64-bits versie hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_win64_setup.exe) (111 mb)
 
-## Mac
+## Mac (alleen op oude mac-versies!)
 
+Helaas werkt Waterlooplein3d niet meer op de laatste versies van MacOS. Publiceren kan alleen nog maar met een Developer account voor $99,- dat is mij op dit moment net iets teveel geld om hieraan uit te geven (jammer, want hij draait heel goed op nieuwe Mac-books). Voor wie nog een oudere MacOS-versie heeft, zie hier:
 - [Download zip-file hier](https://github.com/ElmarJ/Waterlooplein3D/releases/latest/download/waterlooplein3d_mac.zip) (114 MB) te downloaden.
 - *Let op*: Ik heb zelf geen Mac, dus kan dit niet testen - maar het zou moeten werken.
 
