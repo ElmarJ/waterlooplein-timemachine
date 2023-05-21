@@ -31,7 +31,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ddcec8a8eb2d684d833ac8f5d26aebd, type: 3}
   m_Name: HDShadowSettings
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   maxShadowDistance:
     m_OverrideState: 0
     m_Value: 500
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e88178bb13f64a54f90d6cd6ef7aa9a1, type: 3}
   m_Name: CloudLayer
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   opacity:
     m_OverrideState: 0
     m_Value: 1
@@ -269,7 +269,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   type:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   sphericalMode:
     m_OverrideState: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
     m_Value: 8
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+    m_Value: {r: 0.6226415, g: 0.6079566, b: 0.6079566, a: 1}
   groundColorTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -438,7 +438,7 @@ MonoBehaviour:
     m_Value: 50
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 200
+    m_Value: 400
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1

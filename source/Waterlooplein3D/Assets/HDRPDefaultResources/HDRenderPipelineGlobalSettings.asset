@@ -19,7 +19,7 @@ MonoBehaviour:
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 140666621259613
-      data2: 4539628461569179672
+      data2: 4539628462642921496
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -100,10 +100,55 @@ MonoBehaviour:
   autoRegisterDiffusionProfiles: 0
   apvScenesData:
     serializedBounds: []
-    serializedHasVolumes: []
-    serializedProfiles: []
-    serializedBakeSettings: []
-    serializedBakingSets: []
+    serializedHasVolumes:
+    - sceneGUID: 712605b1ea009bf4fab3ec193b13a1f2
+      hasProbeVolumes: 0
+    serializedProfiles:
+    - sceneGUID: 712605b1ea009bf4fab3ec193b13a1f2
+      profile: {fileID: 11400000, guid: 7612d25d170c53746938bcfcbc3c88d3, type: 2}
+    serializedBakeSettings:
+    - sceneGUID: 712605b1ea009bf4fab3ec193b13a1f2
+      settings:
+        m_Version: 1
+        dilationSettings:
+          enableDilation: 1
+          dilationDistance: 1
+          dilationValidityThreshold: 0.25
+          dilationIterations: 1
+          squaredDistWeighting: 1
+        virtualOffsetSettings:
+          useVirtualOffset: 1
+          outOfGeoOffset: 0.01
+          searchMultiplier: 0.2
+          rayOriginBias: -0.001
+          maxHitsPerRay: 10
+          collisionMask:
+            serializedVersion: 2
+            m_Bits: 4294967291
+    serializedBakingSets:
+    - name: Default
+      sceneGUIDs:
+      - 712605b1ea009bf4fab3ec193b13a1f2
+      settings:
+        m_Version: 1
+        dilationSettings:
+          enableDilation: 1
+          dilationDistance: 1
+          dilationValidityThreshold: 0.25
+          dilationIterations: 1
+          squaredDistWeighting: 1
+        virtualOffsetSettings:
+          useVirtualOffset: 1
+          outOfGeoOffset: 0.01
+          searchMultiplier: 0.2
+          rayOriginBias: -0.001
+          maxHitsPerRay: 10
+          collisionMask:
+            serializedVersion: 2
+            m_Bits: 4294967291
+      profile: {fileID: 11400000, guid: 7612d25d170c53746938bcfcbc3c88d3, type: 2}
+      lightingScenarios:
+      - Default
     m_LightingScenario: Default
   m_Version: 5
   m_ShaderVariantLogLevel: 0
