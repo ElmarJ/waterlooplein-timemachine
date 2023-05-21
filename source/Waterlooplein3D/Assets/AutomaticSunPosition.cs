@@ -26,10 +26,11 @@ public class AutomaticSunPosition : MonoBehaviour
 
     public void UpdateSunPosition()
     {
-        DateTime time = new(year, month, day, hour, 0, 0);
-        CoordinateSharp.Coordinate c = new(worldPosition.Lat, worldPosition.Lon, time);
+        DateTime localTime = new(year, month, day, hour, 0, 0);
+        var amsterdamTimeZone = TimeZoneInfo.FindSystemTimeZoneById("W. Europe Standard Time");
+        var utcTime = TimeZoneInfo.ConvertTimeToUtc(localTime, amsterdamTimeZone);
+        CoordinateSharp.Coordinate c = new(worldPosition.Lat, worldPosition.Lon, utcTime);
         var ci = c.CelestialInfo;
-        var alt = c.CelestialInfo.SunAltitude;
         gameObject.transform.rotation = Quaternion.Euler((float) ci.SunAltitude, (float) ci.SunAzimuth - 180, 0);
     }
 }
