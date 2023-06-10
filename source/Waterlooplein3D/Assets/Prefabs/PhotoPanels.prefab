@@ -56,8 +56,15 @@ Transform:
   - {fileID: 8725286055968392720}
   - {fileID: 7602434575377275252}
   - {fileID: 5181327773174201701}
+  - {fileID: 9071608966943840060}
+  - {fileID: 7554637306372768404}
+  - {fileID: 5782687533881087215}
+  - {fileID: 117246792798176564}
+  - {fileID: 5162549339141130063}
+  - {fileID: 1363843972286811174}
+  - {fileID: 1019993483747897900}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &66518237
 PrefabInstance:
@@ -1484,6 +1491,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_CastShadows
@@ -2548,6 +2560,117 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1906509537}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &121456490230488480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: FS_1931
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 545.39856
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 552.74585
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9346086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.35567793
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 41.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Gezien naar de Valkenburgerstraat. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: juni 1931
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: Foeliestraat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Jansen, C.F. (1895-1961)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: be15e9b31292b004db4dbe573f83ff51, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &117246792798176564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 121456490230488480}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &215455477273751665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2743,6 +2866,122 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 215455477273751665}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1020265382290729656
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: VBS_1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 375.24377
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 396.13422
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.92207927
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38700122
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -314.464
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/5c5a7399-4de0-d00e-bbec-50b0d90cb2c7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Serie: Buurt en Stad Jodenbreestraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 4 juli 1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Valkenburgerstraat 148, 146, 144 enz. (v.l.n.r.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Swaager, Nico (1910-1983)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: c4b68a4ba52140b44b03c7c34d03c6dd, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &1019993483747897900 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 1020265382290729656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1278509163970925114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2930,6 +3169,123 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 1278509163970925114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1360741859947058354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: VBS_1927
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 271.49023
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 331.83444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.8411308
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.54083186
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -294.51898
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1937
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1915
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/5d27324b-db89-9aa4-facf-10d2879f9e01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' rechts op de deuren en muren biljetten: KIEST WIBAUT '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: augustus 1927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: 'Valkenburgerstraat 79. Rechts op de deuren en muren biljetten: KIEST
+        WIBAUT'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 7a7b93595dbc56d47add8e92533f91ce, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &1363843972286811174 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 1360741859947058354}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2071562928682764315
 PrefabInstance:
@@ -4572,6 +4928,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3943639697990677937, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4629,6 +4990,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8441955779372789394, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -5031,6 +5397,122 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5058816832106175313}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5163944438740803547
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: FS_1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 450.43774
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 446.73764
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3397541
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9405143
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -140.276
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/ea6f5ad5-1a71-cd52-7bcd-539a729a8af8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' gezien vanuit de Valkenburgerstraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: januari 1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Foeliestraat, gezien vanuit de Valkenburgerstraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Swaager, Nico (1910-1983)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 5ac8203a256fc8548985f5595e94e1d3, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &5162549339141130063 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 5163944438740803547}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5181617280546072049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5224,6 +5706,122 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5181617280546072049}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5786897863747259515
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: NG_1926
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 470.27002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 465.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.82527786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.564727
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 68.767
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1935
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1915
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/6658c209-cc98-1c74-cba8-de884a01e57f
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Links op de voorgrond: brug voor Valkenburgerstraat. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: augustus 1926
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Nieuwegrachtje 1-9 (v.r.n.l.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Jansen, C.F. (1895-1961)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: d6ffba037f442a24f98fd0ad3a386280, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &5782687533881087215 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 5786897863747259515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6755190673040949228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5416,6 +6014,122 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 6755190673040949228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7554926657515280896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: VBS_1932
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 233.30551
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 309.1823
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95424837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.29901528
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 34.797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/2801ad92-9e7b-f2a4-ccda-32cd3aaadcaf
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Gezien naar Houtkopersburgwal met daarvoor brug nr. 284. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' 19 januari 1932 ca. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Valkenburgerstraat 188-214 (v.r.n.l.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 941ad502073e5fe41b9b12c6a74e1f2a, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &7554637306372768404 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 7554926657515280896}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7606103310404288992
 PrefabInstance:
@@ -6001,4 +6715,120 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 8762584783459647275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9073591152602451880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: VBS_1928
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 329.85223
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 366.384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.46623662
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8846601
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -124.419
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/88cd52ef-9872-bf65-bfea-21393db55963
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Gezien in de richting van de Rapenburgwal. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: oktober 1928
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Valkenburgerstraat 134 (ged.), 132B, 132A, 130 en lager (v.l.n.r.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Jansen, C.F. (1895-1961)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 337270a250d765749bd485478a919d12, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &9071608966943840060 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 9073591152602451880}
   m_PrefabAsset: {fileID: 0}
