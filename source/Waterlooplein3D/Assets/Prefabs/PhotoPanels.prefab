@@ -63,8 +63,23 @@ Transform:
   - {fileID: 5162549339141130063}
   - {fileID: 1363843972286811174}
   - {fileID: 1019993483747897900}
+  - {fileID: 619443894998342437}
+  - {fileID: 9169656562672597754}
+  - {fileID: 5796233336414472477}
+  - {fileID: 6537724756473831205}
+  - {fileID: 6732468133083864730}
+  - {fileID: 7086453564019785904}
+  - {fileID: 4818080669112113853}
+  - {fileID: 5342853114081095862}
+  - {fileID: 3581402179004818722}
+  - {fileID: 3123835615484821304}
+  - {fileID: 2377726267268133825}
+  - {fileID: 3312980660288078950}
+  - {fileID: 4169730774387749311}
+  - {fileID: 1205529471202027629}
+  - {fileID: 8205609312635789302}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &66518237
 PrefabInstance:
@@ -2635,6 +2650,21 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1920
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: juni 1931
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Gezien naar de Valkenburgerstraat. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Foeliestraat
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: Body
@@ -2660,6 +2690,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: be15e9b31292b004db4dbe573f83ff51, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Jansen, C.F. (1895-1961)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2866,6 +2901,144 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 215455477273751665}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &619174228766852017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: VBS_1954
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 426.958
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 424.76852
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7935399
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.60851836
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 74.965
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1962
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' 2 december 1954 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Rechts: Marmerwerken en Steenhouwerij "Weegewijs" Midden: N.V. Foltu
+        Bouwmaterialen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Valkenburgerstraat 18 (rechts) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/dcbfce73-f97b-90d9-656f-e1a4c5302e3a
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Rechts: Marmerwerken en Steenhouwerij "Weegewijs" Midden: N.V. Foltu
+        Bouwmaterialen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' 2 december 1954 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Valkenburgerstraat 18 (rechts) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: af093dc19e8d24541b8ff1e063da2baa, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &619443894998342437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 619174228766852017}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1020265382290729656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2888,7 +3061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 375.24377
+      value: 236.3
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2896,11 +3069,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 396.13422
+      value: 308.8
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.92207927
+      value: -0.45018297
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2908,7 +3081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.38700122
+      value: 0.8929364
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2920,7 +3093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -314.464
+      value: -486.489
       objectReference: {fileID: 0}
     - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2940,6 +3113,21 @@ PrefabInstance:
         type: 3}
       propertyPath: existencePeriodStart
       value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 4 juli 1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Serie: Buurt en Stad Jodenbreestraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Valkenburgerstraat 148, 146, 144 enz. (v.l.n.r.) '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
@@ -2971,6 +3159,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: c4b68a4ba52140b44b03c7c34d03c6dd, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Swaager, Nico (1910-1983)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2981,6 +3174,123 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 1020265382290729656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1204130108849418489
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WPL_1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 91.232635
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 160.1336
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9563048
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.29237175
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/464c2bf9-2ead-ae34-f443-b4fd67904dfc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: " hoek Jonas Dani\xEBl Meijerplein. Op de voorgrond iemand met een bakfiets "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: " Waterlooplein hoek Jonas Dani\xEBl Meijerplein. Op de voorgrond iemand
+        met een bakfiets "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Swaager, Nico (1910-1983)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9bba1367ce0f1f14e9820fde78f867e8, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &1205529471202027629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 1204130108849418489}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1278509163970925114
 PrefabInstance:
@@ -3245,6 +3555,22 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1915
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: augustus 1927
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' rechts op de deuren en muren biljetten: KIEST WIBAUT '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Valkenburgerstraat 79. Rechts op de deuren en muren biljetten: KIEST
+        WIBAUT'
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: URL
@@ -3276,6 +3602,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 7a7b93595dbc56d47add8e92533f91ce, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4776,6 +5107,122 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2071562930449612269}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2373513757171215189
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WPL_1941
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -41.078598
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.599236
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.2588191
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9659258
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/4731bd16-7f34-2189-abf7-3406c487910b
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' juni 1941 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Afgesloten joodsewijk, Waterlooplein '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 416deb9d513c24741a49f49b573cbfdf, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &2377726267268133825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 2373513757171215189}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2644056121185296669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5011,6 +5458,625 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 2644056121185296669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3122433458719106988
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: NAS_1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 77.167435
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 85.59786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.84851503
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5291713
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 63.899
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1950
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/2fec5ff1-eb24-1f6b-fd3b-bd4014b5cf0b
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' gezien vanaf nr. 6 naar het Waterlooplein; oorlogsschade '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' juni 1945 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Nieuwe Amstelstraat gezien vanaf 6 naar het Waterlooplein; oorlogsschade '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9556de1f58223a544ad5f68e26aaf017, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &3123835615484821304 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 3122433458719106988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3311580612349222130
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WPL_1967
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 58.82695
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 158.78766
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.96126175
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.27563733
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1975
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1960
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/30188388-5e75-4d4e-931a-fd3296bb8a83
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Gezien in zuidwestelijke richting naar de Amstel. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 4 april 1967
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Waterlooplein 67 A-69 enz '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Arsath Ro'is, J.M.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &3312980660288078950 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 3311580612349222130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3583942883821288886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: LHS_1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -101.8058
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 168.40875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.84240323
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.53884774
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -65.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1950
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: mei 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Links Lange Houtstraat 9 en 11-13. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' De Lange Houtstraat gezien in zuidoostelijke richting naar het Waterlooplein,
+        de bebouwing grotendeels gesloopt '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/c03c3df7-0f4b-e5fc-729d-43d054198094
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Links Lange Houtstraat 9 en 11-13. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: mei 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' De Lange Houtstraat gezien in zuidoostelijke richting naar het Waterlooplein,
+        de bebouwing grotendeels gesloopt '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Kaas, Jaap (1898-1972)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: cd29473b46af03d41a6c3e8d202a74e4, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Kaas, Jaap (1898-1972)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &3581402179004818722 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 3583942883821288886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4166629356224244011
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WPL_1950
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.712433
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 89.84521
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8660254
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1960
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/c880baec-9757-bbc5-516d-f76911db1961
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: '1950 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Waterlooplein 94 - 104 v.r.n.l. met aansluitend links de zijgevel
+        van Zwanenburgerstraat 63 en links ervan Zwanenburgerstraat 24 (ged.) - 28
+        v.r.n.l '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: De Arbeiderspers
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: e0f6137ee1982b84ba46ca816f5b33ac, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &4169730774387749311 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 4166629356224244011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4814991807283331625
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: HKDS_1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.805237
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 246.25418
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99647456
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.083895914
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 9.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' 1940 ca. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Gezien naar Waterlooplein '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Houtkopersdwarsstraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/26c594d8-5cfc-80de-f65e-8c67c2e0d4cb
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Gezien naar Waterlooplein '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' 1940 ca. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Houtkopersdwarsstraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 3560d46233c761244aad9e20fb9f1a93, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &4818080669112113853 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 4814991807283331625}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5002939755900270521
 PrefabInstance:
@@ -5472,6 +6538,21 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1920
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: januari 1930
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' gezien vanuit de Valkenburgerstraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Foeliestraat, gezien vanuit de Valkenburgerstraat '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: URL
@@ -5502,6 +6583,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 5ac8203a256fc8548985f5595e94e1d3, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Swaager, Nico (1910-1983)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5706,6 +6792,141 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5181617280546072049}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5344272781430499362
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WPL_1975
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 110.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8570064
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.51530576
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -62.036003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1980
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' 21 augustus 1975 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Links op de achtergrond de voormalige Stadsturfpakhuizen op Waterlooplein
+        71 - 75 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' De toegang tot het metrostation op het Waterlooplein, met daar achter
+        een nog in aanbouw zijnd metrocaisson '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/00b234ba-62a5-1427-5b24-c969a522a343
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Links op de achtergrond de voormalige Stadsturfpakhuizen op Waterlooplein
+        71 - 75 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' 21 augustus 1975 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' De toegang tot het metrostation op het Waterlooplein, met daar achter
+        een nog in aanbouw zijnd metrocaisson '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: ANEFO
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ANEFO
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &5342853114081095862 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 5344272781430499362}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5786897863747259515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5781,6 +7002,21 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1915
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: augustus 1926
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Links op de voorgrond: brug voor Valkenburgerstraat. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Nieuwegrachtje 1-9 (v.r.n.l.) '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: URL
@@ -5811,6 +7047,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: d6ffba037f442a24f98fd0ad3a386280, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Jansen, C.F. (1895-1961)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5821,6 +7062,415 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 5786897863747259515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5800443753253802377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WPL_1962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 66.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 143.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.40595978
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.91389096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -132.097
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1970
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1955
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 1962
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' In het verschiet Valkenburgerstraat 200 - 212 (ged.) v.r.n.l. Geheel
+        rechts een deel van Waterlooplein 67 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Waterlooplein 61 (ged.) - 65 links, rechts van de hoek Lazarussteeg
+        4 - 12 v.r.n.l. met rechts aansluitend de zijgevel van Jodenbreestraat 70
+        (ged.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/9a5c2284-f764-a137-8bc9-028283b6cafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' In het verschiet Valkenburgerstraat 200 - 212 (ged.) v.r.n.l. Geheel
+        rechts een deel van Waterlooplein 67 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: 1962
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Waterlooplein 61 (ged.) - 65 links, rechts van de hoek Lazarussteeg
+        4 - 12 v.r.n.l. met rechts aansluitend de zijgevel van Jodenbreestraat 70
+        (ged.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 'Schaap, C.P. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 8c48197ecba2e8747b9f40b59ac56473, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 'Schaap, C.P. '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &5796233336414472477 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800443753253802377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6536307841663682481
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: VBS_1960
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 154.84723
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 252.71071
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.37161466
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.92838705
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -136.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1963
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' 24 mei 1960 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Gezien van de Joden Houttuinen. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Valkenburgerstraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/a10289ef-0935-5f53-8b70-c78bdad57ee0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Gezien van de Joden Houttuinen. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' 24 mei 1960 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Valkenburgerstraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: Arsath Ro'is, J.M.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 5961dec7cad10824582ece3bd48b7b05, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Arsath Ro'is, J.M.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &6537724756473831205 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 6536307841663682481}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6728803655979976206
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: VBS_1955
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 330.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 342.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.2811845
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.95965374
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 212.662
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1962
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' 21 april 1955 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Valkenburgerstraat 18-50 (v.r.n.l.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' 21 april 1955 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Valkenburgerstraat 18-50 (v.r.n.l.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 52b5e251561979645b1b58a8267b0f26, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &6732468133083864730 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 6728803655979976206}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6755190673040949228
 PrefabInstance:
@@ -6015,6 +7665,123 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6755190673040949228}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7086177234144450596
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: VBS_1932b
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 163.07808
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 260.42004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4352034
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9003322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -128.404
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1932
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/aa1722d2-cd60-3b26-d389-8dae62fc1ba5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Een houthandel. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' september 1932 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: " Valkenburgerstraat gezien vanaf de Markensteeg; op de voorgrond de
+        Houtkopersburgwal met de zaak van W.F. Bur\xE9 en Zn "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: cd4a27f9149e3d54ea3807d086530427, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &7086453564019785904 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 7086177234144450596}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7554926657515280896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6090,6 +7857,21 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1920
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' 19 januari 1932 ca. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Gezien naar Houtkopersburgwal met daarvoor brug nr. 284. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Valkenburgerstraat 188-214 (v.r.n.l.) '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: URL
@@ -6120,6 +7902,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 941ad502073e5fe41b9b12c6a74e1f2a, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6327,6 +8114,123 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 7606103310404288992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8209821805018056546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: WPL_1932
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 106.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.25375786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9672678
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 209.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1940
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/b1bf6d4c-49f3-3e0e-1d84-b1e8c81e2388
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: " Speelplaats - speeltuin 't Centrum. Op de achtergrond de rooms-katholieke
+        Mozes en A\xE4ronkerk op nummer 59 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: '1932 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' Waterlooplein '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 77b236ed31a1a9744a95a43ce0a99afb, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &8205609312635789302 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 8209821805018056546}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8726140093304856196
 PrefabInstance:
@@ -6791,6 +8695,21 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1920
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: oktober 1928
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Gezien in de richting van de Rapenburgwal. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Valkenburgerstraat 134 (ged.), 132B, 132A, 130 en lager (v.l.n.r.) '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
         type: 3}
       propertyPath: URL
@@ -6821,6 +8740,11 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 337270a250d765749bd485478a919d12, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: Jansen, C.F. (1895-1961)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6831,4 +8755,142 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
     type: 3}
   m_PrefabInstance: {fileID: 9073591152602451880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9173306124428730990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071562930240829665}
+    m_Modifications:
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_Name
+      value: VBS_1942
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 299.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 346.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.47049075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8824049
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 236.132
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23849606476314578, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodEnd
+      value: 1950
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: existencePeriodStart
+      value: 1935
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' 1942 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' Derde van rechts: Hendrik Roeper (1915-1993). '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: ' De paardjes van de firma G. Hille & Zn. Koek- en Beschuit-fabrieken,
+        Valkenburgerstraat 130-132 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: URL
+      value: https://archief.amsterdam/beeldbank/detail/bc4202a9-4ee0-ce41-f5f4-aac1d1e79c17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Body
+      value: ' Derde van rechts: Hendrik Roeper (1915-1993). '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Date
+      value: ' 1942 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Title
+      value: ' De paardjes van de firma G. Hille & Zn. Koek- en Beschuit-fabrieken,
+        Valkenburgerstraat 130-132 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Author
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 2800000, guid: 975eea219864b4e43b5cfd151fb68de7, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+--- !u!4 &9169656562672597754 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234627033110676, guid: df51973ea34901a418f61b8fabb67f81,
+    type: 3}
+  m_PrefabInstance: {fileID: 9173306124428730990}
   m_PrefabAsset: {fileID: 0}
