@@ -15589,6 +15589,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: dbaa03a02c1d97a44a19fce9b039d946,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dbaa03a02c1d97a44a19fce9b039d946,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -18532,6 +18537,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ophaalbrug 1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dbaa03a02c1d97a44a19fce9b039d946,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: dbaa03a02c1d97a44a19fce9b039d946,
         type: 3}
