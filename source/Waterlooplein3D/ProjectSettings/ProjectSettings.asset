@@ -134,7 +134,7 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 2.2.0
+  bundleVersion: 2.3.0
   preloadedAssets:
   - {fileID: 0}
   metroInputSource: 0
@@ -705,7 +705,7 @@ PlayerSettings:
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
-  selectedPlatform: 0
+  selectedPlatform: 2
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
@@ -720,7 +720,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: Elmar Jansen
   metroCertificateIssuer: Elmar Jansen
-  metroCertificateNotAfter: 00097d567721d901
+  metroCertificateNotAfter: 80586f28cfc0da01
   metroApplicationDescription: Waterlooplein 3D
   wsaImages: {}
   metroTileShortName: Waterlooplein 3D
