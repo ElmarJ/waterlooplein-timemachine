@@ -31,7 +31,7 @@ jobs:
         with:
           targetPlatform: StandaloneWindows
           projectPath: source/Waterlooplein3D
-          buildPath: builds
+          buildsPath: builds
 
       # Output
       - uses: actions/upload-artifact@v2
