@@ -1,7 +1,7 @@
 name: Actions 😎
 
-on: [push, pull_request]
-
+on: 
+  workflow_dispatch: {}
 jobs:
   build:
     name: Build my project ✨
