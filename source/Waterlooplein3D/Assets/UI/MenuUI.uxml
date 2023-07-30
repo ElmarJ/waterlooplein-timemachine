@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="main-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="top-row" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Waterlooplein 3D" display-tooltip-when-elided="true" name="app-title" style="align-self: auto; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts &amp; Materials/NunitoSans-VariableFont_YTLC,opsz,wdth,wght SDF&apos;); font-size: 36px; -unity-text-outline-width: 1.2px; text-shadow: 15px 15px 1px rgba(0, 0, 0, 0); -unity-font-style: bold;" />
+            <ui:Label tabindex="-1" text="Dit is een model van &#10;het stratenpatroon en de huizenblokken &#10;van de Waterloopleinbuurt &#10;tussen 1800 en 2000" display-tooltip-when-elided="true" name="app-subtitle" style="justify-content: flex-start; align-self: auto; align-items: auto; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts &amp; Materials/NunitoSans-VariableFont_YTLC,opsz,wdth,wght SDF&apos;); font-size: 20px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom-row" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+            <ui:VisualElement name="left-column" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-wrap: nowrap; flex-basis: 1%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/NunitoSans-VariableFont_YTLC,opsz,wdth,wght SDF&apos;);">
+                <ui:Label tabindex="-1" text="Besturing:&#10; - Lopen: WASD&#10; - Springen: Spatie&#10; - Menu / afsluiten: Esc&#10; - Tijdmachine: schuif in de rechterbovenhoek" display-tooltip-when-elided="true" name="controls-help" style="color: rgb(255, 251, 251); -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&apos;); -unity-font-definition: resource(&apos;Fonts &amp; Materials/NunitoSans-VariableFont_YTLC,opsz,wdth,wght SDF&apos;); font-size: 10px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="center-column" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: auto; align-items: center; justify-content: flex-end; flex-basis: auto;">
+                <ui:Button text="Rondlopen" display-tooltip-when-elided="true" name="play-button" />
+                <ui:Button text="Instellingen" display-tooltip-when-elided="true" name="settings-button" />
+                <ui:Button text="Afsluiten" display-tooltip-when-elided="true" name="exit-button" />
+            </ui:VisualElement>
+            <ui:VisualElement name="right-column" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 1%;">
+                <ui:Label tabindex="-1" text="www.waterlooplein3d.nl&#10;&#10;Gemaakt door Elmar Jansen (twitter.com/elmarj)&#10;&#10;Licentie: GNU GPL 3.0&#10;Source: github.com/ElmarJ/waterlooplein3d&#10;&#10;&#10;&#10;Met dank aan / maakt gebruik van:&#10;&#10; - First Person Drifter by Ben Esposito (http://www.torahhorse.com/index.php/portfolio/first-person-drifter-for-unity/)&#10;&#10;- Unity HDRP Free Realistic Water by Çağlayan Karagözler (https://github.com/flamacore/UnityHDRPSimpleWater)&#10;&#10;- GeoJsonCityBuilder by Elmar Jansen (https://github.com/ElmarJ/GeoJsonCityBuilder)&#10;&#10;- GeoJSON.NET (https://github.com/GeoJSON-Net/GeoJSON.Net)&#10;" display-tooltip-when-elided="true" name="credits" style="color: rgb(255, 255, 255); -unity-font: initial; -unity-font-definition: resource(&apos;Fonts &amp; Materials/NunitoSans-VariableFont_YTLC,opsz,wdth,wght SDF&apos;); font-size: 10px; flex-wrap: nowrap; white-space: normal; -unity-text-outline-width: 1px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
