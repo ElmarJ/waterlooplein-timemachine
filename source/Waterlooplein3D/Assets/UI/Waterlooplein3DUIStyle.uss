@@ -1,0 +1,14 @@
+.unity-button {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.unity-base-field__input {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.unity-base-field__label {
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+}
