@@ -3,12 +3,22 @@
     background-color: white;
 }
 
-.unity-base-field__input {
+.unity-base-popup-field__input {
     border-radius: 10px;
     background-color: white;
 }
 
 .unity-base-field__label {
-    color: rgb(255, 255, 255);
+    color: white;
     -unity-text-align: upper-center;
+}
+
+.unity-base-text-field {
+}
+
+.unity-base-text-field__input {
+    background-color: black;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
 }

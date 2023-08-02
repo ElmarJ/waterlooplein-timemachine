@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using System.Linq;
 using System;
+using GeoJsonCityBuilder;
 
 public class GameMenuController : MonoBehaviour
 {
@@ -15,9 +16,17 @@ public class GameMenuController : MonoBehaviour
 
     private PlayerInput playerInput;
 
-    public void Start()
+    private SliderInt yearSlider;
+    private TimeMachine timeMachine;
+    private AutomaticSunPosition sunPosition;
+
+    private readonly string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
+
+    public void OnEnable()
     {
         this.playerInput = player.GetComponent<PlayerInput>();
+        this.timeMachine = GameObject.FindObjectOfType<TimeMachine>();
+        this.sunPosition = GameObject.FindObjectOfType<AutomaticSunPosition>();
 
         this.ActivateMenu();        
         this.ShowMainMenu();
@@ -78,6 +87,15 @@ public class GameMenuController : MonoBehaviour
         this.mainMenu.rootVisualElement.Q<Button>("resume-button").RegisterCallback<ClickEvent>(ev => this.ResumeGame());
         this.mainMenu.rootVisualElement.Q<Button>("settings-button").RegisterCallback<ClickEvent>(ev => this.ShowSettingsMenu());
         this.mainMenu.rootVisualElement.Q<Button>("exit-button").RegisterCallback<ClickEvent>(ev => this.ExitGame());
+
+        UpdateYear(this.mainMenu.rootVisualElement.Q<SliderInt>("year-slider").value);
+        this.mainMenu.rootVisualElement.Q<SliderInt>("year-slider").RegisterValueChangedCallback((ev) => UpdateYear(ev.newValue));
+
+        UpdateMonth(this.mainMenu.rootVisualElement.Q<SliderInt>("month-slider").value);
+        this.mainMenu.rootVisualElement.Q<SliderInt>("month-slider").RegisterValueChangedCallback((ev) => UpdateMonth(ev.newValue));
+
+        UpdateHour(this.mainMenu.rootVisualElement.Q<SliderInt>("hour-slider").value);
+        this.mainMenu.rootVisualElement.Q<SliderInt>("hour-slider").RegisterValueChangedCallback((ev) => UpdateHour(ev.newValue));
     }
 
     public void HideAllMenus()
@@ -99,11 +117,6 @@ public class GameMenuController : MonoBehaviour
         }
     }
 
-    public void OnQualityChange()
-    {
-        QualitySettings.SetQualityLevel(this.settingsMenu.rootVisualElement.Q<DropdownField>("quality-dropdown").index);
-    }
-
     private int GetResolutionIndex()
     {
         // Find current resolution index.
@@ -122,4 +135,25 @@ public class GameMenuController : MonoBehaviour
 
         return currentResolutionIndex;
     }
+
+    void UpdateYear(int year)
+    {
+        this.timeMachine.year = year;
+        this.sunPosition.year = year;
+        this.mainMenu.rootVisualElement.Q<Label>("year-indicator").text = year.ToString();
+    }
+
+    void UpdateMonth(int month)
+    {
+
+        this.sunPosition.month = month;
+        this.mainMenu.rootVisualElement.Q<Label>("month-indicator").text = monthNames[(int)month - 1];
+    }
+
+    void UpdateHour(int hour)
+    {
+        this.sunPosition.hour = hour;
+        this.mainMenu.rootVisualElement.Q<Label>("hour-indicator").text = hour.ToString("00") + ":00";
+    }
+
 }
