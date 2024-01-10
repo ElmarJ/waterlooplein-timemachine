@@ -35,4 +35,4 @@ Er zijn op dit moment meerdere organisaties bezig met vergelijkbare of verwante 
 - [3DAmsterdam](https://3d.amsterdam.nl) De Gemeente Amsterdam werkt aan een 3D-model van de stad in een [open source project](https://github.com/Amsterdam/3DAmsterdam). Technisch heel vergelijkbaar met dit project (ook gebruik Unity), maar dan van het huidige Amsterdam.
 - [3D BAG](https://www.3dbag.nl/) Project van TU Delft om alle gebouwen van heel Nederland in basis-3D-model beschikbaar te maken.
 
-Zie ook de [notitiepagina met een uitgebreid overzicht van mogelijk bruikbare 3D-modellen](https://github.com/ElmarJ/Waterlooplein3D/blob/main/3d_models.md).
+Zie ook de [notitiepagina met een uitgebreid overzicht van mogelijk bruikbare 3D-modellen](https://github.com/ElmarJ/waterlooplein-timemachine/blob/main/3d_models.md).

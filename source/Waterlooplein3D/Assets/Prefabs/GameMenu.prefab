@@ -1814,7 +1814,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Waterlooplein 3D
+  m_text: Waterlooplein Time Machine
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -3363,8 +3363,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "www.waterlooplein3d.nl\n\nGemaakt door Elmar Jansen (twitter.com/elmarj)\n\nLicentie:
-    GNU GPL 3.0\nSource: github.com/ElmarJ/waterlooplein3d\n\n\n\nMet dank aan /
+  m_text: "www.waterloopleintimemachine.nl\n\nGemaakt door Elmar Jansen (twitter.com/elmarj)\n\nLicentie:
+    GNU GPL 3.0\nSource: github.com/ElmarJ/waterlooplein-timemachine\n\n\n\nMet dank aan /
     maakt gebruik van:\n\n - First Person Drifter by Ben Esposito (http://www.torahhorse.com/index.php/portfolio/first-person-drifter-for-unity/)\r\n\r\n-
     Unity HDRP Free Realistic Water by \xC7a\u011Flayan Karag\xF6zler (https://github.com/flamacore/UnityHDRPSimpleWater)\r\n\r\n-
     GeoJsonCityBuilder by Elmar Jansen (https://github.com/ElmarJ/GeoJsonCityBuilder)\r\n\r\n-

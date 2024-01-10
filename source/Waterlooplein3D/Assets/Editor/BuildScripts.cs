@@ -15,7 +15,7 @@ public static class BuildScripts
     static string GetBuildPath(string platformFolder) => $"{GetProjectPath()}\\builds\\{platformFolder}";
     static string GetInstallerScriptPath(string installerFile) => $"{GetProjectPath()}\\installer\\{installerFile}";
 
-    [MenuItem("Waterlooplein 3D/Build and Package/Build All")]
+    [MenuItem("Waterlooplein Time Machine/Build and Package/Build All")]
     public static void BuildAllPlatforms()
     {
         BuildWinX86();
@@ -25,44 +25,44 @@ public static class BuildScripts
         BuildWindowsStore();
     }
 
-    [MenuItem("Waterlooplein 3D/Build and Package/Windows Store VS Project")]
+    [MenuItem("Waterlooplein Time Machine/Build and Package/Windows Store VS Project")]
     private static void BuildWindowsStore()
     {
         var winstorePath = GetBuildPath("winstore_source_x64");
         Build(winstorePath, BuildTarget.WSAPlayer);
     }
 
-    [MenuItem("Waterlooplein 3D/Build and Package/Mac OSX 64 zip")]
+    [MenuItem("Waterlooplein Time Machine/Build and Package/Mac OSX 64 zip")]
     private static void BuildMacOsx64()
     {
-        var mac64Path = GetBuildPath("mac_x86\\Waterlooplein3D.app");
+        var mac64Path = GetBuildPath("mac_x86\\WaterloopleinTimeMachine.app");
         Build(mac64Path, BuildTarget.StandaloneOSX);
-        ZipFile.CreateFromDirectory(mac64Path, GetProjectPath() + "\\Builds\\waterlooplein3d_mac.zip", System.IO.Compression.CompressionLevel.Optimal, true);
+        ZipFile.CreateFromDirectory(mac64Path, GetProjectPath() + "\\Builds\\waterlooplein_timemachine_mac.zip", System.IO.Compression.CompressionLevel.Optimal, true);
     }
 
-    [MenuItem("Waterlooplein 3D//Build and Package/Linux x86_64 zip")]
+    [MenuItem("Waterlooplein Time Machine//Build and Package/Linux x86_64 zip")]
     private static void BuildLinuxX8664()
     {
         var linuxX8664Path = GetBuildPath("linux_x86_64");
-        Build(linuxX8664Path + "\\Waterlooplein3D.x86_64", BuildTarget.StandaloneLinux64);
+        Build(linuxX8664Path + "\\WaterloopleinTimeMachine.x86_64", BuildTarget.StandaloneLinux64);
         ZipFile.CreateFromDirectory(linuxX8664Path, GetProjectPath() + "\\Builds\\linux_x86_64.zip", System.IO.Compression.CompressionLevel.Optimal, false);
     }
 
-    [MenuItem("Waterlooplein 3D/Build and Package/Windows x86 installer")]
+    [MenuItem("Waterlooplein Time Machine/Build and Package/Windows x86 installer")]
     public static void BuildWinX86()
     {
         var winX86Path = GetBuildPath("win_x86");
         var win32InstallerScriptPath = GetInstallerScriptPath("win32_setup_script.iss");
-        Build(winX86Path + "\\Waterlooplein 3D.exe", BuildTarget.StandaloneWindows);
+        Build(winX86Path + "\\Waterlooplein Time Machine.exe", BuildTarget.StandaloneWindows);
         CompileInnoSetupScript(win32InstallerScriptPath);
     }
 
-    [MenuItem("Waterlooplein 3D/Build and Package/Windows x64 installer")]
+    [MenuItem("Waterlooplein Time Machine/Build and Package/Windows x64 installer")]
     public static void BuildWinX64()
     {
         var winX64Path = GetBuildPath("win_x64");
         var win64InstallerScriptPath = GetInstallerScriptPath("win64_setup_script.iss");
-        Build(winX64Path + "\\Waterlooplein 3D.exe", BuildTarget.StandaloneWindows64);
+        Build(winX64Path + "\\Waterlooplein Time Machine.exe", BuildTarget.StandaloneWindows64);
         CompileInnoSetupScript(win64InstallerScriptPath);
     }
 
