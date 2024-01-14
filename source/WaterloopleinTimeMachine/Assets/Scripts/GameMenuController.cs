@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEditor;
 
 public class GameMenuController : MonoBehaviour
 {
@@ -75,7 +76,12 @@ public class GameMenuController : MonoBehaviour
 
     public void Exit()
     {
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#else
         Application.Quit();
+#endif
+
     }
 
     public void OnShowMenuClicked(InputAction.CallbackContext ctx)
