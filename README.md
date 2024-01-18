@@ -24,7 +24,8 @@ Contributions (correcting underlying maps, programming or reporting bugs or requ
  1. Install [Unity](https://store.unity.com/#plans-individual)
  2. Install [VS Code](https://code.visualstudio.com/) (or Visual Studio)
  3. Install [Git](https://git-scm.com/)
- 4. Clone this repo (including submodules):
+ 4. Install [Git LFS](https://git-lfs.com/)
+ 5. Clone this repo (including submodules):
  
  ```
  git clone --recurse-submodules -j8 https://github.com/ElmarJ/Waterlooplein3D.git

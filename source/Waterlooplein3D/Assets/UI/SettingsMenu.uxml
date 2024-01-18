@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Waterlooplein3DUIStyle.uss?fileID=7433441132597879392&amp;guid=2990c9b7de93ba34eb85d5dd30756625&amp;type=3#Waterlooplein3DUIStyle" />
+    <Style src="project://database/Assets/UI/Menus.uss?fileID=7433441132597879392&amp;guid=2d345b346bafde04a9e4b54033d45a4c&amp;type=3#Menus" />
+    <ui:VisualElement name="main-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="top-row" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Instellingen" display-tooltip-when-elided="true" name="settings-menu-title" style="align-self: auto; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts &amp; Materials/NunitoSans-VariableFont_YTLC,opsz,wdth,wght SDF&apos;); font-size: 36px; -unity-text-outline-width: 1.2px; text-shadow: 15px 15px 1px rgba(0, 0, 0, 0); -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="center-row" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column; align-items: center; justify-content: center;">
+            <ui:DropdownField label="Kwaliteit" index="-1" name="quality-dropdown" style="flex-direction: column;" />
+            <ui:DropdownField label="Resolutie" index="-1" name="resolution-dropdown" style="flex-direction: column;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom-row" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center; justify-content: center;">
+            <ui:Button text="Terug" display-tooltip-when-elided="true" name="back-button" style="-unity-text-align: middle-center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/HUD.uss?fileID=7433441132597879392&amp;guid=105c7858e1c0b7947892efd29ff349df&amp;type=3#HUD" />
+    <ui:VisualElement name="container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:SliderInt value="42" high-value="2000" name="year-slider" low-value="1800" show-input-field="true" style="flex-direction: row;" />
+    </ui:VisualElement>
+</ui:UXML>
