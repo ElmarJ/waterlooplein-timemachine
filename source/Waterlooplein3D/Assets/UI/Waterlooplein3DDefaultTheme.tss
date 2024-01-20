@@ -1,4 +1,0 @@
-@import url("unity-theme://default");
-
-@import url("Waterlooplein3DUIStyle.uss");
-VisualElement {}
