@@ -1,4 +1,4 @@
-[submodule "source/Waterlooplein3D/Packages/nl.elmarjansen.geojsoncitybuilder"]
-	path = source/Waterlooplein3D/Packages/nl.elmarjansen.geojsoncitybuilder
+[submodule "source/WaterloopleinTimeMachine/Packages/nl.elmarjansen.geojsoncitybuilder"]
+	path = source/WaterloopleinTimeMachine/Packages/nl.elmarjansen.geojsoncitybuilder
 	url = https://github.com/ElmarJ/GeoJsonCityBuilder.git
 	branch = master

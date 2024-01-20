@@ -1,9 +1,0 @@
-root = true
-
-# Added this because Omnisharp does not properly ignore excluded files
-# See https://github.com/OmniSharp/omnisharp-vscode/issues/4718
-
-# Prevent analyzers from running in these directories
-[**/External/**.cs]
-generated_code = true
-dotnet_analyzer_diagnostic.severity = none
