@@ -7,6 +7,9 @@ using UnityEngine.InputSystem;
 using System.Linq;
 using System;
 using GeoJsonCityBuilder;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class GameMenuController : MonoBehaviour
 {
@@ -106,8 +109,13 @@ public class GameMenuController : MonoBehaviour
 
     public void ExitGame()
     {
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#else
         Application.Quit();
+#endif
     }
+
 
     public void OnShowMenuClicked(InputAction.CallbackContext ctx)
     {
