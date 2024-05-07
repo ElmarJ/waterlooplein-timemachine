@@ -79,15 +79,15 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: c50faa0a-50c1-4c88-a504-4d9bf647c7ee
-    m_ActionName: PlayerControl/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/d,/Keyboard/a]
+    m_ActionName: 'PlayerControl/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/d,/Keyboard/a]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: c26586d4-009f-46d7-b7b6-5037478a2bc4
-    m_ActionName: PlayerControl/Jump[/Keyboard/space]
+    m_ActionName: 'PlayerControl/Jump[/Keyboard/space]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 23103261-8b8a-4b71-9a93-79a5806d1f39
-    m_ActionName: PlayerControl/Look[/Mouse/delta]
+    m_ActionName: 'PlayerControl/Look[/Mouse/delta]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1245708409}
@@ -103,15 +103,15 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
     m_ActionId: 4ec22335-03e6-4eb9-a200-aaafc9545b38
-    m_ActionName: ApplicationControl/SwitchMenu[/Keyboard/escape]
+    m_ActionName: 'ApplicationControl/SwitchMenu[/Keyboard/escape]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 93b19b04-ad55-48a4-8de0-969d3dc2b12a
-    m_ActionName: PlayerControl/Run[/Keyboard/shift]
+    m_ActionName: 'PlayerControl/Run[/Keyboard/shift]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 3a4f5748-370e-4041-9137-a7ce326dc191
-    m_ActionName: PlayerControl/OpenInBrowser[/Keyboard/i]
+    m_ActionName: 'PlayerControl/OpenInBrowser[/Keyboard/i]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: ApplicationControl
@@ -166,6 +166,9 @@ MonoBehaviour:
   sourceAsset: {fileID: 9197481963319205126, guid: bb511ce75b218f5409983f58910d02d5,
     type: 3}
   m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
 --- !u!1 &6191409569895376082
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,3 +218,6 @@ MonoBehaviour:
   sourceAsset: {fileID: 9197481963319205126, guid: 354f97a9d216b1c479d63279ea263316,
     type: 3}
   m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
