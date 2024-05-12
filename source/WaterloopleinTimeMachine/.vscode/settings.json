@@ -33,6 +33,7 @@
         "**/*.LXO": true,
         "**/*.ma": true,
         "**/*.MA": true,
+        "**/*.meta": true,
         "**/*.obj": true,
         "**/*.OBJ": true,
         "**/*.cubemap": true,

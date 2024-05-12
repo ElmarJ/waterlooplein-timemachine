@@ -7,6 +7,8 @@ using UnityEngine.InputSystem;
 using System.Linq;
 using System;
 using GeoJsonCityBuilder;
+using Unity.Properties;
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -18,19 +20,14 @@ public class GameMenuController : MonoBehaviour
     public UIDocument settingsMenu;
 
     private PlayerInput playerInput;
-
-    private SliderInt yearSlider;
-    private TimeMachine timeMachine;
-    private AutomaticSunPosition sunPosition;
+    public TimeMachine timeMachine;
+    public AutomaticSunPosition sunPosition;
 
     private readonly string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
 
     public void OnEnable()
     {
         this.playerInput = player.GetComponent<PlayerInput>();
-        this.timeMachine = GameObject.FindObjectOfType<TimeMachine>();
-        this.sunPosition = GameObject.FindObjectOfType<AutomaticSunPosition>();
-
         this.ActivateMenu();        
         this.ShowMainMenu();
     }
@@ -91,14 +88,22 @@ public class GameMenuController : MonoBehaviour
         this.mainMenu.rootVisualElement.Q<Button>("settings-button").RegisterCallback<ClickEvent>(ev => this.ShowSettingsMenu());
         this.mainMenu.rootVisualElement.Q<Button>("exit-button").RegisterCallback<ClickEvent>(ev => this.ExitGame());
 
-        UpdateYear(this.mainMenu.rootVisualElement.Q<SliderInt>("year-slider").value);
-        this.mainMenu.rootVisualElement.Q<SliderInt>("year-slider").RegisterValueChangedCallback((ev) => UpdateYear(ev.newValue));
+        // Set the data context for the time controls to the Time Machine controller
+        this.mainMenu.rootVisualElement.Q<VisualElement>("year-control").dataSource = this.timeMachine;
+        this.mainMenu.rootVisualElement.Q<VisualElement>("month-control").dataSource = this.sunPosition;
+        this.mainMenu.rootVisualElement.Q<VisualElement>("hour-control").dataSource = this.sunPosition;
 
-        UpdateMonth(this.mainMenu.rootVisualElement.Q<SliderInt>("month-slider").value);
-        this.mainMenu.rootVisualElement.Q<SliderInt>("month-slider").RegisterValueChangedCallback((ev) => UpdateMonth(ev.newValue));
+        // var yearSlider = this.mainMenu.rootVisualElement.Q<SliderInt>("year-slider");
+        // var yearIndicator = this.mainMenu.rootVisualElement.Q<Label>("year-indicator");
+        // var yearBinding = new DataBinding
+        // {
+        //     dataSourcePath = new PropertyPath(nameof(TimeMachine.year)),
+        //     bindingMode  = BindingMode.TwoWay
+        // };
+        // yearSlider.SetBinding("value", yearBinding);
+        // yearIndicator.SetBinding("text", yearBinding);
 
-        UpdateHour(this.mainMenu.rootVisualElement.Q<SliderInt>("hour-slider").value);
-        this.mainMenu.rootVisualElement.Q<SliderInt>("hour-slider").RegisterValueChangedCallback((ev) => UpdateHour(ev.newValue));
+
     }
 
     public void HideAllMenus()

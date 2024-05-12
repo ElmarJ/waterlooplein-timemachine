@@ -50,6 +50,8 @@ MonoBehaviour:
   player: {fileID: 0}
   mainMenu: {fileID: 3009677102291141502}
   settingsMenu: {fileID: 1185142988244249910}
+  timeMachine: {fileID: 0}
+  sunPosition: {fileID: 0}
 --- !u!114 &1245708410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,8 +64,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 6483e1ab22ba6ad4fbb3312fec592ad0,
-    type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 6483e1ab22ba6ad4fbb3312fec592ad0, type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -127,6 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2773586387331075741}
   - component: {fileID: 1185142988244249910}
+  - component: {fileID: 677771590790510653}
   m_Layer: 0
   m_Name: SettingsMenu
   m_TagString: Untagged
@@ -163,12 +165,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: a655287c3c1bf524fa8a138125cd4dcf, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: bb511ce75b218f5409983f58910d02d5,
-    type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: bb511ce75b218f5409983f58910d02d5, type: 3}
   m_SortingOrder: 0
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
   m_WorldSpaceHeight: 1080
+--- !u!114 &677771590790510653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4896305816021220745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b16c3428eda50424abe91c5053dbf6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6191409569895376082
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6714454186893692232}
   - component: {fileID: 3009677102291141502}
+  - component: {fileID: 874810466455582436}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -215,9 +229,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: a655287c3c1bf524fa8a138125cd4dcf, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 354f97a9d216b1c479d63279ea263316,
-    type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: 354f97a9d216b1c479d63279ea263316, type: 3}
   m_SortingOrder: 0
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
   m_WorldSpaceHeight: 1080
+--- !u!114 &874810466455582436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191409569895376082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541e6d46c004f664699c256901ea6429, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
