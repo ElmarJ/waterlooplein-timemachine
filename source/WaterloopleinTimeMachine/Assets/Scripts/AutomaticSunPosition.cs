@@ -38,7 +38,9 @@ public class AutomaticSunPosition : MonoBehaviour
         gameObject.transform.rotation = Quaternion.Euler((float) ci.SunAltitude, (float) ci.SunAzimuth - 180, 0);
     }
 
+#if UNITY_EDITOR
     [InitializeOnLoadMethod]
+#endif
     public static void RegisterConverters()
     {    
         var monthConverterGroup = new ConverterGroup("Integer To Month Name (string)");
