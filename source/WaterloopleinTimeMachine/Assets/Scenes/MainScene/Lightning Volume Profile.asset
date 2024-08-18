@@ -27,10 +27,10 @@ MonoBehaviour:
     m_Value: 2
   m_MinSmoothness:
     m_OverrideState: 1
-    m_Value: 0.65
+    m_Value: 0.545
   m_SmoothnessFadeStart:
-    m_OverrideState: 0
-    m_Value: 0.9
+    m_OverrideState: 1
+    m_Value: 0.896
   reflectSky:
     m_OverrideState: 1
     m_Value: 1
@@ -42,7 +42,7 @@ MonoBehaviour:
     m_Value: 0.01
   screenFadeDistance:
     m_OverrideState: 1
-    m_Value: 0.066
+    m_Value: 0.463
   accumulationFactor:
     m_OverrideState: 0
     m_Value: 0.75
@@ -197,6 +197,11 @@ MonoBehaviour:
   rayMiss:
     m_OverrideState: 0
     m_Value: 3
+  adaptiveProbeVolumesLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 0
+      m_Bits: 1
   depthBufferThickness:
     m_OverrideState: 0
     m_Value: 0.1
@@ -523,6 +528,9 @@ MonoBehaviour:
   skyOcclusionIntensityMultiplier:
     m_OverrideState: 0
     m_Value: 1
+  worldOffset:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
 --- !u!114 &3671468441160714917
 MonoBehaviour:
   m_ObjectHideFlags: 3
