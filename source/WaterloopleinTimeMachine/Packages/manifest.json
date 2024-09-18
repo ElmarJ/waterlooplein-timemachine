@@ -1,10 +1,9 @@
 {
   "dependencies": {
-    "com.spoiledcat.git": "1.0.41-preview-g2692419106",
     "com.unity.ide.visualstudio": "2.0.22",
     "com.unity.inputsystem": "1.9.0",
     "com.unity.postprocessing": "3.4.0",
-    "com.unity.probuilder": "6.0.2",
+    "com.unity.probuilder": "6.0.4",
     "com.unity.render-pipelines.high-definition": "17.0.3",
     "com.unity.render-pipelines.high-definition-config": "17.0.3",
     "com.unity.rendering.denoising": "1.0.5",
