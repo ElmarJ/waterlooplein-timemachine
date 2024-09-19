@@ -3,54 +3,83 @@ using UnityEditor;
 using UnityEngine;
 using System;
 using System.IO;
+using System.Linq;
+using GeoJsonCityBuilder;
+using GeoJsonCityBuilder.Editor;
 
 public static class AssetPreparationScripts
 {    
     [MenuItem("Waterlooplein Time Machine/Prepare Assets/Copy GeoJson Git Data")]
     private static void  CopyGeoJsonGitData()
     {
-        // Get the path to the git submodule
-        string geoJsonPath = Path.GetFullPath($"{Application.dataPath}\\..\\..\\..\\data\\waterlooplein-timemachine-gisdata\\geojson");
-
-        // Get the assets geojson path
+        string gitGeoJsonPath = Path.GetFullPath($"{Application.dataPath}\\..\\..\\..\\data\\waterlooplein-timemachine-gisdata\\geojson");
         string assetsGeoJsonPath = Path.GetFullPath($"{Application.dataPath}\\..\\Assets\\GeoJSON");
 
-        // Make a list of all the folders in the git submodule folder:
-        string[] folders = Directory.GetDirectories(geoJsonPath);
+        string[] gitSubFolders = Directory.GetDirectories(gitGeoJsonPath);
 
-        // Loop through all the folders
-
-        foreach (string folder in folders)
+        foreach (string gitSubFolder in gitSubFolders)
         {
-            // Get the folder name
-            string folderName = Path.GetFileName(folder);
+            string folderName = Path.GetFileName(gitSubFolder);
+            string assetsSubFolder = Path.GetFullPath($"{assetsGeoJsonPath}\\{folderName}");
 
-            // Get the path to the folder in the assets folder
-            string assetsFolder = Path.GetFullPath($"{assetsGeoJsonPath}\\{folderName}");
-
-            // Check if the folder exists in the assets folder
-            if (!Directory.Exists(assetsFolder))
+            // If folder doesn't exist in Assets, create it
+            if (!Directory.Exists(assetsSubFolder))
             {
-                // If it doesn't exist, create it
-                Directory.CreateDirectory(assetsFolder);
+                Directory.CreateDirectory(assetsSubFolder);
             }
 
-            // Get all the files in the folder
-            string[] files = Directory.GetFiles(folder);
+            string[] gitFiles = Directory.GetFiles(gitSubFolder, "*.geojson");
 
-            // Loop through all the files
-            foreach (string file in files)
+            // Copy each file, replacing .geojson with .json extension
+            foreach (string gitFile in gitFiles)
             {
-                // Get the file name
-                string fileName = Path.GetFileNameWithoutExtension(file);
-
-                // Get the path to the file in the assets folder
-                string assetsFile = Path.GetFullPath($"{assetsFolder}\\{fileName}.json");
-
-                // Copy the file (with overwrite)
-                File.Copy(file, assetsFile, true);
+                string fileName = Path.GetFileNameWithoutExtension(gitFile);
+                string assetsFile = Path.GetFullPath($"{assetsSubFolder}\\{fileName}.json");
+                File.Copy(gitFile, assetsFile, true);
             }
         }
+    }
+    [MenuItem("Waterlooplein Time Machine/Prepare Assets/Regenerate All Content From GeoJson")]
+    private static void RegenerateAllContentFromGeoJson()
+    {
+        // Find all GameObjects in the Scene (but not Prefab-assets) that have a BlocksFromGeoJson component
+        var blocksImporters = (from go in Resources.FindObjectsOfTypeAll<BlocksFromGeoJson>() where !EditorUtility.IsPersistent(go) select go).ToList();
+        var blocksCount = blocksImporters.Count;
+        int blockIndex = 0;
+        foreach (var block in blocksImporters)
+        {
+            EditorUtility.DisplayProgressBar("Building Blocks (step 1/3)", $"Generating {block.gameObject.name}", (float)blockIndex / blocksCount);
+            var builder = new BlocksFromGeoJsonBuilder(block);
+            builder.RemoveAllChildren();
+            builder.Rebuild();
 
+            blockIndex++;
+        }
+
+        var prefabsImporters = (from go in Resources.FindObjectsOfTypeAll<PrefabsFromGeoJson>() where !EditorUtility.IsPersistent(go) select go).ToList();
+        var prefabsCount = prefabsImporters.Count;
+        int prefabIndex = 0;
+        foreach (var prefab in prefabsImporters)
+        {
+            EditorUtility.DisplayProgressBar("Building Prefabs (step 2/3)", $"Generating {prefab.gameObject.name}", (float)prefabIndex / prefabsCount);
+            var builder = new PrefabsFromGeoJsonBuilder(prefab);
+            builder.RemoveAllChildren();
+            builder.Rebuild();
+        }
+
+        var bordersImporters =(from go in Resources.FindObjectsOfTypeAll<BordersFromGeoJson>() where !EditorUtility.IsPersistent(go) select go).ToList();
+        var bordersCount = bordersImporters.Count;
+        int borderIndex = 0;
+        foreach (var border in bordersImporters)
+        {
+            EditorUtility.DisplayProgressBar("Building Borders (step 3/3)", $"Generating {border.gameObject.name}", (float)borderIndex / bordersCount);
+            var builder = new BordersFromGeoJsonBuilder(border);
+            builder.RemoveAllChildren();
+            builder.Rebuild();
+        }
+
+        EditorUtility.ClearProgressBar();
     }
 }
+
+    
