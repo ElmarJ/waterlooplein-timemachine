@@ -1,6 +1,5 @@
 ﻿
 using System.Collections;
-using NUnit.Framework;
 using Unity.PerformanceTesting;
 using UnityEngine;
 using UnityEngine.Profiling;
@@ -19,7 +18,7 @@ namespace Tests
             {
                 SceneManager.LoadScene("Assets/Scenes/MainScene.unity");
             }
-            
+
             for (int i = 0; i < QualitySettings.names.GetLength(0); i++)
             {
                 SceneManager.LoadScene("Assets/Scenes/MainScene.unity");

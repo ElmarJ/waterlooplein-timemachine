@@ -1,13 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UIElements;
-using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using System.Linq;
-using System;
 using GeoJsonCityBuilder;
-using Unity.Properties;
+using GeoJsonCityBuilder.Components;
+
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -28,14 +25,14 @@ public class GameMenuController : MonoBehaviour
     public void OnEnable()
     {
         this.playerInput = player.GetComponent<PlayerInput>();
-        this.ActivateMenu();        
+        this.ActivateMenu();
         this.ShowMainMenu();
     }
 
     // TODO: consider using a state machine that keeps track of the current menu (or general state of the game)
- 
+
     public void ActivateMenu()
-    {   
+    {
         this.SetMenuMouseState(true);
         this.ShowMainMenu();
     }
@@ -48,9 +45,9 @@ public class GameMenuController : MonoBehaviour
 
     public void SetMenuMouseState(bool mouseHasMenuState)
     {
-        UnityEngine.Cursor.lockState = mouseHasMenuState ? CursorLockMode.None : CursorLockMode.Locked; 
+        UnityEngine.Cursor.lockState = mouseHasMenuState ? CursorLockMode.None : CursorLockMode.Locked;
         UnityEngine.Cursor.visible = mouseHasMenuState;
-        if(mouseHasMenuState)
+        if (mouseHasMenuState)
         {
             this.playerInput.actions.Disable();
         }

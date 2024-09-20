@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
-using TMPro;
 
 [RequireComponent(typeof(TextMeshProUGUI))]
 public class MonthUIController : MonoBehaviour
@@ -16,6 +14,6 @@ public class MonthUIController : MonoBehaviour
 
     public void UpdateMonth(float month)
     {
-        textComponent.text = monthNames[(int) month - 1];
+        textComponent.text = monthNames[(int)month - 1];
     }
 }

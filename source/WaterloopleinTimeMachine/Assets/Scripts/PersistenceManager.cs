@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using GeoJsonCityBuilder;
+using GeoJsonCityBuilder.Components;
 using UnityEngine;
 
 // Persist settings (quality level and resolution) from PlayerPrefs when the game starts
@@ -11,7 +10,7 @@ public class PersistenceManager : MonoBehaviour
     public TimeMachine timeMachine;
 
     void Start()
-    {      
+    {
         // Load fullscreen
         if (PlayerPrefs.HasKey("fullscreen"))
         {
@@ -39,7 +38,7 @@ public class PersistenceManager : MonoBehaviour
         // Load character rotation
         if (PlayerPrefs.HasKey("characterRotationY"))
         {
-            character.transform.rotation = Quaternion.Euler(0, PlayerPrefs.GetFloat("characterRotationY"), 0);   
+            character.transform.rotation = Quaternion.Euler(0, PlayerPrefs.GetFloat("characterRotationY"), 0);
         }
 
         // Load date and time

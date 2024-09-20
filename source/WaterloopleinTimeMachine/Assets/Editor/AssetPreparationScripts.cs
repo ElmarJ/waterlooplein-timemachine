@@ -1,16 +1,16 @@
-// C# example.
-using UnityEditor;
-using UnityEngine;
-using System;
+using GeoJsonCityBuilder;
+using GeoJsonCityBuilder.Components;
+using GeoJsonCityBuilder.Editor;
+using GeoJsonCityBuilder.Editor.Builders;
 using System.IO;
 using System.Linq;
-using GeoJsonCityBuilder;
-using GeoJsonCityBuilder.Editor;
+using UnityEditor;
+using UnityEngine;
 
 public static class AssetPreparationScripts
-{    
+{
     [MenuItem("Waterlooplein Time Machine/Prepare Assets/Copy GeoJson Git Data")]
-    private static void  CopyGeoJsonGitData()
+    private static void CopyGeoJsonGitData()
     {
         string gitGeoJsonPath = Path.GetFullPath($"{Application.dataPath}\\..\\..\\..\\data\\waterlooplein-timemachine-gisdata\\geojson");
         string assetsGeoJsonPath = Path.GetFullPath($"{Application.dataPath}\\..\\Assets\\GeoJSON");
@@ -39,6 +39,7 @@ public static class AssetPreparationScripts
             }
         }
     }
+
     [MenuItem("Waterlooplein Time Machine/Prepare Assets/Regenerate All Content From GeoJson")]
     private static void RegenerateAllContentFromGeoJson()
     {
@@ -67,7 +68,7 @@ public static class AssetPreparationScripts
             builder.Rebuild();
         }
 
-        var bordersImporters =(from go in Resources.FindObjectsOfTypeAll<BordersFromGeoJson>() where !EditorUtility.IsPersistent(go) select go).ToList();
+        var bordersImporters = (from go in Resources.FindObjectsOfTypeAll<BordersFromGeoJson>() where !EditorUtility.IsPersistent(go) select go).ToList();
         var bordersCount = bordersImporters.Count;
         int borderIndex = 0;
         foreach (var border in bordersImporters)
@@ -82,4 +83,3 @@ public static class AssetPreparationScripts
     }
 }
 
-    

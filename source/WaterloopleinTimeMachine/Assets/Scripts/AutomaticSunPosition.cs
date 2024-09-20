@@ -1,7 +1,5 @@
 using GeoJsonCityBuilder.Data;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -19,7 +17,7 @@ public class AutomaticSunPosition : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -35,14 +33,14 @@ public class AutomaticSunPosition : MonoBehaviour
         var utcTime = TimeZoneInfo.ConvertTimeToUtc(localTime, amsterdamTimeZone);
         CoordinateSharp.Coordinate c = new(worldPosition.Lat, worldPosition.Lon, utcTime);
         var ci = c.CelestialInfo;
-        gameObject.transform.rotation = Quaternion.Euler((float) ci.SunAltitude, (float) ci.SunAzimuth - 180, 0);
+        gameObject.transform.rotation = Quaternion.Euler((float)ci.SunAltitude, (float)ci.SunAzimuth - 180, 0);
     }
 
 #if UNITY_EDITOR
     [InitializeOnLoadMethod]
 #endif
     public static void RegisterConverters()
-    {    
+    {
         var monthConverterGroup = new ConverterGroup("Integer To Month Name (string)");
         monthConverterGroup.AddConverter((ref int value) => monthNames[value - 1]);
         ConverterGroups.RegisterConverterGroup(monthConverterGroup);
@@ -51,5 +49,5 @@ public class AutomaticSunPosition : MonoBehaviour
         hourConverterGroup.AddConverter((ref int value) => $"{value:00}:00");
         ConverterGroups.RegisterConverterGroup(hourConverterGroup);
     }
-    
+
 }

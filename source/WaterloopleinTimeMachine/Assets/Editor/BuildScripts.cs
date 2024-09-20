@@ -1,10 +1,9 @@
-// C# example.
-using UnityEditor;
-using UnityEngine;
 using System;
 using System.IO;
 using System.IO.Compression;
+using UnityEditor;
 using UnityEditor.Compilation;
+using UnityEngine;
 
 public static class BuildScripts
 {
@@ -73,6 +72,7 @@ public static class BuildScripts
         proc.StartInfo.Arguments = " /cc " + scriptPath;
         proc.Start();
         proc.WaitForExit();
+        proc.Close();
     }
 
     private static void Build(string buildPath, BuildTarget platform)

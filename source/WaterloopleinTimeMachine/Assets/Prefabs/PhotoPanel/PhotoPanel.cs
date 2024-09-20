@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -20,8 +18,8 @@ public class PhotoPanel : MonoBehaviour
 
     [Header("Appearance")]
     public Color PanelColor = new Color(0.1f, 0.1f, 0.1f, 0.85f);
-    public Color TitleColor = new Color(1.0f,1.0f,1.0f,1.0f);
-    public Color BodyColor = new Color(1.0f,1.0f,1.0f,0.80f);
+    public Color TitleColor = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+    public Color BodyColor = new Color(1.0f, 1.0f, 1.0f, 0.80f);
     public Vector2 Size = new Vector2(1.0f, 1.0f);
 
     [Header("Object-links (Do not touch)")]
@@ -33,10 +31,10 @@ public class PhotoPanel : MonoBehaviour
     public GameObject Root;
     public GameObject Generic;
     public Renderer PictureRenderer;
-    
-	void Start ()
+
+    void Start()
     {
-		Layout();
+        Layout();
         if (PictureRenderer != null && PictureRenderer.sharedMaterial != null)
         {
             PictureRenderer.sharedMaterial = new Material(PictureRenderer.sharedMaterial)
@@ -45,16 +43,16 @@ public class PhotoPanel : MonoBehaviour
                 mainTexture = Picture
             };
         }
-	}
-	
-	// Update is called once per frame
-	void Update ()
+    }
+
+    // Update is called once per frame
+    void Update()
     {
-        if(!Application.isPlaying)
+        if (!Application.isPlaying)
         {
             Layout();
         }
-	}
+    }
 
     public void Layout()
     {
