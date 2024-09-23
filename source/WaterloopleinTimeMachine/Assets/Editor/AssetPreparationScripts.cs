@@ -1,6 +1,4 @@
-using GeoJsonCityBuilder;
 using GeoJsonCityBuilder.Components;
-using GeoJsonCityBuilder.Editor;
 using GeoJsonCityBuilder.Editor.Builders;
 using System.IO;
 using System.Linq;
