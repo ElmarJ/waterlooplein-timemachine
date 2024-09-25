@@ -27,17 +27,6 @@ MonoBehaviour:
     m_IsDefault: 1
     m_Capabilities: 7
     m_ConfigSource: 0
-  - m_Id: scoped:project:OpenUPM
-    m_Name: OpenUPM
-    m_Url: https://package.openupm.com
-    m_Scopes:
-    - com.openupm
-    - com.virgis.geojson.net
-    - nl.elmarjansen.geojsoncitybuilder
-    - io.igaryhe.firstpersondrifter
-    m_IsDefault: 0
-    m_Capabilities: 0
-    m_ConfigSource: 4
   - m_Id: scoped:project:Spoiled Cat
     m_Name: Spoiled Cat
     m_Url: https://registry.spoiledcat.com
@@ -46,11 +35,23 @@ MonoBehaviour:
     m_IsDefault: 0
     m_Capabilities: 0
     m_ConfigSource: 4
+  - m_Id: scoped:project:OpenUPM
+    m_Name: OpenUPM
+    m_Url: https://package.openupm.com
+    m_Scopes:
+    - com.openupm
+    - com.tayx.graphy
+    - com.virgis.geojson.net
+    - io.igaryhe.firstpersondrifter
+    - nl.elmarjansen.geojsoncitybuilder
+    m_IsDefault: 0
+    m_Capabilities: 0
+    m_ConfigSource: 4
   m_UserSelectedRegistryName: OpenUPM
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
     m_Modified: 0
     m_ErrorMessage: 
-    m_UserModificationsInstanceId: -866
-    m_OriginalInstanceId: -870
+    m_UserModificationsInstanceId: -864
+    m_OriginalInstanceId: -868
   m_LoadAssets: 0

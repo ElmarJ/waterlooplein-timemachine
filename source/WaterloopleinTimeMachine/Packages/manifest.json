@@ -44,24 +44,26 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.tayx.graphy": "3.0.5"
   },
   "scopedRegistries": [
-    {
-      "name": "OpenUPM",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "com.openupm",
-        "com.virgis.geojson.net",
-        "nl.elmarjansen.geojsoncitybuilder",
-        "io.igaryhe.firstpersondrifter"
-      ]
-    },
     {
       "name": "Spoiled Cat",
       "url": "https://registry.spoiledcat.com",
       "scopes": [
         "com.spoiledcat"
+      ]
+    },
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.openupm",
+        "com.tayx.graphy",
+        "com.virgis.geojson.net",
+        "io.igaryhe.firstpersondrifter",
+        "nl.elmarjansen.geojsoncitybuilder"
       ]
     }
   ]

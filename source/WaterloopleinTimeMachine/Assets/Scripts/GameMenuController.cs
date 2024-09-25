@@ -2,13 +2,7 @@
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
 using System.Linq;
-using GeoJsonCityBuilder;
 using GeoJsonCityBuilder.Components;
-
-
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
 
 public class GameMenuController : MonoBehaviour
 {
@@ -112,7 +106,7 @@ public class GameMenuController : MonoBehaviour
     public void ExitGame()
     {
 #if UNITY_EDITOR
-        EditorApplication.ExitPlaymode();
+        UnityEditor.EditorApplication.ExitPlaymode();
 #else
         Application.Quit();
 #endif

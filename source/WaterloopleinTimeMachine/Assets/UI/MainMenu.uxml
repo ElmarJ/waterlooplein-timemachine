@@ -22,19 +22,19 @@
                     <ui:VisualElement name="year-control" data-source-type="GeoJsonCityBuilder.TimeMachine, nl.elmarjansen.geojsoncitybuilder.Runtime" style="flex-grow: 1;">
                         <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="year-indicator" style="-unity-text-align: upper-center; color: rgb(255, 255, 255);">
                             <Bindings>
-                                <ui:DataBinding property="text" data-source-path="year" binding-mode="ToTarget" />
+                                <ui:DataBinding property="text" data-source-path="year" binding-mode="ToTarget" data-source-type="GeoJsonCityBuilder.Components.TimeMachine, nl.elmarjansen.geojsoncitybuilder.Runtime" />
                             </Bindings>
                         </ui:Label>
                         <ui:SliderInt picking-mode="Ignore" value="1900" high-value="2000" name="year-slider" show-input-field="false" low-value="1800" inverted="false">
                             <Bindings>
-                                <ui:DataBinding property="value" data-source-path="year" binding-mode="TwoWay" />
+                                <ui:DataBinding property="value" data-source-path="year" binding-mode="TwoWay" data-source-type="GeoJsonCityBuilder.Components.TimeMachine, nl.elmarjansen.geojsoncitybuilder.Runtime" />
                             </Bindings>
                         </ui:SliderInt>
                     </ui:VisualElement>
                     <ui:VisualElement name="month-control" data-source-type="AutomaticSunPosition, Assembly-CSharp" style="flex-grow: 1;">
                         <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="month-indicator" style="-unity-text-align: upper-center; color: rgb(255, 255, 255);">
                             <Bindings>
-                                <ui:DataBinding property="text" data-source-path="month" binding-mode="ToTarget" source-to-ui-converters="Integer To Month Name (string)" />
+                                <ui:DataBinding property="text" data-source-path="month" binding-mode="ToTarget" source-to-ui-converters="Integer To Month Name (string)" data-source-type="AutomaticSunPosition, Assembly-CSharp" />
                             </Bindings>
                         </ui:Label>
                         <ui:SliderInt picking-mode="Ignore" value="6" high-value="12" name="month-slider" show-input-field="false" low-value="1">

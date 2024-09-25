@@ -1,5 +1,6 @@
 trackSelection = true
 refreshSearchWindowsInPlayMode = false
+pickerAdvancedUI = false
 fetchPreview = true
 defaultFlags = 8
 keepOpen = false
@@ -11,6 +12,10 @@ scopes = {
 	"last_search.DD5CDD96" = ""
 	"OpenInspectorPreview.DD5CDD96" = "0"
 	"currentGroup.DD5CDD96" = "asset"
+	"picker_window_position_offset.075BCD15" = "304;99;320;550"
+	"picker_visibility_flags.075BCD15" = "264"
+	"picker_item_size.075BCD15" = "96"
+	"picker_inspector.075BCD15" = "0"
 }
 providers = {
 	adb = {
@@ -87,6 +92,11 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"type: TimeMachine"
+	"type: timamac"
+	"type: automaticsun"
+	"type: autom"
+	"type: timemachine"
 	""
 	"h: t=MeshFilter vertices>=1024"
 	"h: ref=pb_Mesh-50244"
