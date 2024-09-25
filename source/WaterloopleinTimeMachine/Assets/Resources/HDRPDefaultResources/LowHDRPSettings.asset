@@ -31,7 +31,7 @@ MonoBehaviour:
     supportVolumetricClouds: 0
     supportLightLayers: 0
     renderingLayerMaskBuffer: 0
-    supportWater: 1
+    supportWater: 0
     waterSimulationResolution: 128
     supportWaterExclusion: 1
     supportWaterDecals: 1
@@ -312,9 +312,9 @@ MonoBehaviour:
       - 0.666
       - 0.5
     gpuResidentDrawerSettings:
-      mode: 0
+      mode: 1
       smallMeshScreenPercentage: 0
-      enableOcclusionCullingInCameras: 0
+      enableOcclusionCullingInCameras: 1
       useDepthPrepassForOccluders: 1
     m_ObsoleteLightLayerName0: 
     m_ObsoleteLightLayerName1: 
@@ -543,4 +543,4 @@ MonoBehaviour:
   m_ObsoleteShaderVariantLogLevel: 0
   m_ObsoleteLensAttenuation: 0
   m_ObsoleteDiffusionProfileSettingsList: []
-  m_PrefilterUseLegacyLightmaps: 0
+  m_PrefilterUseLegacyLightmaps: 1

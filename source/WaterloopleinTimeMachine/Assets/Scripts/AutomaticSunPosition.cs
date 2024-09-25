@@ -2,6 +2,7 @@ using GeoJsonCityBuilder.Data;
 using System;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Android;
 using UnityEngine.UIElements;
 
 public class AutomaticSunPosition : MonoBehaviour
@@ -11,18 +12,26 @@ public class AutomaticSunPosition : MonoBehaviour
     public int month;
     public int day;
     public int hour;
+    private DateTime dateLastFrame;
+    private DateTime Date => new(year, month, day, hour, 0, 0);
 
     private static readonly string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
 
     // Update is called once per frame
     void Update()
     {
-        UpdateSunPosition();
+        // Only update if the date has changed (has huge CPU impact)
+        // TODO: reimplement outside of frame-lifecycle system
+        if (dateLastFrame != Date)
+        {
+            dateLastFrame = Date;
+            UpdateSunPosition();
+        }
     }
 
     public void UpdateSunPosition()
     {
-        DateTime localTime = new(year, month, day, hour, 0, 0);
+        DateTime localTime = this.Date;
         var amsterdamTimeZone = TimeZoneInfo.FindSystemTimeZoneById("W. Europe Standard Time");
         var utcTime = TimeZoneInfo.ConvertTimeToUtc(localTime, amsterdamTimeZone);
         CoordinateSharp.Coordinate c = new(worldPosition.Lat, worldPosition.Lon, utcTime);
