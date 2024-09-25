@@ -17,6 +17,7 @@
 
 # Unity formats:
 *.sbsar filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
 
 # Other binary formats
 *.dll filter=lfs diff=lfs merge=lfs -text
