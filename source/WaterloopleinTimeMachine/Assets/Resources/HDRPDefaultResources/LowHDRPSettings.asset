@@ -312,7 +312,7 @@ MonoBehaviour:
       - 0.666
       - 0.5
     gpuResidentDrawerSettings:
-      mode: 1
+      mode: 0
       smallMeshScreenPercentage: 0
       enableOcclusionCullingInCameras: 1
       useDepthPrepassForOccluders: 1
@@ -543,4 +543,4 @@ MonoBehaviour:
   m_ObsoleteShaderVariantLogLevel: 0
   m_ObsoleteLensAttenuation: 0
   m_ObsoleteDiffusionProfileSettingsList: []
-  m_PrefilterUseLegacyLightmaps: 1
+  m_PrefilterUseLegacyLightmaps: 0
