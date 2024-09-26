@@ -46,6 +46,11 @@ There might be other approaches to make sure that occluded objects are not visib
 
 - More starting points for optimization [are discussed in the Unity Documentation](https://docs.unity3d.com/6000.0/Documentation/Manual/UnderstandingPerformance.html).
 
+### HDRP-specific
+
+- Unity Blog ["Get acquainted with HDRP settings for enhanced performance"](https://unity.com/blog/engine-platform/get-acquainted-with-hdrp-settings-for-enhanced-performance).
+- Forum Post: [Mega runtime Performance tips thread (unity & HDRP) - Guide to better runtime unity performance](https://discussions.unity.com/t/mega-runtime-performance-tips-thread-unity-hdrp-guide-to-better-runtime-unity-performance/855438/1).
+
 ### Profiling
 
 - [A Unity Learn course on Diagnosing Performance Problems](https://learn.unity.com/tutorial/diagnosing-performance-problems-2019-3) with the profiler.
