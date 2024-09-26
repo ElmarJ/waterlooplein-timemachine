@@ -14,7 +14,7 @@ Given that these generated meshes make up almost everything that is rendered, th
 
 [ ] We cannot bake data for *Occlusion Culling*, even though it seems to make much sense given that the vast majority of objects are occluded most of the time by other objects. One of the results is that water is always rendered, even when there is no water in sight. Water rendering greatly affects GPU-performance. The same happens with clouds (although the impact is smaller). Note that [Occlusion Culling can also increase CPU-cost](https://docs.unity3d.com/Manual/OcclusionCulling.html), so does not necessarily lead to performance improvements.
 
-[x] We have no baked Shadow data and GI-data. Computing realtime shadows seems to claim a lot of performance in the app (needs more research). *This performance issue has been solved with updating shadow maps only on demand in #5a3dfd9a5c4dae16d0239188db88e271088fa84b *
+[x] We have no baked Shadow data and GI-data. Computing realtime shadows seems to claim a lot of performance in the app (needs more research). *This performance issue has been solved with updating shadow maps only on demand in 5a3dfd9a5c4dae16d0239188db88e271088fa84b*
 
 #### How to solve?
 
