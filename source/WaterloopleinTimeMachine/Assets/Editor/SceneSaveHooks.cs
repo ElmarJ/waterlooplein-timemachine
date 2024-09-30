@@ -12,10 +12,16 @@ namespace WaterloopleinTimeMachine.Editor
         {
             EditorSceneManager.sceneSaving += OnSceneSaving;
             EditorSceneManager.sceneSaved += OnSceneSaved;
-            EditorSceneManager.sceneOpened += OnSceneOpened;
+            EditorSceneManager.sceneOpening += OnSceneOpening;
+            EditorApplication.delayCall += OnDelayCall;
         }
 
-        private static void OnSceneOpened(Scene scene, OpenSceneMode mode)
+        private static void OnDelayCall()
+        {
+            AssetHelpers.RegenerateAllContentFromGeoJson();
+        }
+
+        private static void OnSceneOpening(string path, OpenSceneMode mode)
         {
             AssetHelpers.RegenerateAllContentFromGeoJson();
         }

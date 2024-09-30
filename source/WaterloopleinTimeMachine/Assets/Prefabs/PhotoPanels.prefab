@@ -799,6 +799,10 @@ PrefabInstance:
       propertyPath: m_text
       value: '1867 ca. '
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -818,6 +822,10 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: TargetCamera
       value: 
@@ -825,6 +833,10 @@ PrefabInstance:
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 'Zwanenburgwal gezien naar de Oudeschans '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -860,6 +872,10 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: Rooswinkel, Andreas Theodorus (1838-1909), Kunsthandel Gebr. Douwes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_CastShadows
@@ -1557,6 +1573,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 1867 ca.
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1575,6 +1595,10 @@ PrefabInstance:
         (later: Houtkopersdwarsstraat) en de Korte Houtstraat. Oorspronkelijke kabinetfoto
         uitgegeven door A. Jager. Foto 166 uit het album van W.J.R. Dreesmann\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: TargetCamera
       value: 
@@ -1582,6 +1606,10 @@ PrefabInstance:
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 'De voormalige Houtkopersgracht (sic), thans Gedempt, nu het Waterlooplein '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -1612,6 +1640,14 @@ PrefabInstance:
     - target: {fileID: 6273339533287862913, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_CastShadows
@@ -3770,22 +3806,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2071562930240829665}
     m_Modifications:
-    - target: {fileID: 1200352001170412, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 126
-      objectReference: {fileID: 0}
-    - target: {fileID: 1236697131502036, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1527463822291612, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1564505931941358, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Name
       value: JBS_Wilhelmina_1878
@@ -3795,14 +3815,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1865585880901034, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 126
-      objectReference: {fileID: 0}
-    - target: {fileID: 1929977276886156, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3896,10 +3908,6 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1870
       objectReference: {fileID: 0}
-    - target: {fileID: 2646848275552061657, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: september 1898
@@ -3907,10 +3915,6 @@ PrefabInstance:
     - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
-      objectReference: {fileID: 0}
-    - target: {fileID: 3943639697990677937, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
@@ -3956,10 +3960,6 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 5b8b2819e5b814741ac8cb9222fa957c, type: 3}
-    - target: {fileID: 6273339533287862913, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: Onbekend
@@ -3967,10 +3967,6 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
-      objectReference: {fileID: 0}
-    - target: {fileID: 8441955779372789394, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4478,22 +4474,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2071562930240829665}
     m_Modifications:
-    - target: {fileID: 1200352001170412, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1236697131502036, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1527463822291612, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1564505931941358, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Name
       value: IJspret
@@ -4503,14 +4483,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1714869694335832, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1865585880901034, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 126
-      objectReference: {fileID: 0}
-    - target: {fileID: 1929977276886156, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4566,10 +4538,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.15
       objectReference: {fileID: 0}
-    - target: {fileID: 23676561249827632, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 23678603426697298, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4634,14 +4602,6 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1760
       objectReference: {fileID: 0}
-    - target: {fileID: 2646848275552061657, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3943639697990677937, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 126
-      objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
@@ -4686,17 +4646,9 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 71533b619051fc74c99ec1b65f59b514, type: 3}
-    - target: {fileID: 6273339533287862913, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: Jacob Catz
-      objectReference: {fileID: 0}
-    - target: {fileID: 8441955779372789394, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
