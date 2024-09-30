@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 7195576727113631412}
   m_Layer: 0
   m_Name: Bridges
-  m_TagString: Untagged
+  m_TagString: SceneOrganizationSingletonPrefab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

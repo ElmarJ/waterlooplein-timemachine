@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2071562930240829665}
   m_Layer: 0
   m_Name: PhotoPanels
-  m_TagString: Untagged
+  m_TagString: SceneOrganizationSingletonPrefab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

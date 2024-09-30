@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - BuildingRenderError
+  - SceneOrganizationSingletonPrefab
   layers:
   - Default
   - TransparentFX
