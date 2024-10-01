@@ -5,6 +5,3 @@
 [submodule "data/waterlooplein-timemachine-gisdata"]
 	path = data/waterlooplein-timemachine-gisdata
 	url = https://github.com/ElmarJ/waterlooplein-timemachine-gisdata.git
-[submodule "source/WaterloopleinTimeMachine/LocalPackages/GeoJsonCityBuilder"]
-	path = source/WaterloopleinTimeMachine/Packages/GeoJsonCityBuilder
-	url = https://github.com/ElmarJ/GeoJsonCityBuilder.git
