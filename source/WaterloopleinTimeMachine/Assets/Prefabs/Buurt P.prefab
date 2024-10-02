@@ -60,6 +60,8 @@ MonoBehaviour:
     m_Offset: {x: 0, y: 0}
     m_Rotation: 0
     m_Anchor: 0
+  timeStartYearField: start_date
+  timeEndYearField: end_date
 --- !u!1 &169684475021363420
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,8 +394,8 @@ MonoBehaviour:
   worldPosition: {fileID: 0}
   featureTypeFilter: 
   prefab: {fileID: 919132149155446097, guid: c496c40fce2378446826f2263655e09c, type: 3}
-  timeStartYearField: 
-  timeEndYearField: 
+  timeStartYearField: start_date
+  timeEndYearField: end_date
 --- !u!1 &2526876275027801429
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,8 +500,8 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: 
-  timeEndYearField: 
+  timeStartYearField: exist.period.start
+  timeEndYearField: exist.period.end
 --- !u!1 &2526876275986434234
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,8 +574,8 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: exist_period_start
-  timeEndYearField: exist_period_end
+  timeStartYearField: start_date
+  timeEndYearField: end_date
 --- !u!1 &2526876276112466587
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,8 +642,8 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: 
-  timeEndYearField: 
+  timeStartYearField: start_date
+  timeEndYearField: end_date
 --- !u!1 &7655236575188598369
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,8 +943,8 @@ MonoBehaviour:
   worldPosition: {fileID: 0}
   featureTypeFilter: 
   prefab: {fileID: 3322386080109751155, guid: 6504748099f37a54fbe8708894e84048, type: 3}
-  timeStartYearField: exist_start_date
-  timeEndYearField: exist_end_date
+  timeStartYearField: start_date
+  timeEndYearField: end_date
 --- !u!1001 &3459686114786853926
 PrefabInstance:
   m_ObjectHideFlags: 0

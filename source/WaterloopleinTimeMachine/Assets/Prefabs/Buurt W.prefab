@@ -72,8 +72,8 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: exist_period_start
-  timeEndYearField: exist_period_end
+  timeStartYearField: start
+  timeEndYearField: end
 --- !u!1 &6512405168224833129
 GameObject:
   m_ObjectHideFlags: 0

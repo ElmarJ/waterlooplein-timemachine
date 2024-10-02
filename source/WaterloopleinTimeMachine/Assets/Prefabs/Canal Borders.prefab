@@ -60,3 +60,5 @@ MonoBehaviour:
     m_Offset: {x: 0, y: 0}
     m_Rotation: 0
     m_Anchor: 0
+  timeStartYearField: exist.period.start
+  timeEndYearField: exist.period.end

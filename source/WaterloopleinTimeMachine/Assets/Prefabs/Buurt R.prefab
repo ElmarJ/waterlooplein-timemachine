@@ -72,8 +72,8 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: exist_period_start
-  timeEndYearField: exist_period_end
+  timeStartYearField: start
+  timeEndYearField: end
 --- !u!1 &6193635850841200915
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,5 +155,5 @@ MonoBehaviour:
   worldPosition: {fileID: 0}
   featureTypeFilter: 
   prefab: {fileID: 919132149155446097, guid: c496c40fce2378446826f2263655e09c, type: 3}
-  timeStartYearField: 
-  timeEndYearField: 
+  timeStartYearField: start
+  timeEndYearField: end

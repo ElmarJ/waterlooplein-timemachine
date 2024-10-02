@@ -60,6 +60,8 @@ MonoBehaviour:
     m_Offset: {x: 0, y: 0}
     m_Rotation: 0
     m_Anchor: 0
+  timeStartYearField: 
+  timeEndYearField: 
 --- !u!1 &6067712513662444540
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,8 +170,8 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: exist_period_start
-  timeEndYearField: exist_period_end
+  timeStartYearField: start
+  timeEndYearField: end
 --- !u!1 &6067712515404740670
 GameObject:
   m_ObjectHideFlags: 0
