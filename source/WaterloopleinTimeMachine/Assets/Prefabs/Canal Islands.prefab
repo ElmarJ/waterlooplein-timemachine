@@ -47,7 +47,7 @@ MonoBehaviour:
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 6cf7618a461954b45a756bd850ba8e42, type: 3}
   basePrefab: {fileID: 0}
-  featureTypeFilter: 
+  excludeProperty: 
   heightMin: 3
   heightMax: 3
   topMaterial: {fileID: 2100000, guid: 4cc4d54817f1e5042a347e242a9740cc, type: 2}

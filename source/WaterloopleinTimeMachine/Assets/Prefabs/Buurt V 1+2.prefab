@@ -47,7 +47,7 @@ MonoBehaviour:
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 5c801207010726f44986d17fae5111e3, type: 3}
   basePrefab: {fileID: 0}
-  featureTypeFilter: 
+  excludeProperty: 
   heightMin: 19
   heightMax: 21
   topMaterial: {fileID: 2100000, guid: 4b70bb301e3ccf64c938808cc1fad75a, type: 2}
@@ -121,7 +121,7 @@ MonoBehaviour:
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 2a9650e33d41a1841bf63c38f6560bc4, type: 3}
   basePrefab: {fileID: 0}
-  featureTypeFilter: 
+  excludeProperty: 
   heightMin: 0.1
   heightMax: 0.1
   topMaterial: {fileID: 2100000, guid: 4cc4d54817f1e5042a347e242a9740cc, type: 2}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   geoJsonFile: {fileID: 4900000, guid: d0e9b667f34921740b91ff59843ca88d, type: 3}
   worldPosition: {fileID: 0}
-  featureTypeFilter: 
+  excludeProperty: 
   prefab: {fileID: 919132149155446097, guid: c496c40fce2378446826f2263655e09c, type: 3}
   timeStartYearField: start
   timeEndYearField: end
@@ -273,6 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 2a9650e33d41a1841bf63c38f6560bc4, type: 3}
+  excludeProperty: 
   height: 0.11
   outerExtension: 0.01
   innerExtension: 0.1

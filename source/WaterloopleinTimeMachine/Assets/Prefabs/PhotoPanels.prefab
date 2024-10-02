@@ -1385,6 +1385,10 @@ PrefabInstance:
       propertyPath: m_text
       value: '1930 ca. '
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1402,6 +1406,10 @@ PrefabInstance:
       value: "Op de achtergrond Waterlooplein 55-57 en de rooms-katholieke Mozes
         en A\xE4ronkerk, Waterlooplein 59 (thans 207)\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: TargetCamera
       value: 
@@ -1409,6 +1417,10 @@ PrefabInstance:
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 'Huisvuil aangeboden langs de stoeprand voor Waterlooplein 64-86 (v.r.n.l.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -1442,6 +1454,10 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_CastShadows
@@ -3338,14 +3354,26 @@ PrefabInstance:
       propertyPath: m_text
       value: augustus 1927
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: ' rechts op de deuren en muren biljetten: KIEST WIBAUT '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 'Valkenburgerstraat 79. Rechts op de deuren en muren biljetten: KIEST
         WIBAUT'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -3375,6 +3403,10 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3527,14 +3559,30 @@ PrefabInstance:
       propertyPath: m_text
       value: ' 1915 ca.'
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 3943639697990677937, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: "Jonas Dani\xEBl Meijerplein 2-10 (links, v.r.n.l.), gezien in noordwestelijke
         richting. Op de achtergrond nummers 61-65 (v.l.n.r.) "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -3568,6 +3616,10 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: August Vogt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8441955779372789394, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6132,6 +6184,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 3943639697990677937, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -6142,6 +6198,10 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: TargetCamera
       value: 
@@ -6149,6 +6209,10 @@ PrefabInstance:
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 'Waterlooplein '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -6183,6 +6247,10 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8441955779372789394, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6396,13 +6464,25 @@ PrefabInstance:
       propertyPath: m_text
       value: augustus 1926
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: ' Links op de voorgrond: brug voor Valkenburgerstraat. '
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: ' Nieuwegrachtje 1-9 (v.r.n.l.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -6431,6 +6511,10 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: Jansen, C.F. (1895-1961)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

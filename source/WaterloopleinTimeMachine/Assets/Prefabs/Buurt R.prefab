@@ -47,7 +47,7 @@ MonoBehaviour:
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 29c1703c3ecaadf40831ac4fbe7c91c3, type: 3}
   basePrefab: {fileID: 0}
-  featureTypeFilter: 
+  excludeProperty: 
   heightMin: 19
   heightMax: 21
   topMaterial: {fileID: 2100000, guid: 4b70bb301e3ccf64c938808cc1fad75a, type: 2}
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   geoJsonFile: {fileID: 4900000, guid: 617a3d47af9c00f40a7b1722435f3f2c, type: 3}
   worldPosition: {fileID: 0}
-  featureTypeFilter: 
+  excludeProperty: 
   prefab: {fileID: 919132149155446097, guid: c496c40fce2378446826f2263655e09c, type: 3}
   timeStartYearField: start
   timeEndYearField: end
