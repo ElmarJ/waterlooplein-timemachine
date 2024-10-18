@@ -46,8 +46,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: debb3a7673453e24c9281230ad17f839, type: 3}
-  basePrefab: {fileID: 0}
   excludeProperty: 
+  timeStartYearField: start_date
+  timeEndYearField: end_date
+  basePrefab: {fileID: 0}
   heightMin: 19
   heightMax: 21
   topMaterial: {fileID: 2100000, guid: 4b70bb301e3ccf64c938808cc1fad75a, type: 2}
@@ -72,8 +74,6 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: start_date
-  timeEndYearField: end_date
 --- !u!1 &1385770013477553945
 GameObject:
   m_ObjectHideFlags: 0

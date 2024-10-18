@@ -47,6 +47,8 @@ MonoBehaviour:
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 8ca997c8e7c19ac40aa0be04593e4b2b, type: 3}
   excludeProperty: 
+  timeStartYearField: 
+  timeEndYearField: 
   height: 0.11
   outerExtension: 0.01
   innerExtension: 0.2
@@ -61,8 +63,6 @@ MonoBehaviour:
     m_Offset: {x: 0, y: 0}
     m_Rotation: 0
     m_Anchor: 0
-  timeStartYearField: 
-  timeEndYearField: 
 --- !u!1 &6067712513662444540
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,8 +145,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 1750ae9825d950146b506fc2c0e3ba49, type: 3}
-  basePrefab: {fileID: 0}
   excludeProperty: wpltm_dont_generate
+  timeStartYearField: start
+  timeEndYearField: end
+  basePrefab: {fileID: 0}
   heightMin: 19
   heightMax: 21
   topMaterial: {fileID: 2100000, guid: 4b70bb301e3ccf64c938808cc1fad75a, type: 2}
@@ -171,8 +173,6 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: start
-  timeEndYearField: end
 --- !u!1 &6067712515404740670
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,8 +219,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 8ca997c8e7c19ac40aa0be04593e4b2b, type: 3}
-  basePrefab: {fileID: 0}
   excludeProperty: 
+  timeStartYearField: 
+  timeEndYearField: 
+  basePrefab: {fileID: 0}
   heightMin: 0.1
   heightMax: 0.1
   topMaterial: {fileID: 2100000, guid: 479d2a7cf569a3548b1f01ea2a7fa6ed, type: 2}
@@ -239,8 +241,6 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: 
-  timeEndYearField: 
 --- !u!1 &6687586601942083455
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,12 +285,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 675c80c7f87339c45a1bf9c05fa9925a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: f1a3ba15c9c835340823bf951b41a0cf, type: 3}
-  worldPosition: {fileID: 0}
   excludeProperty: 
-  prefab: {fileID: 3322386080109751155, guid: 6504748099f37a54fbe8708894e84048, type: 3}
   timeStartYearField: 
   timeEndYearField: 
+  prefab: {fileID: 3322386080109751155, guid: 6504748099f37a54fbe8708894e84048, type: 3}
+  worldPosition: {fileID: 0}
 --- !u!1001 &6067712515030255345
 PrefabInstance:
   m_ObjectHideFlags: 0

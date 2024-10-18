@@ -46,8 +46,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 29c1703c3ecaadf40831ac4fbe7c91c3, type: 3}
-  basePrefab: {fileID: 0}
   excludeProperty: 
+  timeStartYearField: start
+  timeEndYearField: end
+  basePrefab: {fileID: 0}
   heightMin: 19
   heightMax: 21
   topMaterial: {fileID: 2100000, guid: 4b70bb301e3ccf64c938808cc1fad75a, type: 2}
@@ -72,8 +74,6 @@ MonoBehaviour:
     m_Anchor: 0
   pointedRoofTops: 0
   raiseFacades: 0
-  timeStartYearField: start
-  timeEndYearField: end
 --- !u!1 &6193635850841200915
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,9 +151,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 675c80c7f87339c45a1bf9c05fa9925a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  worldPositionAnchor: {fileID: 0}
   geoJsonFile: {fileID: 4900000, guid: 617a3d47af9c00f40a7b1722435f3f2c, type: 3}
-  worldPosition: {fileID: 0}
   excludeProperty: 
-  prefab: {fileID: 919132149155446097, guid: c496c40fce2378446826f2263655e09c, type: 3}
   timeStartYearField: start
   timeEndYearField: end
+  prefab: {fileID: 919132149155446097, guid: c496c40fce2378446826f2263655e09c, type: 3}
+  worldPosition: {fileID: 0}
