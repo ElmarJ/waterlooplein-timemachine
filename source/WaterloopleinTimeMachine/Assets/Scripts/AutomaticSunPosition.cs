@@ -1,8 +1,10 @@
 using GeoJsonCityBuilder.Data;
+using NUnit.Framework.Interfaces;
 using System;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Android;
+using UnityEngine.Events;
 using UnityEngine.UIElements;
 
 public class AutomaticSunPosition : MonoBehaviour
@@ -14,6 +16,9 @@ public class AutomaticSunPosition : MonoBehaviour
     public int hour;
     private DateTime dateLastFrame;
     private DateTime Date => new(year, month, day, hour, 0, 0);
+    public UnityEvent SunSetOrRise;
+    public bool sunIsUp;
+
 
     private static readonly string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
 
@@ -36,6 +41,14 @@ public class AutomaticSunPosition : MonoBehaviour
         var utcTime = TimeZoneInfo.ConvertTimeToUtc(localTime, amsterdamTimeZone);
         CoordinateSharp.Coordinate c = new(worldPosition.Lat, worldPosition.Lon, utcTime);
         var ci = c.CelestialInfo;
+
+        var previousSunIsUp = this.sunIsUp;
+        this.sunIsUp = ci.SunAltitude > 0;
+        if (previousSunIsUp != this.sunIsUp)
+        {
+            this.SunSetOrRise?.Invoke();
+        }
+
         gameObject.transform.rotation = Quaternion.Euler((float)ci.SunAltitude, (float)ci.SunAzimuth - 180, 0);
     }
 
