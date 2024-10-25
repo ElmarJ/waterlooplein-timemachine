@@ -34,5 +34,6 @@ Er zijn op dit moment meerdere organisaties bezig met vergelijkbare of verwante 
 - [Amsterdam in 3D](https://www.hhvds.nl/2019/04/14/amsterdam-in-3d/) is bezig (geweest?) aan een project om hsitorisch Amsterdam in 3D na te bouwen - te beginnen bij de Zeedijk en de Waag. Voor zover ik heb kunnen achterhalen zijn de modellen niet openbaar beschikbaar en ik weet niet hoe ver gevorderd dit project inmiddels is.
 - [3DAmsterdam](https://3d.amsterdam.nl) De Gemeente Amsterdam werkt aan een 3D-model van de stad in een [open source project](https://github.com/Amsterdam/3DAmsterdam). Technisch heel vergelijkbaar met dit project (ook gebruik Unity), maar dan van het huidige Amsterdam.
 - [3D BAG](https://www.3dbag.nl/) Project van TU Delft om alle gebouwen van heel Nederland in basis-3D-model beschikbaar te maken.
+- [Netherlands 3D](https://netherlands3d.eu/) 3D-visualisatie van Nederland in Unity (met mogelijkheid geojson toe te voegen). Lijkt gebaseerd op Amsterdam 3D-project van gemeente Amsterdam.
 
 Zie ook de [notitiepagina met een uitgebreid overzicht van mogelijk bruikbare 3D-modellen](https://github.com/elmarj/waterlooplein-timemachine/blob/main/3d_models.md).
