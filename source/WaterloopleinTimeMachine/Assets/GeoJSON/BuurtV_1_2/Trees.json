@@ -56,9 +56,9 @@
 { "type": "Feature", "properties": { "id": "{083fe6a1-88f1-4827-814e-78e778b6123d}" }, "geometry": { "type": "Point", "coordinates": [ 4.910518825335539, 52.36985273386999 ] } },
 { "type": "Feature", "properties": { "id": "{bca24769-bf72-47b6-9662-7d703562cc7b}" }, "geometry": { "type": "Point", "coordinates": [ 4.910456241989608, 52.369806031499486 ] } },
 { "type": "Feature", "properties": { "id": "{0428bcab-bcea-4608-9250-f319798aaa66}" }, "geometry": { "type": "Point", "coordinates": [ 4.91059630947812, 52.369904894900749 ] } },
-{ "type": "Feature", "properties": { "id": "{7763551d-9ffa-46fa-b850-68231bed1f68}" }, "geometry": { "type": "Point", "coordinates": [ 4.905300576712866, 52.368177664736017 ] } },
-{ "type": "Feature", "properties": { "id": "{17664f62-e4af-4714-bb32-371de15c8773}" }, "geometry": { "type": "Point", "coordinates": [ 4.905407032001905, 52.36818420836115 ] } },
-{ "type": "Feature", "properties": { "id": "{d9608524-b89f-4064-ade0-fdc35018f4e0}" }, "geometry": { "type": "Point", "coordinates": [ 4.905379882330875, 52.368250080800166 ] } },
+{ "type": "Feature", "properties": { "id": "{7763551d-9ffa-46fa-b850-68231bed1f68}", "end": "1968-12-31" }, "geometry": { "type": "Point", "coordinates": [ 4.905300576712866, 52.368177664736017 ] } },
+{ "type": "Feature", "properties": { "id": "{17664f62-e4af-4714-bb32-371de15c8773}", "end": "1968-12-31" }, "geometry": { "type": "Point", "coordinates": [ 4.905407032001905, 52.36818420836115 ] } },
+{ "type": "Feature", "properties": { "id": "{d9608524-b89f-4064-ade0-fdc35018f4e0}", "end": "1968-12-31" }, "geometry": { "type": "Point", "coordinates": [ 4.905379882330875, 52.368250080800166 ] } },
 { "type": "Feature", "properties": { "id": "{d4d34182-cfd3-4520-898c-7f302709fb8f}" }, "geometry": { "type": "Point", "coordinates": [ 4.910626913489904, 52.370090543207027 ] } },
 { "type": "Feature", "properties": { "id": "{5070b73e-45e6-45c5-8434-9333ebfd1d4c}" }, "geometry": { "type": "Point", "coordinates": [ 4.905926448076607, 52.366920834496618 ] } }
 ]
