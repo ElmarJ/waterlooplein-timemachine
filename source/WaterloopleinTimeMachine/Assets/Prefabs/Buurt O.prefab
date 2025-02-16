@@ -50,6 +50,7 @@ MonoBehaviour:
   timeStartYearField: start_date
   timeEndYearField: end_date
   basePrefab: {fileID: 0}
+  heightProperty: 
   heightMin: 19
   heightMax: 21
   topMaterial: {fileID: 2100000, guid: 4b70bb301e3ccf64c938808cc1fad75a, type: 2}

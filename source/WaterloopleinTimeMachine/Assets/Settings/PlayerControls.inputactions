@@ -271,7 +271,7 @@
                     "name": "SwitchMenu",
                     "type": "Button",
                     "id": "4ec22335-03e6-4eb9-a200-aaafc9545b38",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -297,6 +297,98 @@
                     "processors": "",
                     "groups": "",
                     "action": "SwitchMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TimeControl",
+            "id": "a4b155a4-72ea-4267-940c-2da81703d9bc",
+            "actions": [
+                {
+                    "name": "TravelOneYearForward",
+                    "type": "Button",
+                    "id": "57911733-322e-405b-97d4-f10ddf361f24",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TravelOneYearBackward",
+                    "type": "Button",
+                    "id": "6c4c342f-845d-4c8c-8497-3dabe6a01c55",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "56c261f5-f22f-44f4-aca7-be1e0aa6a7db",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TravelOneYearForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "578cb123-8735-4f52-9cb5-87d35481a0fe",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TravelOneYearForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "06dbcd49-3e78-4c03-ba03-7018291e39ba",
+                    "path": "<Mouse>/forwardButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TravelOneYearForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c464d6fe-5f8e-4c39-8453-f58684e5f263",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TravelOneYearBackward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c102099-f48e-449f-b484-6affb3b97ad1",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TravelOneYearBackward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "391409b9-ecc6-4bb5-bb0e-448207edb890",
+                    "path": "<Mouse>/backButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TravelOneYearBackward",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

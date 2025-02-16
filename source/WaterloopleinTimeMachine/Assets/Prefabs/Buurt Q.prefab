@@ -149,6 +149,7 @@ MonoBehaviour:
   timeStartYearField: start
   timeEndYearField: end
   basePrefab: {fileID: 0}
+  heightProperty: 
   heightMin: 19
   heightMax: 21
   topMaterial: {fileID: 2100000, guid: 4b70bb301e3ccf64c938808cc1fad75a, type: 2}
@@ -223,6 +224,7 @@ MonoBehaviour:
   timeStartYearField: 
   timeEndYearField: 
   basePrefab: {fileID: 0}
+  heightProperty: 
   heightMin: 0.1
   heightMax: 0.1
   topMaterial: {fileID: 2100000, guid: 479d2a7cf569a3548b1f01ea2a7fa6ed, type: 2}
@@ -291,6 +293,7 @@ MonoBehaviour:
   timeStartYearField: 
   timeEndYearField: 
   prefab: {fileID: 3322386080109751155, guid: 6504748099f37a54fbe8708894e84048, type: 3}
+  rotationProperty: 
   worldPosition: {fileID: 0}
 --- !u!1001 &6067712515030255345
 PrefabInstance:

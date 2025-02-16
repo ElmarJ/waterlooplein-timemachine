@@ -50,6 +50,7 @@ MonoBehaviour:
   timeStartYearField: exist.period.start
   timeEndYearField: exist.period.end
   basePrefab: {fileID: 0}
+  heightProperty: 
   heightMin: 3
   heightMax: 3
   topMaterial: {fileID: 2100000, guid: 4cc4d54817f1e5042a347e242a9740cc, type: 2}
