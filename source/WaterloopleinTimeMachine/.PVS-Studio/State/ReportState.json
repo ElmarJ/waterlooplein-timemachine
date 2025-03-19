@@ -1,0 +1,711 @@
+{
+  "json": [
+    {
+      "code": "V051",
+      "message": "Some of the references in 'Assembly-CSharp-Editor' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp-Editor"
+      ],
+      "favorite": false,
+      "id": 0
+    },
+    {
+      "code": "V3072",
+      "message": "The 'PrefabsFromGeoJsonEditor' class containing IDisposable members does not itself implement IDisposable. Inspect: geoJsonFile, worldPosition, rotationProperty...",
+      "falseAlarm": true,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 11,
+          "endLine": 11,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\PrefabsFromGeoJsonEditor.cs",
+          "navigation": {
+            "currentLine": 365831966,
+            "previousLine": 883753827,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 13,
+          "endLine": 13,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\PrefabsFromGeoJsonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 14,
+          "endLine": 14,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\PrefabsFromGeoJsonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 15,
+          "endLine": 15,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\PrefabsFromGeoJsonEditor.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 1
+    },
+    {
+      "code": "V3072",
+      "message": "The 'BordersFromGeoJsonEditor' class containing IDisposable members does not itself implement IDisposable. Inspect: geoJsonFile, excludeProperty, worldPositionAnchor...",
+      "falseAlarm": true,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 10,
+          "endLine": 10,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BordersFromGeoJsonEditor.cs",
+          "navigation": {
+            "currentLine": 365838366,
+            "previousLine": 883753827,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 12,
+          "endLine": 12,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BordersFromGeoJsonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 13,
+          "endLine": 13,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BordersFromGeoJsonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 14,
+          "endLine": 14,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BordersFromGeoJsonEditor.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 2
+    },
+    {
+      "code": "V3072",
+      "message": "The 'BorderFromPolygonEditor' class containing IDisposable members does not itself implement IDisposable. Inspect: floorPolygon, material, height, outerExtension...",
+      "falseAlarm": true,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 13,
+          "endLine": 13,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BorderFromPolygonEditor.cs",
+          "navigation": {
+            "currentLine": -350385500,
+            "previousLine": 883753827,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 15,
+          "endLine": 15,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BorderFromPolygonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 16,
+          "endLine": 16,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BorderFromPolygonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 17,
+          "endLine": 17,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BorderFromPolygonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 18,
+          "endLine": 18,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BorderFromPolygonEditor.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 3
+    },
+    {
+      "code": "V3149",
+      "message": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'controller'.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 65,
+          "endLine": 65,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BorderFromPolygonEditor.cs",
+          "navigation": {
+            "currentLine": 1553551222,
+            "previousLine": 0,
+            "nextLine": 1123190,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 63,
+          "endLine": 63,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BorderFromPolygonEditor.cs"
+        }
+      ],
+      "cwe": 476,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 4
+    },
+    {
+      "code": "V3072",
+      "message": "The 'BlockFromPolygonEditor' class containing IDisposable members does not itself implement IDisposable. Inspect: topMaterial, bottomMaterial, sideMaterial, height...",
+      "falseAlarm": true,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 13,
+          "endLine": 13,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BlockFromPolygonEditor.cs",
+          "navigation": {
+            "currentLine": -327915212,
+            "previousLine": 883753827,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 15,
+          "endLine": 15,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BlockFromPolygonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 16,
+          "endLine": 16,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BlockFromPolygonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 17,
+          "endLine": 17,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BlockFromPolygonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 18,
+          "endLine": 18,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BlockFromPolygonEditor.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 5
+    },
+    {
+      "code": "V3072",
+      "message": "The 'BlocksFromGeoJsonEditor' class containing IDisposable members does not itself implement IDisposable. Inspect: geoJsonFile, worldPositionAnchor, basePrefab...",
+      "falseAlarm": true,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 12,
+          "endLine": 12,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BlocksFromGeoJsonEditor.cs",
+          "navigation": {
+            "currentLine": 454919998,
+            "previousLine": 883753827,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 14,
+          "endLine": 14,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BlocksFromGeoJsonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 15,
+          "endLine": 15,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BlocksFromGeoJsonEditor.cs"
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 16,
+          "endLine": 16,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Editors\\BlocksFromGeoJsonEditor.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 6
+    },
+    {
+      "code": "V3149",
+      "message": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'geometry'.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 59,
+          "endLine": 59,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BordersFromGeoJsonBuilder.cs",
+          "navigation": {
+            "currentLine": -1496205999,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 38,
+          "endLine": 38,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BordersFromGeoJsonBuilder.cs"
+        }
+      ],
+      "cwe": 476,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 7
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: extension == 0. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 109,
+          "endLine": 109,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BorderFromPolygonBuilder.cs",
+          "navigation": {
+            "currentLine": 2936213,
+            "previousLine": 123,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 8
+    },
+    {
+      "code": "V3206",
+      "message": "Unity Engine. A direct call to the 'Run' coroutine-like method will not start it. Use the 'StartCoroutine' method instead.",
+      "falseAlarm": true,
+      "level": 1,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 27,
+          "endLine": 27,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Assets\\Tests\\PerformanceTests.cs",
+          "navigation": {
+            "currentLine": 6973,
+            "previousLine": 0,
+            "nextLine": 6637,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Tests"
+      ],
+      "favorite": false,
+      "id": 9
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: first.x == last.x. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 40,
+          "endLine": 40,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BlockFromPolygonBuilder.cs",
+          "navigation": {
+            "currentLine": -785232602,
+            "previousLine": -2003451391,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 10
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: first.y == last.y. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 40,
+          "endLine": 40,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BlockFromPolygonBuilder.cs",
+          "navigation": {
+            "currentLine": -785232602,
+            "previousLine": -2003451391,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 11
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: first.z == last.z. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 40,
+          "endLine": 40,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BlockFromPolygonBuilder.cs",
+          "navigation": {
+            "currentLine": -785232602,
+            "previousLine": -2003451391,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 12
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: shortestDistance == 0. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 111,
+          "endLine": 111,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BlockFromPolygonBuilder.cs",
+          "navigation": {
+            "currentLine": -418906100,
+            "previousLine": 703749100,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 13
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: BlockInfo.leanForward == 0. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 183,
+          "endLine": 183,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BlockFromPolygonBuilder.cs",
+          "navigation": {
+            "currentLine": -632862070,
+            "previousLine": 0,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 14
+    },
+    {
+      "code": "V3149",
+      "message": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'point'.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 40,
+          "endLine": 40,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\PrefabsFromGeoJsonBuilder.cs",
+          "navigation": {
+            "currentLine": 437431365,
+            "previousLine": 0,
+            "nextLine": -1332855882,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 34,
+          "endLine": 34,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\PrefabsFromGeoJsonBuilder.cs"
+        }
+      ],
+      "cwe": 476,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 15
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: m_Visibility == 0. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 88,
+          "endLine": 88,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Assets\\Prefabs\\PhotoPanel\\PhotoPanelControl.cs",
+          "navigation": {
+            "currentLine": 24093957,
+            "previousLine": 0,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 16
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: m_Visibility == 1. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 125,
+          "endLine": 125,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Assets\\Prefabs\\PhotoPanel\\PhotoPanelControl.cs",
+          "navigation": {
+            "currentLine": 1265436850,
+            "previousLine": 123,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 17
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: height == 0. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 58,
+          "endLine": 58,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BlocksFromGeoJsonBuilder.cs",
+          "navigation": {
+            "currentLine": -1246542279,
+            "previousLine": 1653964454,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 18
+    },
+    {
+      "code": "V3149",
+      "message": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'geometry'.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 67,
+          "endLine": 67,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BlocksFromGeoJsonBuilder.cs",
+          "navigation": {
+            "currentLine": -1496205999,
+            "previousLine": 0,
+            "nextLine": 330158826,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 41,
+          "endLine": 41,
+          "file": "d:\\repos\\waterlooplein\\waterlooplein-timemachine\\source\\WaterloopleinTimeMachine\\Packages\\GeoJsonCityBuilder\\Editor\\Builders\\BlocksFromGeoJsonBuilder.cs"
+        }
+      ],
+      "cwe": 476,
+      "sastId": "",
+      "projects": [
+        "nl.elmarjansen.geojsoncitybuilder.Editor"
+      ],
+      "favorite": false,
+      "id": 19
+    }
+  ]
+}

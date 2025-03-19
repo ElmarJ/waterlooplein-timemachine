@@ -24,7 +24,7 @@ namespace Tests
                 SceneManager.LoadScene("Assets/Scenes/MainScene.unity");
                 QualitySettings.SetQualityLevel(i, true);
 
-                Measure
+                Measure //-V3206
                     .Frames()
                     .WarmupCount(10)
                     .MeasurementCount(100)
