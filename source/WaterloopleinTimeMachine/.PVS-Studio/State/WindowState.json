@@ -18,7 +18,5 @@
       "Optimization"
     ]
   },
-  "loadableProcessIds": [
-    "loadState"
-  ]
+  "loadableProcessIds": []
 }
