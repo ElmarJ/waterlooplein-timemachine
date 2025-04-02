@@ -38,6 +38,8 @@ namespace WaterloopleinTimeMachine.Editor
                     File.Copy(gitFile, assetsFile, true);
                 }
             }
+
+            AssetDatabase.Refresh();
         }
 
         [MenuItem("Waterlooplein Time Machine/Prepare Assets/Regenerate All Content From GeoJson")]
