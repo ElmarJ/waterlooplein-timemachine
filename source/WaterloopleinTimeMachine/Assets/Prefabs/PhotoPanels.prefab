@@ -1007,6 +1007,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 1883 ca.
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1026,6 +1030,10 @@ PrefabInstance:
         rooms-katholieke Mozes en A\xE4ronkerk en de ingang van de Lazarussteeg.
         Rechts het Oudezijds Huiszittenhuis, Waterlooplein 67.\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: TargetCamera
       value: 
@@ -1033,6 +1041,10 @@ PrefabInstance:
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 'Waterlooplein 53-67 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -1068,6 +1080,10 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: Kunsthandel Gebr. Douwes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_CastShadows
@@ -2189,6 +2205,10 @@ PrefabInstance:
       propertyPath: m_text
       value: september 1898
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 3560010003209304636, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2205,6 +2225,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "Versiering t.g.v. de inhuldiging van H.M. Koningin Wilhelmina.\r\n\t"
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5289128970738044646, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: TargetCamera
       value: 
@@ -2213,6 +2237,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Versiering t.g.v. de inhuldiging van H.M. Koningin Wilhelmina. Nieuwe
         Amstelstraat '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -2246,6 +2274,10 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: Olie, Jacob (1834-1905)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8060596907445332985, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_CastShadows
@@ -3833,6 +3865,10 @@ PrefabInstance:
       propertyPath: m_text
       value: '1891 '
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 3943639697990677937, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -3842,9 +3878,17 @@ PrefabInstance:
       value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes
         en A\xE4ronkerk.\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: 'Waterlooplein 31 (ged.) t/m 65 (v.l.n.r.) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -3878,6 +3922,10 @@ PrefabInstance:
     - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
       value: Jacob Olie
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8441955779372789394, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_StaticEditorFlags
