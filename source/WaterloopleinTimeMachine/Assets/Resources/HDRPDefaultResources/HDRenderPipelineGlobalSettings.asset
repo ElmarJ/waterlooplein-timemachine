@@ -309,7 +309,7 @@ MonoBehaviour:
       type: {class: LightmapSamplingSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_Version: 1
-        m_UseBicubicLightmapSampling: 0
+        m_UseBicubicLightmapSampling: 1
     - rid: 7189897975855579136
       type: {class: HDRenderPipelineRuntimeShaders, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
