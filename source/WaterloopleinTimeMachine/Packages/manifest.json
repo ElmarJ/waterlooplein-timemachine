@@ -5,6 +5,7 @@
     "com.unity.inputsystem": "1.14.0",
     "com.unity.postprocessing": "3.4.0",
     "com.unity.probuilder": "6.0.5",
+    "com.unity.project-auditor": "1.0.1",
     "com.unity.render-pipelines.high-definition": "17.1.0",
     "com.unity.render-pipelines.high-definition-config": "17.1.0",
     "com.unity.rendering.denoising": "1.0.5",
