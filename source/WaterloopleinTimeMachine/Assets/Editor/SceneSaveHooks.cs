@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 namespace WaterloopleinTimeMachine.Editor
 {
     [InitializeOnLoad]
-    public static class SceneSaveHooks
+    public class SceneSaveHooks
     {
         static SceneSaveHooks()
         {
