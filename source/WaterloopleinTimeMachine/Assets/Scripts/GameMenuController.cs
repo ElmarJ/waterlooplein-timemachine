@@ -9,16 +9,20 @@ public class GameMenuController : MonoBehaviour
     public GameObject player;
     public UIDocument mainMenu;
     public UIDocument settingsMenu;
-
-    private PlayerInput playerInput;
     public TimeMachine timeMachine;
     public AutomaticSunPosition sunPosition;
-
+    private InputAction showMenuAction;
     private readonly string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
 
+    public void Start()
+    {
+        this.showMenuAction = InputSystem.actions["ShowMenu"];
+        this.showMenuAction.Enable();
+        this.showMenuAction.performed += this.OnShowMenuClicked;
+
+    }
     public void OnEnable()
     {
-        this.playerInput = player.GetComponent<PlayerInput>();
         this.ActivateMenu();
         this.ShowMainMenu();
     }
@@ -43,11 +47,11 @@ public class GameMenuController : MonoBehaviour
         UnityEngine.Cursor.visible = mouseHasMenuState;
         if (mouseHasMenuState)
         {
-            this.playerInput.actions.Disable();
+            InputSystem.actions.FindActionMap("Player").Disable();
         }
         else
         {
-            this.playerInput.actions.Enable();
+            InputSystem.actions.FindActionMap("Player").Enable();
         }
         this.player.GetComponent<FirstPersonDrifter>().enabled = !mouseHasMenuState;
     }

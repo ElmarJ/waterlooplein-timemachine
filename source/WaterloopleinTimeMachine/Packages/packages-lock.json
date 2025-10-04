@@ -239,14 +239,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.textmeshpro": {
-      "version": "5.0.0",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.ugui": "2.0.0"
-      }
-    },
     "com.unity.toolchain.win-x86_64-linux-x86_64": {
       "version": "2.0.10",
       "depth": 0,
@@ -281,17 +273,6 @@
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0"
-      },
-      "url": "https://package.openupm.com"
-    },
-    "io.igaryhe.firstpersondrifter": {
-      "version": "0.4.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.inputsystem": "1.0.0",
-        "com.unity.textmeshpro": "2.1.1",
-        "com.unity.ugui": "1.0.0"
       },
       "url": "https://package.openupm.com"
     },

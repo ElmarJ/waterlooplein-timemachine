@@ -53,6 +53,7 @@ public class PhotoPanelControl : MonoBehaviour
         m_DefaultTitleColor = Panel.TitleColor;
         m_DefaultBodyColor = Panel.BodyColor;
         m_BaseForward = InfoiconObject.transform.forward;
+        InputSystem.actions["OpenInBrowser"].performed += OnOpenInBrowserKey;
     }
 
     void Update()
@@ -69,16 +70,7 @@ public class PhotoPanelControl : MonoBehaviour
                 InfoiconObject.transform.forward = -m_BaseForward;
         }
 
-        // if (VirtualCameraManger == null)
-        //     VirtualCameraManger = Manager.Get<VirtualCameraManager>();
-
-        // if (VirtualCameraManger == null)
-        // {
-        //     Debug.LogWarning("Virtual Camera Manager not present.");
-        //     return;
-        // }
-
-        if ( /* Input.GetKey(KeyCode.Q) ||  */ Vector3.Distance(TargetCamera.gameObject.transform.position, transform.position) < ShowDistance)
+        if (Vector3.Distance(TargetCamera.gameObject.transform.position, transform.position) < ShowDistance)
             m_Visibility += Time.deltaTime / ShowDuration;
         else
             m_Visibility -= Time.deltaTime / HideDuration;
