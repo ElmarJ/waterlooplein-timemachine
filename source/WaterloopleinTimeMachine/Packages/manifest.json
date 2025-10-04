@@ -8,7 +8,7 @@
     "com.unity.render-pipelines.high-definition": "17.2.0",
     "com.unity.render-pipelines.high-definition-config": "17.2.0",
     "com.unity.rendering.denoising": "1.0.5",
-    "com.unity.splines": "2.8.1",
+    "com.unity.splines": "2.8.2",
     "com.unity.test-framework.performance": "3.1.0",
     "com.unity.testtools.codecoverage": "1.2.6",
     "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.10",
