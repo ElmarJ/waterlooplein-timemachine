@@ -50,6 +50,6 @@
         "Temp/": true
     },
     "omnisharp.disableMSBuildDiagnosticWarning": true,
-    "dotnet.defaultSolution": "WaterloopleinTimeMachine.sln",
+    "dotnet.defaultSolution": "WaterloopleinTimeMachine.slnx",
     "git.ignoreLimitWarning": true
 }
