@@ -16,7 +16,7 @@ scopes = {
 	"picker_visibility_flags.075BCD15" = "264"
 	"picker_item_size.075BCD15" = "96"
 	"picker_inspector.075BCD15" = "0"
-	"picker_window_position_offset.00000000" = "330,6667;537,3333;320;550"
+	"picker_window_position_offset.00000000" = "7,333252;506;642,6667;550"
 	"picker_visibility_flags.00000000" = "0"
 	"picker_item_size.00000000" = "32"
 	"picker_inspector.00000000" = "0"
@@ -96,6 +96,10 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"type: timecontroll"
+	"type: timeco"
+	"type: timecont"
+	"type: timemach"
 	"type: TimeMachine"
 	"type: timamac"
 	"type: automaticsun"
@@ -111,10 +115,9 @@ recentSearches = [
 searchItemFavorites = [
 ]
 savedSearchesSortOrder = 0
-showSavedSearchPanel = false
+showSavedSearchPanel = true
 hideTabs = false
-expandedQueries = [
-]
+expandedQueries = [-1765347274 961552606]
 queryBuilder = true
 ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"

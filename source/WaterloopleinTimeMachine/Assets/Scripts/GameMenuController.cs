@@ -2,15 +2,14 @@
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
 using System.Linq;
-using GeoJsonCityBuilder.Components;
 
 public class GameMenuController : MonoBehaviour
 {
     public GameObject player;
     public UIDocument mainMenu;
     public UIDocument settingsMenu;
-    public TimeMachine timeMachine;
-    public AutomaticSunPosition sunPosition;
+    public UIDocument OSDControl;
+    public TimeController timeController;
     private InputAction showMenuAction;
     private readonly string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
 
@@ -19,8 +18,8 @@ public class GameMenuController : MonoBehaviour
         this.showMenuAction = InputSystem.actions["ShowMenu"];
         this.showMenuAction.Enable();
         this.showMenuAction.performed += this.OnShowMenuClicked;
-
     }
+
     public void OnEnable()
     {
         this.ActivateMenu();
@@ -28,7 +27,6 @@ public class GameMenuController : MonoBehaviour
     }
 
     // TODO: consider using a state machine that keeps track of the current menu (or general state of the game)
-
     public void ActivateMenu()
     {
         this.SetMenuMouseState(true);
@@ -48,10 +46,12 @@ public class GameMenuController : MonoBehaviour
         if (mouseHasMenuState)
         {
             InputSystem.actions.FindActionMap("Player").Disable();
+            InputSystem.actions.FindActionMap("Game").Disable();
         }
         else
         {
             InputSystem.actions.FindActionMap("Player").Enable();
+            InputSystem.actions.FindActionMap("Game").Enable();
         }
         this.player.GetComponent<FirstPersonDrifter>().enabled = !mouseHasMenuState;
     }
@@ -60,6 +60,7 @@ public class GameMenuController : MonoBehaviour
     {
         this.mainMenu.enabled = false;
         this.settingsMenu.enabled = true;
+        this.OSDControl.enabled = false;
 
         this.settingsMenu.rootVisualElement.Q<Button>("back-button").RegisterCallback<ClickEvent>(ev => this.ShowMainMenu());
 
@@ -78,33 +79,21 @@ public class GameMenuController : MonoBehaviour
     {
         this.mainMenu.enabled = true;
         this.settingsMenu.enabled = false;
+        this.OSDControl.enabled = false;
 
         this.mainMenu.rootVisualElement.Q<Button>("resume-button").RegisterCallback<ClickEvent>(ev => this.ResumeGame());
         this.mainMenu.rootVisualElement.Q<Button>("settings-button").RegisterCallback<ClickEvent>(ev => this.ShowSettingsMenu());
         this.mainMenu.rootVisualElement.Q<Button>("exit-button").RegisterCallback<ClickEvent>(ev => this.ExitGame());
 
         // Set the data context for the time controls to the Time Machine controller
-        this.mainMenu.rootVisualElement.Q<VisualElement>("year-control").dataSource = this.timeMachine;
-        this.mainMenu.rootVisualElement.Q<VisualElement>("month-control").dataSource = this.sunPosition;
-        this.mainMenu.rootVisualElement.Q<VisualElement>("hour-control").dataSource = this.sunPosition;
-
-        // var yearSlider = this.mainMenu.rootVisualElement.Q<SliderInt>("year-slider");
-        // var yearIndicator = this.mainMenu.rootVisualElement.Q<Label>("year-indicator");
-        // var yearBinding = new DataBinding
-        // {
-        //     dataSourcePath = new PropertyPath(nameof(TimeMachine.year)),
-        //     bindingMode  = BindingMode.TwoWay
-        // };
-        // yearSlider.SetBinding("value", yearBinding);
-        // yearIndicator.SetBinding("text", yearBinding);
-
-
+        this.mainMenu.rootVisualElement.Q<VisualElement>("time-controls").dataSource = this.timeController;
     }
 
     public void HideAllMenus()
     {
         this.mainMenu.enabled = false;
         this.settingsMenu.enabled = false;
+        this.OSDControl.enabled = true;
     }
 
     public void ExitGame()
@@ -115,7 +104,6 @@ public class GameMenuController : MonoBehaviour
         Application.Quit();
 #endif
     }
-
 
     public void OnShowMenuClicked(InputAction.CallbackContext ctx)
     {
@@ -144,24 +132,6 @@ public class GameMenuController : MonoBehaviour
         return currentResolutionIndex;
     }
 
-    void UpdateYear(int year)
-    {
-        this.timeMachine.year = year;
-        this.sunPosition.year = year;
-        this.mainMenu.rootVisualElement.Q<Label>("year-indicator").text = year.ToString();
-    }
 
-    void UpdateMonth(int month)
-    {
-
-        this.sunPosition.month = month;
-        this.mainMenu.rootVisualElement.Q<Label>("month-indicator").text = monthNames[(int)month - 1];
-    }
-
-    void UpdateHour(int hour)
-    {
-        this.sunPosition.hour = hour;
-        this.mainMenu.rootVisualElement.Q<Label>("hour-indicator").text = hour.ToString("00") + ":00";
-    }
 
 }

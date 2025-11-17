@@ -1,52 +1,39 @@
 using GeoJsonCityBuilder.Data;
-using NUnit.Framework.Interfaces;
 using System;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Android;
 using UnityEngine.Events;
 using UnityEngine.UIElements;
 
 public class AutomaticSunPosition : MonoBehaviour
 {
     public Coordinate worldPosition;
-    public int year;
-    public int month;
-    public int day;
-    public int hour;
-    private DateTime dateLastFrame;
-    private DateTime Date => new(year, month, day, hour, 0, 0);
+    public TimeController timeController;
     public UnityEvent SunSetOrRise;
     public bool sunIsUp;
-
-
     private static readonly string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        // Only update if the date has changed (has huge CPU impact)
-        // TODO: reimplement outside of frame-lifecycle system
-        if (dateLastFrame != Date)
-        {
-            dateLastFrame = Date;
-            UpdateSunPosition();
-        }
+        timeController.OnMonthChanged.AddListener(UpdateSunPosition);
+        timeController.OnDayChanged.AddListener(UpdateSunPosition);
+        timeController.OnTimeChanged.AddListener(UpdateSunPosition);
     }
 
     public void UpdateSunPosition()
     {
-        DateTime localTime = this.Date;
+        DateTime localTime = timeController.Date;
         var amsterdamTimeZone = TimeZoneInfo.FindSystemTimeZoneById("W. Europe Standard Time");
         var utcTime = TimeZoneInfo.ConvertTimeToUtc(localTime, amsterdamTimeZone);
+
         CoordinateSharp.Coordinate c = new(worldPosition.Lat, worldPosition.Lon, utcTime);
         var ci = c.CelestialInfo;
 
-        var previousSunIsUp = this.sunIsUp;
-        this.sunIsUp = ci.SunAltitude > 0;
-        if (previousSunIsUp != this.sunIsUp)
+        var previousSunIsUp = sunIsUp;
+        sunIsUp = ci.SunAltitude > 0;
+        if (previousSunIsUp != sunIsUp)
         {
-            this.SunSetOrRise?.Invoke();
+            SunSetOrRise?.Invoke();
         }
 
         gameObject.transform.rotation = Quaternion.Euler((float)ci.SunAltitude, (float)ci.SunAzimuth - 180, 0);

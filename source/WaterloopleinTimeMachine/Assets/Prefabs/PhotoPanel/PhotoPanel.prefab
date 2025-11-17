@@ -357,15 +357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88422236232e7924780c010d28acd4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OpenInBrowserAction:
-    m_Name: Open In Browser
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: a3529738-96a4-4246-836d-1a69e72c9725
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
   ShowDuration: 0.3
   HideDuration: 0.3
   ShowDistance: 4

@@ -49,8 +49,8 @@ MonoBehaviour:
   player: {fileID: 0}
   mainMenu: {fileID: 3009677102291141502}
   settingsMenu: {fileID: 1185142988244249910}
-  timeMachine: {fileID: 0}
-  sunPosition: {fileID: 0}
+  OSDControl: {fileID: 0}
+  timeController: {fileID: 0}
 --- !u!1 &4896305816021220745
 GameObject:
   m_ObjectHideFlags: 0

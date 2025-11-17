@@ -1,0 +1,21 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement data-source-type="TimeController, Assembly-CSharp" name="time-osd" style="flex-grow: 0; color: rgb(176, 127, 53); text-shadow: 30px 30px 5px rgba(0, 0, 0, 0); font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Lora-VariableFont_wght.ttf?fileID=12800000&amp;guid=4edbcf7b8bd059f49bb6dc1bc83ea003&amp;type=3#Lora-VariableFont_wght&quot;); flex-direction: column; bottom: auto; top: 0; height: 79px; -unity-font-style: bold; -unity-text-align: upper-left;">
+        <ui:VisualElement name="month-year-row" style="flex-grow: 1; flex-direction: row; align-content: flex-start; justify-content: center;">
+            <ui:Label text="&lt;&lt;month&gt;&gt;" name="month">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="month" binding-mode="ToTarget" source-to-ui-converters="Integer To Month Name (string)" />
+                </Bindings>
+            </ui:Label>
+            <ui:Label text="&lt;&lt;year&gt;&gt;" name="year">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="year" binding-mode="ToTarget" />
+                </Bindings>
+            </ui:Label>
+        </ui:VisualElement>
+        <ui:Label text="&lt;&lt;time&gt;&gt;" name="time" style="right: auto; left: auto; align-self: center; font-size: 20px;">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="hour" binding-mode="ToTarget" source-to-ui-converters="Integer To formatted time string" update-trigger="OnSourceChanged" />
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>

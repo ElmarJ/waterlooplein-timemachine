@@ -290,10 +290,7 @@ MonoBehaviour:
   worldPosition:
     Lon: 4.905
     Lat: 52.367
-  year: 2023
-  month: 5
-  day: 21
-  hour: 12
+  timeController: {fileID: 0}
   SunSetOrRise:
     m_PersistentCalls:
       m_Calls:
