@@ -20,7 +20,7 @@ public class GameMenuController : MonoBehaviour
         this.showMenuAction.performed += this.OnShowMenuClicked;
     }
 
-    public void OnEnable()
+    public void OneEnable()
     {
         this.ActivateMenu();
         this.ShowMainMenu();
@@ -62,7 +62,7 @@ public class GameMenuController : MonoBehaviour
         this.settingsMenu.enabled = true;
         this.OSDControl.enabled = false;
 
-        this.settingsMenu.rootVisualElement.Q<Button>("back-button").RegisterCallback<ClickEvent>(ev => this.ShowMainMenu());
+        this.settingsMenu.rootVisualElement.Q<Button>("back-button").clicked += this.ShowMainMenu;
 
         var qualityDropdown = this.settingsMenu.rootVisualElement.Q<DropdownField>("quality-dropdown");
         qualityDropdown.choices = new(QualitySettings.names);
@@ -81,9 +81,9 @@ public class GameMenuController : MonoBehaviour
         this.settingsMenu.enabled = false;
         this.OSDControl.enabled = false;
 
-        this.mainMenu.rootVisualElement.Q<Button>("resume-button").RegisterCallback<ClickEvent>(ev => this.ResumeGame());
-        this.mainMenu.rootVisualElement.Q<Button>("settings-button").RegisterCallback<ClickEvent>(ev => this.ShowSettingsMenu());
-        this.mainMenu.rootVisualElement.Q<Button>("exit-button").RegisterCallback<ClickEvent>(ev => this.ExitGame());
+        this.mainMenu.rootVisualElement.Q<Button>("resume-button").clicked += this.ResumeGame;
+        this.mainMenu.rootVisualElement.Q<Button>("settings-button").clicked += this.ShowSettingsMenu;
+        this.mainMenu.rootVisualElement.Q<Button>("exit-button").clicked += this.ExitGame;
 
         // Set the data context for the time controls to the Time Machine controller
         this.mainMenu.rootVisualElement.Q<VisualElement>("time-controls").dataSource = this.timeController;

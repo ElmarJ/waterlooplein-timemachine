@@ -1,6 +1,18 @@
-.unity-button {
+.unity-button:focus {
     border-radius: 10px;
     background-color: white;
+    border-left-color: rgb(35, 62, 168);
+    border-right-color: rgb(35, 62, 168);
+    border-top-color: rgb(35, 62, 168);
+    border-bottom-color: rgb(35, 62, 168);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 .unity-base-popup-field__input {
@@ -35,3 +47,9 @@
 
 .menu-button {
 }
+
+
+
+
+
+
