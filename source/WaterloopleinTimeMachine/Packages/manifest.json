@@ -64,8 +64,7 @@
         "com.openupm",
         "com.tayx.graphy",
         "com.virgis.geojson.net",
-        "io.igaryhe.firstpersondrifter",
-        "nl.elmarjansen.geojsoncitybuilder"
+        "io.igaryhe.firstpersondrifter"
       ]
     }
   ]
