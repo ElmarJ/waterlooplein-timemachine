@@ -87,6 +87,8 @@ public class GameMenuController : MonoBehaviour
 
         // Set the data context for the time controls to the Time Machine controller
         this.mainMenu.rootVisualElement.Q<VisualElement>("time-controls").dataSource = this.timeController;
+
+        this.mainMenu.rootVisualElement.Q<Button>("resume-button").Focus();
     }
 
     public void HideAllMenus()

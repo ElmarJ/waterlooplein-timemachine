@@ -25,3 +25,13 @@
 
 .subtitle {
 }
+
+.menu-game-title {
+}
+
+.menu-text {
+    -unity-font-definition: url("project://database/Assets/Fonts/Lora-VariableFont_wght.ttf?fileID=12800000&guid=4edbcf7b8bd059f49bb6dc1bc83ea003&type=3#Lora-VariableFont_wght");
+}
+
+.menu-button {
+}
