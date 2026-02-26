@@ -6,8 +6,11 @@
             <ui:Label tabindex="-1" text="Waterlooplein Time Machine" display-tooltip-when-elided="true" name="app-title" class="title menu-game-title" style="align-self: auto; -unity-text-align: upper-center; color: rgb(255, 255, 255); font-size: 50px; -unity-text-outline-width: 0; -unity-font-style: bold; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); -unity-text-outline-color: rgba(255, 255, 255, 0);"/>
         </ui:VisualElement>
         <ui:VisualElement name="bottom-row" style="flex-grow: 1; flex-direction: row;">
-            <ui:VisualElement name="left-column" class="detail-text" style="flex-grow: 1; flex-wrap: nowrap; flex-basis: 1%; align-items: flex-start; justify-content: flex-start; width: 100%; letter-spacing: 0;">
-                <ui:Label tabindex="-1" text="Besturing:  - Lopen: WASD  - Springen: Spatie  - Menu / afsluiten: Esc" display-tooltip-when-elided="true" name="controls-help" style="color: rgb(255, 251, 251); -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); font-size: 20px; align-items: auto; width: 240px; text-overflow: ellipsis; -unity-text-align: middle-left;"/>
+            <ui:VisualElement name="left-column" style="min-width: 240px;">
+                <ui:Label tabindex="-1" text="Besturing:
+  - Lopen: WASD
+  - Springen: Spatie
+  - Menu / afsluiten: Esc" name="controls-help" style="color: rgb(255, 251, 251); -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); font-size: 20px; width: 240px; -unity-text-align: middle-left; white-space: normal; text-overflow: ellipsis;"/>
             </ui:VisualElement>
             <ui:VisualElement name="center-column" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: auto; align-items: center; justify-content: center; flex-basis: auto;">
                 <ui:Label tabindex="-1" text="Dit is een model van  het stratenpatroon en de huizenblokken  van de Waterloopleinbuurt  tussen 1800 en 2000" display-tooltip-when-elided="true" name="app-subtitle" class="subtitle" style="justify-content: flex-start; align-self: auto; align-items: auto; -unity-text-align: middle-center; color: rgb(255, 255, 255); font-size: 20px; white-space: normal; text-overflow: ellipsis;"/>
@@ -17,7 +20,7 @@
                     <ui:Button text="Afsluiten" display-tooltip-when-elided="true" name="exit-button" tabindex="3" class="button"/>
                 </ui:VisualElement>
             </ui:VisualElement>
-            <ui:VisualElement name="right-column" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 1%;">
+            <ui:VisualElement name="right-column" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 1%; min-width: 240px;">
                 <ui:VisualElement name="time-controls" data-source-type="TimeController, Assembly-CSharp" style="flex-grow: 1; width: 100%;">
                     <ui:VisualElement name="year-control" data-source-type="GeoJsonCityBuilder.TimeMachine, nl.elmarjansen.geojsoncitybuilder.Runtime" style="flex-grow: 1;">
                         <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="year-indicator" style="-unity-text-align: upper-center; color: rgb(255, 255, 255);">
