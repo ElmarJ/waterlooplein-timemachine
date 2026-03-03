@@ -2,7 +2,6 @@
     "files.exclude": {
         "source/WaterloopleinTimeMachine/**/.DS_Store": true,
         "source/WaterloopleinTimeMachine/**/.git": true,
-        "source/WaterloopleinTimeMachine/**/.gitignore": true,
         "source/WaterloopleinTimeMachine/**/.gitmodules": true,
         "source/WaterloopleinTimeMachine/**/*.booproj": true,
         "source/WaterloopleinTimeMachine/**/*.pidb": true,
