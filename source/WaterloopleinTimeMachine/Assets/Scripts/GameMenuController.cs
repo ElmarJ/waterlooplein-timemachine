@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 using System.Linq;
 
 public class GameMenuController : MonoBehaviour
@@ -20,7 +21,7 @@ public class GameMenuController : MonoBehaviour
         this.showMenuAction.performed += this.OnShowMenuClicked;
     }
 
-    public void OneEnable()
+    public void OnEnable()
     {
         this.ActivateMenu();
         this.ShowMainMenu();
@@ -47,11 +48,13 @@ public class GameMenuController : MonoBehaviour
         {
             InputSystem.actions.FindActionMap("Player").Disable();
             InputSystem.actions.FindActionMap("Game").Disable();
+            InputSystem.actions.FindActionMap("UI").Enable();
         }
         else
         {
             InputSystem.actions.FindActionMap("Player").Enable();
             InputSystem.actions.FindActionMap("Game").Enable();
+            InputSystem.actions.FindActionMap("UI").Disable();
         }
         this.player.GetComponent<FirstPersonDrifter>().enabled = !mouseHasMenuState;
     }
@@ -87,7 +90,6 @@ public class GameMenuController : MonoBehaviour
 
         // Set the data context for the time controls to the Time Machine controller
         this.mainMenu.rootVisualElement.Q<VisualElement>("time-controls").dataSource = this.timeController;
-
         this.mainMenu.rootVisualElement.Q<Button>("resume-button").Focus();
     }
 
