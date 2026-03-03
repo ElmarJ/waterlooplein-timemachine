@@ -2,8 +2,9 @@
     "files.exclude": {
         "**/.DS_Store": true,
         "**/.git": true,
-        "**/.gitignore": true,
+        "**/.vs": true,
         "**/.gitmodules": true,
+        "**/.vsconfig": true,
         "**/*.booproj": true,
         "**/*.pidb": true,
         "**/*.suo": true,
@@ -33,23 +34,38 @@
         "**/*.LXO": true,
         "**/*.ma": true,
         "**/*.MA": true,
-        "**/*.meta": true,
         "**/*.obj": true,
         "**/*.OBJ": true,
+        "**/*.asset": true,
         "**/*.cubemap": true,
         "**/*.flare": true,
         "**/*.mat": true,
+        "**/*.meta": true,
+        "**/*.prefab": true,
+        "**/*.unity": true,
         "build/": true,
         "Build/": true,
         "Library/": true,
         "library/": true,
         "obj/": true,
         "Obj/": true,
+        "Logs/": true,
+        "logs/": true,
         "ProjectSettings/": true,
+        "UserSettings/": true,
         "temp/": true,
         "Temp/": true
     },
-    "omnisharp.disableMSBuildDiagnosticWarning": true,
-    "dotnet.defaultSolution": "WaterloopleinTimeMachine.slnx",
-    "git.ignoreLimitWarning": true
+    "files.associations": {
+        "*.asset": "yaml",
+        "*.meta": "yaml",
+        "*.prefab": "yaml",
+        "*.unity": "yaml",
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.sln": "*.csproj",
+        "*.slnx": "*.csproj"
+    },
+    "dotnet.defaultSolution": "WaterloopleinTimeMachine.slnx"
 }

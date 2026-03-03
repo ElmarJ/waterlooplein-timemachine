@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
-    public FirstPersonDrifter firstPersonController;
+    public GameObject player;
     public GameMenuController gameMenuController;
     InputAction showMenuInputAction;
 
@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
             InputSystem.actions.FindActionMap("Game").Enable();
             InputSystem.actions.FindActionMap("UI").Disable();
         }
-        this.firstPersonController.enabled = !mouseHasMenuState;
+        this.player.GetComponent<FirstPersonDrifter>().enabled = !mouseHasMenuState;
     }
 
     private void OnShowMenuInputActionPerformed(InputAction.CallbackContext ctx)
