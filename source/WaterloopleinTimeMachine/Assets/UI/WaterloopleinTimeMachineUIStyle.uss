@@ -1,6 +1,27 @@
 .unity-button {
+    background-color: rgb(220, 175, 106);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    -unity-font-style: bold;
+    letter-spacing: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-shadow: 5px 5px 1px rgb(140, 118, 118);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.unity-button:focus {
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(176, 127, 53);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
 }
 
 .unity-base-popup-field__input {
@@ -21,4 +42,17 @@
     border-color: white;
     border-radius: 10px;
     color: white;
+}
+
+.subtitle {
+}
+
+.menu-game-title {
+}
+
+.menu-text {
+    -unity-font-definition: url("project://database/Assets/Fonts/Lora-VariableFont_wght.ttf?fileID=12800000&guid=4edbcf7b8bd059f49bb6dc1bc83ea003&type=3#Lora-VariableFont_wght");
+}
+
+.detail-text {
 }

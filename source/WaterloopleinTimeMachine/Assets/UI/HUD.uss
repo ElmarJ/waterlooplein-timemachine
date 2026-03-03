@@ -1,0 +1,30 @@
+.hud {
+    -unity-font-definition: url("project://database/Assets/Fonts/Lora-VariableFont_wght.ttf?fileID=12800000&guid=4edbcf7b8bd059f49bb6dc1bc83ea003&type=3#Lora-VariableFont_wght");
+    text-shadow: 30px 30px 5px rgba(0, 0, 0, 0);
+    font-size: 30px;
+    color: rgb(176, 127, 53);
+}
+
+.hud-timemachine {
+    flex-grow: 0;
+    flex-direction: column;
+    bottom: auto;
+    top: 0;
+    height: 79px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+}
+
+.hud-timemachine-time {
+    right: auto;
+    left: auto;
+    align-self: center;
+    font-size: 20px;
+}
+
+.hud-timemachine-monthyear {
+    flex-grow: 1;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+}

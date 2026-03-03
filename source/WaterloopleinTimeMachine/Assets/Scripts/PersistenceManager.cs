@@ -6,8 +6,7 @@ using UnityEngine;
 public class PersistenceManager : MonoBehaviour
 {
     public GameObject character;
-    public AutomaticSunPosition automaticSunPosition;
-    public TimeMachine timeMachine;
+    public TimeController timeController;
 
     void Start()
     {
@@ -44,23 +43,22 @@ public class PersistenceManager : MonoBehaviour
         // Load date and time
         if (PlayerPrefs.HasKey("year"))
         {
-            automaticSunPosition.year = PlayerPrefs.GetInt("year");
-            timeMachine.year = PlayerPrefs.GetInt("year");
+            timeController.year = PlayerPrefs.GetInt("year");
         }
 
         if (PlayerPrefs.HasKey("month"))
         {
-            automaticSunPosition.month = PlayerPrefs.GetInt("month");
+            timeController.month = PlayerPrefs.GetInt("month");
         }
 
         if (PlayerPrefs.HasKey("day"))
         {
-            automaticSunPosition.day = PlayerPrefs.GetInt("day");
+            timeController.day = PlayerPrefs.GetInt("day");
         }
 
         if (PlayerPrefs.HasKey("hour"))
         {
-            automaticSunPosition.hour = PlayerPrefs.GetInt("hour");
+            timeController.hour = PlayerPrefs.GetInt("hour");
         }
     }
 
@@ -85,9 +83,9 @@ public class PersistenceManager : MonoBehaviour
         PlayerPrefs.SetFloat("characterRotationY", character.transform.rotation.eulerAngles.y);
 
         // Save date and time
-        PlayerPrefs.SetInt("year", timeMachine.year);
-        PlayerPrefs.SetInt("month", automaticSunPosition.month);
-        PlayerPrefs.SetInt("day", automaticSunPosition.day);
-        PlayerPrefs.SetInt("hour", automaticSunPosition.hour);
+        PlayerPrefs.SetInt("year", timeController.year);
+        PlayerPrefs.SetInt("month", timeController.month);
+        PlayerPrefs.SetInt("day", timeController.day);
+        PlayerPrefs.SetInt("hour", timeController.hour);
     }
 }

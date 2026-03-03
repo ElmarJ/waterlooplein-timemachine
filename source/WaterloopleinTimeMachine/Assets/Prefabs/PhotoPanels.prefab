@@ -5093,6 +5093,18 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1940
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: ' juni 1941 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: ' Afgesloten joodsewijk, Waterlooplein '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
       value: https://archief.amsterdam/beeldbank/detail/4731bd16-7f34-2189-abf7-3406c487910b
@@ -5117,6 +5129,10 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 416deb9d513c24741a49f49b573cbfdf, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5425,6 +5441,18 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1940
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: ' juni 1945 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: ' gezien vanaf nr. 6 naar het Waterlooplein; oorlogsschade '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: ' Nieuwe Amstelstraat gezien vanaf 6 naar het Waterlooplein; oorlogsschade '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
       value: https://archief.amsterdam/beeldbank/detail/2fec5ff1-eb24-1f6b-fd3b-bd4014b5cf0b
@@ -5449,6 +5477,10 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: 9556de1f58223a544ad5f68e26aaf017, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7481,6 +7513,19 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1932
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: ' september 1932 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: ' Een houthandel. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: " Valkenburgerstraat gezien vanaf de Markensteeg; op de voorgrond de
+        Houtkopersburgwal met de zaak van W.F. Bur\xE9 en Zn "
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
       value: https://archief.amsterdam/beeldbank/detail/aa1722d2-cd60-3b26-d389-8dae62fc1ba5
@@ -7506,6 +7551,10 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: cd4a27f9149e3d54ea3807d086530427, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

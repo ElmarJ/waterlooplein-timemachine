@@ -1,0 +1,23 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/WaterloopleinTimeMachineUIStyle.uss?fileID=7433441132597879392&amp;guid=2990c9b7de93ba34eb85d5dd30756625&amp;type=3#WaterloopleinTimeMachineUIStyle"/>
+    <Style src="project://database/Assets/UI/HUD.uss?fileID=7433441132597879392&amp;guid=105c7858e1c0b7947892efd29ff349df&amp;type=3#HUD"/>
+    <ui:VisualElement data-source-type="TimeController, Assembly-CSharp" name="time-osd" class="hud hud-timemachine">
+        <ui:VisualElement name="month-year-row" class="hud-timemachine-monthyear">
+            <ui:Label text="&lt;&lt;month&gt;&gt;" name="month">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="month" binding-mode="ToTarget" source-to-ui-converters="Integer To Month Name (string)"/>
+                </Bindings>
+            </ui:Label>
+            <ui:Label text="&lt;&lt;year&gt;&gt;" name="year">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="year" binding-mode="ToTarget"/>
+                </Bindings>
+            </ui:Label>
+        </ui:VisualElement>
+        <ui:Label text="&lt;&lt;time&gt;&gt;" name="time" class="hud-timemachine-time">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="hour" binding-mode="ToTarget" source-to-ui-converters="Integer To formatted time string" update-trigger="OnSourceChanged"/>
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>

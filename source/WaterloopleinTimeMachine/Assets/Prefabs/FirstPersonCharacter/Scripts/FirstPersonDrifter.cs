@@ -1,10 +1,9 @@
-﻿// original by Eric Haines (Eric5h5)
-// adapted by @torahhorse
-// modified by @igaryhe
-// http://wiki.unity3d.com/index.php/FPSWalkerEnhanced
+﻿// Based on http://wiki.unity3d.com/index.php/FPSWalkerEnhanced
+// by Eric Haines (Eric5h5), @torahhorse, @igaryhe
 
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Utilities;
 
 [RequireComponent(typeof(CharacterController))]
 public class FirstPersonDrifter : MonoBehaviour
@@ -17,9 +16,6 @@ public class FirstPersonDrifter : MonoBehaviour
     public float jumpSpeed = 4.0f;
     public float gravity = 10.0f;
 
-    // Units that player can fall before a falling damage function is run. To disable, type "infinity" in the inspector
-    private float fallingDamageThreshold = 10.0f;
-
     // If the player ends up on a slope which is at least the Slope Limit as set on the character controller, then he will slide down
     public bool slideWhenOverSlopeLimit = false;
 
@@ -27,9 +23,6 @@ public class FirstPersonDrifter : MonoBehaviour
     public bool slideOnTaggedObjects = false;
 
     public float slideSpeed = 5.0f;
-
-    // If checked, then the player can change direction while in the air
-    public bool airControl = true;
 
     // Small amounts of this results in bumping when walking down slopes, but large amounts results in falling too fast
     public float antiBumpFactor = .75f;
@@ -43,15 +36,11 @@ public class FirstPersonDrifter : MonoBehaviour
     private Transform myTransform;
     private float speed;
     private RaycastHit hit;
-    private float fallStartLevel;
-    private bool falling;
     private float slideLimit;
     private float rayDistance;
     private Vector3 contactPoint;
-    private bool playerControl;
     private int jumpTimer;
     private InputAction moveAction;
-    private InputAction lookAction;
     private InputAction sprintAction;
     private InputAction jumpAction;
 
@@ -68,21 +57,20 @@ public class FirstPersonDrifter : MonoBehaviour
         Cursor.visible = false;
 
         moveAction = InputSystem.actions["Move"];
-        lookAction = InputSystem.actions["Look"];
         sprintAction = InputSystem.actions["Sprint"];
         jumpAction = InputSystem.actions["Jump"];
         sprintAction.Enable();
         jumpAction.Enable();   
     }
 
-    public void FixedUpdate()
+    public void Update()
     {
-        float inputX = moveAction.ReadValue<Vector2>().x;
-        float inputY = moveAction.ReadValue<Vector2>().y;
+        var moveInput = moveAction.ReadValue<Vector2>();
 
         if (grounded)
         {
             var sliding = false;
+
             // See if surface immediately below should be slid down. We use this normally rather than a ControllerColliderHit point,
             // because that interferes with step climbing amongst other annoyances
             if (Physics.Raycast(myTransform.position, -Vector3.up, out hit, rayDistance))
@@ -99,17 +87,9 @@ public class FirstPersonDrifter : MonoBehaviour
                     sliding = true;
             }
 
-            // If we were falling, and we fell a vertical distance greater than the threshold, run a falling damage routine
-            if (falling)
-            {
-                falling = false;
-                if (myTransform.position.y < fallStartLevel - fallingDamageThreshold)
-                    FallingDamageAlert(fallStartLevel - myTransform.position.y);
-            }
-
             if (enableRunning)
             {
-                speed = sprintAction.WasPerformedThisFrame() ? runSpeed : walkSpeed;
+                speed = sprintAction.IsPressed() ? runSpeed : walkSpeed;
             }
 
             // If sliding (and it's allowed), or if we're on an object tagged "Slide", get a vector pointing down the slope we're on
@@ -119,39 +99,20 @@ public class FirstPersonDrifter : MonoBehaviour
                 moveDirection = new Vector3(hitNormal.x, -hitNormal.y, hitNormal.z);
                 Vector3.OrthoNormalize(ref hitNormal, ref moveDirection);
                 moveDirection *= slideSpeed;
-                playerControl = false;
             }
             // Otherwise recalculate moveDirection directly from axes, adding a bit of -y to avoid bumping down inclines
             else
             {
-                moveDirection = new Vector3(inputX, -antiBumpFactor, inputY);
+                moveDirection = new Vector3(moveInput.x, -antiBumpFactor, moveInput.y);
                 moveDirection = myTransform.TransformDirection(moveDirection) * speed;
-                playerControl = true;
             }
 
             // Jump! But only if the jump button has been released and player has been grounded for a given number of frames
-            if (!jumpAction.WasPerformedThisFrame()) jumpTimer++;
+            if (!jumpAction.triggered) jumpTimer++;
             else if (jumpTimer >= antiBunnyHopFactor)
             {
                 moveDirection.y = jumpSpeed;
                 jumpTimer = 0;
-            }
-        }
-        else
-        {
-            // If we stepped over a cliff or something, set the height at which we started falling
-            if (!falling)
-            {
-                falling = true;
-                fallStartLevel = myTransform.position.y;
-            }
-
-            // If air control is allowed, check movement but don't touch the y component
-            if (airControl && playerControl)
-            {
-                moveDirection.x = inputX * speed;
-                moveDirection.z = inputY * speed;
-                moveDirection = myTransform.TransformDirection(moveDirection);
             }
         }
 
@@ -159,19 +120,13 @@ public class FirstPersonDrifter : MonoBehaviour
         moveDirection.y -= gravity * Time.deltaTime;
 
         // Move the controller, and set grounded true or false depending on whether we're standing on something
-        grounded = (controller.Move(moveDirection * Time.deltaTime) & CollisionFlags.Below) != 0;
+        var collision = controller.Move(moveDirection * Time.deltaTime);
+        grounded = (collision & CollisionFlags.Below) != 0;
     }
 
-    // Store point that we're in contact with for use in FixedUpdate if needed
+    // Store point that we're in contact with for use in Update if needed
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         contactPoint = hit.point;
-    }
-
-    // If falling damage occured, this is the place to do something about it. You can make the player
-    // have hitpoints and remove some of them based on the distance fallen, add sound effects, etc.
-    void FallingDamageAlert(float fallDistance)
-    {
-        //print ("Ouch! Fell " + fallDistance + " units!");   
     }
 }
