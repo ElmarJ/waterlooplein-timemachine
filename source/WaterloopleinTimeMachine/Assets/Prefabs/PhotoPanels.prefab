@@ -5789,6 +5789,20 @@ PrefabInstance:
       propertyPath: existencePeriodStart
       value: 1945
       objectReference: {fileID: 0}
+    - target: {fileID: 2980592597180645909, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: '1950 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: ' Waterlooplein 94 - 104 v.r.n.l. met aansluitend links de zijgevel
+        van Zwanenburgerstraat 63 en links ervan Zwanenburgerstraat 24 (ged.) - 28
+        v.r.n.l '
+      objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
       value: https://archief.amsterdam/beeldbank/detail/c880baec-9757-bbc5-516d-f76911db1961
@@ -5815,6 +5829,10 @@ PrefabInstance:
       propertyPath: Picture
       value: 
       objectReference: {fileID: 2800000, guid: e0f6137ee1982b84ba46ca816f5b33ac, type: 3}
+    - target: {fileID: 6525363992269705271, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
+      propertyPath: m_text
+      value: De Arbeiderspers
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
