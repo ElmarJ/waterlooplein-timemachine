@@ -71,8 +71,6 @@ public class SettingsMenuController : MonoBehaviour
             return;
         }
 
-        UnbindUI();
-
         this.backButton = rootElement.Q<Button>("back-button");
         this.backButton.clicked += gameMenuController.ShowMainMenu;
 

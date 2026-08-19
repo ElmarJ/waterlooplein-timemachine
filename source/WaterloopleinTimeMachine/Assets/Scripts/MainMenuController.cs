@@ -44,8 +44,6 @@ public class MainMenuController : MonoBehaviour
             return;
         }
 
-        UnbindUI();
-
         this.resumeButton = rootElement.Q<Button>("resume-button");
         this.settingsButton = rootElement.Q<Button>("settings-button");
         this.exitButton = rootElement.Q<Button>("exit-button");
