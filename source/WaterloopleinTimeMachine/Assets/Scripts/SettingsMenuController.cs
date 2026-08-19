@@ -3,41 +3,40 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
+[RequireComponent(typeof(PanelRenderer))]
 public class SettingsMenuController : MonoBehaviour
 {
-    private UIDocument uidoc;
+    private PanelRenderer panelRenderer;
+    private Button backButton;
+    private DropdownField qualityDropdown;
+    private DropdownField resolutionDropdown;
+    private InputAction cancelAction;
     public GameMenuController gameMenuController;
 
     void OnEnable()
     {
-        this.uidoc = GetComponent<UIDocument>();
-        this.uidoc.rootVisualElement.Q<Button>("back-button").clicked += gameMenuController.ShowMainMenu;
+        this.panelRenderer = GetComponent<PanelRenderer>();
+        this.panelRenderer.RegisterUIReloadCallback(OnUIReload);
 
-        var cancelAction = InputSystem.actions["Cancel"];
-        cancelAction.Enable();
-        cancelAction.performed += ev => gameMenuController.ShowMainMenu();
-
-        var qualityDropdown = this.uidoc.rootVisualElement.Q<DropdownField>("quality-dropdown");
-        qualityDropdown.choices = new(QualitySettings.names);
-        qualityDropdown.index = QualitySettings.GetQualityLevel();
-        qualityDropdown.RegisterValueChangedCallback(ev => QualitySettings.SetQualityLevel(qualityDropdown.index));
-
-        var resolutionDropdown = this.uidoc.rootVisualElement.Q<DropdownField>("resolution-dropdown");
-        resolutionDropdown.choices = (from resolution in Screen.resolutions select $"{resolution.width} x {resolution.height}").ToList();
-        resolutionDropdown.index = GetResolutionIndex();
-        resolutionDropdown.RegisterValueChangedCallback(ev => Screen.SetResolution(Screen.resolutions[resolutionDropdown.index].width, Screen.resolutions[resolutionDropdown.index].height, true));
+        this.cancelAction = InputSystem.actions["Cancel"];
+        this.cancelAction.Enable();
+        this.cancelAction.performed += OnCancelPerformed;
     }
 
     void OnDisable()
     {
-        if (this.uidoc.rootVisualElement != null)
+        if (this.panelRenderer != null)
         {
-            this.uidoc.rootVisualElement.Q<Button>("back-button").clicked -= gameMenuController.ShowMainMenu;
+            UnbindUI();
+            this.panelRenderer.UnregisterUIReloadCallback(OnUIReload);
         }
-    
-        var cancelAction = InputSystem.actions["Cancel"];
-        cancelAction.performed -= ev => gameMenuController.ShowMainMenu();
-        cancelAction.Disable();
+
+        if (this.cancelAction != null)
+        {
+            this.cancelAction.performed -= OnCancelPerformed;
+            this.cancelAction.Disable();
+            this.cancelAction = null;
+        }
     }
 
     private static int GetResolutionIndex()
@@ -57,5 +56,68 @@ public class SettingsMenuController : MonoBehaviour
         }
 
         return currentResolutionIndex;
+    }
+
+    private void OnUIReload(PanelRenderer renderer, VisualElement rootElement)
+    {
+        UnbindUI();
+        BindUI(rootElement);
+    }
+
+    private void BindUI(VisualElement rootElement)
+    {
+        if (rootElement == null)
+        {
+            return;
+        }
+
+        this.backButton = rootElement.Q<Button>("back-button");
+        this.backButton.clicked += gameMenuController.ShowMainMenu;
+
+        this.qualityDropdown = rootElement.Q<DropdownField>("quality-dropdown");
+        this.qualityDropdown.choices = new(QualitySettings.names);
+        this.qualityDropdown.index = QualitySettings.GetQualityLevel();
+        this.qualityDropdown.RegisterValueChangedCallback(OnQualityChanged);
+
+        this.resolutionDropdown = rootElement.Q<DropdownField>("resolution-dropdown");
+        this.resolutionDropdown.choices = (from resolution in Screen.resolutions select $"{resolution.width} x {resolution.height}").ToList();
+        this.resolutionDropdown.index = GetResolutionIndex();
+        this.resolutionDropdown.RegisterValueChangedCallback(OnResolutionChanged);
+    }
+
+    private void UnbindUI()
+    {
+        if (this.backButton != null)
+        {
+            this.backButton.clicked -= gameMenuController.ShowMainMenu;
+            this.backButton = null;
+        }
+
+        if (this.qualityDropdown != null)
+        {
+            this.qualityDropdown.UnregisterValueChangedCallback(OnQualityChanged);
+            this.qualityDropdown = null;
+        }
+
+        if (this.resolutionDropdown != null)
+        {
+            this.resolutionDropdown.UnregisterValueChangedCallback(OnResolutionChanged);
+            this.resolutionDropdown = null;
+        }
+    }
+
+    private void OnCancelPerformed(InputAction.CallbackContext context)
+    {
+        gameMenuController.ShowMainMenu();
+    }
+
+    private void OnQualityChanged(ChangeEvent<string> changeEvent)
+    {
+        QualitySettings.SetQualityLevel(this.qualityDropdown.index);
+    }
+
+    private void OnResolutionChanged(ChangeEvent<string> changeEvent)
+    {
+        Screen.SetResolution(Screen.resolutions[this.resolutionDropdown.index].width, Screen.resolutions[this.resolutionDropdown.index].height, true);
     }
 }
