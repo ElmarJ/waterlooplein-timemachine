@@ -21,8 +21,6 @@ public class SettingsMenuController : MonoBehaviour
         this.cancelAction = InputSystem.actions["Cancel"];
         this.cancelAction.Enable();
         this.cancelAction.performed += OnCancelPerformed;
-
-        BindUI(this.panelRenderer.rootVisualElement);
     }
 
     void OnDisable()

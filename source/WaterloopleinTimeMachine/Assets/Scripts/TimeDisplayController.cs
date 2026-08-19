@@ -11,7 +11,6 @@ public class TimeDisplayController : MonoBehaviour
     {
         this.timeOsdPanel = GetComponent<PanelRenderer>();
         this.timeOsdPanel.RegisterUIReloadCallback(OnUIReload);
-        ActivateOSDBinding(this.timeOsdPanel.rootVisualElement);
     }
 
     void OnDisable()

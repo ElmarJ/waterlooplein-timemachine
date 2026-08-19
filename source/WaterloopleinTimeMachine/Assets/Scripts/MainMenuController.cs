@@ -20,7 +20,6 @@ public class MainMenuController : MonoBehaviour
 
         this.panelRenderer = GetComponent<PanelRenderer>();
         this.panelRenderer.RegisterUIReloadCallback(OnUIReload);
-        BindUI(this.panelRenderer.rootVisualElement);
     }
 
     void OnDisable()
