@@ -5,7 +5,7 @@ using UnityEngine;
 public class MonthUIController : MonoBehaviour
 {
     private TextMeshProUGUI textComponent;
-    private string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
+    private readonly string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
 
     private void Start()
     {

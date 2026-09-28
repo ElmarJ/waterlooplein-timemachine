@@ -21,7 +21,7 @@ public class TimeDisplayController : MonoBehaviour
         }
     }
 
-    private void OnUIReload(PanelRenderer renderer, VisualElement rootElement)
+    private void OnUIReload(PanelRenderer renderer, VisualElement rootElement, int version)
     {
         ActivateOSDBinding(rootElement);
     }

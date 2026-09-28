@@ -16,10 +16,6 @@ public class GameManager : MonoBehaviour
         showMenuInputAction.performed += this.OnShowMenuInputActionPerformed;        
     }
 
-    void OnEnable()
-    {
-    }
-
     public void StartGamePlay()
     {
         this.SetMenuMouseState(false);

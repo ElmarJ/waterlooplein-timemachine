@@ -1,14 +1,265 @@
 fileFormatVersion: 2
 guid: 14f824987b6fa624482908fc934a5817
 SketchUpImporter:
-  serializedVersion: 21202
+  serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_New
+    second: {fileID: 2100000, guid: 1f968c297d2a20d4aafd19a4c1d4ab79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PD-atlas
+    second: {fileID: 2100000, guid: c530f9aa24069884c887ef2016667608, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PD-haantje
+    second: {fileID: 2100000, guid: a3344716f8dfb094a934ee331a1be5ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PD-koepel1b
+    second: {fileID: 2100000, guid: 394ea81bbbce2474093ee9cbb35c3c1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PD-natsteen
+    second: {fileID: 2100000, guid: 813f378002ccf744ba88186256920ab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PD-voortoren
+    second: {fileID: 2100000, guid: 24dfe8cebf557bb4bb8b3ae63fea5c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDatlasL
+    second: {fileID: 2100000, guid: 9ae1188f99e5f3c409a362761fe9a3b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDdakkapel
+    second: {fileID: 2100000, guid: 56df8a13a47f77248954e540b9847519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDentreeonder
+    second: {fileID: 2100000, guid: b360ed89e346b4940a5ccdff55b7ca23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDklok
+    second: {fileID: 2100000, guid: 5f892cc434aba9a44bb10d1a6b66236d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDmidvoor
+    second: {fileID: 2100000, guid: 60bf2dd58aec1894098866adf4c9f93c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDnatsteen
+    second: {fileID: 2100000, guid: 1345e073627f1724bbf96994d8c937e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDschoor
+    second: {fileID: 2100000, guid: 9c04864fe1fa7b340bb76acb6dfbd2ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDtimpaan
+    second: {fileID: 2100000, guid: ceed00055367bd14697632196b0b16bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDtimpaan2
+    second: {fileID: 2100000, guid: eef764f2b1541f649b3cb2653c85e7f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDtoren
+    second: {fileID: 2100000, guid: cc5ebbd8a08e6cf4e9c966785e50c9ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDtoren1
+    second: {fileID: 2100000, guid: d26d71677b337374db1022679660bd85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDtussendeel
+    second: {fileID: 2100000, guid: 197783d9dfee1a54fb7c2b4292e3163a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDvoortorenL
+    second: {fileID: 2100000, guid: 73963c7f6304bd84aab3d838894a9964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDvoortorenR
+    second: {fileID: 2100000, guid: 33fe5b7574987cf4d94f176f7216f049, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDzijkant
+    second: {fileID: 2100000, guid: e2a73ed3f3651304f93a1c2b28f57406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PDzijkantfrontlinks
+    second: {fileID: 2100000, guid: 85ba9b64a8aec46449f79cb7f40443b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PSDdak
+    second: {fileID: 2100000, guid: f423c37ebb5b88e40947dd885a7f2eb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Beige_1
+    second: {fileID: 2100000, guid: 0aea9072fc8e51d488ce8619fae18953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Gray6_
+    second: {fileID: 2100000, guid: 734e5f1d589061c4bb48ebffe88d3abf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: d77323edf2be2304bb68e497985695ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ooPDatlasR
+    second: {fileID: 2100000, guid: 3e64878911ca254418b0cdacb1d363b5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_New
+    second: {fileID: 2800000, guid: 4855cc8159de132408187368a728d85e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-atlas
+    second: {fileID: 2800000, guid: 1a9969b328b66ca4c8badf4f36ce41b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-dak1
+    second: {fileID: 2800000, guid: 164fc47dd80028945abb1ee958a7c7c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-dakkapel
+    second: {fileID: 2800000, guid: 719100369197b414a9a457c718ce296f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-frontentree
+    second: {fileID: 2800000, guid: 3b7cd8d89cb34ff46bc61ba029c13c61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-midvoor
+    second: {fileID: 2800000, guid: 9effc6309555f7847a4b6250e09c40c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-natsteen
+    second: {fileID: 2800000, guid: 6bdfed52b19112344932fb9cd9eb736f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-schoor
+    second: {fileID: 2800000, guid: 49af8f4a9bc63c6488d9640b1554e0e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-timpatlas
+    second: {fileID: 2800000, guid: 39a2816c5eb36c7449fe2a5645f78670, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-toren
+    second: {fileID: 2800000, guid: 787695b3c68065c4286217aaf1c9ae89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-tussendeel
+    second: {fileID: 2800000, guid: e4e5d81b9402c94449a6675a5417b0ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-tympaan
+    second: {fileID: 2800000, guid: 38f380b07743da547a7dbe986c0c33e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PD-zijkant
+    second: {fileID: 2800000, guid: be4ce3c3ed4ba5a40a6df95ae5dc5e03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PDatlasL
+    second: {fileID: 2800000, guid: 6d9651077432aec41ae37fd53f0dc76b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PDatlasR
+    second: {fileID: 2800000, guid: f9d3d46b6ad0e434a91fb5ba61b14e11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PDklok
+    second: {fileID: 2800000, guid: 365479ba785f66c4c8d097e936c16bd2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PDkoepel
+    second: {fileID: 2800000, guid: 4541357b7e09aae40a91690ad13629ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PDopdetoren
+    second: {fileID: 2800000, guid: 39b9ab568f99f0946ab8fb92a0c099eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PDtopen1
+    second: {fileID: 2800000, guid: 5d88f19134ae9e44694901e5bcc0e27c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PDvoortoren
+    second: {fileID: 2800000, guid: 37b7eeab9475d9c42a88992cd7f75edd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PDvoortorenL-b
+    second: {fileID: 2800000, guid: dad2b841f9b6a4a4aa536deca1741e89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PDvoortorenR
+    second: {fileID: 2800000, guid: 1bfc8f1ec38817b4d9bc2da5b5242616, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a-zijkantfrontlinks
+    second: {fileID: 2800000, guid: 29be7bf7663c30b4cb3392400e689bd4, type: 3}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 2
     materialSearch: 0
-    materialLocation: 0
+    materialLocation: 1
+    searchTexturesGlobally: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -16,8 +267,6 @@ SketchUpImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -40,6 +289,9 @@ SketchUpImporter:
     addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -57,6 +309,11 @@ SketchUpImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -67,6 +324,7 @@ SketchUpImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -75,6 +333,7 @@ SketchUpImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
   referencedClips: []
   importAnimation: 0
   humanDescription:
@@ -99,14 +358,16 @@ SketchUpImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
   generateBackFace: 1
   mergeCoplanarFaces: 0
-  selectedNodes: 0000000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f00000070000000710000007200000073000000740000007500000076000000
+  selectedNodes: 0000000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f00000070000000710000007200000073000000740000007500000076000000i
   assetHash:
     serializedVersion: 2
-    Hash: b295774249c32590d6d20fb4c85129da
+    Hash: fd01a3d731be302b12a70f1e6f32314c
   fileUnit: 0

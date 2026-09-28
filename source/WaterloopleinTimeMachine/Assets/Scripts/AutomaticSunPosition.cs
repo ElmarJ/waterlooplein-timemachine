@@ -41,6 +41,8 @@ public class AutomaticSunPosition : MonoBehaviour
 
 #if UNITY_EDITOR
     [InitializeOnLoadMethod]
+#else
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
 #endif
     public static void RegisterConverters()
     {

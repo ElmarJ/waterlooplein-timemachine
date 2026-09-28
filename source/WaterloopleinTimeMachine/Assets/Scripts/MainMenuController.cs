@@ -31,7 +31,7 @@ public class MainMenuController : MonoBehaviour
         }
     }
 
-    private void OnUIReload(PanelRenderer renderer, VisualElement rootElement)
+    private void OnUIReload(PanelRenderer renderer, VisualElement rootElement, int version)
     {
         UnbindUI();
         BindUI(rootElement);

@@ -9,7 +9,6 @@ public class GameMenuController : MonoBehaviour
     public GameObject mainMenu;
     public GameObject settingsMenu; 
     public GameObject OSDControl;
-    private readonly string[] monthNames = { "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December" };
 
     // TODO: consider using a state machine that keeps track of the current menu (or general state of the game)
     public void ShowSettingsMenu()

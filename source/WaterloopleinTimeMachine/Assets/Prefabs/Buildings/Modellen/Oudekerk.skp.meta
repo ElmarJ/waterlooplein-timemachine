@@ -1,14 +1,360 @@
 fileFormatVersion: 2
 guid: b6a2edac3d57cbe45a4bf44ce49cf48a
 SketchUpImporter:
-  serializedVersion: 21202
+  serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot1
+    second: {fileID: 2100000, guid: 343372dc81b28da4ba245b5291fd0049, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-bakwit
+    second: {fileID: 2100000, guid: 08fa80ed182d72a438e3ac75f678892e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-bg1
+    second: {fileID: 2100000, guid: 5803d44828b8d4e448a59e7d6616191c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-blokje
+    second: {fileID: 2100000, guid: 6164ef68fc61fab41bb9b438bf161c7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-dak1
+    second: {fileID: 2100000, guid: 2a96d35098eb97049a5c5b1311b6b1ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-dak3
+    second: {fileID: 2100000, guid: a7f8e7db19b804147a336ca87cbf20e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-fftoren
+    second: {fileID: 2100000, guid: 394ea8f33f7ea324d959f16af426f2de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-gevel1
+    second: {fileID: 2100000, guid: d609de3d24ca0df4198a6032780367a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-haantje
+    second: {fileID: 2100000, guid: ec7e37d894bb5b440ac091187f192b02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-hekkie
+    second: {fileID: 2100000, guid: 43d02cc8df47f5142b52feee811c26c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-kapel2
+    second: {fileID: 2100000, guid: f6be91abc06ca4449b773e09082eba22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-kapel3
+    second: {fileID: 2100000, guid: 2fc033e35530c9e42a739b3ea1974728, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-kapel3b
+    second: {fileID: 2100000, guid: 64a4e718d342c47469544fe5cac2c196, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-kapel3c
+    second: {fileID: 2100000, guid: 0481dae174b2ed84f93bd317c3d9fae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-kapelding
+    second: {fileID: 2100000, guid: 8fa6dad8f5a0e0b42941997819cb24eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-langs
+    second: {fileID: 2100000, guid: 07cec4549ed2947488d0321e594200db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-natsteen
+    second: {fileID: 2100000, guid: 26f529a7080c73f438c095b9856cf0a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-oranjebg
+    second: {fileID: 2100000, guid: 95d14ac822d1c8c469e4c7db0e66a5af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-orna1
+    second: {fileID: 2100000, guid: 4786107152eb94b4f8810fccf5779f7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-orna2
+    second: {fileID: 2100000, guid: 4e7e2fc09efd5784fa9bfee2ddd7497f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-rooddak
+    second: {fileID: 2100000, guid: eea689f5b84757c439479e84ee459a58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-rooddeel
+    second: {fileID: 2100000, guid: 9b099ff42f666384a99821fe81e9418c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-roodfront1
+    second: {fileID: 2100000, guid: ac286e138f685c548a7749e98519841c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-roodhuis
+    second: {fileID: 2100000, guid: 66c3686c560fb4f409f96f6f0bd1fbec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-streepbak
+    second: {fileID: 2100000, guid: fed5e223c0fdd7849a8df933abb05f76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-toren1a
+    second: {fileID: 2100000, guid: b7584d3b1eff578439c53e41e97b1d8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-toren1b
+    second: {fileID: 2100000, guid: 7fd968d9697480c439f49511feb87da5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-toren1c
+    second: {fileID: 2100000, guid: 1b2149e7c9c82464bb1425e0c8262f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-torentje
+    second: {fileID: 2100000, guid: 4ac0910f0257be645996da4943e6882c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-tussenvlak
+    second: {fileID: 2100000, guid: 422b2cb1bcb514744a6baeb8da66c7fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OK-witfront
+    second: {fileID: 2100000, guid: bf01567e3aa347f46a0297a7da23b755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Black_
+    second: {fileID: 2100000, guid: dc80d7ff7a34ac2488315d2880bb03ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Charcoal_
+    second: {fileID: 2100000, guid: 3d24181ff6665bc45a3f910909a3205f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _DarkGoldenrod_
+    second: {fileID: 2100000, guid: 36f51edc6460b4c4fb20677b898ac55c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 42d4fcbf931bf344bb1befea806db82e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: baksteenrood
+    second: {fileID: 2100000, guid: aa64e0b526c12c34f9e6ec059fc05af4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GEI169
+    second: {fileID: 2800000, guid: 985351fdc2b37514a8fab5f45e8ac692, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZK-langs
+    second: {fileID: 2800000, guid: e2a0386f3cb08db4588b5960d738e0b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKbg1
+    second: {fileID: 2800000, guid: 285401422c9fd1a41bc049d780ef976a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKblokje
+    second: {fileID: 2800000, guid: f27c3b6b3ed308d46b7e776463b36d24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKgevel1
+    second: {fileID: 2800000, guid: d9b1395320306044bad185e317c3c286, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKhekkie
+    second: {fileID: 2800000, guid: b74239ddfeb2f36489a0cfea0e8dbf2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKkapel2
+    second: {fileID: 2800000, guid: e0b88ec4554b1704885f7477f18920f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKkapel3a
+    second: {fileID: 2800000, guid: 1cfb6780c94bdba4abea249d7a3c1e15, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKkapel3b
+    second: {fileID: 2800000, guid: 72335a7d07090e9439a0b7a00e8fc7a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKkapel3c
+    second: {fileID: 2800000, guid: 01144a7f9bc8e15429b8fdb07c3c52aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKkapelding
+    second: {fileID: 2800000, guid: 5ff801b15b3253f43b83a8ad9da2e0de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKkip
+    second: {fileID: 2800000, guid: 56923553248ebfd49ad842c90cd33e6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKoranjebg
+    second: {fileID: 2800000, guid: 3c3ff62fc900f1046b5c9e0539166866, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKrooddak
+    second: {fileID: 2800000, guid: 6ccc3668632e2c742b697f626422990b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKroodhuis
+    second: {fileID: 2800000, guid: fa10b945186b9ae4aaf6725c797a869a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKstreepbak
+    second: {fileID: 2800000, guid: 37c331d0737c50540a00110eb89aedac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKtoren1a
+    second: {fileID: 2800000, guid: eb8a3ce0813caec4b9732dad3b69a563, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKtoren1b
+    second: {fileID: 2800000, guid: bac6d7e9ed698f2439ebaab11f841aaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ZKtoren1c
+    second: {fileID: 2800000, guid: ba3b7bd70dcf8214ca887302847409ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: baksteenrood
+    second: {fileID: 2800000, guid: d46a3dc7f34c3d34f924c64833cd3fa7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: baksteenwit
+    second: {fileID: 2800000, guid: d83dd2ab5412ae24d8750d85561d097e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dak1
+    second: {fileID: 2800000, guid: b1d5714b337e39641bb56eee54306642, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dak2
+    second: {fileID: 2800000, guid: ec3a46352d1092e4bb023be2fb4c6095, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dak3
+    second: {fileID: 2800000, guid: b2b0e51b1bf12d84d84413331a7771b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fftoren
+    second: {fileID: 2800000, guid: 7c5a99d04e334c94e9daebbaa8272f03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: natsteen
+    second: {fileID: 2800000, guid: a17e3f2f7aaccc741998d6b70957db47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ornament1
+    second: {fileID: 2800000, guid: a7a72346f4586c74fb333611fad66611, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ornament2
+    second: {fileID: 2800000, guid: cdc0a29246ad4c445822b38a259cab12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rooddeel
+    second: {fileID: 2800000, guid: 09a8e38c853ec6343b2b27d4df3b9f25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: roodfront1
+    second: {fileID: 2800000, guid: 2158a9ea1e2ad5348acf1c469b7feca2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: torentje
+    second: {fileID: 2800000, guid: ce453a99b80e1e3449696ed14af086d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tussenvlak
+    second: {fileID: 2800000, guid: 763baabe3ae39d547ab03d75a1fce40e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: witfront1
+    second: {fileID: 2800000, guid: 34e646a435d211c41b9e425ade02d1d1, type: 3}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 2
     materialSearch: 0
-    materialLocation: 0
+    materialLocation: 1
+    searchTexturesGlobally: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -16,8 +362,6 @@ SketchUpImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -40,6 +384,9 @@ SketchUpImporter:
     addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -57,6 +404,11 @@ SketchUpImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -67,6 +419,7 @@ SketchUpImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -75,6 +428,7 @@ SketchUpImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
   referencedClips: []
   importAnimation: 0
   humanDescription:
@@ -99,14 +453,16 @@ SketchUpImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
   generateBackFace: 1
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f00000060000000610000006200000063000000640000006500000066000000670000006800000069000000
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f00000060000000610000006200000063000000640000006500000066000000670000006800000069000000i
   assetHash:
     serializedVersion: 2
-    Hash: f151b958890ffa5e22014dd8d63c8259
+    Hash: 214a3a8b68cdbfb1528ec26a72d062ac
   fileUnit: 0

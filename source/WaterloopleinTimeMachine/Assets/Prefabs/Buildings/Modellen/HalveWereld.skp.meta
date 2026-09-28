@@ -1,14 +1,1290 @@
 fileFormatVersion: 2
 guid: fde981e559b6ff8438012b3d9d17db4b
 SketchUpImporter:
-  serializedVersion: 21202
+  serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot1
+    second: {fileID: 2100000, guid: f0044d425260b3d438e0ddfd7e8bdbe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot2
+    second: {fileID: 2100000, guid: b8dad6c225d27164f9760b1a4d92136d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot3
+    second: {fileID: 2100000, guid: 2c6637dc02f33be4f90aa3dd0cfb2e1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot4
+    second: {fileID: 2100000, guid: 95951fd86d028ee4a8984521a754af63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot5
+    second: {fileID: 2100000, guid: dd677555b11b03643acd35b9f5956f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Naamloos-1
+    second: {fileID: 2100000, guid: f02cfe6a88b315642abcf399b66ce5b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Naamloos-1 kopie#1
+    second: {fileID: 2100000, guid: febdfde2b8ffca241b3824c1a0eaf37b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Naamloos-1 kopiekopie
+    second: {fileID: 2100000, guid: a70d0c86da40d47488de708ab53c78c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Naamloos_panorama1 kopie
+    second: {fileID: 2100000, guid: f489b85d6b5188c43849472255c0fde3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Naamloos_panorama1 kopie1
+    second: {fileID: 2100000, guid: 7a644e5d56da5de48a2586bc878f2e4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture
+    second: {fileID: 2100000, guid: bc9300cea3d9d2948864bd0062e25bec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Untitled-1 copy
+    second: {fileID: 2100000, guid: d44ecc28e149b974c85a9e5ea510bb94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 0482cd2f60ce35d41a588a6bd5853341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Asphalt_New]'
+    second: {fileID: 2100000, guid: 14ede0b6853872f41bd89dcd5cb5be8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Concrete_Aggregate_Smoke]'
+    second: {fileID: 2100000, guid: d873c989e43100f408848616f7197302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Concrete_Aggregate_Smoke]1'
+    second: {fileID: 2100000, guid: 5b9b9ce25b3ac1c4e8ffc25e9ddac5d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Concrete_Block_8x8_Gray]'
+    second: {fileID: 2100000, guid: c5c1bdb7891d646499c36514936355e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Stone_Vein_Gray]'
+    second: {fileID: 2100000, guid: bf9f56d6e048c16489ffcbd0070df515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Vegetation_Grass1]1'
+    second: {fileID: 2100000, guid: 3b350e4ee0afd9b458cee2444595dc9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1
+    second: {fileID: 2100000, guid: 27fa0cf9cfc7a494387a3048c32721be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2
+    second: {fileID: 2100000, guid: aa2fa445cd1b3de40a66b4bafff703ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Beige_2
+    second: {fileID: 2100000, guid: 20ef013985754bc4fb11ea5a3c0b2367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Burnt Umber_1
+    second: {fileID: 2100000, guid: 0ed6a35baf7755940a9200876355eb31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Charcoal_
+    second: {fileID: 2100000, guid: 7ac654cfb151c6d48a3778e1cffab228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _DimGray_
+    second: {fileID: 2100000, guid: fba21c487dd63bf4aa6fb1bd974b6e66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _LightGray_
+    second: {fileID: 2100000, guid: 2022471e784888d47a7037e1df612c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3852#1
+    second: {fileID: 2100000, guid: f2535dce35fc79a4aba0cf5f41cc425f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3856 kopie
+    second: {fileID: 2100000, guid: ee521c88575edf440956622d0542f10b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3864 kopie
+    second: {fileID: 2100000, guid: 8be6f5c5719c55149a4c77405a86aac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3865 kopie
+    second: {fileID: 2100000, guid: 575a3ef80a2cad14d8a0b1326c434301, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3866 kopie
+    second: {fileID: 2100000, guid: 08d07e1291bfd4a458635eed46f538bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3866 kopie#1
+    second: {fileID: 2100000, guid: 857ad90266f9f644da3b8f8ec030d5c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3918 Panorama0001
+    second: {fileID: 2100000, guid: 9d61b385cd1ff454d83d5a886b0d8f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3918 Panorama0003
+    second: {fileID: 2100000, guid: d2ba59af49fcc254a96dd8b3dd574dc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3918 Panorama0003#1
+    second: {fileID: 2100000, guid: 9930d33846bbf4045b67f6827ca49597, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3918 Panorama0003#2
+    second: {fileID: 2100000, guid: b8cc90bd6232b8f42a898757df409771, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3918 Panorama0005
+    second: {fileID: 2100000, guid: 581234c134208a148b038664a8fdc6d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3928
+    second: {fileID: 2100000, guid: 9f91680401cc7994eaaf234f63f431ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3931 kopie
+    second: {fileID: 2100000, guid: 878fbe0a1decd3d429f51d753cb7ec9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3932
+    second: {fileID: 2100000, guid: 1ef1ba8f9ea638d49b1e296029d68aa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3932#1
+    second: {fileID: 2100000, guid: a892f1d6bdd980849a0149934ab2b618, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3932#2
+    second: {fileID: 2100000, guid: a858a72dc10d137459c824e5ff5a4b37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3933 kopie
+    second: {fileID: 2100000, guid: 80780a41693ec3a4d8d8ca1799b3390e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3948 Panorama kopie
+    second: {fileID: 2100000, guid: 515e0a63d62394741902da4582aeedf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3952
+    second: {fileID: 2100000, guid: 284f658cb1b88be4a96376cd1150c111, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3952#1
+    second: {fileID: 2100000, guid: 9fab2718b127e24479940d61d557a688, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3969 Panorama
+    second: {fileID: 2100000, guid: e65818602a86ee4499294a3a1b7aa47e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_3972 Panorama
+    second: {fileID: 2100000, guid: 8f191ad05e997b64ba34c56a9a6b2df2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4007 Panorama
+    second: {fileID: 2100000, guid: 370a62d2d64310a4d8cf2a9c96e8028a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4012 Panorama
+    second: {fileID: 2100000, guid: 2c28b90da0984104d97ed9bc69fbea91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4025
+    second: {fileID: 2100000, guid: 84b76189a6942c641aa51082be47ce25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4028
+    second: {fileID: 2100000, guid: 60fa2829ea76f9642804b43bc6370782, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4028#1
+    second: {fileID: 2100000, guid: 9a4429d20e4056d43b796e50f703afc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4041
+    second: {fileID: 2100000, guid: b1c92af37730a244e827875e68200da5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4045
+    second: {fileID: 2100000, guid: 6a85e2117c4396a4c8ef8dbfa2288d67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0005 kopie
+    second: {fileID: 2100000, guid: 3153df7ea392e8346842ad9a5748f5d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0014
+    second: {fileID: 2100000, guid: 3f2b1049e1abad748bc8dc668fad07fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0015 kopie1
+    second: {fileID: 2100000, guid: 90bf599f2afde5247bd7ab7997f044fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0015 kopie1#1
+    second: {fileID: 2100000, guid: 40c0861ca3327f842a06d323f991a0a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0020 kopie
+    second: {fileID: 2100000, guid: 97460ea7b81d38f428c6710056b9b6c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0020 kopie#1
+    second: {fileID: 2100000, guid: 421ed6a7f63a01c44b1d637a3c01ba4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0020 kopie#2
+    second: {fileID: 2100000, guid: 4660fa5ec3ff1704bb7c023e163e2c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0021 kopie
+    second: {fileID: 2100000, guid: 69974dd978a129140ac6e4ce12764ce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0000 kopie
+    second: {fileID: 2100000, guid: db49484cb30e5dc49aad8e42c9924857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0000 kopie#1
+    second: {fileID: 2100000, guid: 1b0a4870575fbf14a944600eddca87c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0007 kopie
+    second: {fileID: 2100000, guid: ae48078318fe28d4e8a2489202906a8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0009 kopie
+    second: {fileID: 2100000, guid: e706804eb8987d448897d8fc38a24f6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0010 kopie
+    second: {fileID: 2100000, guid: a38d3ff5cc6f16f49bfbe4a1249cadc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0011
+    second: {fileID: 2100000, guid: 91f78c8f135710849b80d44947a4e751, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4152
+    second: {fileID: 2100000, guid: 87131ed92e719c843ade288687d6c6b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4156
+    second: {fileID: 2100000, guid: ad034d1ee43736049aca262b24da7580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4159 Panorama kopie
+    second: {fileID: 2100000, guid: a9796d6383118dc47b343e4b393a9277, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4187 Panorama kopie
+    second: {fileID: 2100000, guid: 1e64c44c6adb22846b3bec50f2cddde4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4190 kopie
+    second: {fileID: 2100000, guid: be287fb0e65f94745af65191364c42ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4194 kopie
+    second: {fileID: 2100000, guid: 0e8f28e3732712949a4140cd37acc5d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4196 Panorama kopie
+    second: {fileID: 2100000, guid: 614c9c6aa4fa70d49bfd88beebeb6541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4199 kopie
+    second: {fileID: 2100000, guid: 5f9c735b4026cfb4393aa6dd337c1262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4223
+    second: {fileID: 2100000, guid: 8107c088b96e6b343bdda35644c5751b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4227
+    second: {fileID: 2100000, guid: 211a29dd252870a428c87b6bc8b5f5f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4229 kopie
+    second: {fileID: 2100000, guid: 9e783e1761899c34ea7a0978d98c2e73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4235 kopie
+    second: {fileID: 2100000, guid: 4b2a18dc8ad80e949a3e15fef73e2e3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4239
+    second: {fileID: 2100000, guid: 494a3ed79f26b3d4b945f791c5b6478e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4251 kopie
+    second: {fileID: 2100000, guid: bffd24ea77511854180c583c2349e4b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4252 kopie
+    second: {fileID: 2100000, guid: 9f4e55987b768e94286f527a78cd2e52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4257
+    second: {fileID: 2100000, guid: 4962d59965dec134cae143fb6d288aac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4259
+    second: {fileID: 2100000, guid: 34484ed6740a73e4c9eeb31c7f93ab4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie
+    second: {fileID: 2100000, guid: 65a0f1a5d77e45b40bab626f986c98bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie#2
+    second: {fileID: 2100000, guid: fcf783cf19410bc41a749cd9ef773e83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie#3
+    second: {fileID: 2100000, guid: 6d694c4879bddf244afecd586b68d3ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie#4
+    second: {fileID: 2100000, guid: cc37fd250e91f33459ba5d04f01fd853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4274 kopie
+    second: {fileID: 2100000, guid: 76742d30093127d4d9258f4a6cf08b24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4274 kopie#1
+    second: {fileID: 2100000, guid: cbaef94e8c7f70b4bb22d500b21cb5f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4278
+    second: {fileID: 2100000, guid: 081c3d5349ae6904c90c40952ce63287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4289 Panorama kopie
+    second: {fileID: 2100000, guid: 02e93b78b6a76304b87625486f857ce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4289 Panorama kopie1
+    second: {fileID: 2100000, guid: da88c498536646d49b74eaa0c879384f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4292 kopie
+    second: {fileID: 2100000, guid: 41d8200de388e1a4bb529b1e43b32bb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4303
+    second: {fileID: 2100000, guid: 632bf0f77e1b6d84aa985da8835472ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4307
+    second: {fileID: 2100000, guid: df1f787731d0b0042a00b0db58357158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4311 kopie#1
+    second: {fileID: 2100000, guid: 9d64a5c6ece028b428f3427a2cb8f37e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4315
+    second: {fileID: 2100000, guid: a13f7751ca5b1114c84f44155cb56559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4328
+    second: {fileID: 2100000, guid: 76b4dc19f4bc5e54c86ac08bd7dce5b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4331
+    second: {fileID: 2100000, guid: 9f79129f020430b45b8eda0cbeae25bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4331#1
+    second: {fileID: 2100000, guid: 9189a4d9ac68d8c45bc522e4bda63246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4336
+    second: {fileID: 2100000, guid: 2c729f52149b8a4499721e22aee656ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4336#2
+    second: {fileID: 2100000, guid: 7574c2faa0b5d594ebdd8867c3eabddb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4345
+    second: {fileID: 2100000, guid: 12d2ac839b75f204fb1525be0f61551f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4350
+    second: {fileID: 2100000, guid: 8a4ae9266f6bbed4eb03707ac94c12fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _MG_4353 kopie
+    second: {fileID: 2100000, guid: 0d4b34b3792ece049a4a468d4e2926fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _auto_#1
+    second: {fileID: 2100000, guid: 1ad180cdcdbc25348ac17b6e210c2ee6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _auto_#2
+    second: {fileID: 2100000, guid: 9e231180e99c88c49bc1cf2da82bbcc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 36d5e70770eeff34787d98ce05caa0d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: balkonhekje1
+    second: {fileID: 2100000, guid: e102a19f89183c244bf7df96a56bc101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: balkonhekje2
+    second: {fileID: 2100000, guid: 3276c5d0b53bb5b40adf818b0059febf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dakgevel
+    second: {fileID: 2100000, guid: 9ea86e409c5fb2b4385e8f61e80173f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: datenebalkon
+    second: {fileID: 2100000, guid: 9ca49c2d1cc1a8b4a9d06569959f31b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hekkie
+    second: {fileID: 2100000, guid: 083e3e23f3064a245af8fb41bc428cac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hektransp
+    second: {fileID: 2100000, guid: 9b57ddcb18a5e094c8a115a089e379ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ifbsiobs
+    second: {fileID: 2100000, guid: 34610626b02cb084a8fdb3620aee7dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jean blue
+    second: {fileID: 2100000, guid: 7e9b172fbbb3e2f469d0888cfd2bb3ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: okbalkon
+    second: {fileID: 2100000, guid: 0daed50cd1c617448824795475d16525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: opbouwraam
+    second: {fileID: 2100000, guid: 2570231ade15ffb45b9bb960278e15e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterloo6
+    second: {fileID: 2100000, guid: 6579e04bb653b1649acf7d1afcfb4cbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterloo7
+    second: {fileID: 2100000, guid: 9f02550fa7c3a864395e7c63a608d70b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-1
+    second: {fileID: 2100000, guid: 77a4e724918e0694883cb4cf25030975, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-1#1
+    second: {fileID: 2100000, guid: ace0644956985fd4c81e34b4a51649fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-2
+    second: {fileID: 2100000, guid: 1dd913f499d0a134bb65199dd239d95c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-2#1
+    second: {fileID: 2100000, guid: 584dbd2a7b4c9aa49add4701ab0ff480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-3
+    second: {fileID: 2100000, guid: c2822a3aa0012f143a114ce8bfac8d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-3#1
+    second: {fileID: 2100000, guid: 9198c46d896382247bdfe52901523bd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-4
+    second: {fileID: 2100000, guid: 4064963378c0f4e47a8cda6cd79200a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-4#1
+    second: {fileID: 2100000, guid: 7ceabc6bf0297304a96d3b8ff73fee8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-5
+    second: {fileID: 2100000, guid: 34fca72a59612f44b99ad592e2b5599b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-5#1
+    second: {fileID: 2100000, guid: 7ebc6edf1df14964892c95792adcacc9, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_New
+    second: {fileID: 2800000, guid: 73bfc9f17f9bf554cb8d0993e8fdc8ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Aggregate_Smoke
+    second: {fileID: 2800000, guid: 5eeded07b65ecfe4f8057f9c1b5e6908, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Aggregate_Smoke_tint0xA29694FF
+    second: {fileID: 2800000, guid: 0118ce3d2f2d92d4483fe54ee2e4a744, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Block_8x8_Gray
+    second: {fileID: 2800000, guid: 60a40b649aa43e54e9335cfff3e81ea8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GEI16
+    second: {fileID: 2800000, guid: fc8b6cabae3eb7d41b07d5822c6a81cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GEI1B
+    second: {fileID: 2800000, guid: d66734d098ad16f4e8f1a2e51ddbc1b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GEI1C
+    second: {fileID: 2800000, guid: e341de49873f32c4f959f39d1650bc00, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GEI28(1)
+    second: {fileID: 2800000, guid: e43bba0176a82a749b857307a93a3c6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Naamloos-1
+    second: {fileID: 2800000, guid: 8f5e568d0413b7c459e63cb7d971cafd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Naamloos-1 kopie
+    second: {fileID: 2800000, guid: 4e045e890636e3f408727b2e058cea0c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Naamloos-1 kopiekopie
+    second: {fileID: 2800000, guid: 0a9e177541bd1fc44aec40b7881f2e5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Naamloos_panorama1 kopie
+    second: {fileID: 2800000, guid: d03003b96df424e4c87e133eda1e1481, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Naamloos_panorama1 kopie(1)
+    second: {fileID: 2800000, guid: 5a9c6ebc160b03641b93977bc214c281, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stone_Vein_Gray
+    second: {fileID: 2800000, guid: 90037f251210ef741a6f7211666620b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Untitled-1 copy
+    second: {fileID: 2800000, guid: a72231e288065074f972c7f07d9ec3b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vegetation_Grass1
+    second: {fileID: 2800000, guid: b4a5491d951380c4088ca48acbb44131, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3852
+    second: {fileID: 2800000, guid: 9d421758743120a4fb287ae2ee06a3c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3856 kopie
+    second: {fileID: 2800000, guid: 97083f15b823b7043a4ebaa3947c6948, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3864 kopie
+    second: {fileID: 2800000, guid: f5b4bb63e514cf94c95a2b43c5d89863, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3865 kopie
+    second: {fileID: 2800000, guid: dc5762d7cd373574e93b9a76b280a686, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3866 kopie
+    second: {fileID: 2800000, guid: 7c71435bba0a23748bf4e6b2e26a986d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3866 kopie(1)
+    second: {fileID: 2800000, guid: 8cf605a25c239204eaf143764528f18d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3918 Panorama0001
+    second: {fileID: 2800000, guid: 99e4787114f635043a84b165cf71267c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3918 Panorama0003
+    second: {fileID: 2800000, guid: 3b16715f8f8d0434395d4319be2642e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3918 Panorama0003(1)
+    second: {fileID: 2800000, guid: dc3cf0b12b6832d41a103750a713594e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3918 Panorama0005
+    second: {fileID: 2800000, guid: f83aafb16c98f474981af38de05b4618, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3928
+    second: {fileID: 2800000, guid: dd870399849cfdb49bd16098a508407b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3931 kopie
+    second: {fileID: 2800000, guid: 382a55186fba4864d81562932d42ea08, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3932
+    second: {fileID: 2800000, guid: 4a67571b5484e2b4ea59a4c527e9a7b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3932(1)
+    second: {fileID: 2800000, guid: 1b398ea2689ead542978468d41f8e7b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3932(2)
+    second: {fileID: 2800000, guid: db962b16dd83f0845808c78b35362ca3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3933 kopie
+    second: {fileID: 2800000, guid: 7d3eecb49f56752469e13980249a53de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3948 Panorama kopie
+    second: {fileID: 2800000, guid: d9a87622e1dc39241aba06767dfbd6cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3952
+    second: {fileID: 2800000, guid: a0714fdd14003e14a96f18207250ebe8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3952(1)
+    second: {fileID: 2800000, guid: 6ba3f5aae6927a947afc33cd5e6ea70b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3969 Panorama
+    second: {fileID: 2800000, guid: 346349eff4ff2f64ca30e59a26d31773, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_3972 Panorama
+    second: {fileID: 2800000, guid: 6b0677153683fca48a3a9790903d12cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4007 Panorama
+    second: {fileID: 2800000, guid: e807ca8da1e1d0048a4be59cb0a51e41, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4012 Panorama
+    second: {fileID: 2800000, guid: 6fb79b170e79bfe4c815cb225096586c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4025
+    second: {fileID: 2800000, guid: 24844493af0c30a47a6db492bf501328, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4028
+    second: {fileID: 2800000, guid: b4fdb772af99d7441902c1fa5df4e33e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4028(1)
+    second: {fileID: 2800000, guid: b3271ff997dc6ff44ac769bd1532276f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4041
+    second: {fileID: 2800000, guid: 8d14ec29caac95a4b8158e088e6f27ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4045
+    second: {fileID: 2800000, guid: 4d37d2fc489c8704c945bd46a357f72a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0005 kopie
+    second: {fileID: 2800000, guid: 063f59f0b01493d448252b391a4bbb11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0014
+    second: {fileID: 2800000, guid: 13dc0a3faa27e8e4aa31df8b0a480b66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0015 kopie(2)
+    second: {fileID: 2800000, guid: 49e70603711c1634aaa7449cea14c906, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0015 kopie1
+    second: {fileID: 2800000, guid: d663607e5b54ba74282deb4275971069, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0020 kopie
+    second: {fileID: 2800000, guid: 477b9755197fdd541aca124af922d60c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0020 kopie(1)
+    second: {fileID: 2800000, guid: ffc3dd7db6664e14d8def5f763d460b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0020 kopie(2)
+    second: {fileID: 2800000, guid: 2e1e285f7ed20874a88fa1aafbef9d5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4046 Panorama0021 kopie
+    second: {fileID: 2800000, guid: 6a6388ce661157542997b8f6703d3802, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0000 kopie(1)
+    second: {fileID: 2800000, guid: 0dac2cc601bb75940b77bbce56320fc3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0000 kopie(2)
+    second: {fileID: 2800000, guid: 35448097d7fbc1442b8078ceb5983fae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0007 kopie
+    second: {fileID: 2800000, guid: e24e7e0433fec9b47bf82e210ebca427, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0009 kopie
+    second: {fileID: 2800000, guid: 58d6299b56acb2d418066765eff8c6e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0010 kopie
+    second: {fileID: 2800000, guid: 14bdd9bac316c9a42be179a9e5063d44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4052 Panorama0011
+    second: {fileID: 2800000, guid: c141c903392a73b4c9ae90c736502694, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4152
+    second: {fileID: 2800000, guid: 244a4038d468d3e4391572b8abd89028, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4156
+    second: {fileID: 2800000, guid: cbd81700405b55040ac3a14c2cfe2a08, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4159 Panorama kopie
+    second: {fileID: 2800000, guid: f850eafaa7bd1234cbe727ac59640d3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4187 Panorama kopie
+    second: {fileID: 2800000, guid: f0cd0fd5666222a47bd385fdf05b9e92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4190 kopie
+    second: {fileID: 2800000, guid: 5eeb1c53e3ea18e4ca6e75b13bd56ebe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4194 kopie
+    second: {fileID: 2800000, guid: 362467cb2d49c434e85e748f322925db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4196 Panorama kopie
+    second: {fileID: 2800000, guid: 439680886cad25d48b256cff6686d8ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4199 kopie
+    second: {fileID: 2800000, guid: 2fd8615871ed75341b0ca9d2ff9a1187, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4223
+    second: {fileID: 2800000, guid: 928e89118522fdb45853ec59498e55a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4227
+    second: {fileID: 2800000, guid: e95b3eac158ff434ab32f6926a034720, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4229 kopie
+    second: {fileID: 2800000, guid: f236500e6056f01418ad7206878fd09a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4235 kopie
+    second: {fileID: 2800000, guid: 702fd24961cde76499b9cdea8ad3b73b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4239
+    second: {fileID: 2800000, guid: 20cb28e7d12981c44ae56c6ca177e6bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4251 kopie
+    second: {fileID: 2800000, guid: 31a44466c868897499d2beeae8128537, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4252 kopie
+    second: {fileID: 2800000, guid: 394427997bca1124d9fce94b4bf9ee57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4257
+    second: {fileID: 2800000, guid: a2454d1f6c9e3a641a855be5418e5a90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4259
+    second: {fileID: 2800000, guid: dccf4ae220fce41469ce76039cf96791, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie
+    second: {fileID: 2800000, guid: d8e783078c104b145917d3c65617f140, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie(1)
+    second: {fileID: 2800000, guid: 2cf0b9eae9c6f8943bf98b570bcda4df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie(2)
+    second: {fileID: 2800000, guid: df728158f619b8042ae37ed61b7749c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie(3)
+    second: {fileID: 2800000, guid: 338eae13539d9db42a6fccc2860baf6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie(4)
+    second: {fileID: 2800000, guid: 674e680f34a329b4db846246d623779a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie(5)
+    second: {fileID: 2800000, guid: 5990a62b9fb484548b6d44d414c405b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4263 kopie(6)
+    second: {fileID: 2800000, guid: e3f88ee8dd476a8408168e67399e85de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4274 kopie
+    second: {fileID: 2800000, guid: 6a40c291943e0be49a6ec103f211584e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4274 kopie(1)
+    second: {fileID: 2800000, guid: f5e0c7747fe69cc408e31f7c50c640e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4278
+    second: {fileID: 2800000, guid: 125495e21501bb54ca01e3363345d85c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4289 Panorama kopie
+    second: {fileID: 2800000, guid: e5782f77d98cec44eaea853ff8b6b21d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4289 Panorama kopie(1)
+    second: {fileID: 2800000, guid: 7dc665d727b87d6408c6ee9d864a4b82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4292 kopie
+    second: {fileID: 2800000, guid: a1cc27cbdc5314d4c98ade5db3db3677, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4303
+    second: {fileID: 2800000, guid: 900016ba0644a8e48866c0958f264422, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4307
+    second: {fileID: 2800000, guid: 26f025887ddef77419a83cb2699d7f4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4311 kopie
+    second: {fileID: 2800000, guid: aa04f08ffd1650b4796247009a13252c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4315
+    second: {fileID: 2800000, guid: 64410f1818f27ae408c72f05dd74ff4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4328
+    second: {fileID: 2800000, guid: 9c32cd66c948b9d49805159b37134d9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4328b
+    second: {fileID: 2800000, guid: c0fd5957c12e23347bf632a43fa5b2a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4331
+    second: {fileID: 2800000, guid: 9aa1144b449cfef4280b6162586f136f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4331(1)
+    second: {fileID: 2800000, guid: bf8e3435469951a4788068855b7fc719, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4336
+    second: {fileID: 2800000, guid: 27f4653353840ca42bfc89e1c1c70ee9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4336#1
+    second: {fileID: 2800000, guid: e2fac36e48e1be8479e0e02b7fda40ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4345
+    second: {fileID: 2800000, guid: 54bf5e1f1e343164d9d6bf804f5c8894, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4350
+    second: {fileID: 2800000, guid: 748c5ca27e95fc44a9bef1000c658efb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _MG_4353 kopie
+    second: {fileID: 2800000, guid: 0a08f7dbf0031c84aa2e40706e32c088, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _auto_
+    second: {fileID: 2800000, guid: 71e4724dcd022c249ab06db95574f9ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _auto_#1
+    second: {fileID: 2800000, guid: 238918fad1aa21845bc24a3c89fdf0d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dakgevel
+    second: {fileID: 2800000, guid: 61a0b970af114274fa5970951f04a510, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: datenebalkon
+    second: {fileID: 2800000, guid: 70cd5ec77f004c1409d8611569135b05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hekkie
+    second: {fileID: 2800000, guid: 68f0443398ce7b340bc769d16f4ad511, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ifbsiobs
+    second: {fileID: 2800000, guid: 2904b0ccb0671df45912ea315a176fbf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lf1
+    second: {fileID: 2800000, guid: 176c006a5044da5469c60a3c6e92c6c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: opbouwraam
+    second: {fileID: 2800000, guid: 03468f3fda01c9447a2160187641ac70, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp
+    second: {fileID: 2800000, guid: 2583014f3c9f97a4795569207408792f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterloo6(1)
+    second: {fileID: 2800000, guid: afa16bf15f3a81c43a1f0dff31ecdcf1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterloo7
+    second: {fileID: 2800000, guid: b31fbf00b23da2a46badc5a69a92b0ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-1
+    second: {fileID: 2800000, guid: c6b73d559b57bf94fa22a7e4c74450e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-1(1)
+    second: {fileID: 2800000, guid: 8688d63d4795c754aaf9d4d277292f8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-2
+    second: {fileID: 2800000, guid: a9c0aa4ae20f48545862a28e21451bb5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-2(1)
+    second: {fileID: 2800000, guid: 4a321d483cfd8094598d5303ce6f7ec7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-3
+    second: {fileID: 2800000, guid: 57356888fab503b4fa59534abf8e464b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-3(2)
+    second: {fileID: 2800000, guid: af7cac556d4ba7b4d802cd36edb8d37f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-4(1)
+    second: {fileID: 2800000, guid: 1691950b0b5ed5149811d5d528722aff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-4(2)
+    second: {fileID: 2800000, guid: 6b011016c874ca742ae22d13a478a7b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-5
+    second: {fileID: 2800000, guid: 827a12f35982a7645bf4e80284171e26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: waterlooplein-5(1)
+    second: {fileID: 2800000, guid: 3f68c5e84fb737a4db2337d5ccbc7525, type: 3}
   materials:
-    materialImportMode: 1
-    materialName: 2
+    materialImportMode: 2
+    materialName: 1
     materialSearch: 0
-    materialLocation: 0
+    materialLocation: 1
+    searchTexturesGlobally: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -16,8 +1292,6 @@ SketchUpImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -37,9 +1311,12 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: 0.0254
     meshCompression: 1
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 0
@@ -57,6 +1334,11 @@ SketchUpImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -67,6 +1349,7 @@ SketchUpImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -75,6 +1358,7 @@ SketchUpImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
   referencedClips: []
   importAnimation: 0
   humanDescription:
@@ -99,14 +1383,16 @@ SketchUpImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
   generateBackFace: 1
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000i
   assetHash:
     serializedVersion: 2
-    Hash: 0c3f6eea88c9e877badba62c02f28a9b
+    Hash: aa51b87e3a5989393c514b687444db7b
   fileUnit: 0

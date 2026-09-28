@@ -201,7 +201,29 @@ MonoBehaviour:
       - rid: 9069484538179354625
       - rid: 8230703674614874112
     m_RuntimeSettings:
-      m_List: []
+      m_List:
+      - rid: 7189897975855579136
+      - rid: 7189898017278525736
+      - rid: 7189898017278525739
+      - rid: 7189898017278525738
+      - rid: 7189897975855579141
+      - rid: 7189897975855579142
+      - rid: 7189898017278525730
+      - rid: 7189898017278525737
+      - rid: 7189897975855579149
+      - rid: 7189898017278525734
+      - rid: 7189897975855579153
+      - rid: 7189898017278525729
+      - rid: 8300071880169357416
+      - rid: 7189897975855579162
+      - rid: 7189898017278525731
+      - rid: 7189897975855579164
+      - rid: 7189898017278525732
+      - rid: 1678172901629493248
+      - rid: 1678172901629493249
+      - rid: 1678172901629493250
+      - rid: 3796022742260383744
+      - rid: 3796022742260383745
   renderingLayerNames:
   - Light LayerDefault
   - InteriorOnly
@@ -759,6 +781,7 @@ MonoBehaviour:
         _skyBoxMesh: {fileID: 4300000, guid: 0529e6c5f6dea8c4a8c2835ed7de57cb, type: 2}
         _sixFaceSkyBoxMesh: {fileID: 4300000, guid: a80925ceebd011741b42509226cefc74, type: 2}
         _buildLightGridShader: {fileID: 7200000, guid: 16e47c1641bd0104e92b624601457bb0, type: 3}
+        _solidColorShader: {fileID: 4800000, guid: 3765a7ac691541038de4d587b94ae768, type: 3}
     - rid: 8300071880169357405
       type: {class: HDRenderPipelineEditorShaders, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:

@@ -203,12 +203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Geheel links, de ingang van de Houtkopersdwarsstraat. Op Waterlooplein
-        207 de Mozes en A\xE4ronkerk. De nummers 61-65 zijn in 1968 afgebroken. Op
-        de voorgrond de brug tussen de Vlooienburgersteeg (later: Houtkopersdwarsstraat)
-        en de Korte Houtstraat. Braakensiek heeft voor deze tekening gebruik gemaakt
-        van een bij A. Jager uitgegeven foto. Techniek: Aquarel. Afmetingen 286 x
-        331 mm.\r\n"
+      value: "Geheel links, de ingang van de Houtkopersdwarsstraat. Op Waterlooplein 207 de Mozes en A\xE4ronkerk. De nummers 61-65 zijn in 1968 afgebroken. Op de voorgrond de brug tussen de Vlooienburgersteeg (later: Houtkopersdwarsstraat) en de Korte Houtstraat. Braakensiek heeft voor deze tekening gebruik gemaakt van een bij A. Jager uitgegeven foto. Techniek: Aquarel. Afmetingen 286 x 331 mm.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -220,8 +215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "De Houtgracht, later Waterlooplein 27-65, na 1983 129-207, v\xF3\xF3r
-        de demping in 1882 "
+      value: "De Houtgracht, later Waterlooplein 27-65, na 1983 129-207, v\xF3\xF3r de demping in 1882 "
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -233,12 +227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Geheel links, de ingang van de Houtkopersdwarsstraat. Op Waterlooplein
-        207 de Mozes en A\xE4ronkerk. De nummers 61-65 zijn in 1968 afgebroken. Op
-        de voorgrond de brug tussen de Vlooienburgersteeg (later: Houtkopersdwarsstraat)
-        en de Korte Houtstraat. Braakensiek heeft voor deze tekening gebruik gemaakt
-        van een bij A. Jager uitgegeven foto. Techniek: Aquarel. Afmetingen 286 x
-        331 mm.\r\n"
+      value: "Geheel links, de ingang van de Houtkopersdwarsstraat. Op Waterlooplein 207 de Mozes en A\xE4ronkerk. De nummers 61-65 zijn in 1968 afgebroken. Op de voorgrond de brug tussen de Vlooienburgersteeg (later: Houtkopersdwarsstraat) en de Korte Houtstraat. Braakensiek heeft voor deze tekening gebruik gemaakt van een bij A. Jager uitgegeven foto. Techniek: Aquarel. Afmetingen 286 x 331 mm.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -246,8 +235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: "De Houtgracht, later Waterlooplein 27-65, na 1983 129-207, v\xF3\xF3r
-        de demping in 1882 "
+      value: "De Houtgracht, later Waterlooplein 27-65, na 1983 129-207, v\xF3\xF3r de demping in 1882 "
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -423,9 +411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Erepoort op het Jonas Dani\xEBl Meijerplein ter gelegenheid van het
-        25-jarig regeringsjubileum van Koning Willem III. Links op de achtergrond
-        de achtergevel van het Oudezijds Huiszittenhuis "
+      value: "Erepoort op het Jonas Dani\xEBl Meijerplein ter gelegenheid van het 25-jarig regeringsjubileum van Koning Willem III. Links op de achtergrond de achtergevel van het Oudezijds Huiszittenhuis "
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -447,9 +433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: "Erepoort op het Jonas Dani\xEBl Meijerplein ter gelegenheid van het
-        25-jarig regeringsjubileum van Koning Willem III. Links op de achtergrond
-        de achtergevel van het Oudezijds Huiszittenhuis "
+      value: "Erepoort op het Jonas Dani\xEBl Meijerplein ter gelegenheid van het 25-jarig regeringsjubileum van Koning Willem III. Links op de achtergrond de achtergevel van het Oudezijds Huiszittenhuis "
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -611,8 +595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Uiterst rechts het door Cornelis Outshoorn gebouwde joodse jongensweeshuis
-        Megadle Jethomim.\r"
+      value: "Uiterst rechts het door Cornelis Outshoorn gebouwde joodse jongensweeshuis Megadle Jethomim.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -624,8 +607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'De Blauwbrug (Brug 236) over de Binnen Amstel, gezien in westelijke
-        richting '
+      value: 'De Blauwbrug (Brug 236) over de Binnen Amstel, gezien in westelijke richting '
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -637,8 +619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Uiterst rechts het door Cornelis Outshoorn gebouwde joodse jongensweeshuis
-        Megadle Jethomim.\r"
+      value: "Uiterst rechts het door Cornelis Outshoorn gebouwde joodse jongensweeshuis Megadle Jethomim.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -646,8 +627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: 'De Blauwbrug (Brug 236) over de Binnen Amstel, gezien in westelijke
-        richting '
+      value: 'De Blauwbrug (Brug 236) over de Binnen Amstel, gezien in westelijke richting '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -817,8 +797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Rechts Zwanenburgwal 9-17 en in rechts op de achtergrond het nog steeds
-        bestaande pandje Joden Houttuinen 1 en geheel rechts de brug over de Houtgracht.
+      value: 'Rechts Zwanenburgwal 9-17 en in rechts op de achtergrond het nog steeds bestaande pandje Joden Houttuinen 1 en geheel rechts de brug over de Houtgracht.
 
 '
       objectReference: {fileID: 0}
@@ -844,8 +823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: 'Rechts Zwanenburgwal 9-17 en in rechts op de achtergrond het nog steeds
-        bestaande pandje Joden Houttuinen 1 en geheel rechts de brug over de Houtgracht.
+      value: 'Rechts Zwanenburgwal 9-17 en in rechts op de achtergrond het nog steeds bestaande pandje Joden Houttuinen 1 en geheel rechts de brug over de Houtgracht.
 
 '
       objectReference: {fileID: 0}
@@ -1025,10 +1003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Het Waterlooplein met op de voorgrond het nieuwe plantsoen op de plaats
-        van de gedempte Leprozengracht, gezien in noordoostelijke richting naar de
-        rooms-katholieke Mozes en A\xE4ronkerk en de ingang van de Lazarussteeg.
-        Rechts het Oudezijds Huiszittenhuis, Waterlooplein 67.\r\n"
+      value: "Het Waterlooplein met op de voorgrond het nieuwe plantsoen op de plaats van de gedempte Leprozengracht, gezien in noordoostelijke richting naar de rooms-katholieke Mozes en A\xE4ronkerk en de ingang van de Lazarussteeg. Rechts het Oudezijds Huiszittenhuis, Waterlooplein 67.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -1052,10 +1027,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Het Waterlooplein met op de voorgrond het nieuwe plantsoen op de plaats
-        van de gedempte Leprozengracht, gezien in noordoostelijke richting naar de
-        rooms-katholieke Mozes en A\xE4ronkerk en de ingang van de Lazarussteeg.
-        Rechts het Oudezijds Huiszittenhuis, Waterlooplein 67.\r\n"
+      value: "Het Waterlooplein met op de voorgrond het nieuwe plantsoen op de plaats van de gedempte Leprozengracht, gezien in noordoostelijke richting naar de rooms-katholieke Mozes en A\xE4ronkerk en de ingang van de Lazarussteeg. Rechts het Oudezijds Huiszittenhuis, Waterlooplein 67.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -1419,8 +1391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Op de achtergrond Waterlooplein 55-57 en de rooms-katholieke Mozes
-        en A\xE4ronkerk, Waterlooplein 59 (thans 207)\r\n"
+      value: "Op de achtergrond Waterlooplein 55-57 en de rooms-katholieke Mozes en A\xE4ronkerk, Waterlooplein 59 (thans 207)\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -1444,8 +1415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Op de achtergrond Waterlooplein 55-57 en de rooms-katholieke Mozes
-        en A\xE4ronkerk, Waterlooplein 59 (thans 207)\r\n"
+      value: "Op de achtergrond Waterlooplein 55-57 en de rooms-katholieke Mozes en A\xE4ronkerk, Waterlooplein 59 (thans 207)\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -1623,9 +1593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Houtgracht, gezien van Mozes-en A\xE4ronkerk naar brug tussen de Vlooienburgersteeg
-        (later: Houtkopersdwarsstraat) en de Korte Houtstraat. Oorspronkelijke kabinetfoto
-        uitgegeven door A. Jager. Foto 166 uit het album van W.J.R. Dreesmann\r\n"
+      value: "Houtgracht, gezien van Mozes-en A\xE4ronkerk naar brug tussen de Vlooienburgersteeg (later: Houtkopersdwarsstraat) en de Korte Houtstraat. Oorspronkelijke kabinetfoto uitgegeven door A. Jager. Foto 166 uit het album van W.J.R. Dreesmann\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -1649,9 +1617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Houtgracht, gezien van Mozes-en A\xE4ronkerk naar brug tussen de Vlooienburgersteeg
-        (later: Houtkopersdwarsstraat) en de Korte Houtstraat. Oorspronkelijke kabinetfoto
-        uitgegeven door A. Jager. Foto 166 uit het album van W.J.R. Dreesmann\r\n"
+      value: "Houtgracht, gezien van Mozes-en A\xE4ronkerk naar brug tussen de Vlooienburgersteeg (later: Houtkopersdwarsstraat) en de Korte Houtstraat. Oorspronkelijke kabinetfoto uitgegeven door A. Jager. Foto 166 uit het album van W.J.R. Dreesmann\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -2015,10 +1981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Gezien vanaf de Amstel over de Leprozengracht (nu Waterlooplein) naar
-        de Mozes & A\xE4ronkerk op nr. 207 (voorheen nr. 59). De nrs. 61-63 zijn
-        in 1968 afgebroken. Rechts van de Mozes & A\xE4ronkerk is nu het Mr. Visserplein.
-        Houtgravure uit De Illustratie van mei 1873.\r\n"
+      value: "Gezien vanaf de Amstel over de Leprozengracht (nu Waterlooplein) naar de Mozes & A\xE4ronkerk op nr. 207 (voorheen nr. 59). De nrs. 61-63 zijn in 1968 afgebroken. Rechts van de Mozes & A\xE4ronkerk is nu het Mr. Visserplein. Houtgravure uit De Illustratie van mei 1873.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -2042,10 +2005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Gezien vanaf de Amstel over de Leprozengracht (nu Waterlooplein) naar
-        de Mozes & A\xE4ronkerk op nr. 207 (voorheen nr. 59). De nrs. 61-63 zijn
-        in 1968 afgebroken. Rechts van de Mozes & A\xE4ronkerk is nu het Mr. Visserplein.
-        Houtgravure uit De Illustratie van mei 1873.\r\n"
+      value: "Gezien vanaf de Amstel over de Leprozengracht (nu Waterlooplein) naar de Mozes & A\xE4ronkerk op nr. 207 (voorheen nr. 59). De nrs. 61-63 zijn in 1968 afgebroken. Rechts van de Mozes & A\xE4ronkerk is nu het Mr. Visserplein. Houtgravure uit De Illustratie van mei 1873.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -2235,8 +2195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Versiering t.g.v. de inhuldiging van H.M. Koningin Wilhelmina. Nieuwe
-        Amstelstraat '
+      value: 'Versiering t.g.v. de inhuldiging van H.M. Koningin Wilhelmina. Nieuwe Amstelstraat '
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -2256,8 +2215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: 'Versiering t.g.v. de inhuldiging van H.M. Koningin Wilhelmina. Nieuwe
-        Amstelstraat '
+      value: 'Versiering t.g.v. de inhuldiging van H.M. Koningin Wilhelmina. Nieuwe Amstelstraat '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -2427,8 +2385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Gezien naar de Hoogduitse Synagoge en r.k. Mozes en Aaronkerk (ged.),Waterlooplein
-        59. Op de achtergrond midden: Politiebureau hoek Lazarussteeg
+      value: 'Gezien naar de Hoogduitse Synagoge en r.k. Mozes en Aaronkerk (ged.),Waterlooplein 59. Op de achtergrond midden: Politiebureau hoek Lazarussteeg
 
 '
       objectReference: {fileID: 0}
@@ -2454,8 +2411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: 'Gezien naar de Hoogduitse Synagoge en r.k. Mozes en Aaronkerk (ged.),Waterlooplein
-        59. Op de achtergrond midden: Politiebureau hoek Lazarussteeg
+      value: 'Gezien naar de Hoogduitse Synagoge en r.k. Mozes en Aaronkerk (ged.),Waterlooplein 59. Op de achtergrond midden: Politiebureau hoek Lazarussteeg
 
 '
       objectReference: {fileID: 0}
@@ -2921,8 +2877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Met de ingang van de Zwanenburgerstraat. Links Zwanenburgerstraat 28-24
-        enz. Rechts Zwanenburgerstraat 63.
+      value: 'Met de ingang van de Zwanenburgerstraat. Links Zwanenburgerstraat 28-24 enz. Rechts Zwanenburgerstraat 63.
 
 '
       objectReference: {fileID: 0}
@@ -2940,8 +2895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: 'Met de ingang van de Zwanenburgerstraat. Links Zwanenburgerstraat 28-24
-        enz. Rechts Zwanenburgerstraat 63.
+      value: 'Met de ingang van de Zwanenburgerstraat. Links Zwanenburgerstraat 28-24 enz. Rechts Zwanenburgerstraat 63.
 
 '
       objectReference: {fileID: 0}
@@ -3061,8 +3015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: ' Rechts: Marmerwerken en Steenhouwerij "Weegewijs" Midden: N.V. Foltu
-        Bouwmaterialen '
+      value: ' Rechts: Marmerwerken en Steenhouwerij "Weegewijs" Midden: N.V. Foltu Bouwmaterialen '
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
@@ -3074,8 +3027,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: ' Rechts: Marmerwerken en Steenhouwerij "Weegewijs" Midden: N.V. Foltu
-        Bouwmaterialen '
+      value: ' Rechts: Marmerwerken en Steenhouwerij "Weegewijs" Midden: N.V. Foltu Bouwmaterialen '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -3335,8 +3287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: " Waterlooplein hoek Jonas Dani\xEBl Meijerplein. Op de voorgrond iemand
-        met een bakfiets "
+      value: " Waterlooplein hoek Jonas Dani\xEBl Meijerplein. Op de voorgrond iemand met een bakfiets "
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -3356,8 +3307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: " Waterlooplein hoek Jonas Dani\xEBl Meijerplein. Op de voorgrond iemand
-        met een bakfiets "
+      value: " Waterlooplein hoek Jonas Dani\xEBl Meijerplein. Op de voorgrond iemand met een bakfiets "
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -3645,8 +3595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Valkenburgerstraat 79. Rechts op de deuren en muren biljetten: KIEST
-        WIBAUT'
+      value: 'Valkenburgerstraat 79. Rechts op de deuren en muren biljetten: KIEST WIBAUT'
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -3666,8 +3615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: 'Valkenburgerstraat 79. Rechts op de deuren en muren biljetten: KIEST
-        WIBAUT'
+      value: 'Valkenburgerstraat 79. Rechts op de deuren en muren biljetten: KIEST WIBAUT'
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -3797,8 +3745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 102746375958817218, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Text
-      value: "Jonas Dani\xEBl Meijerplein 2-10 (links, v.r.n.l.), gezien in noordwestelijke
-        richting. Op de achtergrond nummers 61-65 (v.l.n.r.) "
+      value: "Jonas Dani\xEBl Meijerplein 2-10 (links, v.r.n.l.), gezien in noordwestelijke richting. Op de achtergrond nummers 61-65 (v.l.n.r.) "
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
@@ -3854,8 +3801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Jonas Dani\xEBl Meijerplein 2-10 (links, v.r.n.l.), gezien in noordwestelijke
-        richting. Op de achtergrond nummers 61-65 (v.l.n.r.) "
+      value: "Jonas Dani\xEBl Meijerplein 2-10 (links, v.r.n.l.), gezien in noordwestelijke richting. Op de achtergrond nummers 61-65 (v.l.n.r.) "
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -3875,8 +3821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: "Jonas Dani\xEBl Meijerplein 2-10 (links, v.r.n.l.), gezien in noordwestelijke
-        richting. Op de achtergrond nummers 61-65 (v.l.n.r.) "
+      value: "Jonas Dani\xEBl Meijerplein 2-10 (links, v.r.n.l.), gezien in noordwestelijke richting. Op de achtergrond nummers 61-65 (v.l.n.r.) "
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -4026,8 +3971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Text
-      value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes
-        en A\xE4ronkerk.\r\n"
+      value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes en A\xE4ronkerk.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 2035278784039894948, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: existencePeriodEnd
@@ -4055,8 +3999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes
-        en A\xE4ronkerk.\r\n"
+      value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes en A\xE4ronkerk.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -4076,8 +4019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes
-        en A\xE4ronkerk.\r\n"
+      value: "Tussen Houtkopersdwarsstraat en Lazarussteeg. Op nr.59 is de R.K. Mozes en A\xE4ronkerk.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -4237,9 +4179,7 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: 5b8b2819e5b814741ac8cb9222fa957c, type: 3}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Text
-      value: "Decoraties en versiering in de Jodenbreestraat 1-103 (v.r.n.l.) gezien
-        in westelijke richting. Links het Psysisch en Chemisch Laboratorium aan de
-        Rapenburgerstraat.\r"
+      value: "Decoraties en versiering in de Jodenbreestraat 1-103 (v.r.n.l.) gezien in westelijke richting. Links het Psysisch en Chemisch Laboratorium aan de Rapenburgerstraat.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Color.rgba
@@ -4263,9 +4203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Decoraties en versiering in de Jodenbreestraat 1-103 (v.r.n.l.) gezien
-        in westelijke richting. Links het Psysisch en Chemisch Laboratorium aan de
-        Rapenburgerstraat.\r"
+      value: "Decoraties en versiering in de Jodenbreestraat 1-103 (v.r.n.l.) gezien in westelijke richting. Links het Psysisch en Chemisch Laboratorium aan de Rapenburgerstraat.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -4285,9 +4223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Decoraties en versiering in de Jodenbreestraat 1-103 (v.r.n.l.) gezien
-        in westelijke richting. Links het Psysisch en Chemisch Laboratorium aan de
-        Rapenburgerstraat.\r"
+      value: "Decoraties en versiering in de Jodenbreestraat 1-103 (v.r.n.l.) gezien in westelijke richting. Links het Psysisch en Chemisch Laboratorium aan de Rapenburgerstraat.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -4491,8 +4427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Gezien richting Zwanenburgwal. Rechts Mozes en A\xE4ronkerk litt. Amsterdamse
-        Gids december 1926\r\n"
+      value: "Gezien richting Zwanenburgwal. Rechts Mozes en A\xE4ronkerk litt. Amsterdamse Gids december 1926\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -4512,8 +4447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Gezien richting Zwanenburgwal. Rechts Mozes en A\xE4ronkerk litt. Amsterdamse
-        Gids december 1926\r\n"
+      value: "Gezien richting Zwanenburgwal. Rechts Mozes en A\xE4ronkerk litt. Amsterdamse Gids december 1926\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -4681,8 +4615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 102746375958817218, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Text
-      value: 'Jodenbreestraat. Gezien in noordelijke richting met in het verschiet
-        de Zuiderkerkstoren '
+      value: 'Jodenbreestraat. Gezien in noordelijke richting met in het verschiet de Zuiderkerkstoren '
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
@@ -4698,8 +4631,7 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: eb3c5c343007ae541bf88666c38cd3aa, type: 3}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Text
-      value: 'Gezien in zuidelijke richting met in het verschiet de Zuiderkerkstoren.
-        Afmetingen: opzetvel 263 x 231 mm, voorstelling 210 x 282 mm.
+      value: 'Gezien in zuidelijke richting met in het verschiet de Zuiderkerkstoren. Afmetingen: opzetvel 263 x 231 mm, voorstelling 210 x 282 mm.
 
 '
       objectReference: {fileID: 0}
@@ -4733,8 +4665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Gezien in zuidelijke richting met in het verschiet de Zuiderkerkstoren.
-        Afmetingen: opzetvel 263 x 231 mm, voorstelling 210 x 282 mm.
+      value: 'Gezien in zuidelijke richting met in het verschiet de Zuiderkerkstoren. Afmetingen: opzetvel 263 x 231 mm, voorstelling 210 x 282 mm.
 
 '
       objectReference: {fileID: 0}
@@ -4744,8 +4675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Jodenbreestraat. Gezien in noordelijke richting met in het verschiet
-        de Zuiderkerkstoren '
+      value: 'Jodenbreestraat. Gezien in noordelijke richting met in het verschiet de Zuiderkerkstoren '
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -4757,8 +4687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: 'Gezien in zuidelijke richting met in het verschiet de Zuiderkerkstoren.
-        Afmetingen: opzetvel 263 x 231 mm, voorstelling 210 x 282 mm.
+      value: 'Gezien in zuidelijke richting met in het verschiet de Zuiderkerkstoren. Afmetingen: opzetvel 263 x 231 mm, voorstelling 210 x 282 mm.
 
 '
       objectReference: {fileID: 0}
@@ -4768,8 +4697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: 'Jodenbreestraat. Gezien in noordelijke richting met in het verschiet
-        de Zuiderkerkstoren '
+      value: 'Jodenbreestraat. Gezien in noordelijke richting met in het verschiet de Zuiderkerkstoren '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -4921,19 +4849,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 102977723237018058, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Text
-      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
-        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
-        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
-        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
-        Waterlooplein 67 (na 1983 nummer 211)."
+      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer 4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis, Waterlooplein 67 (na 1983 nummer 211)."
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Links de Deventer Houtmarkt met de \nHoogduitse Synagoge op Jonas Dani\xEBl
-        Meijerplein 2 \nen, verscholen achter de bomen, de Nieuwe Synagoge \nop nummer
-        4. Rechts de Portugees-Isra\xEBlitische \nSynagoge op nummer 5-9 en de aangrenzende
-        huizen \n11-25. Op de achtergrond in het midden het Oudezijds \nHuiszittenhuis,
-        Waterlooplein 67 (na 1983 nummer 211)."
+      value: "Links de Deventer Houtmarkt met de \nHoogduitse Synagoge op Jonas Dani\xEBl Meijerplein 2 \nen, verscholen achter de bomen, de Nieuwe Synagoge \nop nummer 4. Rechts de Portugees-Isra\xEBlitische \nSynagoge op nummer 5-9 en de aangrenzende huizen \n11-25. Op de achtergrond in het midden het Oudezijds \nHuiszittenhuis, Waterlooplein 67 (na 1983 nummer 211)."
       objectReference: {fileID: 0}
     - target: {fileID: 114081857914595652, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
@@ -4945,11 +4865,7 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: 71533b619051fc74c99ec1b65f59b514, type: 3}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Text
-      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
-        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
-        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
-        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
-        Waterlooplein 67 (na 1983 nummer 211).\r\n"
+      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer 4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis, Waterlooplein 67 (na 1983 nummer 211).\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Color.rgba
@@ -4965,11 +4881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
-        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
-        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
-        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
-        Waterlooplein 67 (na 1983 nummer 211).\r\n"
+      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer 4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis, Waterlooplein 67 (na 1983 nummer 211).\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
@@ -4981,11 +4893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl
-        Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer
-        4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende
-        huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis,
-        Waterlooplein 67 (na 1983 nummer 211).\r\n"
+      value: "Links de Deventer Houtmarkt met de Hoogduitse Synagoge op Jonas Dani\xEBl Meijerplein 2 en, verscholen achter de bomen, de Nieuwe Synagoge op nummer 4. Rechts de Portugees-Isra\xEBlitische Synagoge op nummer 5-9 en de aangrenzende huizen 11-25. Op de achtergrond in het midden het Oudezijds Huiszittenhuis, Waterlooplein 67 (na 1983 nummer 211).\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -5261,9 +5169,7 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: 59401d0cd8ae02542a1d0fdb47f0d1ac, type: 3}
     - target: {fileID: 297681480226229492, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_Text
-      value: 'Verbranden van chomets; links ingang Joden Houttuinen; links van het
-        midden, doorkijkje naar Houtkopersburgwal. (chomets: Jiddisch voor gegist
-        deeg?)
+      value: 'Verbranden van chomets; links ingang Joden Houttuinen; links van het midden, doorkijkje naar Houtkopersburgwal. (chomets: Jiddisch voor gegist deeg?)
 
 '
       objectReference: {fileID: 0}
@@ -5297,9 +5203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Verbranden van chomets; links ingang Joden Houttuinen; links van het
-        midden, doorkijkje naar Houtkopersburgwal. (chomets: Jiddisch voor gegist
-        deeg?)
+      value: 'Verbranden van chomets; links ingang Joden Houttuinen; links van het midden, doorkijkje naar Houtkopersburgwal. (chomets: Jiddisch voor gegist deeg?)
 
 '
       objectReference: {fileID: 0}
@@ -5321,9 +5225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: 'Verbranden van chomets; links ingang Joden Houttuinen; links van het
-        midden, doorkijkje naar Houtkopersburgwal. (chomets: Jiddisch voor gegist
-        deeg?)
+      value: 'Verbranden van chomets; links ingang Joden Houttuinen; links van het midden, doorkijkje naar Houtkopersburgwal. (chomets: Jiddisch voor gegist deeg?)
 
 '
       objectReference: {fileID: 0}
@@ -5675,8 +5577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: ' De Lange Houtstraat gezien in zuidoostelijke richting naar het Waterlooplein,
-        de bebouwing grotendeels gesloopt '
+      value: ' De Lange Houtstraat gezien in zuidoostelijke richting naar het Waterlooplein, de bebouwing grotendeels gesloopt '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -5692,8 +5593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: ' De Lange Houtstraat gezien in zuidoostelijke richting naar het Waterlooplein,
-        de bebouwing grotendeels gesloopt '
+      value: ' De Lange Houtstraat gezien in zuidoostelijke richting naar het Waterlooplein, de bebouwing grotendeels gesloopt '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -5799,9 +5699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: ' Waterlooplein 94 - 104 v.r.n.l. met aansluitend links de zijgevel
-        van Zwanenburgerstraat 63 en links ervan Zwanenburgerstraat 24 (ged.) - 28
-        v.r.n.l '
+      value: ' Waterlooplein 94 - 104 v.r.n.l. met aansluitend links de zijgevel van Zwanenburgerstraat 63 en links ervan Zwanenburgerstraat 24 (ged.) - 28 v.r.n.l '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -5817,9 +5715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: ' Waterlooplein 94 - 104 v.r.n.l. met aansluitend links de zijgevel
-        van Zwanenburgerstraat 63 en links ervan Zwanenburgerstraat 24 (ged.) - 28
-        v.r.n.l '
+      value: ' Waterlooplein 94 - 104 v.r.n.l. met aansluitend links de zijgevel van Zwanenburgerstraat 63 en links ervan Zwanenburgerstraat 24 (ged.) - 28 v.r.n.l '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -6083,9 +5979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Links Zwanenburgerstraat 17-19, rechts van de door brand getroffen
-        panden de huisnummers 27-29 tot de Korte Houtstraat. In het verschiet de
-        Leprozengracht (Waterlooplein).
+      value: 'Links Zwanenburgerstraat 17-19, rechts van de door brand getroffen panden de huisnummers 27-29 tot de Korte Houtstraat. In het verschiet de Leprozengracht (Waterlooplein).
 
 '
       objectReference: {fileID: 0}
@@ -6107,9 +6001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: 'Links Zwanenburgerstraat 17-19, rechts van de door brand getroffen
-        panden de huisnummers 27-29 tot de Korte Houtstraat. In het verschiet de
-        Leprozengracht (Waterlooplein).
+      value: 'Links Zwanenburgerstraat 17-19, rechts van de door brand getroffen panden de huisnummers 27-29 tot de Korte Houtstraat. In het verschiet de Leprozengracht (Waterlooplein).
 
 '
       objectReference: {fileID: 0}
@@ -6735,13 +6627,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: ' Links op de achtergrond de voormalige Stadsturfpakhuizen op Waterlooplein
-        71 - 75 '
+      value: ' Links op de achtergrond de voormalige Stadsturfpakhuizen op Waterlooplein 71 - 75 '
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: ' De toegang tot het metrostation op het Waterlooplein, met daar achter
-        een nog in aanbouw zijnd metrocaisson '
+      value: ' De toegang tot het metrostation op het Waterlooplein, met daar achter een nog in aanbouw zijnd metrocaisson '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -6749,8 +6639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: ' Links op de achtergrond de voormalige Stadsturfpakhuizen op Waterlooplein
-        71 - 75 '
+      value: ' Links op de achtergrond de voormalige Stadsturfpakhuizen op Waterlooplein 71 - 75 '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -6758,8 +6647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: ' De toegang tot het metrostation op het Waterlooplein, met daar achter
-        een nog in aanbouw zijnd metrocaisson '
+      value: ' De toegang tot het metrostation op het Waterlooplein, met daar achter een nog in aanbouw zijnd metrocaisson '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -6995,14 +6883,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: ' In het verschiet Valkenburgerstraat 200 - 212 (ged.) v.r.n.l. Geheel
-        rechts een deel van Waterlooplein 67 '
+      value: ' In het verschiet Valkenburgerstraat 200 - 212 (ged.) v.r.n.l. Geheel rechts een deel van Waterlooplein 67 '
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: ' Waterlooplein 61 (ged.) - 65 links, rechts van de hoek Lazarussteeg
-        4 - 12 v.r.n.l. met rechts aansluitend de zijgevel van Jodenbreestraat 70
-        (ged.) '
+      value: ' Waterlooplein 61 (ged.) - 65 links, rechts van de hoek Lazarussteeg 4 - 12 v.r.n.l. met rechts aansluitend de zijgevel van Jodenbreestraat 70 (ged.) '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -7010,8 +6895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: ' In het verschiet Valkenburgerstraat 200 - 212 (ged.) v.r.n.l. Geheel
-        rechts een deel van Waterlooplein 67 '
+      value: ' In het verschiet Valkenburgerstraat 200 - 212 (ged.) v.r.n.l. Geheel rechts een deel van Waterlooplein 67 '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -7019,9 +6903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: ' Waterlooplein 61 (ged.) - 65 links, rechts van de hoek Lazarussteeg
-        4 - 12 v.r.n.l. met rechts aansluitend de zijgevel van Jodenbreestraat 70
-        (ged.) '
+      value: ' Waterlooplein 61 (ged.) - 65 links, rechts van de hoek Lazarussteeg 4 - 12 v.r.n.l. met rechts aansluitend de zijgevel van Jodenbreestraat 70 (ged.) '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -7541,8 +7423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: " Valkenburgerstraat gezien vanaf de Markensteeg; op de voorgrond de
-        Houtkopersburgwal met de zaak van W.F. Bur\xE9 en Zn "
+      value: " Valkenburgerstraat gezien vanaf de Markensteeg; op de voorgrond de Houtkopersburgwal met de zaak van W.F. Bur\xE9 en Zn "
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -7558,8 +7439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: " Valkenburgerstraat gezien vanaf de Markensteeg; op de voorgrond de
-        Houtkopersburgwal met de zaak van W.F. Bur\xE9 en Zn "
+      value: " Valkenburgerstraat gezien vanaf de Markensteeg; op de voorgrond de Houtkopersburgwal met de zaak van W.F. Bur\xE9 en Zn "
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -7835,9 +7715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Hoek Zwanenburgerstraat. Met (v.l.n.r.) koffiehuis, groothandel in
-        metalen en lompen, in- en verkoop van tweedehands- en militaire kleding en
-        autokerkhof Jack. Maandag. op de voorgrond: markt.
+      value: 'Hoek Zwanenburgerstraat. Met (v.l.n.r.) koffiehuis, groothandel in metalen en lompen, in- en verkoop van tweedehands- en militaire kleding en autokerkhof Jack. Maandag. op de voorgrond: markt.
 
 '
       objectReference: {fileID: 0}
@@ -7855,9 +7733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: 'Hoek Zwanenburgerstraat. Met (v.l.n.r.) koffiehuis, groothandel in
-        metalen en lompen, in- en verkoop van tweedehands- en militaire kleding en
-        autokerkhof Jack. Maandag. op de voorgrond: markt.
+      value: 'Hoek Zwanenburgerstraat. Met (v.l.n.r.) koffiehuis, groothandel in metalen en lompen, in- en verkoop van tweedehands- en militaire kleding en autokerkhof Jack. Maandag. op de voorgrond: markt.
 
 '
       objectReference: {fileID: 0}
@@ -7981,8 +7857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: " Speelplaats - speeltuin 't Centrum. Op de achtergrond de rooms-katholieke
-        Mozes en A\xE4ronkerk op nummer 59 "
+      value: " Speelplaats - speeltuin 't Centrum. Op de achtergrond de rooms-katholieke Mozes en A\xE4ronkerk op nummer 59 "
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -8002,8 +7877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: " Speelplaats - speeltuin 't Centrum. Op de achtergrond de rooms-katholieke
-        Mozes en A\xE4ronkerk op nummer 59 "
+      value: " Speelplaats - speeltuin 't Centrum. Op de achtergrond de rooms-katholieke Mozes en A\xE4ronkerk op nummer 59 "
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Date
@@ -8161,8 +8035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'Zwanenburgerstraat 29 (ged.) - 37 (ged.), links Korte Houtstraat 38
-        (ged.) - 40 v.r.n.l '
+      value: 'Zwanenburgerstraat 29 (ged.) - 37 (ged.), links Korte Houtstraat 38 (ged.) - 40 v.r.n.l '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -8178,8 +8051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: 'Zwanenburgerstraat 29 (ged.) - 37 (ged.), links Korte Houtstraat 38
-        (ged.) - 40 v.r.n.l '
+      value: 'Zwanenburgerstraat 29 (ged.) - 37 (ged.), links Korte Houtstraat 38 (ged.) - 40 v.r.n.l '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author
@@ -8325,9 +8197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4779218545229904293, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: 'De Zwanenburgerstraat, gezien naar de brug voor de Staalstraat. Links
-        het Diaconie Weeshuis, Zwanenburgerstraat 2 / Amstel 1. Rechts Zwanenburgerstraat
-        1, 3, 5 en 7 (v.l.n.r.).
+      value: 'De Zwanenburgerstraat, gezien naar de brug voor de Staalstraat. Links het Diaconie Weeshuis, Zwanenburgerstraat 2 / Amstel 1. Rechts Zwanenburgerstraat 1, 3, 5 en 7 (v.l.n.r.).
 
 '
       objectReference: {fileID: 0}
@@ -8345,9 +8215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Body
-      value: 'De Zwanenburgerstraat, gezien naar de brug voor de Staalstraat. Links
-        het Diaconie Weeshuis, Zwanenburgerstraat 2 / Amstel 1. Rechts Zwanenburgerstraat
-        1, 3, 5 en 7 (v.l.n.r.).
+      value: 'De Zwanenburgerstraat, gezien naar de brug voor de Staalstraat. Links het Diaconie Weeshuis, Zwanenburgerstraat 2 / Amstel 1. Rechts Zwanenburgerstraat 1, 3, 5 en 7 (v.l.n.r.).
 
 '
       objectReference: {fileID: 0}
@@ -8609,8 +8477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451543080409257051, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: m_text
-      value: ' De paardjes van de firma G. Hille & Zn. Koek- en Beschuit-fabrieken,
-        Valkenburgerstraat 130-132 '
+      value: ' De paardjes van de firma G. Hille & Zn. Koek- en Beschuit-fabrieken, Valkenburgerstraat 130-132 '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: URL
@@ -8626,8 +8493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Title
-      value: ' De paardjes van de firma G. Hille & Zn. Koek- en Beschuit-fabrieken,
-        Valkenburgerstraat 130-132 '
+      value: ' De paardjes van de firma G. Hille & Zn. Koek- en Beschuit-fabrieken, Valkenburgerstraat 130-132 '
       objectReference: {fileID: 0}
     - target: {fileID: 6111383863139192904, guid: df51973ea34901a418f61b8fabb67f81, type: 3}
       propertyPath: Author

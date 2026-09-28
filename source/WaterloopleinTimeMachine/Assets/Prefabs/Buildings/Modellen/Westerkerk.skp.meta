@@ -1,14 +1,330 @@
 fileFormatVersion: 2
 guid: 9067f4d93c8f04c4d9403a9ffe1234fe
 SketchUpImporter:
-  serializedVersion: 21202
+  serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_New
+    second: {fileID: 2100000, guid: 2cdff45edfec61b4da6a1ff173864f94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-Material1
+    second: {fileID: 2100000, guid: 64e6da7c4e1cdb244891af9f76410d0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-Material11
+    second: {fileID: 2100000, guid: 14d40f7ef22b57d4f925784e0f51f4d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-Material13
+    second: {fileID: 2100000, guid: be911bdc36607b04fb3915d9a29cf8e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-Material14
+    second: {fileID: 2100000, guid: a7563e80ee7681c4599ded8017700b4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-Material15
+    second: {fileID: 2100000, guid: ad63ce4c02fe39c4f9136df79cfb3072, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-Material2
+    second: {fileID: 2100000, guid: daa395bfcf772f14594942d20e9a10a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-buitengeb
+    second: {fileID: 2100000, guid: 16855720a86d6f448af39d1a1e697d86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-dakrand
+    second: {fileID: 2100000, guid: 54021781b6d82bf49a61cce6da48a541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-front
+    second: {fileID: 2100000, guid: 542d0321a1f810241910b2265acf5b35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-gevelrest
+    second: {fileID: 2100000, guid: a8f3165b99f30a544a23bead9e31e919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-haantje
+    second: {fileID: 2100000, guid: 5339744b7e346b148a5eb138f919f906, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-langezijde
+    second: {fileID: 2100000, guid: 3b90bdf24751b7e44ad7acff1b69ffbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-restlangbuit
+    second: {fileID: 2100000, guid: a7b8b40a7a6799f42b411400199e78d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-schuinekant
+    second: {fileID: 2100000, guid: a8c0b9a61e6543c43afef0c72f9e6495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-toren
+    second: {fileID: 2100000, guid: 2cab99ab90e295646a371f2ddbbd2650, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-toren1
+    second: {fileID: 2100000, guid: cee79afff8be5964788478ecf8553702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-toren3
+    second: {fileID: 2100000, guid: 9cf4e84db74687143b295101387c8aa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WK-zijrestglas
+    second: {fileID: 2100000, guid: 94b6a68dd72a44843bdb174e96fdf96f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Beige_1
+    second: {fileID: 2100000, guid: 938a0582bf09aff43b2d47e52e1ab11c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Charcoal_
+    second: {fileID: 2100000, guid: 597125a9b2759dd4987bd72148db422b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _DarkGoldenrod_
+    second: {fileID: 2100000, guid: d03507e7b5ecafa4b87b3f41ec510a81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Gray6_
+    second: {fileID: 2100000, guid: 57b6c0f04c6837b4b8feed7828a29e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 7381d3189dc78e849adfb2b82fcca39d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b-1
+    second: {fileID: 2100000, guid: 40ec61238fe2f4e4a92243db55186c96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b3
+    second: {fileID: 2100000, guid: a902fa4b0fc398f42bfb8bb06f3dffd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b4
+    second: {fileID: 2100000, guid: 6ed0bb859ecc22245a327816bf6d2512, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b5
+    second: {fileID: 2100000, guid: fcbe36b3510e97f47b79bb64b887b44f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b6
+    second: {fileID: 2100000, guid: 48b661a0ba4e3194c9136398bdd2c753, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b7
+    second: {fileID: 2100000, guid: 6b02b205ddd4c724a9d0ab8c09aa27cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b9-2
+    second: {fileID: 2100000, guid: 0f2415cc8ee6a2546886cc9a916de2ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: c1
+    second: {fileID: 2100000, guid: 9422c85551ef9dd4fb179e5c38b39ee0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: naasttoren
+    second: {fileID: 2100000, guid: 7d3278723786ed64aa77c67e3d7dd669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: poort
+    second: {fileID: 2100000, guid: 4b1769e3680c8cc45b22e43ded6b5596, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_New
+    second: {fileID: 2800000, guid: 60c82f728bccd0a42a84d1572a3f1480, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-b1
+    second: {fileID: 2800000, guid: 185f626ae7e622848a60de56903d4b06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-b4
+    second: {fileID: 2800000, guid: a13e75d572dcdcd4399647c24bbfc2a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-b5
+    second: {fileID: 2800000, guid: 13ecb2573b0a4c347817cbda3ff20550, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-b6
+    second: {fileID: 2800000, guid: 01030290c32bea9479f9d9d10032cc93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-b7
+    second: {fileID: 2800000, guid: 83f166df6b04c524183de2ecbfdc63f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-b9
+    second: {fileID: 2800000, guid: 32b5d4a55bae4aa40854a5dc939dba8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-baksteen
+    second: {fileID: 2800000, guid: c1f4e5386a62ab343bdd35a3d64b0ad3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-buitengebouw-a
+    second: {fileID: 2800000, guid: 6b3a0e4940fbfd24aab01c2ac6c3baab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-c1
+    second: {fileID: 2800000, guid: a6aa46849ecc46d4bb624609b05a8bde, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-c4poortje
+    second: {fileID: 2800000, guid: 7f45f6f82e39cd44b8f576b56b878242, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-c5
+    second: {fileID: 2800000, guid: 67868e1ae81a6de4b961a24a82f2e046, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-d2
+    second: {fileID: 2800000, guid: bba7af9bfe3ead3439be9b1e14e55112, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-dakrand
+    second: {fileID: 2800000, guid: 1c564b0c3db4b6049b68a02dfa2d2ba0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-entreepatio
+    second: {fileID: 2800000, guid: b426a4d0fdf4e494dbdb0b018eddd4a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-gevelrestaurant
+    second: {fileID: 2800000, guid: 5ab33a1082633674c8019ee4536b1d85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-haantje
+    second: {fileID: 2800000, guid: 5952da74d89812d42af027c3d8e3f411, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-kant-a-front
+    second: {fileID: 2800000, guid: 16b175ee412030b4bb141c0e07e5e8fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-langezijdebinnenplaatsrestaurant
+    second: {fileID: 2800000, guid: 75c4ff81a9777a749a81291183c291dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-restaurant-langbuiten
+    second: {fileID: 2800000, guid: 6406640fedb39c640bb20c2cc261818e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-schuinekant
+    second: {fileID: 2800000, guid: 9d3d06d1d0f519b47a018fa902c13a1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-toren1
+    second: {fileID: 2800000, guid: 31cfee5e56498da429383641e4cdc9cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-toren2
+    second: {fileID: 2800000, guid: 4da9b6890a59e844087cc0f172bfbc54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-toren3
+    second: {fileID: 2800000, guid: f948d374dcbac3d418d8ed8e3dad2957, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-toren4
+    second: {fileID: 2800000, guid: 985aaed91d90cca478ada5e8aa8175f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WK-zijkantrestaurantglas-b
+    second: {fileID: 2800000, guid: d24bde650c321194c8a1d97b30e8d901, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: b3
+    second: {fileID: 2800000, guid: 06a1626d47e3c684d8251f4385e37b0c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beeldannefrank
+    second: {fileID: 2800000, guid: e2544be7d2f59d647ae8c8dd2fde83b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dak1
+    second: {fileID: 2800000, guid: 0fd3928298b6fdd46897d2eeb73d8ad1, type: 3}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 2
     materialSearch: 0
-    materialLocation: 0
+    materialLocation: 1
+    searchTexturesGlobally: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -16,8 +332,6 @@ SketchUpImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -40,6 +354,9 @@ SketchUpImporter:
     addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -57,6 +374,11 @@ SketchUpImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -67,6 +389,7 @@ SketchUpImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -75,6 +398,7 @@ SketchUpImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
   referencedClips: []
   importAnimation: 0
   humanDescription:
@@ -99,14 +423,16 @@ SketchUpImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
   generateBackFace: 1
   mergeCoplanarFaces: 0
-  selectedNodes: 0000000001000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000
+  selectedNodes: 0000000001000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000i
   assetHash:
     serializedVersion: 2
-    Hash: 35cdfaf5608954602fa9e0b7ae39b95a
+    Hash: 8ec618db54682f7e5ca75c000ddd4bbb
   fileUnit: 0

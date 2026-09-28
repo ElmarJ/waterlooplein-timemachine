@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using GeoJsonCityBuilder.Components;
 using UnityEngine;
 
@@ -12,7 +13,8 @@ public class LightSwitch : MonoBehaviour
 
     private void SetLights(bool on)
     {
-        var lights = this.gameObject.GetComponentsInChildren<Light>();
+        var lights = new List<Light>();
+        this.gameObject.GetComponentsInChildren(lights);
 
         foreach (var light in lights)
         {

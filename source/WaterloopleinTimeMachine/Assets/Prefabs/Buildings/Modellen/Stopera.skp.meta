@@ -1,14 +1,265 @@
 fileFormatVersion: 2
 guid: 52477e81579a8cc4b86a53872cbf10eb
 SketchUpImporter:
-  serializedVersion: 22200
+  serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-bak1
+    second: {fileID: 2100000, guid: 02198febd97e8a740ace5bb77af0b93d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb10
+    second: {fileID: 2100000, guid: dcc335ce1c365da47b5147255f128764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb11
+    second: {fileID: 2100000, guid: 614a8af6ba8106b44bd6a3e3c1aa5024, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb12
+    second: {fileID: 2100000, guid: 945b4dfbfde9ae24e80240ea4a8f9829, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb13
+    second: {fileID: 2100000, guid: 05b67dccd2fd9a8429ebd61b8177314d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb1a
+    second: {fileID: 2100000, guid: 9ed95d45ea286f645982d79af7370fc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb1b
+    second: {fileID: 2100000, guid: 97aca9178f3513e449302628b4b691f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb2
+    second: {fileID: 2100000, guid: ec982505eb2e5ff478e0a7477d580790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb3
+    second: {fileID: 2100000, guid: c8f700488eb84da4cbe9ee965c585e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb4
+    second: {fileID: 2100000, guid: 8b4e80c5e116d7243a8b085896daf682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb5
+    second: {fileID: 2100000, guid: aeea67af3cb567e4b9b67a617a3d1dbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb6
+    second: {fileID: 2100000, guid: 8307d6af7edeb5049ba0574122647b54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb7
+    second: {fileID: 2100000, guid: 2012041bb8b2c7c4dbbbe4433c1713e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-geb9
+    second: {fileID: 2100000, guid: 156345989aaceef44a9d96ecdaab4212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-hek
+    second: {fileID: 2100000, guid: 3e571e8c81a6bd145baf1c03cf103038, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-raam1
+    second: {fileID: 2100000, guid: 91c9e3e9648b99e4083cfabf96d8e67f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-raam2b
+    second: {fileID: 2100000, guid: f4656e93f0e68c5449234f1ccb2ea423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-raam3b
+    second: {fileID: 2100000, guid: 1e90601f8926d8e4c9e8607c52d3d12d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-raam4
+    second: {fileID: 2100000, guid: eb332cc4ba54d6a4ea91955a2dbd4a54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-raam5
+    second: {fileID: 2100000, guid: dfd4357588a6d72458b94426954835d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-scherm1
+    second: {fileID: 2100000, guid: 5c55a699bce839641923471ea82595be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-scherm2
+    second: {fileID: 2100000, guid: 2acacdfea61c59245bf23784d9c467e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH-situ
+    second: {fileID: 2100000, guid: 7051e87c9fe82804aabd83e18f2fd9f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1
+    second: {fileID: 2100000, guid: 098c1262efa0d0943bdfe1c77e8666b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Charcoal_
+    second: {fileID: 2100000, guid: c569f89f2ed354741b618f2a04fd2a3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Gray6_
+    second: {fileID: 2100000, guid: 12781dd0228e188418d5777d3283d8c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 58946de515a2723468543124f4724260, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-bak1
+    second: {fileID: 2800000, guid: f2f8d53a6903b5e409d25d9e2256c6e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb10
+    second: {fileID: 2800000, guid: 5c490d99d08411248a949830e03a71ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb11
+    second: {fileID: 2800000, guid: 9e0a5885543ebee4ebb7fe332562008a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb12
+    second: {fileID: 2800000, guid: df94e4bb427add942be81fca533868f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb13
+    second: {fileID: 2800000, guid: ac16f52a1139350458f10079bac2c10c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb1a
+    second: {fileID: 2800000, guid: 9ef9a3db7e845f9448f9e6ee7385219d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb1b
+    second: {fileID: 2800000, guid: a31cc8a610638a14187b68643899985a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb2
+    second: {fileID: 2800000, guid: fa385dbf7a4edae4e92f47f086e40ef5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb3
+    second: {fileID: 2800000, guid: 7ccba82d15e200240bbe347d0860d99a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb4
+    second: {fileID: 2800000, guid: 713c282720d6efb45b24128a36975335, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb5
+    second: {fileID: 2800000, guid: a4c803fd6cb38e2408cbfdf557929ab0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb6
+    second: {fileID: 2800000, guid: 8e3fa7599d9503e4191e7a88d7ca0afe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb7
+    second: {fileID: 2800000, guid: 3c9c915f1943b0647a4f65711ae42047, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb8b
+    second: {fileID: 2800000, guid: a38798f8569622d478d0b66b621e2943, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-geb9
+    second: {fileID: 2800000, guid: 43e15f1e459329d41a48f4a44db2aaa0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-raam1
+    second: {fileID: 2800000, guid: 93a7edeb52d4fd549bc01425c62470fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-raam2
+    second: {fileID: 2800000, guid: 6386fe1dfe5e03748a886b2fe1cee33a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-raam3
+    second: {fileID: 2800000, guid: a008619060e5d3b4981a117abf0fb49e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-raam4
+    second: {fileID: 2800000, guid: fd0f17d3794140649bffc6161c5bf173, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-raam5
+    second: {fileID: 2800000, guid: c0ebe24105e21a14484892dc0b295b81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-scherm1
+    second: {fileID: 2800000, guid: 5570265cf5c2ab04ebf46fd004a5bf22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SH-scherm2
+    second: {fileID: 2800000, guid: 5a1776feb4265ed48a0f4bf2ebd17aea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: STADHUIS2
+    second: {fileID: 2800000, guid: 690c756eb59dc7b468be614689869b36, type: 3}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 2
     materialSearch: 0
-    materialLocation: 0
+    materialLocation: 1
+    searchTexturesGlobally: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -16,8 +267,6 @@ SketchUpImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -40,6 +289,8 @@ SketchUpImporter:
     addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 1
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
@@ -58,6 +309,11 @@ SketchUpImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -77,6 +333,7 @@ SketchUpImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
   referencedClips: []
   importAnimation: 0
   humanDescription:
@@ -109,8 +366,8 @@ SketchUpImporter:
   assetBundleVariant: 
   generateBackFace: 1
   mergeCoplanarFaces: 0
-  selectedNodes: 00000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000
+  selectedNodes: 00000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000i
   assetHash:
     serializedVersion: 2
-    Hash: 108c38e39064f3d58b740c5704d40161
+    Hash: a225ea644f7be9a6a2be6a03138a5a9a
   fileUnit: 0
